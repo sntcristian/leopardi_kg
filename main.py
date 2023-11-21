@@ -42,9 +42,8 @@ def parse_tei(xml_file_path):
     for place in places:
         ref = place.get("{http://www.w3.org/XML/1998/namespace}id")
         key = place.find("tei:placeName", namespaces=ns).get("key")
-        name = person.find("tei:placeName", namespaces=ns).text
+        name = place.find("tei:placeName", namespaces=ns).text
         place_list.append({"key":key, "ref":ref, "placeName":name})
-
 
 
 
