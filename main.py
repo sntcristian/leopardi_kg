@@ -37,7 +37,13 @@ def parse_tei(xml_file_path):
         forename = person.find("tei:persName/tei:forename", namespaces=ns).text
         surname = person.find("tei:persName/tei:surname", namespaces=ns).text
         pers_list.append({"key":key, "ref":ref, "forename":forename, "surname":surname, "persName":forename+" "+surname})
-    
+    places = root.findall('.//tei:listPlace/tei:place', namespaces=ns)
+    place_list = []
+    for place in places:
+        ref = place.get("{http://www.w3.org/XML/1998/namespace}id")
+        key = place.find("tei:placeName", namespaces=ns).get("key")
+        name = person.find("tei:placeName", namespaces=ns).text
+        place_list.append({"key":key, "ref":ref, "placeName":name})
 
 
 
