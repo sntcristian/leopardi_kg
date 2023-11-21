@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/9</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.9</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Giuseppe Melchiorri</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark></watermark> watermark</support>
+                        <extent>2 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-2" scope="minor" medium="thin-brown-ink">Giuseppe Melchiorri, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-3" scope="minor" medium="light-brown-ink">Unknown, light-brown ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18220607">7 Giugno 1822.</origDate>
+                     <origPlace key="6541846">Recanati</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+
+            <listPerson>  
+               
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>  
+               
+               <person xml:id="pers-3">
+                  <persName key="17213238">
+                     <forename>Francesco</forename>
+                     <surname>Cancellieri</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-20">
+                  <persName key="2821485">
+                     <forename>Giuseppe</forename>
+                     <surname>Melchiorri</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-22">
+                  <persName key="24705039">
+                     <forename>Antonio</forename>
+                     <surname>Cesari</surname>
+                  </persName>
+               </person>  
+               
+               <person xml:id="pers-24">
+                  <persName key="">
+                     <forename>Ferdinanda</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>     
+               
+               <person xml:id="pers-25">
+                  <persName key="100180720">
+                     <forename>Angelo</forename>
+                     <surname>Mai</surname>
+                  </persName>
+               </person>
+               
+
+               
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-1">
+                  <placeName key="6541846">Recanati</placeName>
+               </place>
+               
+               <place xml:id="pla-2">
+                  <placeName key="3169069">Roma</placeName>
+               </place>       
+               
+            </listPlace>
+            
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         <classDecl>
+            
+            <taxonomy>
+               <category xml:id="top-1"><catDesc>Information request</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="18220607">7 Giugno 1822.</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="2821485">Melchiorri, Giuseppe, 1796-1855</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Address, Giacomo Leopardi.</change>
+               <change xml:id="change-3">Stamp.</change>
+               <change xml:id="change-4">Annotation, Giuseppe Melchiorri.</change>
+               <change xml:id="change-5">Annotation, Unknown (Giuseppe Melchiorri?).</change> 
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210724"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00037"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="6604px" width="4411px" rend="portrait"
+            url="MS-ADD-06210-000-00037"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="6782px" width="4434px" rend="portrait"
+            url="MS-ADD-06210-000-00038"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+         
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-1">
+            
+            <opener>
+               <dateline>7 Giugno <add change="#change-5" hand="#hand-3">1822.</add></dateline>
+               <salute rend="indent5">Caro <rs ref="#pers-20">Cugino</rs>.</salute> 
+            </opener> 
+            
+            <p>Non crederei che vi fossero poesie stampate di<lb/>
+               quei due scrittori antichi che voi dite. Non ne ho mai nè veduto,<lb/>
+               nè sentito o trovato che se ne faccia menzione. Ma come il <hi rend="underline">sì</hi><lb/>
+               può dirsi molte volte di certo, così il <hi rend="underline">no</hi> difficilmente si può assi-<lb/>
+               curare. Questi dubbi però, essendo lontani, non importano gran fatto<lb/>
+               in queste tali cose, purchè le poesie che dite sieno degne della<lb/>
+               stampa per sè medesime. Quando me le mandiate, le leggerò volen-<lb/>
+               tieri, e ve ne dirò il parer mio.</p>
+               
+            <p><seg rend="indent5">Vi ringrazio della diligenza usata circa la Crusca del <persName ref="#pers-22">Cesari</persName>.</seg><lb/>
+               Fu mia inavvertenza lo scrivervi <hi rend="underline">ingombrare</hi>, perchè la Crusca<lb/>
+               non ne fa un articolo separato, ma lo mette insieme con <hi rend="underline">ingombera-<lb/>
+               re</hi>. Resterebbe dunque che mi diceste se la Crusca del <persName ref="#pers-22">Cesari</persName><lb/>
+               porta o no quel passo del Petrarca, sotto la voce <hi rend="underline">Ingomberare</hi>,<lb/> o
+               sotto qualcuno de' suoi §. Con questa occasione mi fareste anche<lb/>
+               grazia di vedere se tra gli esempi portati al verbo <hi rend="underline">Riedere</hi>, ve<lb/>
+               ne fosse alcuno dove si trovasse l'imperfetto indicativo di questo<lb/>
+               verbo; cioè qualch'esempio dove si dicesse <hi rend="underline">riedea</hi>,
+               o <hi rend="underline">riedeva</hi>, <hi rend="underline">riedea-<lb/>
+               no</hi>, <hi rend="underline">riedevano</hi> ec. Tutto questo
+               però a vostro pieno comodo, e sen-<lb/>
+               za disturbo delle vostre occupazioni. Se trovaste un esempio<del rend="strikethrough">,</del> come<lb/>
+               dico, mi fareste molto favore a copiarlo e mandarmelo; e quando<lb/>
+               anche ve ne trovaste più d'uno, basterebbe che ne mandaste uno<lb/>
+               solo.</p>
+               
+            <p><seg rend="indent5">Vogliatemi bene: salutatemi la <rs ref="#pers-24">Mamma</rs>, alla quale scrivo oggi,</seg><lb/>
+               e favoritemi di dirglielo. I miei rispetti distinti all'<choice><abbr>Ab.</abbr><expan>Abate</expan></choice>
+               <persName ref="#pers-3">Cancellieri</persName>,<lb/>
+               e a <choice><abbr>Monsig.</abbr><expan>Monsignor</expan></choice>
+               <persName ref="#pers-25">Mai</persName>, se avete occasione di vederlo.</p>
+            
+            <closer><salute>Addio, addio.</salute></closer>
+            
+         </div>
+            
+            <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+                     
+            <div n="3">
+               
+               <ab change="#change-4" hand="#hand-2" rend="right">Risposta al N.° 6._</ab>
+               
+               <fw type="other" change="#change-3">9 GIUGNO</fw>
+               
+               <fw type="other" change="#change-3"><placeName ref="#pla-1">RECANATI</placeName></fw>            
+               
+               <p change="#change-2" hand="#hand-1" rend="left">Al Nobil Uomo<lb/>
+               Il <choice><abbr>Sig.</abbr><expan>Signor</expan></choice>
+                  <choice><abbr>March.</abbr><expan>Marchese</expan></choice>
+                  <persName ref="#pers-20">Giuseppe Melchiorri</persName><lb/>
+                  <placeName ref="#pla-2">Roma</placeName>
+               </p>
+               
+            </div>
+           
+         </div>
+         
+      </body>
+   </text>
+</TEI>

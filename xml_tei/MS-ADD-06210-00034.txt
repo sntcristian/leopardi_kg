@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/34</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.34</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Notes taken and translated from Fabricius</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark></watermark> watermark</support>
+                        <extent>4 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-2" scope="major" medium="redish-ink">Giacomo Leopardi, redish ink.</handNote>
+                     <handNote xml:id="hand-3" scope="minor" medium="black-ink">Monaldo Leopardi, black ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="1814">1814</origDate>
+                     <origPlace key="6541846">Recanati</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+
+         <listPerson> 
+            
+            <person xml:id="pers-1">
+               <persName key="12311353">
+                  <forename>Giacomo</forename>
+                  <surname>Leopardi</surname>
+               </persName>
+            </person>     
+            
+            <person xml:id="pers-14">
+               <persName key="9709149068390265730006">
+                  <forename>Monaldo</forename>
+                  <surname>Leopardi</surname>
+               </persName>
+            </person>
+            
+         </listPerson>
+         
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <profileDesc>
+                 
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">First part of the translation, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Second part of the translation, Giacomo Leopardi.</change>
+               <change xml:id="change-3">Note, Monaldo Leopardi.</change>
+            </listChange>
+         </creation>
+                 
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210725"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00097"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="5320px" width="3429px" rend="portrait"
+            url="MS-ADD-06210-000-00097"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="5565px" width="3484px" rend="portrait"
+            url="MS-ADD-06210-000-00098"/>
+      </surface>
+      <surface xml:id="i3" n="2r">
+         <graphic decls="#downloadImageRights #download" height="5320px" width="3429px" rend="portrait"
+            url="MS-ADD-06210-000-00099"/>
+      </surface>
+      <surface xml:id="i4" n="2v">
+         <graphic decls="#downloadImageRights #download" height="5586px" width="3663px" rend="portrait"
+            url="MS-ADD-06210-000-00100"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+         
+         <div n="2" change="#change-1" hand="#hand-1">
+            
+            <cb n="1" rend="left"/>
+            
+            <p change="#change-1" hand="#hand-1">Erennio Filone Crestomat. Fab. 3. 120. Proclo.10.46</p>
+            
+            <note change="#change-3" hand="#hand-3">Questo è carattere del mio amato, e<lb/>
+            defonto Figlio <persName ref="#pers-1">Giacomo</persName>.<lb/>
+            <persName ref="#pers-14">Monaldo Leopardi</persName></note>
+            
+            <cb n="2" rend="right"/>
+            
+            <p change="#change-1" hand="#hand-1"><title>Crestomatia I.</title>
+               Ritrovarono l’Aritmetica i Fenicj, la musica i<lb/>
+               Traci, l’Astrologia i Caldei.<lb/>
+               I Poeti sono cinque: Omero, Esiodo, Pisandro, Pania-<lb/>
+               si, Antimaco.<lb/>
+               Gl’Iambici tre: Simonide, Archiloco, Ipponatte.<lb/>
+               I Tragici cinque: Eschilo, Sofocle, Euripide, Ione, Acheo.<lb/>
+               I Comici dell’antica Commedia sette: Epicarmo, Cratino, Eu-<lb/>
+               poli, Aristofane, Ferecrate, Platone: della mezza Comme-<lb/>
+               dia due: Antifane, Alessi Turio: della nuova Com-<lb/>
+               media cinque: Menandro, Filippide, Difilo, Filemone,<lb/>
+               Apollodoro.<lb/>
+               I Poeti elegiaci quattro: Callino, Mimnermo, Fileta, Cal-<lb/>
+               limaco.<lb/>
+               I Lirici nove: Alc<del rend="overstrike">e</del>mane, Alceo, Saffo, Stesicoro, Pinda-<lb/>
+               ro, Bacchilide, Ibico, Anacreonte, Semonide. È dun-<lb/>
+               que a sapersi come Semonide Lirico scrivesi colla η,<lb/>
+               Simonide Jambico poi colla ί. E forse quello da<del rend="strikethrough">l</del> segno,<lb/>
+               questo da simo<lb/>
+               I Retori nove: Demostene, Lisia, Iperide, Isocrate, Eschi-<lb/>
+               ne, Licurgo, Iseo, Antifonte, Andocide.<lb/>
+               Gli Storici dieci: Tucidide, Erodoto, Senofonte, Filippo,<lb/>
+               Teopompo, Eforo, Anassimene, Callistene, Ellanico, Polibio.</p>
+            <p change="#change-1" hand="#hand-1"><title rend="centre">Dei poeti</title><lb/>
+               Coloro che parlarono per mezzo di versi o di jambi:<lb/>
+               Omero scrisse versi, Esiodo versi, Apollonio versi, Teo-<lb/>
+               crito similmente, Arato similmente, Nicandro similmente.<lb/>
+               Menandro jambi, Oppiano similmente, Callimaco simil-<lb/>
+               mente, Sofocle similmente, Eschilo similmente, Licofrone<lb/>
+               similmente, Pindaro stranieri metri, e ignoti a quelli della<lb/>
+               presente età<lb/>
+               Coloro che furono Grammatici: Dionigi Tarce, Apol-<lb/>
+               lonio Discolo, Alessandro, Astiage, Agapeto, Sergio giu-<lb/>
+               niore, Auxonio, Adrasto, Teagene, Teodosio di......<lb/>
+               Trifone, Didimo giuniore, Nicocle, Eudemone, Oro, Dio-<lb/>
+               nigi di Alicarnasso, Porfirio, Achille, Arcadio, Ora-<lb/>
+               polline, Timoteo di Gaza.<lb/>
+               Coloro che scrissero della ortografia: Apollonio, Erodia-<lb/>
+               no, Oro, Romano, Teodosio, Filopono, Corace, Cherobosco.<lb/>
+               Coloro che delle ancipit<subst><del>e</del><add>i</add></subst>:
+               Oro, Pamprepio, Eterio A-<lb/>
+               pameense, Oro, Stefano di Constantinopoli.<lb/>
+               Coloro che dei Gentili: Orione Tebano, Metrodoro, Fi-<lb/>
+               losseno, Longino.<lb/>
+               Tavola di quelli che fiorirono nella Medicina<lb/>
+               Democrito, Ippocrate, Dioscoride, Archigene, Rufone, Ga-<lb/>
+               leno, Filagrio, Teone, Alessandro Afrodisiense, Alessandro Tralliano<lb/>
+               Demostene, Severo, Filumeno, Diocle, Leonide, Attalo, Sorano, Oriba-<lb/>
+               sio, Aerio, Giacomo, Scipalo.<lb/>
+               I Commentatori di questi: Sopatro, Paolo, Atanasio, Febammone.<lb/>
+               Nella Filosofia fiorirono, Platone, Aristotele di lui discepolo,<lb/>
+               dei quali moltissimi commentano Platone. I più utili però Cajo<lb/>
+               
+               <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+                              
+               <cb n="3" rend="right"/>Albino, Prisciano, Tauro, Proclo, Damascio, Giovanni Filipono, che<lb/>
+               combattè ancora contra Prisciano, spesso pure contra Aristotele.<lb/>
+               Più ancora commentano Aristotele stesso, e di essi i più utili<lb/>
+               Porfirio, Fenice, Alessandro Afrodisiense, Ammonio, Arriano,<lb/>
+               Atocio, Zaettria, e Tribuno Fratello.....<lb/>
+               Nomi dei dodici Dei. Giove, Nettuno, Mercurio, Apolline,<lb/>
+               Giunone, Minerva, Venere, Latona, Diana, Vesta, Cerere<lb/>
+               <seg rend="indent5">Fabricio Bibl. Graec. lib. 5. cap. 38. §. 3. t. 9. p. 599.600.601.</seg><lb/>
+               602.</p>
+            
+            <pb n="2r" xml:id="pb-2r" facs="#i3"/>
+            
+            <pb n="2v" xml:id="pb-2v" facs="#i4"/>
+
+            </div>
+                   
+         </div>
+         
+      </body>
+   </text>
+</TEI>

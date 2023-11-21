@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/3</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Francesco Cancellieri</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark></watermark> watermark</support>
+                        <extent>4 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-2" scope="minor" medium="redish-ink">Carlo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-3" scope="minor" medium="redish-ink">Francesco Cancellieri, redish ink.</handNote>
+                     <handNote xml:id="hand-4" scope="minor" medium="redish-ink">Lino Contedini, redish ink.</handNote>
+                     <handNote xml:id="hand-5" scope="minor" medium="redish-ink">Unknown, thin-brown ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18161125">25. Novembre 1816.</origDate>
+                     <origPlace key="6541846">Recanati</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+
+            <listPerson>  
+               
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person> 
+               
+               <person xml:id="pers-2">
+                  <persName key="35548704">
+                     <forename>Carlo</forename>
+                     <surname>Antici</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-3">
+                  <persName key="17213238">
+                     <forename>Francesco</forename>
+                     <surname>Cancellieri</surname>
+                  </persName>
+               </person>     
+               
+            </listPerson>
+            
+            <listPlace>
+                            
+               <place xml:id="pla-1">
+                  <placeName key="6541846">Recanati</placeName>
+               </place>
+               
+               <place xml:id="pla-2">
+                  <placeName key="3169069">Roma</placeName>
+               </place> 
+               
+            </listPlace>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <classDecl>
+            
+            <taxonomy>
+               <category xml:id="top-2"><catDesc>Greetings</catDesc></category>
+               <category xml:id="top-4"><catDesc>Publication of literary works</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="18160525">25. Novembre 1816.</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="17213238">Cancellieri, Francesco, 1751-1826</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Address, Carlo Leopardi</change>
+               <change xml:id="change-3">Annotation, Francesco Cancellieri</change>
+               <change xml:id="change-4">Annotation, Lino Contedini</change>     
+               <change xml:id="change-5">Annotation, Unknown</change>           
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210722"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00013"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="6587px" width="4571px" rend="portrait"
+            url="MS-ADD-06210-000-00013"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="6385px" width="4537px" rend="portrait"
+            url="MS-ADD-06210-000-00014"/>
+      </surface>
+      <surface xml:id="i3" n="2r">
+         <graphic decls="#downloadImageRights #download" height="6587px" width="4571px" rend="portrait"
+            url="MS-ADD-06210-000-00015"/>
+      </surface>
+      <surface xml:id="i4" n="2v">
+         <graphic decls="#downloadImageRights #download" height="6437px" width="4730px" rend="portrait"
+            url="MS-ADD-06210-000-00016"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+         
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-2 #top-4">
+            
+            <opener>
+               <salute>Stimatissimo <rs ref="#pers-3"><choice><abbr>Sig.</abbr><expan>Signore</expan></choice></rs></salute>
+               <add change="#change-3" hand="#hand-3"><date when="18161125">25 <choice><abbr>Nov.</abbr><expan>Novembre</expan></choice> 1816</date></add>
+            </opener>
+            
+            <p><seg rend="insetLeft5">Il <choice><abbr>Cav.</abbr><expan>Cavalier</expan></choice> <persName ref="#pers-2">Antici</persName> mi ha fatto leggere il paragrafo della sua Lettera ultima che riguarda me, pel quale e</seg><lb/>
+               per la memoria che di me conserva le debbo già infinitamente. E nondimeno invece di sminuire il mio<lb/>
+               debito vengo ad aumentarlo col supplicarla di nuovo favore.</p>
+            
+            <p><seg rend="insetLeft5">Ella mi dice quello che io già prevedea, che in cotesta città nessuno Stampatore può mettersi all'impresa di stampare</seg><lb/>
+               un libro a suo conto. Ora io vorrei servirmi dell'altro mezzo che suol valere per tutto, ed è quello dei contanti,<lb/>
+               e però prendo a incomodarla. Bramerei che Ella si compiacesse dirmi precisamente quanta spesa si richie-<lb/>
+               derebbe a fare stampare costì il Libretto delle <title>Inscrizioni Triopee</title> che le faccio tenere, dalla stamperia che<lb/>
+               Ella giudicherà a proposito, senza gran lusso, con decente carta e caratteri specialmente greci che vorrei buo-<lb/>
+               ni e corretti, nel sesto presso a poco del manoscritto, o in quello che le parrà più opportuno. Non desidero<lb/>
+               che se ne tirino più di 250. copie o all'intorno. Saputo a queste condizioni il prezzo preciso del lavoro, se<lb/>
+               Ella vorrà notificarmelo, io mi regolerò dietro il suo indizio.</p>
+               
+            <p><seg rend="insetLeft5">Condoni quest'altra noia e la consideri come testimonio <del>che ho</del> della confidenza che ho nella sua bontà, già tante volte</seg><lb/>
+               sperimentata. Bramo grandemente migliori nuove della sua salute, di quelle che ha date al <choice><abbr>Cav.</abbr><expan>Cavalier</expan></choice> <persName ref="#pers-2">Antici</persName>. La<lb/>
+               prego non le sia grave d'informarmene quando mi onori di sua Lettera, e se m'è possibile di ricambiarle<lb/>
+               in alcun modo le sue grazie, la supplico a comandarmi, e mi troverà sempre</p>
+            
+            <closer>
+               <dateline><placeName ref="#pla-1">Recanati</placeName> 25. Novembre 1816.</dateline><lb/>
+               <salute>Il Suo <choice><abbr>Dev.mo</abbr><expan>Devotissimo</expan></choice> 
+                  <choice><abbr>Obbl.mo</abbr><expan>Obbligatissimo</expan></choice> Servo</salute><lb/>
+               <signed><persName ref="pers-1">Giacomo Leopardi</persName>.</signed>
+            </closer>   
+                              
+         </div>
+            
+            <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+            
+            <pb n="2r" xml:id="pb-2r" facs="#i3"/>
+            
+            <pb n="2v" xml:id="pb-2v" facs="#i4"/>
+            
+            <div n="3" ana="#top-4">
+               
+               <note change="#change-3" place="topLeft">
+                  La prego di significarmi la spesa<lb/>
+                  occorrente<lb/>
+                  Per carta <choice><abbr>R.le</abbr><expan>Reale</expan></choice> fina di 300 copie<lb/>
+                  nel seso consimile al Mss<lb/>
+                  Per Composizione<lb/>
+                  Per Tiratura<lb/>
+                  Per mettitura insieme<lb/>
+                  e di indicarmi quanti fogli<lb/>
+                  potrà portare, facendone la<lb/>
+                  stampa con i Caratteri greci<lb/>
+                  da Lei usati per la stampa del <hi rend="underline">Longo</hi><lb/>
+                  di cui gradirei un foglietto da<lb/>
+                  spedirsi per mostra</note>
+               
+               <note change="#change-4" hand="#hand-4" place="marginRight">qui potrei sbagliare, mentre <unclear>preciso il prezzo</unclear><lb/>
+                  non lo so, ma può andare a <choice><abbr>baj.</abbr><expan>bajocchi</expan></choice> 2. il foglio<lb/>
+               compreso legno, inchiostro, ec.<lb/>
+               potrà venire circa fogli tre, e mezzo<lb/>
+               Se il prezzo di <metamark rend="unit"/> 3. il foglio senza la Carta<lb/>
+               le paresse alto, bisogna riflettere di dover fare<lb/>
+               un'edizioncina di Lusso, e non mercanzile, on-<lb/>
+               de vi vuole più atten-<lb/>
+               zione</note>
+               
+               <ab change="#change-4" hand="#hand-4" rend="center">1.20<lb/> 60<lb/> 1.20</ab>
+               
+               <ab change="#change-5" hand="#hand-5" rend="left">9<lb/> 9<lb/> 9<lb/> 4 50<lb/><metamark rend="line"/><lb/> 31 50</ab>
+               
+               <p change="#change-2" hand="#hand-2" rend="center">All'<choice><abbr>Ill.mo</abbr><expan>Illustrissimo</expan></choice> 
+                  <choice><abbr>Sig.re</abbr><expan>Signore</expan></choice> 
+                  <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> 
+                  <choice><abbr>P.rone</abbr><expan>Padrone</expan></choice>
+                  <choice><abbr>Col.mo</abbr><expan>Colendissimo</expan></choice><lb/>
+                  Il <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> 
+                  <choice><abbr>Ab.</abbr><expan>Abate</expan></choice> <persName ref="#pers-3">Francesco Cancellieri</persName><lb/>
+               <placeName ref="#pla-2">Roma</placeName>.</p>
+              
+            </div>
+                   
+         </div>
+         
+      </body>
+   </text>
+</TEI>

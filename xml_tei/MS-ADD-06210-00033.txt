@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/33</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.33</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Feliciano Niccolini</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark></watermark> watermark</support>
+                        <extent>2 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="1833">1833</origDate>
+                     <origPlace key="3176958">Firenze</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+
+            <listPerson> 
+               
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person> 
+               
+               <person xml:id="pers-64">
+                  <persName key="">
+                     <forename>Feliciano</forename>
+                     <surname>Niccolini</surname>
+                  </persName>
+               </person>
+                                            
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-6">
+                  <placeName key="3176958">Firenze</placeName>
+               </place>
+                                    
+            </listPlace>
+            
+         </sourceDesc>
+         
+      </fileDesc>      
+      
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="top-16"><catDesc>Money</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="1833">1833</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="">Nicolini, Feliciano</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Address, Giacomo Leopardi.</change>
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210724"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00093"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="4871px" width="2956px" rend="portrait"
+            url="MS-ADD-06210-000-00093"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="5316px" width="3028px" rend="portrait"
+            url="MS-ADD-06210-000-00094"/>
+      </surface>
+      <surface xml:id="i3" n="2r">
+         <graphic decls="#downloadImageRights #download" height="4871px" width="2956px" rend="portrait"
+            url="MS-ADD-06210-000-00095"/>
+      </surface>
+      <surface xml:id="i4" n="2v">
+         <graphic decls="#downloadImageRights #download" height="5253px" width="3113px" rend="portrait"
+            url="MS-ADD-06210-000-00096"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+         
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-16">
+                        
+            <p>Essendo affrettato di metter mano alla<lb/>
+               ristampa de' miei dialoghi, ed a ciò aven-<lb/>
+               do assoluta necessità di quell'esemplare<lb/>
+               ch'è presso di Lei, solo che si trovi<lb/>
+               disponibile in tutta <placeName ref="#pla-6">Firenze</placeName>, la prego<lb/>
+               ad aver la bontà di rimandarmelo al<lb/>
+               più presto. Mi comandi e mi creda</p>
+                       
+            <closer>
+               <salute>Suo <choice><abbr>obbl.mo</abbr><expan>obbligatissimo</expan></choice> <choice><abbr>s.re</abbr><expan>servitore</expan></choice> ed amico</salute><lb/>
+               <signed><persName ref="#pers-1">Leopardi</persName>.</signed>
+            </closer>
+            
+         </div>
+                        
+            <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+            
+            <pb n="2r" xml:id="pb-2r" facs="#i3"/>
+            
+            <pb n="2v" xml:id="pb-2v" facs="#i4"/>
+            
+         <div n="3">
+            
+            <p change="#change-2" hand="#hand-1" rend="center">Al <choice><abbr>N.</abbr><expan>Nobil</expan></choice> <choice><abbr>U.</abbr><expan>Uomo</expan></choice><lb/>
+               Il <choice><abbr>Sig.</abbr><expan>Signor</expan></choice>
+               Feliciano Niccolini<lb/>
+               Via del Corso</p>
+                        
+            </div>
+                   
+         </div>
+         
+      </body>
+   </text>
+</TEI>

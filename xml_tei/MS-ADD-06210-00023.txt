@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/23</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.23</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Giovanni Rosini</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark></watermark> watermark</support>
+                        <extent>2 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-2" scope="minor" medium="pencil">Unknown, pencil.</handNote>
+                     <handNote xml:id="hand-3" scope="minor" medium="dark-brown-ink">Unknown, dark-brown ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18290419">19 Aprile 1829</origDate>
+                     <origPlace key="6541846">Recanati</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+            
+            <listPerson>
+               
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>     
+               
+               <person xml:id="pers-39">
+                  <persName key="144548">
+                     <forename>Giovanni</forename>
+                     <surname>Rosini</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-41">
+                  <persName key="">
+                     <forename>Margaret Jane</forename>
+                     <surname>King</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-42">
+                  <persName key="39366861">
+                     <forename>Giovanni</forename>
+                     <surname>Carmignani</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-45">
+                  <persName key="">
+                     <forename>Luisa</forename>
+                     <surname>Strozzi Capponi</surname>
+                  </persName>
+               </person>
+                
+               <person xml:id="pers-46">
+                  <persName key="">
+                     <forename>Sofia</forename>
+                     <surname>Caudeiron Vaccà Berlinghieri</surname>
+                  </persName>
+               </person>
+
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-1">
+                  <placeName key="6541846">Recanati</placeName>
+               </place>
+                      
+               <place xml:id="pla-6">
+                  <placeName key="3176958">Firenze</placeName>
+               </place>
+               
+               <place xml:id="pla-7">
+                  <placeName key="3181927">Bologna</placeName>
+               </place>   
+               
+               <place xml:id="pla-11">
+                  <placeName key="3170646">Pisa</placeName>
+               </place> 
+               
+               <place xml:id="pla-12">
+                  <placeName key="6539726">Loreto</placeName>
+               </place>
+               
+            </listPlace>
+            
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="top-4"><catDesc>Publication of literary works</catDesc></category>
+               <category xml:id="top-10"><catDesc>Giving information</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="18290419">19 Aprile 1829</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="144548">Rosini, Giovanni, 1776-1855</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Address, Giacomo Leopardi</change>
+               <change xml:id="change-3">Stamp</change>
+               <change xml:id="change-4">Annotation 1, Unknown.</change>
+               <change xml:id="change-5">Annotation 2, Unknown.</change>
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210808"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00071"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="6829px" width="4684px" rend="portrait"
+            url="MS-ADD-06210-000-00071"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="6849px" width="4951px" rend="portrait"
+            url="MS-ADD-06210-000-00072"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+                    
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-4 #top-10">
+                       
+            <opener>
+               <dateline><placeName ref="#pla-1">Recanati</placeName>19 Aprile <add change="#change-4" hand="#hand-2">1829</add></dateline>
+               <salute><choice><abbr>Cariss.</abbr><expan>Carissimo</expan></choice> <rs ref="#pers-39">Amico</rs></salute>
+            </opener>
+            
+            <fw type="other" change="#change-5" hand="#hand-3" place="topLeft">5</fw>
+                         
+            <p><seg rend="insetLeft5">Mi dispiace nella cara vostra dei 7 del corrente, che mi do-</seg><lb/>
+               mandiate se ricevessi l'altra del Gennaio passato: perchè questo è segno che voi<lb/>
+               non abbiate avuta la mia risposta, la quale fu prontissima; se però non fosse,<lb/>
+               come dubito, che l'abbiate ricevuta in fatti, ma ve la siate dimenticata. Da<lb/>
+               <placeName ref="#pla-6">Firenze</placeName> io aveva già notizia del successo felice del vostro romanzo, del quale<lb/>
+               mi rallegro, benchè non mi riesca nuovo. Critiche se ne faranno sicuramente, e<lb/>
+               infinite; cioè tante, quant<del rend="overstrike">e</del><add>i</add> saranno i lettori, che si crederanno giudici: ma quale<lb/>
+               è l'opera che non si critichi? Ho piacere che siate intorno alla <persName ref="#pers-45">Strozzi</persName>, ma<lb/>
+               non vorrei che perciò trascuraste affatto il vostro poema, il quale, continuato e<lb/>
+               finito come l'avete condotto fin qui, riuscirà certamente una bella cosa. Ricevu-<lb/>
+               to che avrò da <placeName ref="#pla-7">Bologna</placeName> l'esemplare che mi significate, farò quel che volete<lb/>
+               voi: ma la faccenda andrà in lungo, perchè <rs ref="#pla-1">qua</rs> le spedizioni arrivano in capo<lb/>
+               a qualche anno. Salutate tanto tanto la Lauretta: anche <choice><abbr>Mad.</abbr><expan>Madama</expan></choice> <persName ref="#pers-46">Vaccà</persName>, <choice><abbr>Mad.</abbr><expan>Madama</expan></choice><lb/>
+               <persName ref="#pers-41">Mason</persName>, e <persName ref="#pers-42">Carmignani</persName>. Le mie nuove sono, ch'io vivo qui mezzo disperato; anzi<lb/>
+               non vivo, ma scoppio di rabbia e di noia ogni giorno. Non fo nulla, nè spero nulla.</p>
+            
+            <closer>
+               <salute>Addio: vogliatemi bene, e ricordatemi ai vostri.</salute><lb/>
+               <signed><choice><abbr>Aff.mo</abbr><expan>Affezionatissimo</expan></choice> amico<lb/><lb/>
+                  <persName ref="#pers-1">Leopardi</persName></signed>
+            </closer>
+            
+         </div>
+               
+               <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+               
+            <div n="3">
+               
+               <p change="#change-2" hand="#hand-1" rend="center">Al Chiarissimo<lb/>
+               <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> <choice><abbr>Profess.</abbr><expan>Professor</expan></choice> <persName ref="#pers-39">Giovanni Rosini</persName><lb/>
+               <placeName ref="#pla-11">Pisa</placeName></p>
+               
+               <fw type="other" change="#change-3"><placeName ref="#pla-12">LORETO</placeName></fw> 
+               
+               <fw type="other" change="#change-3">Imp</fw> 
+               
+               <fw type="other" change="#change-3"><placeName ref="#pla-1">RECANATI</placeName></fw>
+               
+               <fw type="other" change="#change-3">24<lb/> APRILE<lb/> 1829</fw> 
+            
+            </div>
+                               
+         </div>
+         
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/1</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.1</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary> </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Francesco Cancellieri</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark/> watermark</support>
+                        <extent>2 pages</extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo
+                        Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-2" scope="minor" medium="thick-brown-ink">Carlo Antici,
+                        thick-brown ink.</handNote>
+                  </handDesc>
+
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" from="18160519" to="18160520">19. Maggio 1816. -
+                        20 Maggio</origDate>
+                     <origPlace key="6541846">Recanati</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+
+            <listPerson>
+
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>
+
+               <person xml:id="pers-2">
+                  <persName key="35548704">
+                     <forename>Carlo</forename>
+                     <surname>Antici</surname>
+                  </persName>
+               </person>
+
+               <person xml:id="pers-3">
+                  <persName key="17213238">
+                     <forename>Francesco</forename>
+                     <surname>Cancellieri</surname>
+                  </persName>
+               </person>
+
+               <person xml:id="pers-4">
+                  <persName key="47116573">
+                     <forename>Friedrich Gotthilf</forename>
+                     <surname>Freytag</surname>
+                  </persName>
+               </person>
+
+               <person xml:id="pers-5">
+                  <persName key="">
+                     <forename>Marianna</forename>
+                     <surname>Mattei</surname>
+                  </persName>
+               </person>
+
+            </listPerson>
+
+            <listPlace>
+
+               <place xml:id="pla-1">
+                  <placeName key="6541846">Recanati</placeName>
+               </place>
+
+               <place xml:id="pla-3">
+                  <placeName key="3173434">Milano</placeName>
+               </place>
+
+            </listPlace>
+
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="top-1">
+                  <catDesc>Information request</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+
+      <profileDesc>
+
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <persName key="35548704">Antici, Carlo, 1772 1849</persName>
+               <date notBefore="18160519" notAfter="18160520">19-20. Maggio 1816.</date>
+            </correspAction>
+            <!--<correspAction type="sent">
+               
+               <date when="18160520">20 Maggio</date>
+            </correspAction>-->
+            <correspAction type="received">
+               <persName key="17213238">Cancellieri, Francesco, 1751-1826</persName>
+            </correspAction>
+         </correspDesc>
+
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Note, Carlo Antici</change>
+            </listChange>
+         </creation>
+
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210722"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="landscape" url="MS-ADD-06210-000-00009"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="3282px" width="5035px"
+            rend="landscape" url="MS-ADD-06210-000-00009"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="3013px" width="4786px"
+            rend="landscape" url="MS-ADD-06210-000-00010"/>
+      </surface>
+   </facsimile>
+
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+
+
+            <div change="#change-1" hand="#hand-1" ana="#top-1">
+               <opener>
+                  <salute>Pregiatissimo <rs ref="#pers-3"
+                              ><choice><abbr>Sig.</abbr><expan>Signore</expan></choice></rs></salute>
+               </opener>
+
+               <p><seg rend="insetLeft5">Per mezzo del mio
+                           <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> Zio <persName
+                        ref="#pers-2">Antici</persName> le inviai, sono già molti ordinari, una mia
+                     lunga lettera, in<lb/></seg> cui ardiva pregarla di qualche favore. Supponendo
+                  che essa si sia smarrita, e vedendomi sul<lb/> punto di spedire a <placeName
+                     ref="#pla-3">Milano</placeName> il mio <title>Frontone</title>, la supplico a
+                  darmi le notizie che può, sopra<lb/> il <title><hi rend="underline">Programma di
+                              <choice><abbr>M.</abbr><expan>Marco</expan></choice>
+                        <choice><abbr>Cor.</abbr><expan>Cornelio</expan></choice>
+                     Frontone</hi></title> di <persName ref="#pers-4">Freytag</persName>, che Ella
+                  mi accennò in una lettera indiriz-<lb/> zata al mio
+                        <choice><abbr>Sig.</abbr><expan>Signor</expan></choice>
+                  <rs ref="#pers-2">Zio</rs>. Mai non ne ha fatta parola nella sua edizione latina:
+                  ed io però le<lb/> sarò sommamente tenuto, se potrò per suo mezzo venire in
+                  cognizione di questo qualunque siasi o-<lb/> puscolo, dal cui titolo non mi è
+                  possibile rilevarne il contenuto. <rs ref="#pers-3">Ella</rs> cominci a
+                  comandarmi, e<lb/> continui ad avermi per<lb/></p>
+
+               <closer>
+                  <dateline><placeName ref="pla-1">Recanati</placeName> 19. Maggio 1816.</dateline><lb/>
+                  <salute>Suo<lb/> <choice><abbr>Dev.mo</abbr><expan>Devotissimo</expan></choice>
+                     <choice><abbr>Obbl.mo</abbr><expan>Obbligatissimo</expan></choice>
+                     Servo</salute><lb/>
+                  <signed>
+                     <persName ref="#pers-1">Giacomo Leopardi</persName>
+                  </signed>
+               </closer>
+            </div>
+
+            <div change="#change-2">
+
+               <ab change="#change-2" hand="#hand-2">
+                  <hi rend="underline">È pregato di voltare</hi>
+               </ab>
+
+            </div>
+
+            <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+
+            <div change="#change-2" hand="#hand-2" ana="#top-1">
+
+               <opener>
+                  <dateline>li 20 Maggio</dateline>
+               </opener>
+
+               <p>Il suo silenzio, mio degnissimo
+                     <choice><abbr>Sig:</abbr><expan>Signor</expan></choice>
+                  <choice><abbr>Ab:</abbr><expan>Abate</expan></choice>
+                  <persName ref="#pers-3">Cancellieri</persName>, sul quesito di <rs ref="#pers-1"
+                     >mio<lb/> Nipote</rs> desta in me l'apprensione di qualche nuova sua<lb/>
+                  infermità. Le vorrei dunque inoltrare il presente ricordo<lb/> col mezzo di <rs
+                     ref="#pers-5">mia moglie</rs>, la quale s'informerà e m'infor-<lb/> merà del
+                  suo stato di salute. Quando questa stia salda,<lb/> il ritardo del suo riscontro
+                  potrà affliggere l'erudita<lb/> curiorità del <rs ref="#pers-1">mio nipote</rs>,
+                  ma non turberà l'animo di<lb/> chi con decisa stima si protesta<lb/></p>
+
+               <closer>
+                  <salute>Suo <choice><abbr>Dev:</abbr><expan>Devoto</expan></choice>
+                     <choice><abbr>Obbl:</abbr><expan>Obbligato</expan></choice>
+                     <choice><abbr>Serv.</abbr><expan>Servo</expan></choice> e
+                     <choice><abbr>A.o</abbr><expan>Amico</expan></choice></salute><lb/>
+                  <signed><persName ref="#pers-2">Carlo Antici</persName></signed>
+               </closer>
+
+            </div>
+
+         </div>
+      </body>
+   </text>
+</TEI>

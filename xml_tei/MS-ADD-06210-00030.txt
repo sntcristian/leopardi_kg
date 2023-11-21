@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/30</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.30</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Monaldo Leopardi</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark></watermark> watermark</support>
+                        <extent>2 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18320814">14 Agosto 1832</origDate>
+                     <origPlace key="3176958">Firenze</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+
+            <listPerson> 
+               
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person> 
+               
+               <person xml:id="pers-14">
+                  <persName key="9709149068390265730006">
+                     <forename>Monaldo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person> 
+               
+               <person xml:id="pers-61">
+                  <persName key="">
+                     <forename>Sergio</forename>
+                     <surname>Giambene</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-62">
+                  <persName key="56612324">
+                     <forename>Hugues-Félicité-Robert</forename>
+                     <surname>de Lamennais</surname>
+                  </persName>
+               </person>
+                                            
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-1">
+                  <placeName key="6541846">Recanati</placeName>
+               </place>
+               
+               <place xml:id="pla-6">
+                  <placeName key="3176958">Firenze</placeName>
+               </place>
+               
+               <place xml:id="pla-12">
+                  <placeName key="6539726">Loreto</placeName>
+               </place>
+                                            
+            </listPlace>
+            
+         </sourceDesc>
+         
+      </fileDesc>      
+      
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="top-16"><catDesc>Money</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="18320814">14 Agosto 1832</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="9709149068390265730006">Leopardi, Monaldo, 1776-1847</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Address, Giacomo Leopardi.</change>
+               <change xml:id="change-3">Stamp.</change>
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210724"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00087"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="5506px" width="3054px" rend="portrait"
+            url="MS-ADD-06210-000-00087"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="5936px" width="3247px" rend="portrait"
+            url="MS-ADD-06210-000-00088"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+         
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-16">
+            
+            <opener>
+                 <dateline><placeName ref="#pla-6">Firenze</placeName> 14 Agosto 1832</dateline>
+               <salute><seg rend="insetLeft5">Mio caro <persName ref="#pers-14">Papà</persName>.</seg></salute>
+            </opener>
+            
+            <p>Prevalendomi del per-<lb/>
+               messo da Lei datomi nella carissima sua dei 4,<lb/>
+               ho tratto oggi una cambialina di 24 francesco-<lb/>
+               ni a 20 giorni data, sopra il <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> <persName ref="#pers-61">Luigi Giambe-<lb/>
+               ne</persName> <choice><abbr>Segr.io</abbr><expan>Segretario</expan></choice> <choice><abbr>gen.le</abbr><expan>generale</expan></choice> delle poste pontificie, <del rend="strikethrough">che</del> <add place="supralinear">il qua-</add>le<lb/>
+               mi farà il piacere di accettarla, ed al quale ho<lb/>
+               acclusa una letterina a Lei diretta (per esserle<lb/>
+               da lui spedita), dove la prego di fargli perveni-<lb/>
+               re quella somma prima della scadenza. Varrà<lb/>
+               quella somma, se così le piace per le mesate di<lb/>
+               Agosto e Settembre. Io ho già esatto qui, com'<lb/>
+               Ella intende, il danaro dal banchiere a cui ho<lb/>
+               consegnata la cambialina.</p>
+               
+            <p><seg rend="insetLeft5">Godo di sentire ch'Ella sia così occupata,</seg><lb/>
+               come mi scrive, poichè questa occupazione mi è an-<lb/>
+               nunzio di suoi nuovi lavori. Ha Ella mai veduta<lb/>
+               la ristampa dei <title>Dialoghi</title> fatta in Toscana?<lb/>
+               Io vidi, al suo passaggio da <placeName ref="#pla-6">Firenze</placeName>, il famoso<lb/>
+               
+               <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+               
+               abate <persName ref="#pers-62">la Mennais</persName>, abilissimo parlatore.</p>
+               
+            <p><seg rend="insetLeft5">Del permesso ch'Ella mi ha dato, e della</seg><lb/>
+               bontà e cordialità che sempre mi dimostra, io le rendo<lb/>
+               quelle sterili grazie che posso, ma prego caldamente<lb/>
+               Iddio che gliene renda abbondante e solido frutto.<lb/>
+               Le bacio la mano con tutta l'anima.</p>
+            
+            <closer>
+               <signed>Il suo gratissi-<lb/>
+                  mo figlio <persName ref="#pers-1">Giacomo</persName>.</signed>
+            </closer>
+            
+         </div>
+            
+         <div n="3">
+            
+            <fw type="other" change="#change-3">18 AGOST</fw>
+            
+            <fw type="other" change="#change-3"><placeName ref="#pla-6">FIRENZE</placeName></fw>
+            
+               <p change="#change-2" hand="#hand-1" rend="center">Al Nobil Uomo<lb/>
+                  <choice><abbr>Sig.</abbr><expan>Signor</expan></choice>
+                  Conte <persName ref="#pers-14">Monaldo Leopardi</persName><lb/>
+                  <placeName ref="#pla-12">Loreto</placeName> per<lb/>
+                  <placeName ref="#pla-1">Recanati</placeName>
+               </p>
+
+            </div>
+                   
+         </div>
+         
+      </body>
+   </text>
+</TEI>

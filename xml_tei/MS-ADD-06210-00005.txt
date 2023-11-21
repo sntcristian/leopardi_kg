@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/5</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.5</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Niccolò Capurro</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark></watermark> watermark</support>
+                        <extent>4 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-2" scope="minor" medium="redish-ink">Archivist, pencil.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18161209">5 Decembre 1817</origDate>
+                     <origPlace key="6541846">Recanati</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+
+            <listPerson>  
+               
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>   
+               
+               <person xml:id="pers-16">
+                  <persName key="172777682">
+                     <forename>Niccolò</forename>
+                     <surname>Capurro</surname>
+                  </persName>
+               </person> 
+               
+               <person xml:id="pers-17">
+                  <persName key="106964661">
+                     <forename>Napoléon</forename>
+                     <surname>Bonaparte</surname>
+                  </persName>
+               </person>
+                                          
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-1">
+                  <placeName key="6541846">Recanati</placeName>
+               </place>
+               
+               <place xml:id="pla-4">
+                  <placeName key="2648110">London</placeName>
+               </place>
+               
+               <place xml:id="pla-5">
+                  <placeName key="2968851">Paris</placeName>
+               </place>
+               
+               <place xml:id="pla-11">
+                  <placeName key="3170646">Pisa</placeName>
+               </place> 
+                              
+            </listPlace>
+            
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         <classDecl>
+            
+            <taxonomy>
+               <category xml:id="top-4"><catDesc>Publication of literary works</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="18171205">5 Decembre 1817</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="172777682">Capurro, Niccolò</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Address, Giacomo Leopardi.</change>
+               <change xml:id="change-3">Stamp</change>
+               <change xml:id="change-4">Number, archivist</change>
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210722"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00021"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="6588px" width="4590px" rend="portrait"
+            url="MS-ADD-06210-000-00021"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="6669px" width="4591px" rend="portrait"
+            url="MS-ADD-06210-000-00022"/>
+      </surface>
+      <surface xml:id="i3" n="2r">
+         <graphic decls="#downloadImageRights #download" height="6449px" width="4570px" rend="portrait"
+            url="MS-ADD-06210-000-00023"/>
+      </surface>
+      <surface xml:id="i4" n="2v">
+         <graphic decls="#downloadImageRights #download" height="6555px" width="4647px" rend="portrait"
+            url="MS-ADD-06210-000-00024"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+                    
+            <div change="#change-4" hand="#hand-2" ana="#top-4">
+               
+            <ab hand="#hand-2">10</ab>
+            
+            </div>
+            
+            <div n="2" change="#change-1" hand="#hand-1">
+               
+            <opener>
+               <dateline><placeName ref="#pla-1">Recanati</placeName> 5 Decembre 1817</dateline>
+               <salute>Pregiatissimo <rs ref="#pers-16">Signore</rs></salute>
+            </opener>
+            
+               <p><seg rend="insetLeft5">È qui un mio conoscente il quale si trova avere in pronto in un pulito <choice><abbr>ms.</abbr><expan>manoscritto</expan></choice> la traduzione</seg><lb/>
+               delle Lettere sopra la condotta di <persName ref="#pers-17">Bonaparte</persName> a <placeName>Sant'Elena</placeName> del Chirurgo <persName>Warden</persName>, fatta<lb/>
+               sopra l'originale inglese della 5.ta edizione di <placeName ref="#pla-4">Londra</placeName> 1816: e sapendo che io ho qualche cor-<lb/>
+               rispondenza coi principali esercenti l'arte libraria in Italia, mi ha pregato di proporne io mede-<lb/>
+               simo la stampa a qualcuno. Onde io conoscendo <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> per uno dei primari, contuttochè non avessi<lb/>
+               il bene della sua conoscenza e corrispondenza, tuttavia per soddisfare al possessore del <choice><abbr>ms.</abbr><expan>manoscritto</expan></choice><lb/>
+               ho giudicato opportuno di rivolgermi a Lei prima di ogni altro, offerendoglielo. Essendo io affat-<lb/>
+               to digiuno di lingua inglese, non le posso dare il mio giudizio sul merito della traduzione,<lb/>
+               della quale anche posso dirle con verità di non aver letto se non alcuni squarci, da cui ri-<lb/>
+               levo che quanto allo stile, ella si distingue dalla maggior parte delle traduzioni usuali<lb/>
+               e frettolose, tanto comuni ai giorni nostri. Intendo pure che sia fatta con molta fedeltà<lb/>
+               e diligenza, e che ne' pochi pezzi di quest'opera che si son veduti nelle gazzette italiane e te-<lb/>
+               desche, a stento si ravvisi quello che leggesi nel testo e che comparisce in questa traduzione.<lb/>
+               Il possessore non vorrebbe andare al di sotto delle spese che sono state necessarie per<lb/>
+               condurla a fine, come quella di dettatura e copiatura, oltre l'essersi fatto, dopo aver tentato<lb/>
+               altre strade, venir l'originale da <placeName ref="#pla-5">Parigi</placeName>, donde fu assicurato da chi glie lo proc-<lb/>
+               curò, che esso era rarissimo. In una parola mi sembra ch'egli desideri qualche compenso<lb/>
+               della sua fatica, avendola fatta a solo fine di dare il suo <choice><abbr>ms.</abbr><expan>manoscritto</expan></choice> a chi volesse profittar-<lb/>
+               ne: ma è di facile contentatura, e credo che alla prima proposizione resterà pago. Bi-<lb/>
+               sogna ch'io le faccia avvertire che l'Originale ha tre rami, l'uno de' quali è il<lb/>
+               ritratto recentissimo di <persName ref="#pers-17">Bonaparte</persName>, l'altro rappresenta una sua medaglia, e il terzo il<lb/>
+               suo carattere. Però in caso che <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> accettasse il partito ch'io le propongo, converrebbe<lb/>
+               che mi indicasse se vuol far uso di questi rami, i quali si possono benissimo<lb/>
+               tralasciare, perchè allora se le rimetterebbe l'istesso originale, insieme col <choice><abbr>mss.</abbr><expan>manoscritto</expan></choice>. In ulti-<lb/>
+               mo osserverò per sua norma, che l'Originale è in ottavo, con margine, carattere gran-<lb/>
+               de, pag. 219. Quando poi Ella non trovi di sua convenienza l'offerta del <choice><abbr>mss.</abbr><expan>manoscritto</expan></choice>, gradirei<lb/>
+               che si compiacesse di farmene un cenno per mio regolamento. A ogni modo mi ralle-<lb/>
+               grerò di aver avuto occasione di protestarle la mia piena e sincera stima, e dichia-<lb/>
+               rarmi con verità e senza riserva alcuna</p>
+            
+            <closer>
+               <salute>Suo <choice><abbr>Dev.mo</abbr><expan>Devotissimo</expan></choice> 
+                  <choice><abbr>Obbl.mo</abbr><expan>Obbligatissimo</expan></choice> Servitore</salute><lb/>
+               <signed><persName ref="#pers-1">Giacomo <roleName>Conte</roleName> Leopardi</persName>.</signed>
+            </closer>
+            
+            </div>
+            
+            <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+            
+            <pb n="2r" xml:id="pb-2r" facs="#i3"/>
+            
+            <pb n="2v" xml:id="pb-2v" facs="#i4"/>
+            
+            <div n="3">
+                            
+               <fw change="#change-3" rend="center"><placeName ref="#pla-1">RECANATI</placeName></fw>
+               
+               <p change="#change-2" hand="#hand-1" rend="center">All'Illustrissimo <choice><abbr>Sig.re</abbr><expan>Signor</expan></choice> 
+                  Il <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> <persName ref="#pers-16">Niccolò Capurro</persName><lb/>
+               <placeName ref="#pla-11">Pisa</placeName></p>
+               
+               <fw type="other" change="#change-3">12 DECEMBRE</fw>
+              
+            </div>
+                   
+         </div>
+         
+      </body>
+   </text>
+</TEI>

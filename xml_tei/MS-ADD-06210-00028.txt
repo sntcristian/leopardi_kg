@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/28</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.28</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Annex to the previous letter from Giacomo Leopardi to Mario Valdrighi</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark></watermark> watermark</support>
+                        <extent>2 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-2" scope="minor" medium="black-ink">Mario Valdrighi, black ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18310726">26 Luglio 1831</origDate>
+                     <origPlace key="3176958">Firenze</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+            
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="18310726">26 Luglio 1831</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="12225977">Valdrighi, Mario</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Index, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Annotation, Mario Valdrighi.</change>
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210808"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00083"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="4936px" width="2973px" rend="portrait"
+            url="MS-ADD-06210-000-00083"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="5320px" width="3430px" rend="portrait"
+            url="MS-ADD-06210-000-00084"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+                    
+         <div n="2" change="#change-1" hand="#hand-1">                             
+                                     
+            <list>
+               <item><add change="#change-2" hand="#hand-2">#</add>Boerhaave.</item>
+               <item><add change="#change-2" hand="#hand-2">°</add>Micheli, botanico.</item>
+               <item><add change="#change-2" hand="#hand-2">#</add>Gio. Targioni Tozzetti.</item>
+               <item>Anton Domenico Gabbiani.</item>
+               <item><add change="#change-2" hand="#hand-2">#</add>Gio. Fabbroni.</item>
+               <item><add change="#change-2" hand="#hand-2">°</add>Gasparo Mazzi, naturalista.</item>
+               <item><add change="#change-2" hand="#hand-2">°</add>Luigi Canali, naturalista.</item>
+               <item><add change="#change-2" hand="#hand-2">##</add>I due Savi, padre e figlio, naturalisti.</item>
+               <item><add change="#change-2" hand="#hand-2">#</add>Bertiand de Nantes, naturalista e geologo.</item>
+               <item><add change="#change-2" hand="#hand-2">#</add>Pentland, viaggiatore, geologo e naturalista.</item>
+               <item>Pietro Pietrini</item> <anchor xml:id="anchor-1"/><metamark target="#note-1" spanTo="anchor-2"><figure><figDesc>[bracket]</figDesc></figure></metamark>
+               <item>Giuseppe Mojon</item>
+               <item><add change="#change-2" hand="#hand-2">#</add>Hnuboldt.<anchor xml:id="anchor-2"/></item>
+               <item><add change="#change-2" hand="#hand-2">#</add>Antonio Cocchi: = un suo scritto.</item>
+               <item><add change="#change-2" hand="#hand-2">°</add>Magliabechi.</item>
+               <item><add change="#change-2" hand="#hand-2">#</add>Molina, ex gesuita del Chili: = una poesia di sua <lb/> <w rend="marginRight">mano</w>.</item>
+               <item><add change="#change-2" hand="#hand-2">#</add>Sismondi.</item>
+               <item><add change="#change-2" hand="#hand-2">#</add>Filicaia: = un sonetto di sua mano.</item>
+               <item>Bagnoli, autore del Cadmo.</item>
+               
+               <pb n="1v" xml:id="pb-1v" facs="#i2"/>    
+               
+               <item><add change="#change-2" hand="#hand-2">°</add>Consalvi.</item>
+               <item><add change="#change-2" hand="#hand-2">#</add>Lafayette.</item>
+               <item><add change="#change-2" hand="#hand-2">#</add>Il presente re di Prussia.</item>
+            
+            </list>
+            
+         </div>
+            
+         </div>
+         
+      </body>
+   </text>
+</TEI>

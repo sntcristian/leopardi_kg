@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/21</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.21</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Carlo Emanuele Muzzarelli</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark></watermark> watermark</support>
+                        <extent>4 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-2" scope="minor" medium="thin-brown-ink">Unknown, thin-brown ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18281108">8 Novembre 1828</origDate>
+                     <origPlace key="3176958">Firenze</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+
+            <listPerson>  
+                              
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>  
+               
+               <person xml:id="pers-40">
+                  <persName key="18677718">
+                     <forename>Carlo Emanuele</forename>
+                     <surname>Muzzarelli</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-43">
+                  <persName key="19161028847523741723">
+                     <forename>Carlotta</forename>
+                     <surname>Lenzoni de' Medici</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-44">
+                  <persName key="49262925">
+                     <forename>Vincenzo</forename>
+                     <surname>Monti</surname>
+                  </persName>
+               </person>
+                              
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-1">
+                  <placeName key="6541846">Recanati</placeName>
+               </place>
+               
+               <place xml:id="pla-2">
+                  <placeName key="3169069">Roma</placeName>
+               </place>
+               
+               <place xml:id="pla-6">
+                  <placeName key="3176958">Firenze</placeName>
+               </place>
+
+            </listPlace>
+            
+         </sourceDesc>
+         
+      </fileDesc>
+
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="top-10"><catDesc>Giving information</catDesc></category>
+               <category xml:id="top-13"><catDesc>Health</catDesc></category>
+               <category xml:id="top-14"><catDesc>Writing request</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="18281108">8 Novembre 1828</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="18677718">Muzzarelli, Carlo Emmanuele, 1797-1856</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Address, Giacomo Leopardi.</change>
+               <change xml:id="change-3">Stamp.</change>
+               <change xml:id="change-4">Annotation, Unknown.</change>
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210727"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00065"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="5673px" width="3779px" rend="portrait"
+            url="MS-ADD-06210-000-00065"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="5841px" width="3886px" rend="portrait"
+            url="MS-ADD-06210-000-00066"/>
+      </surface>
+      <surface xml:id="i3" n="2r">
+         <graphic decls="#downloadImageRights #download" height="5717px" width="3737px" rend="portrait"
+            url="MS-ADD-06210-000-00067"/>
+      </surface>
+      <surface xml:id="i4" n="2v">
+         <graphic decls="#downloadImageRights #download" height="5943px" width="4134px" rend="portrait"
+            url="MS-ADD-06210-000-00068"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+         
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-10 #top-13 #top-14">
+            
+            <opener>
+               <salute><rs ref="#pers-40">Monsignore</rs> mio Pregiatissimo</salute>
+            </opener>
+            
+            <p><seg rend="insetLeft5">Ricevo la sua veneratissima dei 3 del</seg><lb/>
+               corrente in ora che parto per <placeName ref="#pla-1">Recanati</placeName>. La ringrazio ben<lb/>
+               sinceramente dell'onore che mi fa, invitandomi a cantare<lb/>
+               le lodi del <persName ref="#pers-44">Monti</persName>. E il soggetto stesso e l'invito sareb-<lb/>
+               bero incitamenti assai forti a comporre. Ma lo stato<lb/>
+               della mia salute è tale, che mi è impossibile lo scrivere<lb/>
+               una pagina, nè in verso nè in prosa; impossibile anche il<lb/>
+               leggere, anche il pensare. La Signora <persName ref="#pers-43">Lenzoni</persName>, che<lb/>
+               parte dimani di qua per <placeName ref="#pla-2">Roma</placeName>, e che io prego di recarle<lb/>
+               i miei complimenti, le farà buona testimonianza di questa<lb/>
+               cosa. Ella mi conservi la sua cara e preziosa benevolen-<lb/>
+               za, e mi creda sempre</p>
+            
+            <closer>
+               <salute>Suo</salute><lb/>
+               <dateline><placeName ref="#pla-6">Firenze</placeName> 8 Novembre 1828</dateline><lb/>
+               <salute>
+                  <choice><abbr>D.mo</abbr><expan>Devotissimo</expan></choice> 
+                  <choice><abbr>obbl.mo</abbr><expan>obbligatissimo</expan></choice> 
+                  servitore</salute><lb/>
+               <signed><persName ref="#pers-1">Giacomo Leopardi</persName>.</signed>
+            </closer>
+            
+         </div>
+               
+            <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+            
+            <pb n="2r" xml:id="pb-2r" facs="#i3"/>
+            
+            <pb n="2v" xml:id="pb-2v" facs="#i4"/>
+                          
+            <div n="3">
+               
+               <ab change="#change-4" hand="#hand-2" rend="left"><persName ref="#pers-1">Leopardi</persName></ab>
+               
+               <fw type="other" change="#change-3">3<lb/>10 NOVEMBRE<lb/>1828</fw> 
+               
+               <fw type="other" change="#change-3"><placeName ref="#pla-6">FIRENZE</placeName></fw>
+               
+               <p change="#change-2" hand="#hand-1" rend="center">A Sua
+               <choice><abbr>Ecc.</abbr><expan>Eccellenza</expan></choice> 
+                  <choice><abbr>R.ma</abbr><expan>Reverendissima</expan></choice><lb/>
+                  <choice><abbr>Mons.</abbr><expan>Monsignor</expan></choice>
+                  <persName ref="#pers-40">Carlo Emmanuele de' <roleName>Conti</roleName> Muzzarelli</persName><lb/>
+                  Uditore della <choice><abbr>S.</abbr><expan>Sacra</expan></choice> Rota<lb/>
+                  <placeName ref="#pla-2">Roma</placeName>
+               </p>
+
+            </div>
+                   
+         </div>
+         
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/39</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.39</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Monaldo Leopardi to Giuseppe Politi</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark></watermark> watermark</support>
+                        <extent>4 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="sole" medium="dark-brown-ink">Monaldo Leopardi, dark-brown ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18290130">30. del 1829.</origDate>
+                     <origPlace key="3169069">Roma</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+
+            <listPerson> 
+                                            
+               <person xml:id="pers-14">
+                  <persName key="9709149068390265730006">
+                     <forename>Monaldo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>
+                            
+               <person xml:id="pers-67">
+                  <persName key="">
+                     <forename>Giuseppe</forename>
+                     <surname>Politi</surname>
+                  </persName>
+               </person>
+                            
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-1">
+                  <placeName key="6541846">Recanati</placeName>
+               </place>
+               
+               <place xml:id="pla-2">
+                  <placeName key="3169069">Roma</placeName>
+               </place>
+             
+            </listPlace>
+            
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="top-11"><catDesc>Trial</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="9709149068390265730006">Leopardi, Monaldo, 1776-1847</persName>
+               <date when="18290130">30. del 1829.</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="">Politi, Giuseppe</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Monaldo Leopardi.</change>
+               <change xml:id="change-2">Address, Monaldo Leopardi.</change>
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210809"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00115"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="7923px" width="4903px" rend="portrait"
+            url="MS-ADD-06210-000-00115"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="8242px" width="4991px" rend="portrait"
+            url="MS-ADD-06210-000-00116"/>
+      </surface>
+      <surface xml:id="i3" n="2r">
+         <graphic decls="#downloadImageRights #download" height="7976px" width="4934px" rend="portrait"
+            url="MS-ADD-06210-000-00117"/>
+      </surface>
+      <surface xml:id="i4" n="2v">
+         <graphic decls="#downloadImageRights #download" height="8242px" width="4991px" rend="portrait"
+            url="MS-ADD-06210-000-00118"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+         
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-11">
+            
+            <opener>
+               <salute><rs ref="#pers-67">Amico</rs> <choice><abbr>Car.mo</abbr><expan>Carissimo</expan></choice></salute>
+               <dateline><placeName ref="#pla-2">Roma</placeName> 30. del 1829.</dateline>
+            </opener>
+            
+            <p><seg rend="insetLeft5">Ero certissimo della compiacenza <choice><abbr>v.ra</abbr><expan>vostra</expan></choice> per il buon esito</seg><lb/>
+               della mia Lite essendo ugualmente certo della <choice><abbr>v.ra</abbr><expan>vostra</expan></choice> cor-<lb/>
+               diale amicizia di cui mi avete date tante riprove. Conta-<lb/>
+               vo altresì che la <choice><abbr>v.ra</abbr><expan>vostra</expan></choice> degna Signora avrebbe avuta la<lb/>
+               bontà di interessarsene, ma non mi aspettavo quelle<lb/>
+               graditissime linee con le quali ha voluto onorarmi<lb/>
+               nella <choice><abbr>v.ra</abbr><expan>vostra</expan></choice> Lettera. Io non ardisco di risponderle diretta-<lb/>
+               mente ma assicuratela di tutto il mio rispetto e<lb/>
+               della mia vivissima riconoscenza, pregandola di conti-<lb/>
+               nuare a raccomandare al Signore questa e le al-<lb/>
+               tre mie cose. Anche voi non lasciate di fare lo stesso.</p>
+            
+            <p><seg rend="insetLeft5">Vi scrissi che il <choice><abbr>S.r</abbr><expan>Signor</expan></choice> Piazza venne una matina a</seg><lb/>
+               trovarmi quando non ero in casa. Dopo non si è vedu-<lb/>
+               to <hi rend="underline">mai più</hi>. Questo però non fà niente perchè a debito<lb/>
+               tempo io lo trovarò, e metterò tutto in regola. Ieri<lb/>
+               dopo altri inutili accessi, trovai <choice><abbr>finalm.e</abbr><expan>finalmente</expan></choice> in casa il<lb/>
+               Computista del Buon <choice><abbr>Gov.no</abbr><expan>Governo</expan></choice>, e lo trovai persuaso che<lb/>
+               io fossi stato assoluto pienamente secondo la sua<lb/>
+               relazione. Stupì sentendo che avevo subìta una<lb/>
+               nuova condanna, e restammo d’accordo intorno al<lb/>
+               modo con cui dobbiamo procurare che l’affare esca<lb/>
+               di mano a <choice><abbr>M.r</abbr><expan>Monsignor</expan></choice> Brignole Ponente <choice><abbr>d.a</abbr><expan>della</expan></choice> Marca, ed<lb/>
+               unico rimastoci contrario nella <choice><abbr>Cong.ne</abbr><expan>Congregazione</expan></choice>. Io avrei buo-<lb/>
+               ni Canali <del rend="strikethrough">con lu</del> per lui e segnatamente quello<lb/>
+               del <choice><abbr>Card.e</abbr><expan>Cardinale</expan></choice> Franzoni suo Zio, ma <choice><abbr>M.r</abbr><expan>Monsignor</expan></choice> Brignole è<lb/>
+               scrupoloso, <unclear>e</unclear> quando li scrupolosi sono importa-<lb/>
+               ti non ci si cava niente. Bensì lasciatemi fare, e<lb/>
+               spero che faremo la festa senza di lui. Sala è<lb/>
+               convinto della malignità del Mazzanti, e mi disse<lb/>
+               che in ultimo non lo aveva più voluto ricevere.<lb/>
+               Resterete però maravigliato sentendo che degli affari<lb/>
+               <w rend="marginRight">vostri</w><lb/>
+               
+               <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+               
+               vostri e di Massucci esso non sapeva <hi rend="underline">niente</hi>. Come possa<lb/>
+               esser questo io non lo sò, ma me lo ha detto, e ripe-<lb/>
+               tuto costantissimamente. Con un poco di pazienza scuopri-<lb/>
+               rò tutto, e vi terrò ragguagliato di tutto. Non vi faccia<lb/>
+               maraviglia se ho tardato in dar mano a ques-<lb/>
+               te cose perchè la mia Causa Moroni <del rend="strikethrough">n</del> la quale<lb/>
+               non ammetteva dilazione mi teneva occupato, e in-<lb/>
+               capace di altra seria incombenza. Neppure vi faccia<lb/>
+               maraviglia se prima di proporre in Buon <choice><abbr>Gov.no</abbr><expan>Governo</expan></choice><lb/>
+               le cose vostre proporrò le mie, perchè intendo di far-<lb/>
+               lo per il meglio, dovendo prima purgarmi dal-<lb/>
+               <unclear>le</unclear> mie colpe per potere mostrare la faccia, ed<lb/>
+               essere più addattato peroratore per gli altri. Assi-<lb/>
+               curatevi bensì che la pendenza <choice><abbr>v.ra</abbr><expan>vostra</expan></choice> tanto in ordi-<lb/>
+               ne alla convenienza, come in ordine al decoro<lb/>
+               mi stà a cuore più della mia, e che non parti-<lb/>
+               rò di quì se non la avrò finita, credessi di<lb/>
+               restarci per questo solo.</p>
+            
+            <p><seg rend="insetLeft5">Vi ringrazio di quanto mi scrivete intorno all’Arcidiacono,</seg><lb/>
+               e lo riconosco effetto del <choice><abbr>v.ro</abbr><expan>vostro</expan></choice> buon cuore. Di più<lb/>
+               conosco che in fondo dite bene e la cosa litigata<lb/>
+               non merita tanta pena. Ma <rs ref="#pers-67">amico</rs> mio, io mi sen-<lb/>
+               to offeso e puntigliato all’ultimo segno, e<lb/>
+               non ascoltarò mai parole di concordia in un af-<lb/>
+               fare in cui l’Arcidiacono mi ha trattato, e<lb/>
+               mi tratta senza civiltà, senza amicizia, e sen-<lb/>
+               za gratitudine. Anche l’ultima <unclear>E</unclear> Supplica<lb/>
+               data al Papa è un sacco di insulti, e spero<lb/>
+               che verrà rigettata. Comunque però sia <del rend="strikethrough">io</del> finchè<lb/>
+               in Casa mia ci sarà un paolo di Capitale<lb/>
+               gli terrò piede in Rota, in Concilio, in Terra,<lb/>
+               <w rend="marginRight">in</w><lb/>
+               
+               <pb n="2r" xml:id="pb-2r" facs="#i3"/>
+               
+               in Cielo, e solo gli cederei se la causa si portasse<lb/>
+               all’Inferno perchè laggiù non ci voglio andare,<lb/>
+               nè solo, nè accompagnato con lui. Io non gli voglio<lb/>
+               dar niente, neppure un Canestro di Broccoli, e vadano<lb/>
+               pure in fiamma tutti i li Benefizii, e tutti gli<lb/>
+               arcidiaconi <unclear>delle</unclear> ostinati, furbi, ingordi, ed<lb/>
+               ingrati.</p>
+            
+            <p><seg rend="insetLeft5">Addio <choice><abbr>Car.mo</abbr><expan>Carissimo</expan></choice> <rs ref="#pers-67"><choice><abbr>A.co</abbr><expan>Amico</expan></choice></rs>. Perdonate alla mia brevità perchè devo</seg><lb/>
+               rispondere a 15 Lettere. Saluti al Decano, e alli<lb/>
+               altri amabili vostri Figliuoli, e sono di tutto cuore</p>
+               
+               <closer>
+                  <salute><choice><abbr>V.ro</abbr><expan>Vostro</expan></choice> 
+                     <choice><abbr>Aff.o</abbr><expan>Affezionatissimo</expan></choice>  
+                     <choice><abbr>Obb.o</abbr><expan>Obbligatissimo</expan></choice> 
+                     <choice><abbr>A.co</abbr><expan>Amico</expan></choice></salute><lb/>
+                  <signed><persName ref="#pers-14">Monaldo Leopardi</persName></signed>
+               </closer> 
+                                         
+         </div>
+                            
+            <pb n="2v" xml:id="pb-2v" facs="#i4"/>
+              
+            <div n="3">
+               
+               <fw type="other" change="#change-3"><placeName ref="#pla-2">ROMA</placeName></fw>
+               
+               <fw type="other" change="#change-3"><placeName ref="#pla-3">ROMA</placeName></fw>
+               
+               <p change="#change-2" hand="#hand-1" rend="center">A <choice><abbr>S. E.</abbr><expan>Sua Eccellenza</expan></choice><lb/>
+                  Il <choice><abbr>S.r</abbr><expan>Signor</expan></choice> 
+                  <choice><abbr>Cav.e</abbr><expan>Cavaliere</expan></choice>
+                  <persName ref="#pers-67"><choice><abbr>Gius.e</abbr><expan>Giuseppe</expan></choice> Politi.</persName><lb/>
+                  = <placeName ref="#pla-1">Recanati</placeName> =</p>
+               
+               <fw type="other" change="#change-3">3FEBBRARO</fw>
+
+            </div>
+                   
+         </div>
+         
+      </body>
+   </text>
+</TEI>

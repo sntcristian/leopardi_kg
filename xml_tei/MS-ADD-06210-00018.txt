@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/18</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.18</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary> </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Monaldo Leopardi</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark/> watermark</support>
+                        <extent>2 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo
+                        Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-2" scope="minor" medium="pencil">Archivist,
+                        annotation.</handNote>
+                  </handDesc>
+
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18270623">23 Giugno 1827</origDate>
+                     <origPlace key="3176958">Firenze</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+
+            <listPerson>
+
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>
+
+               <person xml:id="pers-14">
+                  <persName key="9709149068390265730006">
+                     <forename>Monaldo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>
+
+               <person xml:id="pers-38">
+                  <persName key="1569009">
+                     <forename>Adelaide</forename>
+                     <surname>Antici</surname>
+                  </persName>
+               </person>
+
+            </listPerson>
+
+            <listPlace>
+
+               <place xml:id="pla-1">
+                  <placeName key="6541846">Recanati</placeName>
+               </place>
+
+               <place xml:id="pla-6">
+                  <placeName key="3176958">Firenze</placeName>
+               </place>
+
+               <place xml:id="pla-7">
+                  <placeName key="3181927">Bologna</placeName>
+               </place>
+
+            </listPlace>
+
+         </sourceDesc>
+
+      </fileDesc>
+
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="top-1">
+                  <catDesc>Information request</catDesc>
+               </category>
+               <category xml:id="top-2">
+                  <catDesc>Greetings</catDesc>
+               </category>
+               <category xml:id="top-10">
+                  <catDesc>Giving information</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="18270623">23 Giugno 1827</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="9709149068390265730006">Leopardi, Monaldo, 1776-1847</persName>
+            </correspAction>
+         </correspDesc>
+
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Address, Giacomo Leopardi.</change>
+               <change xml:id="change-3">Stamp.</change>
+               <change xml:id="change-4">Annotation, Archivist.</change>
+            </listChange>
+         </creation>
+
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210724"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait" url="MS-ADD-06210-000-00057"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="5652px" width="3928px"
+            rend="portrait" url="MS-ADD-06210-000-00057"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="5497px" width="3783px"
+            rend="portrait" url="MS-ADD-06210-000-00058"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+            <div n="2">
+
+               <fw type="other" change="#change-3">27 GIUGNO</fw>
+
+               <fw type="other" change="#change-3">
+                  <placeName ref="#pla-6">FIRENZE</placeName>
+               </fw>
+
+               <p change="#change-2" hand="#hand-1" rend="center">Al Nobil Uomo<lb/> Il
+                        <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> Conte <persName
+                     ref="#pers-14">Monaldo Leopardi</persName><lb/>
+                  <placeName ref="#pla-1">Recanati</placeName><lb/> Stato Romano </p>
+
+            </div>
+            <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+
+            <div n="3" change="#change-1" hand="#hand-1" ana="#top-1 #top-2 #top-10">
+
+               <opener>
+                  <dateline><placeName ref="#pla-6">Firenze</placeName> 23 Giugno 1827</dateline>
+                  <salute>Carissimo <choice><abbr>Sig.</abbr><expan>Signore</expan></choice>
+                     <rs ref="#pers-14">Padre</rs></salute>
+               </opener>
+
+               <p><seg rend="insetLeft5">Partii da <placeName ref="#pla-7">Bologna</placeName> ai
+                     20, e il giorno seguente, la mattina,</seg><lb/> arrivai a
+                     <placeName>Firenze</placeName>, dopo un viaggio ottimo. Non so quanto mi
+                  tratterrò.<lb/> Il non poter uscir di casa di giorno per la flussion d'occhi
+                  che<lb/> mi molesta costantemente, mi dà molta malinconia, e m'impedisce di<lb/>
+                  conoscere la città; nella quale veramente non godo nulla. Sono obbliga-<lb/> to a
+                  rifiutare tutti gl'inviti che mi vengono fatti, e la gran festa<lb/> fiorentina di
+                  domani (giorno di <choice><abbr>S.</abbr><expan>San</expan></choice>
+                  <choice><abbr>G.</abbr><expan>Giovanni</expan></choice> Battista) sarà per me
+                  un<lb/> giorno feriato. Gli altri avranno corse di bighe, corse di barberi<lb/>
+                  dei primi d'Italia, fuochi artifiziali che costano non so quante<lb/> migliaia,
+                  ec. Faccia, la prego, i miei saluti più teneri alla <rs ref="#pers-38">Mam-<lb/>
+                     ma</rs> e ai fratelli. Sono impaziente di sentire che la <rs ref="#pers-38"
+                     >Mamma</rs><lb/> sia perfettamente guarita del piede. Le bacio la mano con
+                  tutta<lb/> l'anima, e le chiedo la benedizione.</p>
+
+               <closer>
+                  <salute>Il suo amorosissimo figlio</salute>
+                  <lb/>
+                  <signed><persName ref="#pers-1">Giacomo</persName>.</signed>
+               </closer>
+
+            </div>
+
+            <div n="4">
+
+               <fw change="#change-4" hand="#hand-2" place="bottomLeft">1</fw>
+
+            </div>
+
+
+
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

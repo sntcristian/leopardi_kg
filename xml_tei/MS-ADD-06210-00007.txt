@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/7</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability status="restricted" xml:id="displayImageRights">
+               <p>Public domain.</p>
+            </availability>
+            <availability status="restricted" xml:id="downloadImageRights">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability status="restricted" xml:id="metadataRights">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.7</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Giuseppe Zacchia</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark>PM</watermark> watermark</support>
+                        <extent>4 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote medium="thin-brown-ink" scope="sole" xml:id="hand-1">Giacomo Leopardi, thin-brown ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18200710">10 Luglio 1820</origDate>
+                     <origPlace key="6541846">Recanati</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+
+            <listPerson>  
+               
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person> 
+               
+               <person xml:id="pers-19">
+                  <persName key="89644942">
+                     <forename>Giuseppe Antonio</forename>
+                     <surname>Zacchia</surname>
+                  </persName>
+               </person>             
+               
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-1">
+                  <placeName key="6541846">Recanati</placeName>
+               </place>
+               
+               <place xml:id="pla-8">
+                  <placeName key="3182748">Ascoli Piceno</placeName>
+               </place>  
+                              
+            </listPlace>
+            
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         <classDecl>
+            
+            <taxonomy>
+               <category xml:id="top-2"><catDesc>Greetings</catDesc></category>
+               <category xml:id="top-5"><catDesc>Thanksgiving</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="18200710">10 Luglio 1820</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="89644942">Zacchia, Giuseppe Antonio 1787-1845</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Address, Giacomo Leopardi.</change>
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210723"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait" url="MS-ADD-06210-000-00029"/>
+      <surface n="1r" xml:id="i1">
+         <graphic decls="#downloadImageRights #download" height="7867px" rend="portrait" url="MS-ADD-06210-000-00029" width="5009px"/>
+      </surface>
+      <surface n="1v" xml:id="i2">
+         <graphic decls="#downloadImageRights #download" height="7918px" rend="portrait" url="MS-ADD-06210-000-00030" width="4938px"/>
+      </surface>
+      <surface n="2r" xml:id="i3">
+         <graphic decls="#downloadImageRights #download" height="7889px" rend="portrait" url="MS-ADD-06210-000-00031" width="4918px"/>
+      </surface>
+      <surface n="2v" xml:id="i4">
+         <graphic decls="#downloadImageRights #download" height="8055px" rend="portrait" url="MS-ADD-06210-000-00032" width="5146px"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb facs="#i1" n="1r" xml:id="pb-1r"/>
+         
+            <div ana="top-2 #top-5" change="#change-1" hand="#hand-1" n="2">
+            
+            <opener>
+               <salute><rs ref="#pers-19">Eccellenza <choice><abbr>Reverendiss.</abbr><expan>Reverendissima</expan></choice></rs></salute> 
+            </opener>
+            
+            <p><seg rend="indent20">Quando è piaciuto a <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice>
+               <choice><abbr>Reverendiss.</abbr><expan>Reverendissima</expan></choice>
+               e a cotesti</seg><lb/>
+               illustri Accademici di ascrivermi al loro collegio, non hanno
+               fatto cosa che disdices-<lb/>
+               se alla benignità loro, ma sibbene al merito mio.
+               Forse però hanno giudicato che<lb/>
+               la squisitezza della cortesia debba risplendere
+               tanto più quanto si dimostra in perso-<lb/>
+               ne di più basso affare. Perchè non è strano che si onorino
+               le virtù e le dottrine<lb/>
+               insigni, ma il ricercare spontaneamente i piccoli e oscuri,
+               è segno certo di singola-<lb/>
+               re umanità. Laonde l'obbligo ch'io porto a <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice>
+               <choice><abbr>Reverendiss.</abbr><expan>Reverendissima</expan></choice>
+               e a codesti Signo-<lb/>
+               ri Accademici, cresce in proporzione della mia bassezza.
+               Io prego <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> 
+               <choice><abbr>Reveren<lb/>diss.</abbr><expan>Reverendissima</expan></choice> 
+               che si voglia compiacere di esser testimonio a cotesti Signori 
+               della mia somma<lb/>
+               gratitudine verso loro, oltre alle obbligazioni speciali ch'io debbo
+               e professo in partico-<lb/>
+               lare a <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> 
+               <choice><abbr>Reverendiss.</abbr><expan>Reverendissima</expan></choice>.
+               Resterà ch'io mi sforzi di mostrarmi riconoscente alle<lb/>
+               Signorie loro col fatto, vincendo la mediocrità mia, perchè l'onore
+               che mi hanno<lb/>
+               conferito, non mi ridondi piuttosto in vergogna che in ornamento.E con profondis-<lb/>
+               simo osseguio mi dichiaro</p>
+            
+            <closer>
+               <salute>Di <choice><abbr>V.E.</abbr><expan>Vostra Eccellenza</expan></choice> 
+                  <choice><abbr>Reverendiss.</abbr><expan>Reverendissima</expan></choice></salute><lb/>
+               <dateline><placeName ref="#pla-1">Recanati</placeName> 10 Luglio 1820</dateline><lb/>
+               <salute><choice><abbr>U.mo</abbr><expan>Umilissimo</expan></choice>
+                  <choice><abbr>D.mo</abbr><expan>Devotissimo</expan></choice> e
+                  <choice><abbr>Gratiss</abbr><expan>Gratissimo</expan></choice> 
+                  Servitore</salute><lb/>
+               <signed><persName ref="#pers-1">Giacomo Leopardi</persName></signed>
+            </closer>
+            
+         </div>
+            
+            <div n="3">
+               
+               <p change="#change-2" hand="#hand-1" rend="left"><choice><abbr>S.E.</abbr><expan>Sua Eccellenza</expan></choice> 
+                  <choice><abbr>Reverendiss.</abbr><expan>Reverendissima</expan></choice><lb/>
+                  <choice><abbr>Mons.</abbr><expan>Monsignor</expan></choice> <persName ref="#pers-19"><choice><abbr>G.</abbr><expan>Giuseppe</expan></choice> Zacchia</persName>
+                  <choice><abbr>Deleg.</abbr><expan>Delegato</expan></choice>
+                  <choice><abbr>Ap.</abbr><expan>Apostolico</expan></choice> di <placeName ref="#pla-8">Ascoli</placeName><lb/>
+                  e <choice><abbr>Presid.</abbr><expan>Presidente</expan></choice> dell'<choice><abbr>Accad.</abbr><expan>Accademia</expan></choice> Trudentina<lb/>
+                  <placeName ref="#pla-8">Ascoli</placeName></p>
+               
+            </div>
+            
+            <pb facs="#i2" n="1v" xml:id="pb-1v"/>
+            
+            <pb facs="#i3" n="2r" xml:id="pb-2r"/>
+            
+            <pb facs="#i4" n="2v" xml:id="pb-2v"/>
+                              
+         </div>
+         
+      </body>
+   </text>
+</TEI>

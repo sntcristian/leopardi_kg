@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/36</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.36</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Antonio Fortunato Stella</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark></watermark> watermark</support>
+                        <extent>2 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-2" scope="minor" medium="thin-brown-ink">Monaldo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-3" scope="minor" medium="thin-brown-ink">Carlo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-4" scope="minor" medium="redish-ink">Antonio Fortunato Stella, redish ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18161206">6 Decembre 1816.</origDate>
+                     <origPlace key="6541846">Recanati</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+            
+            <listPerson>  
+               
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-6">
+                  <persName key="51815878">
+                     <forename>Antonio Fortunato</forename>
+                     <surname>Stella</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-14">
+                  <persName key="9709149068390265730006">
+                     <forename>Monaldo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-44">
+                  <persName key="49262925">
+                     <forename>Vincenzo</forename>
+                     <surname>Monti</surname>
+                  </persName>
+               </person>
+               
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-1">
+                  <placeName key="6541846">Recanati</placeName>
+               </place>
+               
+               <place xml:id="pla-3">
+                  <placeName key="3173434">Milano</placeName>
+               </place>
+                              
+            </listPlace>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="top-1"><catDesc>Information request</catDesc></category>
+               <category xml:id="top-2"><catDesc>Greetings</catDesc></category>
+               <category xml:id="top-3"><catDesc>Information on literary works</catDesc></category>
+               <category xml:id="top-4"><catDesc>Publication of literary works</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <persName key="9709149068390265730006">Leopardi, Monaldo, 1776-1847</persName>
+               <date when="18161206">6 Decembre 1816.</date>
+            </correspAction>
+            <!--<correspAction type="sent">
+               
+               <date when="18161206">6 Decembre 1816.</date>
+            </correspAction>-->
+            <correspAction type="received">
+               <persName key="51815878">Stella, Antonio Fortunato, 1757-1833</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Addition, Monaldo Leopardi.</change>          
+               <change xml:id="change-3">Address, Carlo Leopardi</change>
+               <change xml:id="change-4">Stamp</change>
+               <change xml:id="change-5">Annotation, Antonio Fortunato Stella</change>
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210809"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00103"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="6257px" width="4346px" rend="portrait"
+            url="MS-ADD-06210-000-00103"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="6319px" width="4304px" rend="portrait"
+            url="MS-ADD-06210-000-00104"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+         
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-1 #top-2 #top-3 #top-4">
+            
+            <opener>
+               <dateline><placeName ref="#pla-1">Recanati</placeName> 6 <subst><del>N</del><add>D</add></subst>ecembre 1816.</dateline>
+               <salute>Stimatissimo <rs ref="#pers-6"><choice><abbr>Sig.</abbr><expan>Signore</expan></choice></rs></salute>
+            </opener>
+            <p><seg rend="insetLeft5">In risposta alla sua gratissima del 27. corso, le ritorno i miei saluti per il <choice><abbr>Sig.</abbr><expan>Signore</expan></choice> Tosi, e la ringrazio di ciò</seg><lb/>
+               che cortesemente mi dice intorno all'articolo sul Salterio e al <title>Discorso sopra la fama di Orazio</title>. Il suo fa-<lb/>
+               vorevole giudizio sarà certamente opera della sua gentilezza, non del mio merito; e lo stesso dico delle lodi che<lb/>
+               ella scrive di aver ricevute delle mie traduzioni, le quali, a dirle schiettissimamente il mio vero e immutabile<lb/>
+               parere, che non nascondo a veruno, eccetto quella del primo Canto dell'<title>Odissea</title> che ritoccata potrà passare, sono<lb/>
+               <note change="#change-5" hand="#hand-4">(1)</note> tutte cattive e pessime, e intendo parlare anco dei due discorsi preliminari, che in fatto di lingua sono esecrabili.<lb/>
+               Quello sopra Orazio sarà più corretto, e così sempre ogni mia cosa appresso. Farò quel che potrò intorno agli arti-<lb/>
+               coli che Ella bramerebbe per la sua Rivista letteraria. Quello sopra la traduzione del Bellini, che ella mi accenna,<lb/>
+               sarebbe appunto della mia sfera e sappia che io ho sempre riguardata quella traduzione come opportunissima<lb/>
+               a farmi prender la penna, e che ho anche in pronto i materiali di un lungo articolo sopra il progetto del Bellini<lb/>
+               <note change="#change-5" hand="#hand-4">(2)</note> mandato da me il Maggio p.p. alla Biblioteca italiana ma non pubblicato, per ragioni indicatemi dall'Acerbi in u-<lb/>
+               na sua lettera. Ma, come Ella vede, per questa sorta di articoli sarebbe necessario un gran numero di commissioni,<lb/>
+               non potendo io avere quei libri qualunque si fossero, che facendoli venire espressamente per me, colla sicurezza<lb/>
+               che, fatto l'articolo, mi diverrebbono inutili. E quanto al Bellini si aggiunge l'altra difficoltà che nella nostra Libre-<lb/>
+               ria nè altrove, in questa miserabile città e provincia, si trova il testo greco di Callimaco. Pure come le ho detto, farò<lb/>
+               quanto potrò e poichè ella sarebbe contenta principalmente di qualche articolo sopra opere spettanti a lingue antiche,<lb/>
+               ne farò forse uno sopra l'Alicarnasseo del Mai, o sopra il Porfirio Eusebio ec. dello stesso. Dico, forse, perchè nè<lb/>
+               l'Alicarnasseo nè il Porfirio nè tutta la Spedizione del 9. corso ci è pervenuta e noi la stiamo attendendo con<lb/>
+               grandissima impazienza, ma non di giorno in giorno perchè ancora non ne abbiamo avuto riscontro da veruna parte.<lb/>
+               Però la prego a far le sue pratiche per informarsi della sorte del Pacco.</p>
+               
+            <p><seg rend="insetLeft5">Ancora non si son potuti ritirare dalle branche della polizia anconetana i tre poveri tomi del Pradt. Pur la cosa</seg><lb/>
+               non si vuol far disperata.</p>
+               
+            <p><seg rend="insetLeft5">Porrò a calcolo i consigli datimi da lei intorno all'Apollonio Rodio. Ma poichè ella si compiace di entrar meco</seg><lb/>
+               in discussioni letterarie, le dirò che, se si tratta di acquistar fama, certe imprese non mai ten-<lb/>
+               tate non sono le più proprie per questo effetto, poichè sebbene le difficoltà sian grandi<lb/>
+               e si riesca a superarle perfettamente, il pubblico non le calcola perchè non ha l'esempio<lb/>
+               di qualcun altro che vi si sia arenato. Così ella vede che il <persName ref="#pers-44">Monti</persName> è assai più famoso per<lb/>
+               l'Iliade che pel Persio. Però il mio amor proprio mi consiglia piuttosto di mandar innanzi<lb/>
+               l'Odissea della quale come avrò terminato altro Canto, lo porrò a sua disposizione. Pindaro<lb/>
+               a mio giudizio non si può assolutamente tradurre in Italiano: oltrechè so che il Mazza<lb/>
+               già da qualche tempo ne avea pronta per la stampa una traduzione credo intera.</p>
+               
+            <p><seg rend="insetLeft5"><note change="#change-5" hand="#hand-4">(3)</note> Amerei grandemente che la stampa del secondo Libro della Eneide fosse compita colla possibile sollecitudine e che</seg><lb/>
+               immediatamente dopo che sarà terminata, dei venti o trenta esemplari che ella m ne invierà per ispedizio-<lb/>
+               ne, due me ne facesse avere per la posta a libro scoperto o sotto fascia con che si verrà a scansare una spesa<lb/>
+               che tra noi è molto <choice><abbr>significa.te</abbr><expan>significante</expan></choice> per i pacchi in forma di lettera. Sono impaziente di veder l'esito di quella mia<lb/>
+               traduzione, sopra la quale le confido così a quattr'occhi, che io fondo molte speranze.</p>
+            
+            <p><seg rend="insetLeft5">Mio fratello attende il Monthly Repertory da lei speditogli, e trovandovi cosa opportuna, farà quanto Ella le sug-</seg><lb/>
+               gerisce. Le ritorno i sincerissimi saluti della mia famiglia, e mi dichiaro invariabilmente</p>
+               
+               <closer>
+                  <salute>Suo <choice><abbr>Dev.mo</abbr><expan>Devotissimo</expan></choice> <choice><abbr>Obbl.mo</abbr><expan>Obbligatissimo</expan></choice> Servo ed Amico</salute><lb/>
+                  <signed><persName ref="#pers-1">Giacomo Leopardi</persName>.</signed>
+               </closer>
+               
+            <postscript><p><note change="#change-5" hand="#hand-4">(4)</note> P.S. Mio padre desidera che ella mi mandi il Catalogo delle<lb/>
+                  stampe del 1400 che le piacerebbe di cambiare con qualcuno de' suoi<lb/>
+                  libri. In altra occasione le farò avere la collazione di una o due scene<lb/>
+                  di Seneca fatta sul Codice che ella vide presso di noi e di cui mostrò de-<lb/>
+                  siderio di conoscere l'importanza. Le dico ora che vi ho trovato non poche varian-<lb/>
+                  ti, oltre gli scoli antichi che contiene a quanto credo, inediti, e però se a lei<lb/>
+                  <note change="#change-5" hand="#hand-4">(5)</note> piacesse di possederlo, facilmente n'andremo intesi</p></postscript>
+                                         
+         </div>
+            
+            <div n="3" change="#change-2" hand="#hand-2">
+               
+               <p>Pieno sempre di Amicizia, e riconoscenza per il mio <choice><abbr>Carisso</abbr><expan>Carissimo</expan></choice> <choice><abbr>S.r</abbr><expan>Signor</expan></choice> Antonio Stella<lb/>
+               gemo sulla tardanza dei formaggi che, sempre sommamente gra-<lb/>
+                  diti, giungeranno stantivi tanto <choice><abbr>maggiorm.te</abbr><expan>maggiormente</expan></choice>, quanto più ritardati<lb/>
+               dagli indolentissimi speditori - Mi riporto,<lb/>
+               nel di più a quanto dice il mio figlio,
+               <del rend="strikethrough">m</del> ma voglio per mè il protestarmi<lb/>
+               con corsialissima stima</p>
+               
+               <closer>
+                  <salute>Sul <choice><abbr>Obbl.mo</abbr><expan>Obbligatissimo</expan></choice> <choice><abbr>A.co</abbr><expan>Amico</expan></choice> e <choice><abbr>S.re</abbr><expan>Servitore</expan></choice></salute><lb/>
+                  <signed><persName ref="#pers-14">Monaldo Leopardi</persName></signed>
+               </closer>
+               
+            </div>
+            
+            <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+            
+            <div n="4">
+               
+               <fw type="other" change="#change-4"><placeName ref="#pla-1">RECANATI</placeName></fw>
+               
+               <p change="#change-3" hand="#hand-3" rend="center">All'<choice><abbr>Ill.mo</abbr><expan>Illustrissimo</expan></choice> <choice><abbr>Sig.re</abbr><expan>Signore</expan></choice><lb/>
+                  Il <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> <persName ref="#pers-6">Antonio Fortunato Stella.</persName><lb/>
+               <placeName ref="pla-3">Milano</placeName>.</p>          
+               
+            </div>
+                   
+         </div>
+         
+      </body>
+   </text>
+</TEI>

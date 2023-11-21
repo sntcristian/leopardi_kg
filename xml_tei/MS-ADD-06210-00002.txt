@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/2</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.2</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Antonio Fortunato Stella</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark>two heart-shaped keys</watermark> watermark</support>
+                        <extent>2 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-2" scope="minor" medium="thin-brown-ink">Carlo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-3" scope="minor" medium="redish-ink">Antonio Fortunato Stella, redish ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18161115">15. Novembre 1816.</origDate>
+                     <origPlace key="6541846">Recanati</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+            
+            <listPerson>  
+               
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-6">
+                  <persName key="51815878">
+                     <forename>Antonio Fortunato</forename>
+                     <surname>Stella</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-7">
+                  <persName key="33673036">
+                     <forename>Paolo Antonio</forename>
+                     <surname>Tosi</surname>
+                  </persName>
+               </person>               
+               
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-1">
+                  <placeName key="6541846">Recanati</placeName>
+               </place>
+               
+               <place xml:id="pla-3">
+                  <placeName key="3173434">Milano</placeName>
+               </place>
+                              
+            </listPlace>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="top-2"><catDesc>Greetings</catDesc></category>  
+               <category xml:id="top-3"><catDesc>Information on literary works</catDesc></category>     
+               <category xml:id="top-4"><catDesc>Publication of literary works</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="18161511">15. Novembre 1816.</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="51815878">Stella, Antonio Fortunato, 1757-1833</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Address, Carlo Leopardi</change>
+               <change xml:id="change-3">Stamp</change>
+               <change xml:id="change-4">Annotation, Antonio Fortunato Stella</change>
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210722"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00011"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="7327px" width="4972px" rend="portrait"
+            url="MS-ADD-06210-000-00011"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="7283px" width="4938px" rend="portrait"
+            url="MS-ADD-06210-000-00012"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+         
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-2 #top-3 #top-4">
+            
+            <opener>
+               <salute>Ornatissimo <rs ref="#pers-6"><choice><abbr>Sig.</abbr><expan>Signore</expan></choice></rs></salute>
+               <dateline><placeName ref="#pla-1">Recanati</placeName> 15. Novembre 1816.</dateline>
+            </opener>
+            <p><seg rend="insetLeft5">Non so se le abbia dato nel genio l'articolo sopra il <title>Salterio Italianizzato</title>, ch'ebbi il piacere di prometterle</seg><lb/>
+               a voce e che ho poi veduto inserito nello <title>Spettatore</title>. Se non le spiacciono i miei articoli eccolene un altro<lb/>
+               già fatto, e sarò pronto a servirla anche di altri solo ch'ella mi mostri di desiderarli, e mi accenni<lb/>
+               gli argomenti sopra i quali le occorrebbero. Sì come io non ho rigettato che il <title>Saggio di traduzione</title> an-<lb/>
+               nesso al <title>Mosco</title>, converrà o dopo terminato l'inserimento della <title>Batracomiomachia</title> o quando meglio tornerà,<lb/> 
+               porre nello <title>Spettatore</title> l'epigramma sopra Amore avante, e l'Idillio che ha per titolo "<title>il Bifolchetto</title>", le qua-<lb/>
+               li due cose sono nel Libretto del Mosco prima dell'indicato <title>Saggio</title>. È necessario pubblicarle perchè mancano<lb/>
+               al compimento delle poesie di Mosco, e sono state promesse da me nel <title>Discorso preliminare</title> inserito nel<lb/> 
+               N° 57. dello <title>Spettatore</title>. Se il Sig. <persName ref="#pers-7">Tosi</persName> si compiacesse per mantenere la nostra amicizia, e per istruirci dei tan-<lb/>
+               ti aneddoti e notizie Letterarie che egli conosce, di scriverci qualche Lettera, ci farebbe cosa molto gradita. Le<lb/> 
+               scrivo a piedi il titolo di un libro che si desidera. Ella mi creda</p>
+            
+            <closer>
+               <salute>Suo Vero Servo ed Amico</salute><lb/>
+               <signed><persName ref="#pers-1">Giacomo Leopardi</persName>.</signed>
+            </closer>
+            
+            <postscript><p>Titolo del libro che si desidera prontamente per ispedizione al prezzo medio<lb/>
+               dei tre annunziati.<lb/>
+               <title>Porphyrii, Eusebii, Philonis Iudaei Opera et Fragmenta novissime detecta. Mediolani typis regiis 1816.</title></p></postscript>
+                              
+         </div>
+            
+            <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+            
+            <div n="3">
+               
+               <ab change="#change-4" hand="#hand-3">
+                  2.18<lb/>
+                  1.5<lb/>
+                  3.18<lb/>
+                  <metamark rend="line"/><lb/>
+                  7.17</ab>
+               
+               <fw type="other" change="#change-3"><placeName ref="#pla-1">RECANATI</placeName></fw>
+               
+               <p change="#change-2" hand="#hand-2" rend="center">All'Ornatissimo<lb/>
+                  <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> <persName ref="#pers-6">Antonio Fortunato Stella.</persName><lb/>
+               <placeName ref="pla-3">Milano</placeName>.</p>
+               
+               <fw type="other" change="#change-3"><unclear>[...]Nove</unclear><lb/> 22</fw>
+               
+            </div>
+                   
+         </div>
+         
+      </body>
+   </text>
+</TEI>

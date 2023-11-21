@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/8</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.8</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Giuseppe Melchiorri</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark></watermark> watermark</support>
+                        <extent>4 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-2" scope="minor" medium="thin-brown-ink">Giuseppe Melchiorri, thin-brown ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18220513">13 Maggio 1822.</origDate>
+                     <origPlace key="6541846">Recanati</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+            
+            <listPerson>  
+               
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person> 
+               
+               <person xml:id="pers-3">
+                  <persName key="17213238">
+                     <forename>Francesco</forename>
+                     <surname>Cancellieri</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-15">
+                  <persName key="47597875">
+                     <forename>Carlo Orazio</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-20">
+                  <persName key="2821485">
+                     <forename>Giuseppe</forename>
+                     <surname>Melchiorri</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-21">
+                  <persName key="42182564">
+                     <forename>Melchiorre</forename>
+                     <surname>Missirini</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-22">
+                  <persName key="24705039">
+                     <forename>Antonio</forename>
+                     <surname>Cesari</surname>
+                  </persName>
+               </person>  
+               
+               <person xml:id="pers-23">
+                  <persName key="39382430">
+                     <forename>Francesco</forename>
+                     <surname>Petrarca</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-24">
+                  <persName key="">
+                     <forename>Ferdinanda</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>
+             
+            </listPerson>
+            
+            <listPlace>
+                             
+               <place xml:id="pla-1">
+                  <placeName key="6541846">Recanati</placeName>
+               </place>
+               
+               <place xml:id="pla-2">
+                  <placeName key="3169069">Roma</placeName>
+               </place>   
+               
+               <place xml:id="pla-9">
+                  <placeName key="8133781">Rhodes</placeName>
+               </place>
+               
+               <place xml:id="pla-10">
+                  <placeName key="6541865">Verona</placeName>
+               </place> 
+               
+            </listPlace>
+            
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         <classDecl>
+            
+            <taxonomy>
+               <category xml:id="top-1"><catDesc>Information request</catDesc></category>
+               <category xml:id="top-6"><catDesc>Greek literature</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="18220513">13 Maggio 1822.</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="2821485">Melchiorri, Giuseppe, 1796-1855</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Address, Giacomo Leopardi.</change>
+               <change xml:id="change-3">Stamp.</change>
+               <change xml:id="change-4">Annotation, Giuseppe Melchiorri.</change> 
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210723"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00033"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="6604px" width="4411px" rend="portrait"
+            url="MS-ADD-06210-000-00033"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="6782px" width="4434px" rend="portrait"
+            url="MS-ADD-06210-000-00034"/>
+      </surface>
+      <surface xml:id="i3" n="2r">
+         <graphic decls="#downloadImageRights #download" height="6604px" width="4411px" rend="portrait"
+            url="MS-ADD-06210-000-00035"/>
+      </surface>
+      <surface xml:id="i4" n="2v">
+         <graphic decls="#downloadImageRights #download" height="6768px" width="4487px" rend="portrait"
+            url="MS-ADD-06210-000-00036"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+         
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-1 #top-6">
+            
+            <opener>
+               <dateline><placeName ref="#pla-1">Recanati</placeName> 13 Maggio 1822.</dateline>
+               <salute rend="indent5">Caro <rs ref="#pers-20">Cugino</rs>.</salute> 
+            </opener>
+            
+            <p>Quello ch'io vi scrissi che l'iscrizione greca doveva<lb/>
+               esser opera d'un latino, non escludeva che fosse venuto dalla Cilicia,<lb/>
+               il che resta escluso per natura sua, senza neppur nominarlo; ma<lb/>
+               voleva escludere che fosse opera d'uno dei tanti artefici e scrittori<lb/>
+               greci ch'erano a <placeName>Roma</placeName> in quei tempi, e ai quali si solevano com-<lb/>
+               mettere le iscrizioni greche. Ma questa non mi par fatta da un<lb/>
+               greco per le ragioni che vi dissi.</p>
+               
+            <p><seg rend="indent5">L'opera di cui mi parlate non mi ricordo d'averla mai veduta;</seg><lb/>
+               e in questi paesi, come sapete, non si discorre di letteratura. Sicchè<lb/>
+               non saprei dove rivolgermi per informarmi dell'autore.</p>
+               
+            <p><seg rend="indent5">Se la debolezza degli occhi e della testa non mi travolgesse straor-</seg><lb/>
+               dinariamente, come suol fare in primavera, vi potrei servire circa l'<lb/>
+               iscrizione greca metrica. Ma mi trovo in istato che non posso atten-<lb/>
+               dere neppure alle mie cose ordinarie. Del resto una versione ita-<lb/>
+               liana o latina, in prosa un poco meno letterale di quella che mi<lb/>
+               mandate, sarà convenientissima e sufficientissima. E dove ci sono la-<lb/>
+               gune, non si può tradurre in versi senza stenti e imperfezioni.</p>
+               
+            <p><seg rend="indent5">Nel vostro libro trovo molto da lodare l'erudizione e la diligen-</seg><lb/>
+               za. Ma per darne un giudizio fondato, bisognerebbe averla esamina-<lb/>
+               ta più accuratamente di quello ch'io abbia potuto fare. Solamen-<lb/>
+               te, perchè m'ha dato nell'occhio il passo di <persName>Strabone</persName> che portate<lb/>
+               a car. 13. vi dirò che la versione del <persName>Nibby</persName> mi fa rizzare i capelli,<lb/>
+               giacchè uno scolare non potrebbe far peggio. E di questo, se mi<lb/>
+               siete e se mi volete essere amico, non fate parola con alcuno, per-<lb/>
+               chè adesso non voglio brighe letterarie a nessunissimo patto. La tradu-<lb/>
+               zione vostra è migliore senza dubbio, ma tuttavia non è giusta. Io<lb/>
+               credo che il passo non possa stare come voi lo portate, cioè che ci<lb/>
+               manchi un pezzo di periodo, senza il quale il senso non corre. E però,<lb/>
+               non avendo qui <persName>Strabone</persName>, non posso precisare il significato di quel<lb/>
+               passo, perchè, leggendolo così, non se ne cavano i piedi. Il certo è che<lb/>
+               
+               <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+               
+               ἄξιον qui non significa nè <hi rend="underline">degno</hi> 
+               nè altro, ma <hi rend="underline">capace</hi>;
+               e però ἄξιον <del rend="strikethrough">τρια-</del><lb/>
+               τετρακοσίαις ναυσὶν vuol dire semplicissimamente 
+               <hi rend="underline">capace di quattro-<lb/>
+               cento navi</hi>: e qui non c'entra il
+               <hi rend="underline">degno era</hi> del <persName>Nibby</persName>; e non vedo<lb/>
+               perchè voi similmente abbiate detto: <hi rend="underline">era da vedersi</hi>, 
+               giacchè il greco non<lb/> 
+               ha niente di questo. Non so neanche perchè quell'ην lo chiamate<lb/>
+               articolo. Vorrete dire che sia articolo relativo, 
+               e lo scriverete ἤν; ma<lb/>
+               qui è manifestamente verbo, cioè va scritto ἦν, e significa <hi rend="underline">era</hi>.</p>
+               
+            <p><seg rend="indent5">Mi viene adesso alle mani il passo 
+               intero di <persName>Strabone</persName>. Non so</seg><lb/>
+               se voi nel citarlo l'abbiate preso dall'originale, o solamente abbiate<lb/>
+               copiata la citazione del <persName>Nibby</persName>: e in questo dubbio vi scrivo qui quello<lb/>
+               che manca nella vostra citazione. Τὸ μὲν οὖν Παλαιὸν ἐτετείχιστο<lb/>
+               καὶ συνῴκιστο ἤ Μουνυχία Παραπλησίως ὥσπερ ἡ τῶν ῾Ροδίων<lb/>
+               Πόλις, Προσειληφυῖα τᾢ Περιβὸλῳ τόν τε Πειραιᾶ ec. e seguono le pa-<lb/>
+               role da voi portate. La significazione di tutto il passo è questa, e<lb/>
+               non può esser altra per chiunque sappia il greco in fatti e non in<lb/>
+               ciarle, come vedrete facilmente da voi stesso, considerandola un poco:<lb/>
+               <hi rend="underline">Anticamente Munichia era murata e abitata appresso a poco come la<lb/>
+               città di <placeName ref="#pla-9">Rodi</placeName>, </hi><del rend="strikethrough">abbia</del> comprendendo nel
+               circuito delle sue mura il Pireo<lb/>
+               <hi rend="underline">ed i porti pieni d'arsenali</hi> (νεωρία), 
+               <del rend="strikethrough"><unclear>e si</unclear></del> <hi rend="underline">come anche 
+               il magazzino del-<lb/>
+               le armi, opera di Filone</hi>; <hi rend="doubleUnderline">ed era capace</hi>
+               (la detta Munichia) <hi rend="doubleUnderline">da potervi<lb/>
+               stanziare quattrocento navi</hi> ec. L<del rend="strikethrough">'</del><add>a</add> 
+               <del rend="strikethrough">articolo</del> <add place="supralinear">congiunzione</add>
+               τε, come vedete, corrisponde<lb/>
+               alle cose dette di sopra, e che nella vostra citazione mancano; ma senza<lb/>
+               loro il periodo non si regge.</p>
+               
+            <p><seg rend="indent5">Vi ringrazio della notizia circa i
+               versi del <placeName ref="#pers-21">Missirini</placeName>, e vi prego d'</seg><lb/>
+               un altro favore. Costì si dovrebbe certo trovare in qualche libreria<lb/>
+               pubblica il Vocabolario della Crusca dell'edizione di <placeName ref="#pla-10">Verona</placeName>, accresciuta<lb/>
+               e proccurata dal <persName ref="#pers-22">Cesari</persName>. Vorrei che vedeste se alla voce
+               <hi rend="underline">ingombrare</hi><lb/>
+               è citato il seguente passo del <persName ref="#pers-23">Petrarca</persName>: 
+               <hi rend="underline">Quel sì pensoso è Ulisse, affabil<lb/>
+               ombra Che la casta mogliera aspetta e prega, Ma Circe, amando, gliel<lb/>
+               ritiene e 'ngombra</hi>. <persName ref="#pers-23"><choice><abbr>Petr.</abbr><expan>Petrarca</expan></choice></persName> 
+               <title><choice><abbr>Trion. d'Am.</abbr><expan>Trionfo d'Amore</expan></choice></title> 
+               <choice><abbr>cap.</abbr><expan>capitolo</expan></choice> 3. 
+               <choice><abbr>vers.</abbr><expan>verso</expan></choice> 22. 
+               Se è citato, o tutto<lb/>
+               o in parte, vorrei che mi sapeste dire a qual §. della detta voce, e<lb/>
+               
+               <pb n="2r" xml:id="pb-2r" facs="#i3"/>
+               
+               sotto qual definizione o significazione della medesima sia citato.</p>
+               
+            <p><seg rend="indent5">I miei cordiali saluti alla <rs ref="#pers-24">Mamma</rs>, 
+               e all'ab. <persName ref="#pers-3">Cancellieri</persName>. <persName ref="#pers-15">Carlo</persName></seg><lb/>
+               vi ritorna i suoi. V'abbraccio e sono.</p>
+            
+            <closer>
+               <salute>il Vostro</salute><lb/>
+               <signed><persName ref="#pers-1">Giacomo Leopardi</persName>.</signed>
+            </closer>
+            
+         </div>
+            
+            <pb n="2v" xml:id="pb-2v" facs="#i4"/>
+                     
+            <div n="3">
+               
+               <ab change="#change-4" hand="#hand-2" rend="right">Risposta al N.° 5._</ab>
+               
+               <fw type="other" change="#change-3"><placeName ref="#pla-1">RECANATI</placeName></fw>
+               
+               <fw type="other" change="#change-3">16 MAGGIO</fw>
+               
+               <p change="#change-2" hand="#hand-1" rend="center">Al Nobil Uomo<lb/>
+               <choice><abbr>Sig.</abbr><expan>Signor</expan></choice>
+                  <choice><abbr>March.</abbr><expan>Marchese</expan></choice>
+                  <persName ref="#pers-20">Giuseppe Melchiorri</persName><lb/>
+                  <placeName ref="#pla-2">Roma</placeName>
+               </p>
+               
+            </div>
+                              
+         </div>
+         
+      </body>
+   </text>
+</TEI>

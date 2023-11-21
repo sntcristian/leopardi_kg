@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/19</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.19</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Carlo Emanuele Muzzarelli</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark>BONDON 1812</watermark> watermark</support>
+                        <extent>4 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-2" scope="minor" medium="black-ink">Unknown 1, black ink.</handNote>
+                     <handNote xml:id="hand-3" scope="minor" medium="pencil">Unknown 2, pencil.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18280628">28 Giugno 1828</origDate>
+                     <origPlace key="3176958">Firenze</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+
+            <listPerson>  
+               
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>     
+               
+               <person xml:id="pers-14">
+                  <persName key="9709149068390265730006">
+                     <forename>Monaldo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-32">
+                  <persName key="4899893">
+                     <forename>Pietro</forename>
+                     <surname>Giordani</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-40">
+                  <persName key="18677718">
+                     <forename>Carlo Emanuele</forename>
+                     <surname>Muzzarelli</surname>
+                  </persName>
+               </person>
+               
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-2">
+                  <placeName key="3169069">Roma</placeName>
+               </place>  
+               
+               <place xml:id="pla-6">
+                  <placeName key="3176958">Firenze</placeName>
+               </place>   
+               
+            </listPlace>
+            
+         </sourceDesc>
+         
+      </fileDesc>
+
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="top-1"><catDesc>Information request</catDesc></category>
+               <category xml:id="top-11"><catDesc>Trial</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="18280628">28 Giugno 1828</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="18677718">Muzzarelli, Carlo Emmanuele, 1797-1856</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Address, Giacomo Leopardi.</change>
+               <change xml:id="change-3">Stamp.</change>
+               <change xml:id="change-4">Annotation 1, Unknown 1.</change>
+               <change xml:id="change-5">Annotation 2, Unknown 2.</change> 
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210724"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00059"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="6311px" width="4787px" rend="portrait"
+            url="MS-ADD-06210-000-00059"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="6272px" width="4763px" rend="portrait"
+            url="MS-ADD-06210-000-00060"/>
+      </surface>
+      <surface xml:id="i3" n="2r">
+         <graphic decls="#downloadImageRights #download" height="6257px" width="4721px" rend="portrait"
+            url="MS-ADD-06210-000-00061"/>
+      </surface>
+      <surface xml:id="i4" n="2v">
+         <graphic decls="#downloadImageRights #download" height="6272px" width="4763px" rend="portrait"
+            url="MS-ADD-06210-000-00062"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+         
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-1 #top-11">
+           
+           <fw change="#change-4" hand="#hand-2" place="topRight">03</fw>
+            
+           <fw change="#change-5" hand="#hand-3" place="topRight">1282</fw>
+           
+            <opener>
+               <salute>Eccellenza Reverendissima</salute>
+            </opener>
+            
+            <p><seg rend="insetLeft5">La mia famiglia, sapendo che 
+               <choice><abbr>V.</abbr><expan>Vostra</expan></choice>
+               <rs ref="#pers-40"><choice><abbr>Ecc.</abbr><expan>Eccellenza</expan></choice></rs>
+               <choice><abbr>Reverendiss.</abbr><expan>Reverendissima</expan></choice>
+               mi ha onorato</seg><lb/>
+               più volte di molti segni di benevolenza, ha desiderato che io raccoman-<lb/>
+               dassi a Lei la causa che mio padre, <persName ref="#pers-14">Monaldo Leopardi</persName>, ha col conte<lb/>
+               <persName>Michele Moroni</persName>, e che dee proporsi fra poco a codesto Tribunale della<lb/>
+               Rota. Io la raccomanderei all'<rs ref="#pers-40"><choice><abbr>Ecc.</abbr><expan>Eccellenza</expan></choice></rs>
+               <choice><abbr>V.ra</abbr><expan>Vostra</expan></choice> caldissimamente e instantissima-<lb/>
+               mente, come cosa che per necessità c'interessa moltissimo; se credessi<lb/>
+               che in simili cose potesse aver luogo altra raccomandazione che quella<lb/>
+               della giustizia. La quale è ben vero che tutte le persone intendenti<lb/>
+               da noi consultate, ci assicurano esser dal lato nostro evidentemente:<lb/>
+               ma di ciò non mi si appartiene, e sarebbe temerario in me, il parlare<lb/>
+               in faccia a Lei. Dirò solamente che se la bontà di <choice><abbr>V.</abbr><expan>Vostra</expan></choice>
+               <rs ref="#pers-40"><choice><abbr>Ecc.</abbr><expan>Eccellenza</expan></choice></rs> avrà<lb/>
+               qualche modo di favorire perchè da noi si ottenga quello che sarà giu-<lb/>
+               dicato giusto e di ragione, in tal caso io mi terrò e mi chiamerò eterna-<lb/>
+               mente obbligato e legato all'<rs ref="#pers-40"><choice><abbr>Ecc.</abbr><expan>Eccellenza</expan></choice></rs>
+               <choice><abbr>V.ra</abbr><expan>Vostra</expan></choice> se le piacerà di usare in favor<lb/>
+               nostro il suo potere. E in ogni caso io le sarò tenutissimo se Ella<lb/>
+               
+               <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+               
+               mi continuerà la sua benevolenza, che mi è cara e preziosa quanto cosa<lb/>
+               alcuna del mondo. E offerendomi a servirla in tutto che io possa, ho l'<lb/>
+               onore di confermarmi</p>
+               
+               <closer>
+                  <salute>Di <choice><abbr>V.</abbr><expan>Vostra</expan></choice> 
+                     <rs ref="#pers-40">Eccellenza</rs> <choice><abbr>Rev.ma</abbr><expan>Reverendissima</expan></choice></salute><lb/>
+                  <dateline><placeName ref="#pla-6">Firenze</placeName> 28 Giugno 1828</dateline><lb/>
+                  <salute><choice><abbr>U.mo</abbr><expan>Umilissimo</expan></choice> 
+                     <choice><abbr>Obbl.mo</abbr><expan>Obbligatissimo</expan></choice>  servitore</salute><lb/>
+                     <signed><persName ref="#pers-1">Giacomo Leopardi</persName></signed>
+               </closer> 
+            
+            <postscript><p>Qui si parla assai spesso di Lei con <persName ref="#pers-32">Giordani</persName> e con altri, che sono<lb/>
+               innamorati delle sue virtù, e che la stimano altamente</p></postscript>
+               
+            <pb n="2r" xml:id="pb-2r" facs="#i3"/>
+               
+         </div>
+            
+            <pb n="2v" xml:id="pb-2" facs="#i4"/>
+            
+         <div n="3">
+            
+            <fw change="#change-4" hand="#hand-2" place="bottomLeft">1</fw>
+                                         
+         </div>
+              
+            <div n="4">
+               
+               <fw type="other" change="#change-3">30 GIUGNO</fw>
+               
+               <fw type="other" change="#change-3"><placeName ref="#pla-6">FIRENZE</placeName></fw>
+               
+               <p change="#change-2" hand="#hand-1" rend="center">A Sua Eccllenza Reverendissima<lb/>
+               <choice><abbr>Monsig.</abbr><expan>Monsignor</expan></choice> <persName ref="#pers-40">Carlo Emmanuele <roleName>Conte</roleName> Muzzarelli</persName><lb/>
+               Uditore della Sacra Rota<lb/>
+               <placeName ref="#pla-2">Roma</placeName></p>
+
+            </div>
+                   
+         </div>
+         
+      </body>
+   </text>
+</TEI>

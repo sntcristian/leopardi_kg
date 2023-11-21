@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/26</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.31</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Giovanni Rosini</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark>dove in a circle</watermark> watermark</support>
+                        <extent>2 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-2" scope="minor" medium="pencil">Unknown 1, pencil.</handNote>
+                     <handNote xml:id="hand-3" scope="minor" medium="pencil">Unknown 2, pencil.</handNote>
+                     <handNote xml:id="hand-4" scope="minor" medium="dark-brown-ink">Unknown 3, dark-brown ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="183206">Giugno 1832</origDate>
+                     <origPlace key="3176958">Firenze</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+            
+            <listPerson>
+                              
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>     
+               
+               <person xml:id="pers-39">
+                  <persName key="144548">
+                     <forename>Giovanni</forename>
+                     <surname>Rosini</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-63">
+                  <persName key="41882223">
+                     <forename>Antonio</forename>
+                     <surname>Ranieri</surname>
+                  </persName>
+               </person>
+  
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-6">
+                  <placeName key="3176958">Firenze</placeName>
+               </place>
+               
+               <place xml:id="pla-11">
+                  <placeName key="3170646">Pisa</placeName>
+               </place> 
+                              
+            </listPlace>
+            
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="top-3"><catDesc>Information on literary works</catDesc></category>
+               <category xml:id="top-10"><catDesc>Giving information</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="183206">Giugno 1832</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="144548">Rosini, Giovanni, 1776-1855</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Annotation 1, Unknown.</change>
+               <change xml:id="change-3">Annotation 2, Unknown.</change>  
+               <change xml:id="change-4">Annotation 3, Unknown.</change>   
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210808"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00089"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="5483px" width="3903px" rend="portrait"
+            url="MS-ADD-06210-000-00089"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="5680px" width="4134px" rend="portrait"
+            url="MS-ADD-06210-000-00090"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+                    
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-3 #top-10">
+                      
+            <fw type="other" change="#change-2" hand="#hand-2" place="topRight">maggio 1833.</fw>   
+           
+            <fw type="other" change="#change-3" hand="#hand-3" place="topLeft">5</fw>
+                
+            <fw type="other" change="#change-4" hand="#hand-4" place="topLeft">4</fw>
+                
+            <opener>
+               <salute><rs ref="#pers-39"><choice><abbr>A.</abbr><expan>Amico</expan></choice></rs> <choice><abbr>C.</abbr><expan>Carissimo</expan></choice> </salute>
+            </opener>
+                                     
+            <p><seg rend="insetLeft5">Vi ringrazio caramente dei libri inviatimi in grazioso</seg><lb/>
+               dono. Della <title>Commedia</title> non sapremmo che aggiungere <persName ref="#pers-63">Ranieri</persName><lb/>
+               ed io al giudizio già pronunziatone dal pubblico, eccetto che a<lb/>
+               me pare che voi abbiate con questa introdotto nel teatro<lb/>
+               italiano un nuovo genere di dramma, che potrà esser coltivato<lb/>
+               con molto frutto. Il <title>Saggio</title> mi pare propriamente una bella<lb/>
+               cosa, pieno di quella erudizione letteraria che oggi è rarissima<lb/>
+               da per tutto, e piacevole molto a leggere, non ostante la<lb/>
+               copia delle citazioni, e l'aridità apparente della materia.</p>
+               
+            <p><seg rend="insetLeft5">Il desiderio di servir voi, e di leggere le cose vostre, mi</seg><lb/>
+               fece esser corrente a promettere quello, che ora trovo assai<lb/>
+               difficile a mantenere. Voi sapete che il mio mal d'occhi e<lb/>
+               di nervi, da quando io leggeva la <title>Monaca di Monza</title>, è cresciu-<lb/>
+               to sempre, tanto che ora non son più padrone di me stesso in<lb/>
+               ciò che appartiene a leggere e scrivere. Un giorno potrò far<lb/>
+               qualche cosa, e dieci non potrò far nulla, nemmeno leggere le<lb/>
+               
+               <pb n="1v" xml:id="pb-1v" facs="#i2"/>  
+               
+               lettere che ricevo. Tutti i miei amici aspettano le risposte per<lb/>
+               settimane e mesi, perch'io stesso debbo aspettare che gli occhi<lb/>
+               mi permettano di rispondere. In tale stato, come posso io assu-<lb/>
+               mere l'impegno di una corrispondenza regolare? Tanto più che<lb/>
+               quello, ch'io posso leggere e scrivere anco nelle migliori giornate,<lb/>
+               è sempre pochissimo. Vedete dunque che io promisi oltre alle<lb/>
+               mie facoltà, e conoscete bene che queste non son vane scuse.<lb/>
+               Del resto comandatemi quel che credete ch'io possa, che la<lb/>
+               volontà di servirvi non mancherà mai.</p> 
+               
+               <closer>
+                  <salute>Addio, addio. Ranieri<lb/>
+                     vi saluta assai.</salute>
+               </closer>
+            
+            </div>
+                               
+         </div>
+         
+      </body>
+   </text>
+</TEI>

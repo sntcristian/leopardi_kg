@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/40</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.40</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Paolina Leopardi to Amalia</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark></watermark> watermark</support>
+                        <extent>4 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="sole" medium="black-ink">Paolina Leopardi, black ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18641205">5 12/64</origDate>
+                     <origPlace key="6541846">Recanati</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+
+            <listPerson> 
+                       
+               <person xml:id="pers-15">
+                  <persName key="47597875">
+                     <forename>Carlo Orazio</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>
+                       
+               <person xml:id="pers-47">
+                  <persName key="29611067">
+                     <forename>Paolina</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-68">
+                  <persName key="89284919">
+                     <forename>Teresa</forename>
+                     <surname>Teja Leopardi</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-69">
+                  <persName key="">
+                     <forename>Giovanni Battista</forename>
+                     <surname>Dalla Vecchia</surname>
+                  </persName>
+               </person>
+                            
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-1">
+                  <placeName key="6541846">Recanati</placeName>
+               </place>
+                            
+            </listPlace>
+            
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="top-5"><catDesc>Thanksgiving</catDesc></category>
+               <category xml:id="top-10"><catDesc>Giving information</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="29611067">Leopardi, Paolina, 1800-1869</persName>
+               <date when="18641205">5 12/64</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="">Amalia</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Monaldo Leopardi.</change>
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210809"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00119"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="4891px" width="2816px" rend="portrait"
+            url="MS-ADD-06210-000-00119"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="5028px" width="2976px" rend="portrait"
+            url="MS-ADD-06210-000-00120"/>
+      </surface>
+      <surface xml:id="i3" n="2r">
+         <graphic decls="#downloadImageRights #download" height="4891px" width="2816px" rend="portrait"
+            url="MS-ADD-06210-000-00121"/>
+      </surface>
+      <surface xml:id="i4" n="2v">
+         <graphic decls="#downloadImageRights #download" height="5034px" width="3144px" rend="portrait"
+            url="MS-ADD-06210-000-00122"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+         
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-5 #top-10">
+            
+            <fw place="topLeft"><figure><figDesc>embossed stamp</figDesc></figure></fw>
+            
+            <opener>
+               <salute><choice><abbr>Preg.ma</abbr><expan>Pregiatissima</expan></choice> <choice><abbr>Sig.a</abbr><expan>Signora</expan></choice> Amalia</salute>
+            </opener>
+            
+            <p>La sventura che mi ha colpita non è venuta solo per nuocer-<lb/>
+               mi, essa ha avuto anche il suo lato utile, e se mi apporta<lb/>
+               inquietudini ed amarezze infinite mi ha svelato anche, a<lb/>
+               mio vantaggio ed ammestramento, quali sono i veri e qua-<lb/>
+               li i falsi amici di tanti che mi circondano. Perciò, tra tutti<lb/>
+               il sommo vantaggio che tanto luttuose vicende mi porsero – e<lb/>
+               che io non esito punto a chiamare opere del sapientissimo e<lb/>
+               provvidentissimo Iddio, vi è l’amicizia che per le oscure sue<lb/>
+               vie mi si preparava in un’anima per pregi i più sublimi<lb/>
+               sommamente rara ed amorevole ed in un cuore per sentimen-<lb/>
+               ti i più nobili e delicati impareggiabile – voglio dire della<lb/>
+               stimatissima e cara Amalia – Io non ho mai ardito spe-<lb/>
+               rare di poter ritrovare – oltre quello dell’adorata <persName ref="#pers-68">Teresa</persName> –<lb/>
+               un cuore che senta veramente le mie ambasce, una piccola<lb/>
+               confortatrice che raddolcisca l’amarezza de’ miei pensieri –<lb/>
+               che mi sollevi nell’oppressione della mia trista fortuna; ma<lb/>
+               però contro le mie previsioni e contro i miei meriti, io<lb/>
+               godo di potere aggiungere alla sua il tesoro della di Lei i-<lb/>
+               napprezzabile amicizia. Questa io reputo beneficio altrettanto<lb/>
+               gradito quanto insperato, e se mi lega vie <choice><abbr>maggiorme.e</abbr><expan>maggiormente</expan></choice> a <persName ref="#pers-68">Teresa</persName><lb/>
+               che me l’ha procurato, m’incombe obbligo di apprezzarlo come<lb/>
+               
+               <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+               
+               si merita, e darle indubbie prove di mia gratitudine e ricono-<lb/>
+               scenza – Poichè ella ha saputo – mia cara <choice><abbr>Sig.a</abbr><expan>Signora</expan></choice> Amalia<lb/>
+               - nel brevissimo tempo che ha preso a carteggiare con <persName ref="#pers-68">Teresa</persName><lb/>
+               così moltiplicare i titoli alle mie obbligazioni verso di Lei, che mi<lb/>
+               veggo fin d’ora impossibilitata a renderle la pariglia. Il vede-<lb/>
+               re com’Ella ha saputo penetrarsi delle dolorose nostre vicende per<lb/>
+               dolersi con noi e compatirci, e quindi l’impresa che tanto gene-<lb/>
+               rosamente si assunse di mettere fra noi desolati la parola<lb/>
+               dell’incoraggiamento e della consolazione, mi commosse di tene-<lb/>
+               rezza e riconoscenza. Ella così ha nobilmente cancellato mille<lb/>
+               amarezze dagli animi <choice><abbr>n.ri</abbr><expan>nostri</expan></choice> e ci ha sollevato lo spirito altamen-<lb/>
+               te oppresso per le altrui malvolenze ed ingiustizie. Ella sia<lb/>
+               benedetta, e Iddio la ricambi secondo il suo merito, chè io non<lb/>
+               varrò mai a restituirle così segnalati servigi. Posso solo assicurar-<lb/>
+               la che saranno incancellabili i sentimenti che nutro per così<lb/>
+               elette azioni, che il suo nome apporta conforto e sollievo, e<lb/>
+               balsamo ristoratore. – Quanto ella si compiace mani-<lb/>
+               festare a mio riguardo, io debbo guardarmi dall’attribuirlo a<lb/>
+               merito mio, ma solo alla sua naturale benevolenza e cortesia.</p>
+            
+            <p><seg rend="insetLeft5"><persName ref="#pers-68">Teresa</persName> occupatissima in questi giorni nello scrivere per</seg><lb/>
+               <persName ref="#pers-15">Carlo</persName> m’incarica di ringraziarla vivamente della sua carissima<lb/>
+               lettera ultima – dopo la quale io non ho potuto più resistere<lb/>
+               al desiderio di esprimerle io stessa la mia gratitudine per<lb/>
+               tanta sua affezione e rara cordialità. Ella sappia – cara<lb/>
+               
+               <pb n="2r" xml:id="pb-2r" facs="#i3"/>
+               
+               <choice><abbr>Sig.a</abbr><expan>Signora</expan></choice> Amalia di avere in me una persona riconoscentissima<lb/>
+               a tanta sua benevolenza, e che si pregia di essere e dichia-<lb/>
+               rarsi</p>
+            
+            <closer>
+               <salute>Sua <choice><abbr>D.v.ma</abbr><expan>Devotissima</expan></choice>,
+                  <choice><abbr>Obbl.ma</abbr><expan>Obbligatissima</expan></choice>
+                  <choice><abbr>S.a</abbr><expan>Serva</expan></choice></salute><lb/>
+               <signed><persName ref="#pers-47">Paolina Leopardi</persName></signed>
+            </closer>
+
+            <postscript><p>P.S. <persName ref="#pers-68">Teresa</persName>, <persName ref="#pers-15">Carlo</persName>, l'<choice><abbr>ab.</abbr><expan>abate</expan></choice> <persName ref="#pers-69">Della Vecchia</persName>, le fanno mille com-<lb/>
+            plimenti e saluti</p></postscript>
+            
+            <dateline><placeName ref="#pla-1">Recanati</placeName> 5 12/64</dateline>
+                         
+            <pb n="2v" xml:id="pb-2v" facs="#i4"/>
+
+            </div>
+                   
+         </div>
+         
+      </body>
+   </text>
+</TEI>

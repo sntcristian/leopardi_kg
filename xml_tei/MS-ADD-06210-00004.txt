@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/4</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.4</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Francesco Cancellieri</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark></watermark> watermark</support>
+                        <extent>4 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-2" scope="minor" medium="redish-ink">Carlo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-3" scope="minor" medium="redish-ink">Francesco Cancellieri, redish ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18161209">9. Decembre 1816.</origDate>
+                     <origPlace key="6541846">Recanati</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+
+            <listPerson>  
+               
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person> 
+                              
+               <person xml:id="pers-2">
+                  <persName key="35548704">
+                     <forename>Carlo</forename>
+                     <surname>Antici</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-3">
+                  <persName key="17213238">
+                     <forename>Francesco</forename>
+                     <surname>Cancellieri</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-9">
+                  <persName key="27089021">
+                     <forename>David</forename>
+                     <surname>Hoeschel</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-10">
+                  <persName key="100203633">
+                     <forename>Johannes</forename>
+                     <surname>van Meurs</surname>
+                  </persName>
+               </person> 
+               
+               <person xml:id="pers-11">
+                  <persName key="61599137">
+                     <forename>Janus</forename>
+                     <surname>Gruter</surname>
+                  </persName>
+               </person>
+                             
+               <person xml:id="pers-12">
+                  <persName key="222787200" >
+                     <forename>Mariano</forename>
+                     <surname>De Romanis</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-13">
+                  <persName key="39484385">
+                     <forename>Girolamo</forename>
+                     <surname>Amati</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-14">
+                  <persName key="9709149068390265730006">
+                     <forename>Monaldo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>
+                             
+               <person xml:id="pers-15">
+                  <persName key="47597875">
+                     <forename>Carlo Orazio</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>
+                                          
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-1">
+                  <placeName key="6541846">Recanati</placeName>
+               </place>
+               
+               <place xml:id="pla-2">
+                  <placeName key="3169069">Roma</placeName>
+               </place> 
+               
+            </listPlace>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <classDecl>
+            
+            <taxonomy>
+               <category xml:id="top-2"><catDesc>Greetings</catDesc></category>
+               <category xml:id="top-4"><catDesc>Publication of literary works</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="18161209">9. Decembre 1816.</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="17213238">Cancellieri, Francesco, 1751-1826</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Address, Carlo Leopardi</change>
+               <change xml:id="change-3">Stamp</change>
+               <change xml:id="change-4">Annotation, Francesco Cancellieri</change>   
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210722"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00017"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="6587px" width="4571px" rend="portrait"
+            url="MS-ADD-06210-000-00017"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="6555px" width="4647px" rend="portrait"
+            url="MS-ADD-06210-000-00018"/>
+      </surface>
+      <surface xml:id="i3" n="2r">
+         <graphic decls="#downloadImageRights #download" height="6515px" width="4571px" rend="portrait"
+            url="MS-ADD-06210-000-00019"/>
+      </surface>
+      <surface xml:id="i4" n="2v">
+         <graphic decls="#downloadImageRights #download" height="6555px" width="4647px" rend="portrait"
+            url="MS-ADD-06210-000-00020"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+         
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-2 #top-4">
+            
+            <opener>
+               <salute>Stimatissimo <rs ref="#pers-3"><choice><abbr>Sig.</abbr><expan>Signore</expan></choice></rs></salute>
+               <add change="#change-4" hand="#hand-3"><date when="18161209">9 <choice><abbr>Dic.</abbr><expan>Dicembre</expan></choice> 1816</date></add>
+            </opener>
+            
+            <p><seg rend="insetLeft5">Non ho termini che bastino per ringraziarla della grandissima premura che si è presa di favorirmi</seg><lb/>
+               in mezzo alle sue indisposizioni che con molto dispiacere sento che ancora continuano. Provo rimor-<lb/>
+               so di averla infastidita in questo suo stato, e desidererei poterla in qualche modo compensare e<lb/>
+               sollevare. Il suo vero amore per le lettere e la sua forza d'animo le varranno per soccorso con-<lb/>
+               tro gl'incommodi naturali.</p>
+            
+            <p><seg rend="insetLeft5">Le sono veramente tenuto delle notizie che così liberalmente si è compiaciuto di comunicarmi intorno alle</seg><lb/> 
+               <title>Inscrizioni Triopee</title>, e siccome esse per la maggior parte appartengono ad Erode Attico, le porrò a<lb/>
+               parte per altra mia operetta, dove mi occorre parlare di quel Retore, affine di non ingombrare ora<lb/>
+               il <choice><abbr>Ms.</abbr><expan>Manoscritto</expan></choice> con pericolo di errori per parte dello Stampatore.</p>
+            
+            <p><seg rend="insetLeft5">Ho avvertito che le due emendazioni dell'<persName ref="#pers-9">Heschelio</persName> che Ella ha ritrovate nel <choice><abbr>Cod.</abbr><expan>Codice</expan></choice> Vaticano sono appunto quel-</seg><lb/>
+               le che si contengono in due postille dello stesso autore le quali sono appiedi della Iscrizione del tomo VII del<lb/>
+               <persName ref="#pers-10">Meursio</persName> da me citato, come anche in una lettera dell'<persName ref="#pers-9">Heschelio</persName> al <persName>Meursio</persName> mentovata pure da me nella<lb/>
+               prefazione. Questa lettera fu scritta soli tre giorni prima di quella di <persName ref="#pers-11">Grutero</persName> da lei veduta.</p>
+            
+            <p><seg rend="insetLeft5">Il prezzo della stampa che si richiede dal <persName ref="#pers-8">Contedini</persName> mi avea già distolto dall'impresa, quando ho veduto quello</seg><lb/>
+               che si cerca dal <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> <persName ref="#pers-12">De Romanis</persName> del quale sono contentissimo, e tanto, che mi sono sopraggiunti alcuni dubbi,<lb/>
+               che Ella rileverà dalla lettera che le acchiudo e che la prego di far avere al nominato <rs ref="#pers-12"><choice><abbr>Sig.</abbr><expan>Signor</expan></choice></rs>. Se questi dubbj<lb/>
+               son vani Ella potrà immediatamente far cominciare l'edizione, intorno alla quale non mi resta a racco-<lb/>
+               mandarle altro che la sollecitudine per parte della Stamperia, e l'accurata revisione delle copie che come Ella<lb/>
+               può insegnarmi, in queste sorte di opere è di somma necessità. Ma di questa non temo, essendo in troppo<lb/>
+               buone mani. Se il <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> <choice><abbr>Ab.</abbr><expan>Abate</expan></choice> 
+               <persName ref="#pers-13">Amati</persName> vorrà incaricarsene, farò che in dimostrazione di gratitudine gli<del rend="strikethrough">ene</del><lb/>
+               siano consegnate 15. copie dell'<del rend="strikethrough">a</del> opuscolo, ed altrettante prego ora lei ad accettarne quando saranno in istato,<lb/>
+               per mezzo del mio Zio <persName ref="#pers-2">Antici</persName>, al quale scriverò a questo effetto. Saranno a lei di puro imbarazzo, ma la<lb/> 
+               sua avarizia di comandi non mi lascia altro modo di attestarle la mia sincerissima riconoscenza. Il no-<lb/>
+               minato <rs ref="#pers-2">mio Zio</rs> s'incaricherà a mia istanza della distribuzione e del pagamento, ma della Legatura non po-<lb/>
+               trebbe, non avendo pratica di queste cose, e però Ella mi farà sommo favore se vorrà pregare il <choice><abbr>Sig.</abbr><expan>Signor</expan></choice><lb/>
+               <choice><abbr>Ab.</abbr><expan>Abate</expan></choice> <persName ref="#pers-13">Amati</persName>, o lo stesso <rs ref="#pers-12">Tipografo</rs> a prendersene cura, il che sarà molto facile non volendo io altra legatura<lb/>
+               che l'ordinaria e del solito minor prezzo.</p>
+            
+            <p><seg rend="insetLeft5">Debbo anche supplicarla di due correzioni che bramerei facesse nel <choice><abbr>Ms.</abbr><expan>Manoscritto</expan></choice> La prima nella seconda Iscrizione, terzina</seg><lb/>
+               17. della versione, verso primo, dove è scritto: <hi rend="underline">offrirgli</hi>, che come Ella vedrà, è errore, parlandosi di donna, e<lb/>
+               bisogna porre <hi rend="underline">offrirle</hi>. L'altra è nelle varietà di Lezione che sono appiè del volumetto, dove io giunto<lb/>
+               alle varietà del nono verso della Iscrizione ho posto una linea così: 9. ὣς ) ὡς. III.<lb/>
+               Questa è necessario cancellare interamente, perchè la varietà che consiste nei soli accenti non ha più<lb/>
+               luogo, stampandosi il Libro senza accenti. Se però il Libro non dovesse stamparsi dal <persName ref="#pers-12">De Romanis</persName>, questa<lb/>
+               correzione non dovrà farsi.</p>
+            
+            <p><seg rend="insetLeft5">Ho grandissima ripugnanza d'incommodarla, e per diminuirle in qualche modo il fastidio, ho scritto diretta-</seg><lb/>
+               mente al <persName>De Romanis</persName> la Lettera che riceverà con questa. La prego con tutto il cuore a tener gran conto<lb/>
+               della sua salute che desidero ardentemente migliorata molto e presto, e se le fosse possibile di onorarmi<lb/>
+               una volta di un suo ordine, la supplico a non risparmiarmi mai in verun modo. Le ritorno gli os-<lb/>
+               sequi dei miei <rs ref="#pers-14">Padre</rs> <rs ref="#pers-2">Zio</rs> e <rs ref="#pers-15">Fratello</rs> ai quali ho presentati i suoi graditissimi saluti. Tutta la mia ricono-<lb/>
+               scenza e la mia stima mi <unclear>vengono</unclear> ora nella mente e sulla penna per dirle che io sono e sarò sempre</p>
+                      
+            <closer>
+               <dateline><placeName ref="#pla-1">Recanati</placeName> 9. Decembre 1816.</dateline><lb/>
+               <salute>Suo <choice><abbr>Dev.mo</abbr><expan>Devotissimo</expan></choice> 
+                  <choice><abbr>Obbl.mo</abbr><expan>Obbligatissimo</expan></choice> Servitore</salute><lb/>
+               <signed><persName ref="#pers-1">Giacomo Leopardi</persName>.</signed>
+            </closer>
+            
+            <fw place="bottomLeft"><figure><figDesc>ex libris</figDesc></figure></fw>
+            
+         </div>
+            
+            <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+            
+            <pb n="2r" xml:id="pb-2r" facs="#i3"/>
+            
+            <pb n="2v" xml:id="pb-2v" facs="#i4"/>
+            
+            <div n="3">
+                            
+               <fw type="other" change="#change-3"><unclear>[...]</unclear><lb/>FRANCA</fw>
+               
+               <fw type="other" change="#change-3">P.P.</fw>
+               
+               <fw type="other" change="#change-3"><placeName ref="#pla-1">RECANATI</placeName></fw>
+               
+               <fw type="other" change="#change-3">P.P.</fw>
+               
+               <fw type="other" change="#change-3">12 DECEMB</fw>
+               
+               <p change="#change-2" hand="#hand-2" rend="center">All'<choice><abbr>Ill.mo</abbr><expan>Illustrissimo</expan></choice> 
+                  <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> 
+                  <choice><abbr>P.ne</abbr><expan>Padrone</expan></choice>
+                  <choice><abbr>Col.mo</abbr><expan>Colendissimo</expan></choice><lb/>
+                  Il <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> 
+                  <choice><abbr>Ab.</abbr><expan>Abate</expan></choice><persName> <persName ref="pers-3">Francesco Cancellieri</persName></persName><lb/>
+               <placeName ref="#pla-2">Roma</placeName>.</p>
+              
+               <fw type="other" change="#change-3">P.P.</fw>
+              
+            </div>
+                   
+         </div>
+         
+      </body>
+   </text>
+</TEI>

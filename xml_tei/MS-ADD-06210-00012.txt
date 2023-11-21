@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/12</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.12</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Giuseppe Melchiorri</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark></watermark> watermark</support>
+                        <extent>2 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-2" scope="minor" medium="thin-brown-ink">Giuseppe Melchiorri, thin-brown ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18231114">14. Novembre 1823.</origDate>
+                     <origPlace key="6541846">Recanati</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+
+            <listPerson>  
+                             
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>     
+                             
+               <person xml:id="pers-20">
+                  <persName key="2821485">
+                     <forename>Giuseppe</forename>
+                     <surname>Melchiorri</surname>
+                  </persName>
+               </person>
+        
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-1">
+                  <placeName key="6541846">Recanati</placeName>
+               </place>
+               
+               <place xml:id="pla-2">
+                  <placeName key="3169069">Roma</placeName>
+               </place>       
+               
+            </listPlace>
+            
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         <classDecl>
+            
+            <taxonomy>
+               <category xml:id="top-1"><catDesc>Information request</catDesc></category>
+               <category xml:id="top-4"><catDesc>Publication of literary works</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="18231114">14. Novembre 1823.</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="2821485">Melchiorri, Giuseppe, 1796-1855</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Address, Giacomo Leopardi.</change>
+               <change xml:id="change-3">Stamp.</change>
+               <change xml:id="change-4">Annotation, Giuseppe Melchiorri.</change>
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210724"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00043"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="7946px" width="4803px" rend="portrait"
+            url="MS-ADD-06210-000-00043"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="8129px" width="4911px" rend="portrait"
+            url="MS-ADD-06210-000-00044"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+         
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-1 #top-4">
+            
+            <opener>
+               <dateline>14. Novembre 1823.</dateline>
+               <salute rend="indent5">Caro <persName ref="#pers-20">Peppino</persName>.</salute>
+            </opener>
+            
+            <p>Questa volta avete ragione di farmi dei rimproveri sopra<lb/>
+               il mio silenzio, perchè veramente è un pezzo che non vi ho scritto. Il trovarmi<lb/>
+               occupato ne' miei poveri studi, e il non aver niente di particolare da dirvi, mi<lb/>
+               han fatto mandar la cosa d'oggi in domani, finchè voi coll'ultima vostra mi<lb/>
+               avete prevenuto. Quanto alla stampa Eusebiana, io vi prego che quando sarà<lb/>
+               tirato l'ultimo foglio, prima che si venga alla legatura, mi mandiate un<lb/>
+               esemplare intiero, acciocchè io possa vedere se la stampa ha bisogno d'un'<lb/>
+               <hi rend="underline">Errata</hi>, come già restammo d'accordo. Mandatemelo per la posta, sotto fascia,<lb/>
+               come si spediscono i giornali, scrivendo sopra la fasciatura il numero de' fogli<lb/>
+               di stampa contenuti nell'esemplare. Io farò subito l'<hi rend="underline">Errata</hi> e ve lo manderò,<lb/>
+               e vi scriverò circa il restante.</p>
+               
+            <p><seg rend="indent5">Siate certo, mio caro <persName ref="#pers-20">Peppino</persName>, ch'io prendo parte ai vostri disgusti</seg><lb/>
+               come se fossero <del rend="strikethrough">mier</del> miei propri. 
+               Quanto io desidero di consolarvi, potete<lb/>
+               giudicarlo facilmente, se conoscete l'amicizia e l'affezione ch'io vi porto. E se<lb/>
+               bastasse per vostra consolazione l'avere un amico il più sincero, il più costante,<lb/>
+               il più fedele ed affettuoso, voi sareste consolatissimo, perchè questo amico l'avete<lb/>
+               in me. Poichè la sola amicizia non può bastare, e le forze mi mancano a<lb/>
+               potervi confortare altrimenti, gradite, se non altro, i voti e i desiderii ch'io formo<lb/>
+               della <del rend="strikethrough">fe</del> vostra felicità. 
+               Amatemi, ch'io v'amo sempre, e v'amo assai; non du-<lb/>
+               bitate di me, se posso servirvi in qualche cosa, comandatemi
+               senza riguardi.</p>
+            
+            <closer><salute>Addio.<lb/>
+               Addio.</salute></closer>
+               
+            <postscript><p><seg rend="indent5">Mi rallegro molto che le iscrizioni Vaticane vadano avanti. Non può</seg><lb/>
+               esser che voi non abbiate ad esser contento una volta di questo travaglio.</p></postscript>
+            
+         </div>
+            
+            <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+                     
+            <div n="3">
+               
+               <ab change="#change-4" hand="#hand-2" rend="right">a 6.
+                  <choice><abbr>X.mbre</abbr><expan>Dicembre</expan></choice> 1823_<lb/>
+               Risposto mandando sotto fascia il<lb/>
+               richiesto Esemplare delle Osservaz. Eusebiane</ab>
+               
+               <fw type="other" change="#change-3">16 NOVEMBRE</fw>
+               
+               <fw type="other" change="#change-3"><placeName ref="#pla-1">RECANATI</placeName></fw> 
+               
+               <p change="#change-2" hand="#hand-1" rend="center">Al Nobil Uomo<lb/>
+                  Il <choice><abbr>Sig.</abbr><expan>Signor</expan></choice>
+                  Marchese <persName ref="#pers-20">Giuseppe Melchiorri</persName>.<lb/>
+                  <placeName ref="#pla-2">Roma</placeName>
+               </p>
+                
+            </div>
+           
+         </div>
+         
+      </body>
+   </text>
+</TEI>

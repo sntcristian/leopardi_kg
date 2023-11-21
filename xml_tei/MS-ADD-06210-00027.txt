@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/27</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.27</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Mario Valdrighi</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark></watermark> watermark</support>
+                        <extent>4 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-2" scope="minor" medium="black-ink">Mario Valdrighi, black ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18310726">26 Luglio 1831</origDate>
+                     <origPlace key="3176958">Firenze</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+            
+            <listPerson>
+                              
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>    
+               
+               <person xml:id="pers-51">
+                  <persName key="7469628">
+                     <forename>Fanny</forename>
+                     <surname>Targioni Tozzetti</surname>
+                  </persName>
+               </person> 
+               
+               <person xml:id="pers-58">
+                  <persName key="12225977">
+                     <forename>Mario</forename>
+                     <surname>Valdrighi</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-59">
+                  <persName key="89040382">
+                     <forename>Francesco</forename>
+                     <surname>Galvani</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-60">
+                  <persName key="39370001">
+                     <forename>Giovanni</forename>
+                     <surname>Galvani</surname>
+                  </persName>
+               </person>
+  
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-6">
+                  <placeName key="3176958">Firenze</placeName>
+               </place>    
+               
+               <place xml:id="pla-15">
+                  <placeName key="6541461">Modena</placeName>
+               </place>
+                              
+            </listPlace>
+            
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="top-15"><catDesc>Request of autograph manuscripts</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="18310726">26 Luglio 1831</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="12225977">Valdrighi, Mario</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Address, Giacomo Leopardi</change>
+               <change xml:id="change-3">Stamp</change>
+               <change xml:id="change-4">Annotation, Mario Valdrighi.</change>
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210808"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00079"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="6209px" width="4311px" rend="portrait"
+            url="MS-ADD-06210-000-00079"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="6255px" width="4422px" rend="portrait"
+            url="MS-ADD-06210-000-00080"/>
+      </surface>
+      <surface xml:id="i3" n="2r">
+         <graphic decls="#downloadImageRights #download" height="6209px" width="4311px" rend="portrait"
+            url="MS-ADD-06210-000-00081"/>
+      </surface>
+      <surface xml:id="i4" n="2v">
+         <graphic decls="#downloadImageRights #download" height="6193px" width="4540px" rend="portrait"
+            url="MS-ADD-06210-000-00082"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+                    
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-15">
+                                           
+            <opener>
+               <salute>Pregiatissimo e Chiarissimo <rs ref="#pers-58"><choice><abbr>Sig.</abbr><expan>Signor</expan></choice> Conte</rs> </salute>
+            </opener>
+                                     
+            <p><seg rend="insetLeft5">Difficilmente potrei spiegarle con quanta gratitudine io</seg><lb/>
+               ricevessi la gentilissima sua lettera dei 21 di Giugno, con la<lb/>
+               nota degli autografi che Ella spontaneamente si compiacque<lb/>
+               di mandarmi per sua bontà e per farmi piacere. Nello stesso<lb/>
+               tempo ricevetti un'altra nota mandatami per cortesia dall'egregio<lb/>
+               suo cugino <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> <persName ref="#pers-59">Francesco Galvani</persName>, dentro una lettera affettuosissima<lb/>
+               dell'altro suo cugino, e mio ottimo padrone e amico, <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> <persName ref="#pers-60">Giovan-<lb/>
+               ni Galvani</persName>. Avrei voluto rispondere subito; ma prima una lunga<lb/>
+               assenza, e poi una malattia della <rs ref="#pers-51">Signora</rs>, non mi hanno lasciato<lb/>
+               aver prima d'oggi la nota degli autografi che essa ha du-<lb/>
+               plicati, e che cambierebbe con quelli che io le descriverò qui die<lb/>
+               tro, posseduti parte da <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> e parte dal <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> <persName ref="#pers-59">Francesco Gal-<lb/>
+                  vani</persName>. Per risparmio di lettere, ardisco pregare <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> che voglia<lb/>
+               comunicare al medesimo <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> <persName ref="#pers-59">Galvani</persName> la nota acclusa, e che ambe-<lb/>
+               
+               <pb n="1v" xml:id="pb-1v" facs="#i2"/>       
+               
+               due le Signorie vostre si compiacciano di scegliere degli autografi<lb/>
+               quivi indicati un numero corrispondente a quello che esse vorranno<lb/>
+               favorir di mandarci degl'infrascritti: cioè               
+               <seg rend="insetLeft5">Albergati.<add change="#change-4" hand="#hand-2" place="over">+</add> 
+                  Bodoni.<add change="#change-4" hand="#hand-2" place="over">.</add> 
+                  Cagnoli.<add change="#change-4" hand="#hand-2" place="over">+</add>
+                  <del change="#change-4" hand="#hand-2" rend="strikethrough">Cicognara</del>. 
+                  <del change="#change-4" hand="#hand-2" rend="strikethrough">Colombo</del>. 
+                  Guglielmini<add change="#change-4" hand="#hand-2" place="over">.</add> D.o.<lb/>
+                  Lorgna.<add change="#change-4" hand="#hand-2" place="over">.</add> 
+                  Mazza.<add change="#change-4" hand="#hand-2" place="over">.</add> 
+                  Muratori.<add change="#change-4" hand="#hand-2" place="over">+</add> 
+                  Scarpa. Stratico. Tiraboschi. 
+                  <hi change="#change-4" hand="#hand-2" rend="underline">Volta</hi>.<add change="#change-4" hand="#hand-2" place="over">+</add><lb/>
+                  <hi change="#change-4" hand="#change-4" rend="underline">Fontana</hi>.<add change="#change-4" hand="#hand-2" place="over">+</add> 
+                  <hi change="#change-4" hand="#change-4" rend="underline">Paciaudi</hi>.<add change="#change-4" hand="#hand-2" place="over">+</add> 
+                  <hi change="#change-4" hand="#change-4" rend="underline">Paradisi G.i</hi><add change="#change-4" hand="#hand-2" place="over">+</add>
+                  <hi change="#change-4" hand="#change-4" rend="underline">Gozzi.</hi><add change="#change-4" hand="#hand-2" place="over">+</add> 
+                  Corilla. 
+                  <hi change="#change-4" hand="#change-4" rend="underline">Vallisnieri.</hi><add change="#change-4" hand="#hand-2" place="over">+</add><lb/>
+                  Veronica<add change="#change-4" hand="#hand-2" place="over">.</add> Gambara.</seg>
+               Quelli che più si desiderano tra questi, sono gli scritti del Volta,<lb/>
+               Tiraboschi, Muratori e Scarpa.</p>
+               
+            <p><seg rend="insetLeft5">Prego poi con grandissima instanza la Signoria vostra di</seg><lb/>
+               fare per mia parte mille caldissimi ringraziamenti ai <rs ref="#pers-59 #pers-60">due signori</rs> suoi cugini, che mi hanno favorito con tanta bontà; e di offerir-<lb/>
+               mi pronto ai loro comandi; siccome io mi offerisco ai suoi totalmente<lb/>
+               e sinceramente, ringraziandola senza fine della memoria che conser<lb/>
+               va di me, e della gentilezza somma con la quale da se medesimo si è<lb/>
+               mossa a farmi favore. E con tutto l'animo mi dichiaro</p> 
+               
+               <closer>
+                  <dateline><placeName ref="#pla-6">Firenze</placeName> 26 Luglio 1831</dateline><lb/>
+                  <signed>Suo <choice><abbr>d.mo</abbr><expan>devotissimo</expan></choice><lb/>
+                     <choice><abbr>obbl.mo</abbr><expan>obbligatissimo</expan></choice> <choice><abbr>s.re</abbr><expan>servitore</expan></choice><lb/>
+                  <persName ref="#pers-1">Giacomo Leopardi</persName></signed>
+               </closer>
+            
+         </div>
+               
+               <pb n="2r" xml:id="pb-2r" facs="#i3"/>       
+            
+               <pb n="2v" xml:id="pb-2v" facs="#i4"/>       
+               
+            <div n="3">
+               
+               <fw type="other" change="#change-3"><placeName ref="#pla-6">FIRENZE</placeName></fw>
+               
+               <fw type="other" change="#change-3"><placeName ref="#pla-15">MODENA</placeName><lb/> 27 LUGLIO</fw>
+               
+               <p change="#change-2" hand="#hand-1" rend="center">Al Nobile e Chiarissimo<lb/>
+               <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> Conte <persName ref="#pers-58">Mario Valdrighi</persName><lb/>
+               <placeName ref="#pla-15">Modena</placeName></p>
+            
+            </div>
+                               
+         </div>
+         
+      </body>
+   </text>
+</TEI>

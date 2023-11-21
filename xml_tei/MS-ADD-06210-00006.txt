@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/6</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.6</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Francesco Cancellieri</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark>P M / coat of arms</watermark> watermark</support>
+                        <extent>4 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-2" scope="minor" medium="redish-ink">Carlo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-3" scope="minor" medium="redish-ink">Francesco Cancellieri, redish ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18181214">14. Dec.bre 1818.</origDate>
+                     <origPlace key="6541846">Recanati</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+            
+            <listPerson>  
+                              
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-3">
+                  <persName key="17213238">
+                     <forename>Francesco</forename>
+                     <surname>Cancellieri</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-18">
+                  <persName key="" >
+                     <forename>Natanaele</forename>
+                     <surname>Fucili</surname>
+                  </persName>
+               </person>             
+               
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-1">
+                  <placeName key="6541846">Recanati</placeName>
+               </place>
+               
+               <place xml:id="pla-2">
+                  <placeName key="3169069">Roma</placeName>
+               </place> 
+               
+            </listPlace>
+            
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         <classDecl>
+            
+            <taxonomy>
+               <category xml:id="top-2"><catDesc>Greetings</catDesc></category>
+               <category xml:id="top-4"><catDesc>Publication of literary works</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="18181214">14. Dec.bre 1818.</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="17213238">Cancellieri, Francesco, 1751-1826</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Address, Carlo Leopardi</change>
+               <change xml:id="change-3">Stamp</change>
+               <change xml:id="change-4">Annotation, Francesco Cancellieri</change>   
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210723"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00025"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="7162px" width="4931px" rend="portrait"
+            url="MS-ADD-06210-000-00025"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="7016px" width="4647px" rend="portrait"
+            url="MS-ADD-06210-000-00026"/>
+      </surface>
+      <surface xml:id="i3" n="2r">
+         <graphic decls="#downloadImageRights #download" height="7162px" width="4931px" rend="portrait"
+            url="MS-ADD-06210-000-00027"/>
+      </surface>
+      <surface xml:id="i4" n="2v">
+         <graphic decls="#downloadImageRights #download" height="6929px" width="4794px" rend="portrait"
+            url="MS-ADD-06210-000-00028"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+         
+         <div n="2" change="#change-1" hand="#hand-1">
+            
+            <opener>
+               <salute><choice><abbr>Pregiatiss.</abbr><expan>Pregiatissimo</expan></choice> 
+                  <rs ref="#pers-3"><choice><abbr>Sig.re</abbr><expan>Signore</expan></choice> 
+                  <choice><abbr>P.rone</abbr><expan>Padrone</expan></choice> ed Amico</rs>.</salute>
+               <add change="#change-4" hand="#hand-3"><date when="18161209">14 <choice><abbr>Dic.</abbr><expan>Dicembre</expan></choice> 1818</date></add>
+            </opener>
+            
+            <p><seg rend="insetLeft5">Non posso esprimerle abbastanza con parole la mia gratitudine per la tanta premura e cortesia</seg><lb/>
+               con cui Ella si compiace di riscontrare il mio foglio relativo al noto <choice><abbr>Ms.</abbr><expan>manoscritto</expan></choice>. Dello Stampatore<lb/>
+               e del prezzo non posso essere se non soddisfattissimo. Quanto al numero delle copie, a me ne ba-<lb/>
+               steranno 300. Del restante Ella mi farà gran favore se vorrà ordinare che se ne imprima una<lb/>
+               mezza dozzina in carta cerulea, e far piegare e coprire tutti i fogli costì con carta gialla, o come<lb/>
+               meglio le paia. Circa alla distribuzione, non volendo farne spargere costì se non po-<lb/>
+               che copie, e far passare il rimanente in Lombardia, basterà ch'Ella si voglia compiacere di spedirmene<lb/>
+               per la posta, come il libricciuolo sarà stampato, e di accettarne Ella<lb/>
+               una dozzina in povero contrassegno della mia vivissima riconoscenza, che vorrei di tutto cuore<lb/>
+               poterle dimostrare con cose meno frivole. Il resto, frattanto ch'io attendo risposta di Lom-<lb/>
+               bardia, s'Ella non crederà che stia sicuro presso lo Stampatore, potrà ordinare che si conse-<lb/>
+               gni nel Collegio Capranica al Vicerettore <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> 
+               <choice><abbr>D.</abbr><expan>Don</expan></choice> <persName ref="#pers-18">Natanaele Fucili</persName>, il quale ne avrà cura<lb/>
+               secondo ch'io gli scriverò. Ma già sino da quando io le spediva il <choice><abbr>Ms.</abbr><expan>manoscritto</expan></choice>, era e sono anche pre-<lb/>
+               sentemente nello stesso timore con Lei per rispetto alla Censura, la quale in caso che non vo-<lb/>
+               lesse passarlo, o vi ordinasse qualche minimo cambiamento, prego Lei a volerlo spedire diretta-<lb/>
+               mente <del rend="strikethrough"><unclear>per</unclear></del>per la posta sotto fascia al Sig. <persName>Pietro Giordani</persName> a <placeName>Piacenza</placeName>. Come mi con<lb/>
+               fonde ciò ch'Ella mi dice di volersi incaricare Ella stessa della correzione, così mi attrista<lb/>
+               fortemente la notizia della continuazione de' suoi dolori, dei quali, benchè Ella sappia sostenerli<lb/>
+               eroicamente, non può non affliggersi chiunque conosce l'importanza della sua preziosa salu-<lb/>
+               te per il bene delle lettere, e la incredibile bontà del suo cuore. Ritornandole i saluti<lb/>
+               affettuosissimi di mio padre e di mio fratello, io le auguro con tutta l'anima il fine delle<lb/>
+               sue sofferenze, ed ogni più cara consolazione e prosperità nel corso delle prossime Feste, ed<lb/>
+               auguro a me stesso di potermi dare a vedere effettivamente</p>
+            
+            <closer>
+               <dateline><placeName ref="#pla-1">Recanati</placeName> 14. Dec.bre 1818.</dateline><lb/>
+               <salute>Suo <choice><abbr>Dev.mo</abbr><expan>Devotissimo</expan></choice> 
+                  <choice><abbr>Obbl.mo</abbr><expan>Obbligatissimo</expan></choice> 
+                  <choice><abbr>S.re</abbr><expan>Servitore</expan></choice> ed Amico</salute><lb/>
+               <signed><persName ref="#pers-1">Giacomo Leopardi</persName>.</signed>
+            </closer>
+            
+         </div>
+            
+            <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+            
+            <pb n="2r" xml:id="pb-2r" facs="#i3"/>
+            
+            <pb n="2v" xml:id="pb-2v" facs="#i4"/>
+            
+            <div n="3">
+                            
+               <fw type="other" change="#change-3">P.P.</fw>
+                            
+               <fw change="#change-3" rend="center"><placeName ref="#pla-1">RECANATI</placeName></fw>
+               
+               <fw type="other" change="#change-3">P.P.</fw>
+               
+               <fw type="other" change="#change-3">Franca</fw>
+               
+               <fw type="other" change="#change-3">21 DECEMB</fw>
+               
+               <p change="#change-2" hand="#hand-2" rend="center">All'<choice><abbr>Ill.mo</abbr><expan>Illustrissimo</expan></choice> 
+                  <choice><abbr>S.re</abbr><expan>Signor</expan></choice> 
+                  <choice><abbr>P.ne</abbr><expan>Padrone</expan></choice>
+                  <choice><abbr>Col.mo</abbr><expan>Colendissimo</expan></choice><lb/>
+                  Il <choice><abbr>S.r</abbr><expan>Signor</expan></choice> 
+                  <choice><abbr>Ab.</abbr><expan>Abate</expan></choice><persName> <persName ref="#pers-3">Francesco Cancellieri</persName>.</persName><lb/>
+               <placeName ref="#pla-2">Roma</placeName></p>
+              
+            </div>
+                   
+         </div>
+         
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/38</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.38</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Antonio Fortunato Stella</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark>double lily</watermark> watermark</support>
+                        <extent>4 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="sole" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18210226">26 Febbraio 1821</origDate>
+                     <origPlace key="6541846">Recanati</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+
+            <listPerson> 
+                             
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>     
+               
+               <person xml:id="pers-6">
+                  <persName key="51815878">
+                     <forename>Antonio Fortunato</forename>
+                     <surname>Stella</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-14">
+                  <persName key="9709149068390265730006">
+                     <forename>Monaldo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>
+                              
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-1">
+                  <placeName key="6541846">Recanati</placeName>
+               </place>
+               
+               <place xml:id="pla-3">
+                  <placeName key="3173434">Milano</placeName>
+               </place>
+             
+            </listPlace>
+            
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="top-16"><catDesc>Money</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="18210226">26 Febbraio 1821</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="51815878">Stella, Antonio Fortunato, 1757-1833</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Address, Giacomo Leopardi.</change>
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210809"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00109"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="6555px" width="4408px" rend="portrait"
+            url="MS-ADD-06210-000-00109"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="6659px" width="4512px" rend="portrait"
+            url="MS-ADD-06210-000-00110"/>
+      </surface>
+      <surface xml:id="i3" n="2r">
+         <graphic decls="#downloadImageRights #download" height="6555px" width="4408px" rend="portrait"
+            url="MS-ADD-06210-000-00111"/>
+      </surface>
+      <surface xml:id="i4" n="2v">
+         <graphic decls="#downloadImageRights #download" height="6708px" width="4419px" rend="portrait"
+            url="MS-ADD-06210-000-00112"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+         
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-16">
+            
+            <opener>
+                 <dateline><placeName ref="#pla-1">Recanati</placeName> 26 Febbario 1821</dateline>
+               <salute>Stimatissimo <rs ref="#pers-6">Signore</rs></salute>
+            </opener>
+            
+            <p><seg rend="insetLeft5">La sua graditissima 14. andante mi giunse coll'</seg><lb/>
+               ultimo ordinario e rispondo immediatamente. Vorrei ch'Ella si<lb/>
+               persuadesse <metamark><figure><figDesc>[symbol standing for "adding something"]</figDesc></figure></metamark> <add place="supralinear">che il disturbo</add> ch'Ella riceve per parte di mio <rs ref="#pers-14">padre</rs>, mi addolo-<lb/>
+               ra e mi attrista infinitamente. Io non sono bene informato<lb/>
+               della cosa, ma tuttavia non solo non difendo mio padre, ma<lb/>
+               do schiettamente ragione a lei. Dirò sinceramente tutto quel-<lb/>
+               lo che io so. Quando ella inviò a mio <rs ref="#pers-14">padre</rs> il conto, dal<lb/>
+               quale risultava il noto suo credito, vale a dire, due anni ad-<lb/>
+               dietro e più, se non erro, mio <rs ref="#pers-14">padre</rs> me lo fece vedere; e<lb/>
+               quindi si pose ad esaminare le sue carte, per riscontrare le<lb/>
+               partite di quel conto. Io mi ricordo che nel conto erano<lb/>
+               scorsi parecchi errori. Per esempio, l'ultimo semestre dello<lb/>
+               Spettatore, cioè il secondo semestre del 1818. non ci era mai<lb/>
+               stato spedito. E una o due delle ultime spedizioni fatte<lb/>
+               a mio <rs ref="#pers-14">padre</rs> da Lei, o dal suo negozio, non sono state<lb/>
+               mai ricevute. Se mio <rs ref="#pers-14">padre</rs> allora le rispondesse, io non lo so;<lb/>
+               e d'allora in poi, sono affatto all'oscuro di quanto è passato<lb/>
+               fra lei e mio <rs ref="#pers-14">padre</rs>: se non che dall'ultima sua <choice><abbr>pregiatiss.</abbr><expan>pregiatissima</expan></choice><lb/>
+               intendo con sommo dispiacere, il rifiuto della cambiale, e il si-<lb/>
+               lenzio di mio <rs ref="#pers-14">padre</rs>. Io conosco il carattere di mio <rs ref="#pers-14">padre</rs>:<lb/>
+               e perciò non mi maraviglio della sua grande indolenza in-<lb/>
+               torno agli affari propri. Io so ch'egli agisce colla stessa<lb/>
+               indolenza anche nelle cose che l'interessano sommamente, e<lb/> 
+               
+               <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+               
+               nelle quali dovrebbe esser premuroso pel suo proprio vantaggio. Ne<lb/>
+               ho molti esempi, ed io medesimo ne sono uno. Se io avessi<lb/>
+               creduto di poterla servire presso mio <rs ref="#pers-14">padre</rs>, l'avrei fatto col<lb/>
+               possibile impegno. Ma conoscendo il suo modo di pensare, e sa-<lb/>
+               pendo ch'egli non ama che i figli prendano parte veruna a-<lb/>
+               gli affari suoi, ho veduto bene, che in vece di servirla, non a-<lb/>
+               vrei fatto che proccurare nuovi dispiaceri a me stesso.<lb/>
+               Ella non può figurarsi quanto io sia dolente di questo affa-<lb/>
+               re. Se non fossi un povero figlio di famiglia, vorrei subito<lb/>
+               soddisfarla di tutto io medesimo, come se si trattasse di un<lb/>
+               debito mio. <choice><abbr>V. S.</abbr><expan>Vostra Signoria</expan></choice> si compiaccia di credermi, e di accertarsi che<lb/>
+               la puntualità in qualunque impegno, mi sta a cuore sopra o-<lb/>
+               gni cosa. S'io posso servirla in qualche altro modo, coglierò<lb/>
+               con gioia l'occasione di mostrarle quanto vivamente io desideri<lb/>
+               la continuazione della sua amicizia. Ardisco sperare ch'Ella<lb/>
+               vorrà graziarmi di questa continuazione, e adoperarmi dov'io<lb/>
+               sia buono. Anzi ne la prego di tutto cuore. E con piena<lb/>
+               stima e sincerità mi confermo</p>
+            
+            <closer>
+               <salute>Suo <choice><abbr>D.mo</abbr><expan>Devotissimo</expan></choice> 
+                  <choice><abbr>Obbl.mo</abbr><expan>Obbligatissimo</expan></choice>
+                  <choice><abbr>S.re</abbr><expan>Servitore</expan></choice></salute><lb/>
+               <signed><persName ref="#pers-1">Giacomo Leopardi</persName>.</signed>
+            </closer>
+                                         
+         </div>
+              
+            <pb n="2r" xml:id="pb-2r" facs="#i3"/>
+              
+            <pb n="2v" xml:id="pb-2v" facs="#i4"/>
+              
+            <div n="3">
+               
+               <fw type="other" change="#change-3"><placeName ref="#pla-1">RECANATI</placeName></fw>
+               
+               <p change="#change-2" hand="#hand-1" rend="center">All'<choice><abbr>Ill.mo</abbr><expan>Illustrissimo</expan></choice> Signore<lb/>
+                  Il <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> <persName ref="#pers-6">Antonio Fortunato Stella</persName><lb/>
+               <placeName ref="#pla-3">Milano</placeName></p>
+
+            </div>
+                   
+         </div>
+         
+      </body>
+   </text>
+</TEI>

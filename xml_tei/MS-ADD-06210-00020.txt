@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/20</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.20</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Giovanni Rosini</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark>Conte | Alessandro Ce[...]</watermark> watermark</support>
+                        <extent>2 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18280903">3 Settembre 1828</origDate>
+                     <origPlace key="3176958">Firenze</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+
+            <listPerson>  
+               
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>     
+               
+               <person xml:id="pers-39">
+                  <persName key="144548">
+                     <forename>Giovanni</forename>
+                     <surname>Rosini</surname>
+                  </persName>
+               </person>
+               
+            </listPerson>
+            
+            <listPlace>
+                              
+               <place xml:id="pla-6">
+                  <placeName key="3176958">Firenze</placeName>
+               </place>
+               
+               <place xml:id="pla-11">
+                  <placeName key="3170646">Pisa</placeName>
+               </place> 
+                              
+            </listPlace>
+            
+         </sourceDesc>
+         
+      </fileDesc>
+
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="top-2"><catDesc>Greetings</catDesc></category>
+               <category xml:id="top-3"><catDesc>Information on literary works</catDesc></category>
+               <category xml:id="top-4"><catDesc>Publication of literary works</catDesc></category>
+               <category xml:id="top-10"><catDesc>Giving information</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="18280903">3 Settembre 1828</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="144548">Rosini, Giovanni, 1776-1855</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Address, Giacomo Leopardi.</change>
+               <change xml:id="change-3">Stamp.</change>
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210724"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00063"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="5917px" width="3778px" rend="portrait"
+            url="MS-ADD-06210-000-00063"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="6078px" width="3909px" rend="portrait"
+            url="MS-ADD-06210-000-00064"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+         
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-2 #top-3 #top-4 #top-10">
+            
+            <p><seg rend="insetLeft5"><choice><abbr>Cap.</abbr><expan>Capitolo</expan></choice> 
+               21. <choice><abbr>p.</abbr><expan>pagina</expan></choice> 18. 
+               <choice><abbr>lin.</abbr><expan>linea</expan></choice> <del rend="strikethrough">19</del> stampata sarebbe</seg></p>
+               
+            <p><seg rend="insetLeft5">Il Capitolo del villano a' miei orecchi par bello e buono.</seg><lb/>
+               Questo è quanto posso dire; perchè del resto non ho<lb/>
+               trattato gran fatto con villani di Toscana, nè avuta occasio-<lb/>
+               ne o ragione di fare studio del loro dialetto nei libri.<lb/>
+               Ma credo che tutti quelli che in quanto a questo parti-<lb/>
+               colare si trovano nel caso mio, (e saranno quasi tutti i lettori),<lb/>
+               resteranno egualmente contenti del vostro capitolo.</p>
+               
+               <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+               
+            <fw type="other" change="#change-3">3<lb/>SETTEMBRE<lb/>1828</fw> 
+            
+            <fw type="other" change="#change-3"><placeName ref="#pla-6">FIRENZE</placeName></fw>
+               
+            <p change="#change-2" hand="#hand-1" rend="right">Al <choice><abbr>Chiariss.</abbr><expan>Chiarissimo</expan></choice><lb/>
+            <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> 
+            <choice><abbr>Prof.</abbr><expan>Professor</expan></choice> 
+            <persName ref="#pers-38">Rosini</persName><lb/>
+            <placeName ref="#pla-11">Pisa</placeName></p>
+
+            </div>
+                   
+         </div>
+         
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/35</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.35</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Fragment of a translation from the Greek literature</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark></watermark> watermark</support>
+                        <extent>2 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-2" scope="minor" medium="dark-brown-ink">Giacomo Leopardi, dark-brown ink.</handNote>
+                     <handNote xml:id="hand-3" scope="minor" medium="pencil">Unknown, pencil</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="1813">1813</origDate>
+                     <origPlace key="6541846">Recanati</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+
+         <listPerson> 
+            
+            <person xml:id="pers-1">
+               <persName key="12311353">
+                  <forename>Giacomo</forename>
+                  <surname>Leopardi</surname>
+               </persName>
+            </person>     
+                       
+         </listPerson>
+         
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <profileDesc>
+                 
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">First part of the translation, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Annotation, Giacomo Leopardi.</change>
+               <change xml:id="change-3">Annotation, Unknown.</change>
+            </listChange>
+         </creation>
+                 
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210809"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00101"/>
+      <surface xml:id="i1" n="1v">
+         <graphic decls="#downloadImageRights #download" height="4700px" width="3180px" rend="portrait"
+            url="MS-ADD-06210-000-00101"/>
+      </surface>
+      <surface xml:id="i2" n="1r">
+         <graphic decls="#downloadImageRights #download" height="4661px" width="3158px" rend="portrait"
+            url="MS-ADD-06210-000-00102"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+         
+         <div n="2" change="#change-1" hand="#hand-1">
+                        
+            <p change="#change-1" hand="#hand-1">tale, da altri permanente per poco tempo. V’ha chi<lb/>
+               la riduce alla condizione dei bruti, chi la scioglie in<lb/>
+               atomi, chi per la 3. volta passare la fa<del rend="strikethrough">nno</del> nel cor-<lb/>
+               po, chi <del rend="strikethrough">definisc<subst><del>on</del><add>e</add></subst></del>gli <add place="supralinear">fissa</add> il periodo di 3000. anni: giacchè<lb/>
+               coloro eziandio che <del rend="strikethrough">non</del> <add place="supralinear">neppur</add> vivono per lo spazio di<lb/>
+               100. anni <subst><del rend="strikethrough">annunzia</del><add place="supralinear">prometto</add></subst>ngli 3000 futuri anni di durata.<lb/>
+               Tali cose in qual modo fa d’uopo appellare? Porten-<lb/>
+               to come a me sembra, o demenza, o insania, o di-<lb/>
+               scordia, o tutto ciò insieme</p>
+            
+            <ab change="#change-3" hand="#hand-3">Giacomo Leopardi</ab>
+            
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+                          
+               <cb n="1" rend="left"/>
+            
+               <note change="#change-1" hand="#hand-1">Di un Ermia Fab. 6. 264.570<lb/>
+               |3. 29. 69.| 7. 21. | 9. 82. | 3.<lb/>
+               668. | 2. 287. | 4. 400. 561.</note>
+               <note change="#change-2" hand="#hand-2">Longino 148. lin. 22 vedilo<lb/>
+               pure p. 248. lin. 27.28</note> 
+               
+               <cb n="2" rend="right"/>
+            
+               <p><title>Derisione dei filosofi gentili<lb/>
+               Opuscolo di Ermia filosofo.</title><lb/>
+               Paolo beato Apostolo scrivendo ai Corintj che abita-<lb/>
+                  vano vicino alla Grecia Laconica = o diletti = pronunciò<lb/>
+                  la sapienza di questo mondo è stoltezza ap-<lb/>
+                  presso Dio = non inconsideratamente favellando. Po-<lb/>
+                  sciachè sembrami avere essa avuto principio dalla<lb/>
+                  trasgressione degli Angeli, <del rend="strikethrough">per la qual cosa</del> <add place="supralinear">e quindi</add> nè con-<lb/>
+                  cordi dogmi nè consenzienti stabiliscono i filosofi a<lb/>
+                  gara ragionando. <del rend="strikethrough">L</del> Infatti altri <metamark><figure><figDesc>small triangle</figDesc></figure></metamark> dicono l’anima<lb/>
+                  esser fuoco <metamark><figure><figDesc>small triangle</figDesc></figure></metamark> sì come Democrito <metamark><figure><figDesc>small triangle</figDesc></figure></metamark> altri come gli Stoi-<lb/>
+                  ci aria, altri mente, altri moto come Eraclito, altri<lb/>
+                  vapore, altri forza emanante dagli astri, altri nu<lb/>
+                  mero motore come Pitagora, altri acqua generatrice<lb/>
+                  come Ippone, altri elemento <del rend="strikethrough"><metamark><figure><figDesc>small triangle</figDesc></figure></metamark> dagli elementi <metamark><figure><figDesc>small triangle</figDesc></figure></metamark></del> deri-<lb/>
+                  vato dagli elementi <metamark><figure><figDesc>small triangle</figDesc></figure></metamark> altri armonia come Dinarco,<lb/>
+                  altri sangue come Crizia, altri spirito, altri mona-<lb/>
+                  de sì come Pitagora, e<add>d</add> <del rend="strikethrough">gli antichi</del> <add place="supralinear">altri ancora</add> cose a queste<lb/>
+                  contrarie. Quanti ragionamenti intorno a ciò! quan-<lb/>
+                  ti argomenti! e quanti ancora di sofisti che con-<lb/>
+                  trastano più tosto che rinvenire il vero. Ma ponia-<lb/>
+                  mo: contendono intorno all’anima, <del rend="strikethrough">ma</del>delle rima<lb/>
+                  nenti cose però <del rend="strikethrough">intorno</del> ad essa <metamark><figure><figDesc>symbol standing for "adding something"</figDesc></figure></metamark> <add place="supralinear">spettanti</add> concordemente favella-<lb/>
+                  no? Altri <restore rend="dots-beneath"><del rend="strikethrough">dicono</del></restore> <add place="supralinear"><del rend="strikethorough">chiamano</del>il piacere <del rend="strikethrough">di lei</del> essere un bene di lei</add> <metamark><figure><figDesc>symbol standing for "adding something"</figDesc></figure></metamark> <del rend="strikethorugh">un bene</del>, altri un male, altri u-<lb/>
+                  na cosa media tra il bene ed il male. La sua natu-<lb/>
+                  ra da alcuni vien detta immortale, da altri mor-</p>
+
+            </div>
+                   
+         </div>
+         
+      </body>
+   </text>
+</TEI>

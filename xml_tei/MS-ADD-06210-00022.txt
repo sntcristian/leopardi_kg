@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/22</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.22</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Giovanni Rosini</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark></watermark> watermark</support>
+                        <extent>2 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                     <handNote xml:id="hand-2" scope="minor" medium="dark-brown-ink">Unknown, dark-brown ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18281128">28 Nov. 1828.</origDate>
+                     <origPlace key="6541846">Recanati</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+            
+            <listPerson>  
+               
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>     
+               
+               <person xml:id="pers-39">
+                  <persName key="144548">
+                     <forename>Giovanni</forename>
+                     <surname>Rosini</surname>
+                  </persName>
+               </person>
+                              
+               <person xml:id="pers-41">
+                  <persName key="">
+                     <forename>Margaret Jane</forename>
+                     <surname>King</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-42">
+                  <persName key="39366861">
+                     <forename>Giovanni</forename>
+                     <surname>Carmignani</surname>
+                  </persName>
+               </person>
+               
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-1">
+                  <placeName key="6541846">Recanati</placeName>
+               </place>
+               
+               <place xml:id="pla-6">
+                  <placeName key="3176958">Firenze</placeName>
+               </place>
+               
+               <place xml:id="pla-11">
+                  <placeName key="3170646">Pisa</placeName>
+               </place> 
+                              
+            </listPlace>
+            
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="top-2"><catDesc>Greetings</catDesc></category>
+               <category xml:id="top-10"><catDesc>Giving information</catDesc></category>
+               <category xml:id="top-12"><catDesc>Linguistics</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="18281128">28 Nov. 1828.</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="144548">Rosini, Giovanni, 1776-1855</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Annotation, Unknown.</change>
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210727"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00069"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="5667px" width="3729px" rend="portrait"
+            url="MS-ADD-06210-000-00069"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="5943px" width="4134px" rend="portrait"
+            url="MS-ADD-06210-000-00070"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+                    
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-2 #top-10 #top-12">
+            
+            <fw type="other" change="#change-2" hand="#hand-2">1</fw> 
+            
+            <opener>
+               <dateline><placeName ref="#pla-1">Recanati</placeName> 28 Nov. 1828.</dateline>
+               <salute><rs ref="#pers-39">Amico</rs> <choice><abbr>cariss.</abbr><expan>carissimo</expan></choice></salute>
+            </opener>
+                         
+            <p><seg rend="insetLeft5">La vostra dei 17 mi fu gratissima come ogni</seg><lb/>
+               altra, e più ancora delle altre, perchè desiderata molto, dopo il<lb/>
+               lungo silenzio succeduto alla partenza vostra da <placeName ref="#pla-6">Firenze</placeName>. Ho<lb/>
+               caro assai che abbiate posta l'ultima mano alla vostra <title>Monaca</title>, e<lb/>
+               che andiate pensando alla Strozzi. A proposito della Strozzi<lb/>
+               e della Monaca, vi ricordate voi d'avermi promesso una copia<lb/>
+               intera e perfetta del vostro romanzo? Io non vi assolvo certamente<lb/>
+               dalla promessa, e sto aspettando l'effetto.</p>
+            
+            <p><seg rend="insetLeft5">Il <hi rend="underline">ne</hi> (o piuttosto il <hi rend="underline">n'è</hi>) interrogativo, non mi ricordo di</seg><lb/>
+               averlo trovato negli scrittori; ma nello stile familiare, credo possa<lb/>
+               adoprarsi, essendo frequentissimo nel parlar toscano lo scambio della<lb/>
+               negativa <hi rend="underline">non</hi> in una semplice <hi rend="underline">'n</hi>, o <hi rend="underline">n'</hi>. Quel <hi rend="underline">n'è</hi>? corrisponde<lb/>
+               al francese <hi rend="underline">n'est-ce-pas</hi>?</p>
+            
+            <p><seg rend="insetLeft5">Sono in tutto e per tutto del vostro parere circa l'Antologia,</seg><lb/>
+               ma che s'ha a dire?_ Alla Lauretta, a <choice><abbr>Mad.</abbr><expan>Madama</expan></choice> 
+               <persName ref="#pers-41">Mason</persName>, a <persName ref="#pers-42">Carmi<lb/>
+               gnani</persName> vi prego a fare mille complimenti e saluti per mia parte.<lb/>
+               Anche vi sarò grato se favorirete di far dire qualche cosa<lb/>
+               
+               <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+               
+               in mio nome al mio buon albergatore ed alla sua buona fami-<lb/>
+               glia.</p>
+            
+            <p><seg rend="insetLeft5">Le mie nuove sono le solite: non posso nè leggere nè</seg><lb/>
+               scrivere nè pensare, nè digerire il mio pranzo, ch'è pur piccino. Sta-<lb/>
+               rò qui non so quanto, forse sempre: fo conto di aver terminato il corso<lb/>
+               della mia vita.<lb/></p>
+               
+               <p><seg rend="insetLeft5">Vogliatemi bene, e riverite le vostre Signore.</seg></p>
+            
+            <closer>
+               <salute>Addio, addio.</salute><lb/>
+               <signed>Il vostro <persName ref="#pers-1">Leopardi</persName>.</signed>
+            </closer>
+            
+            </div>
+                   
+         </div>
+         
+      </body>
+   </text>
+</TEI>

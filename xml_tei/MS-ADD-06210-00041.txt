@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/41</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.41</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Paolina Leopardi and Filippo Castiglioni to Filippo Raffaelli</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark></watermark> watermark</support>
+                        <extent>4 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="black-ink">Paolina Leopardi, black ink.</handNote>
+                     <handNote xml:id="hand-2" scope="minor" medium="brown-ink">Filippo Castiglioni, brown ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18521208">8 X.bre 1852</origDate>
+                     <origPlace key="6541846">Recanati</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+
+            <listPerson> 
+                       
+               <person xml:id="pers-47">
+                  <persName key="29611067">
+                     <forename>Paolina</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-70">
+                  <persName key="">
+                     <forename>Filippo</forename>
+                     <surname>Castiglioni</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-71">
+                  <persName key="39754174">
+                     <forename>Filippo</forename>
+                     <surname>Raffaelli</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-72">
+                  <persName key="17475203">
+                     <forename>Joseph Anton</forename>
+                     <surname>Vogel</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-73">
+                  <persName key="78669916">
+                     <forename>Filippo</forename>
+                     <surname>Solari</surname>
+                  </persName>
+               </person>
+                            
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-1">
+                  <placeName key="6541846">Recanati</placeName>
+               </place>
+               
+               <place xml:id="pla-12">
+                  <placeName key="6539726">Loreto</placeName>
+               </place>
+               
+               <place xml:id="pla-17">
+                  <placeName key="6541067">Cingoli</placeName>
+               </place> 
+               
+               <place xml:id="pla-18">
+                  <placeName key="6540106">Macerata</placeName>
+               </place> 
+                            
+            </listPlace>
+            
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="top-10"><catDesc>Giving information</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="29611067">Leopardi, Paolina, 1800-1869</persName>
+               <persName key="">Castiglioni, Filippo</persName>
+               <date when="18521208">8 X.bre 1852</date>
+            </correspAction>
+            <!--<correspAction type="sent">
+               
+               <date when="18521208">8 X.bre 1852</date>
+            </correspAction>-->
+            <correspAction type="received">
+               <persName key="39754174">Raffaelli, Filippo</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Paolina Leopardi.</change>
+               <change xml:id="change-2">Addition, Paolina Leopardi.</change>
+               <change xml:id="change-3">Addition, Filippo Castiglioni.</change>
+               <change xml:id="change-4">Address, Paolina Leopardi.</change>
+               <change xml:id="change-5">Stamp.</change>
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210809"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00123"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="5745px" width="4064px" rend="portrait"
+            url="MS-ADD-06210-000-00123"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="5670px" width="4044px" rend="portrait"
+            url="MS-ADD-06210-000-00124"/>
+      </surface>
+      <surface xml:id="i3" n="2r">
+         <graphic decls="#downloadImageRights #download" height="5745px" width="4064px" rend="portrait"
+            url="MS-ADD-06210-000-00125"/>
+      </surface>
+      <surface xml:id="i4" n="2v">
+         <graphic decls="#downloadImageRights #download" height="5555px" width="4122px" rend="portrait"
+            url="MS-ADD-06210-000-00126"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+         
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-10">
+                       
+            <opener>
+               <salute><choice><abbr>Preg.mo</abbr><expan>Pregiatissimo</expan></choice> 
+                  <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> 
+                  <choice><abbr>M.se.</abbr><expan>Marchese</expan></choice> 
+               </salute>
+            </opener>
+            
+            <p><seg rend="insetLeft5">Sono veramente dolente di non potere corrispondere alla brama che ho di</seg> compiacer-<lb/>
+               la nel darle tutti que’ dettagli ch’ella mi richiede sul canonico <persName ref="#pers-72">Vogel</persName>. Io era ben piccina,<lb/>
+               o forse non era neppur nata quando egli venne in Recanati – l’ho conosciuto però<lb/>
+               più tardi e ricordo che frequentava la domestica biblioteca, ma io era in età così<lb/>
+               infantile che non posso dir altro di lui se non che era dottissimo, e venne poi no<lb/>
+               minato Canonico a <placeName ref="#pla-12">Loreto</placeName> ove portossi e morì. In mia casa non trovo memorie che<lb/>
+               lo riguardino. La sua opera o Commentario com’Ella lo chiama io credo che si<lb/>
+               conservi accuratamente e gelosamente dal Capitolo recanatese…</p>
+            
+            <p>Io era a questo punto della mia lettera, quando per fortuna m’è capitata persona la quale<lb/>
+               interrogata da me sul canonico <persName ref="#pers-72">Vogel</persName> e sulla sua opera od altro, ha posto in questo foglio<lb/>
+               qualche linea che vorrei le servisse – e se non altro servirà a farle intendere la compiacen-<lb/>
+               za che avrei nel servirla in qualche guisa.</p>
+            
+            <p><seg rend="insetLeft5">Con molta ansietà e con molto gradimento riceverò il dono ch’Ella gentilmente mi</seg><lb/>
+               promette, ossia il quinto fascicolo della sua pregevole Raccolta di lettere, si perchè da Lei<lb/>
+               ordinato sì perchè vi si fa motto del povero e diletto mio fratello. Io spero ch’Ella vorrà<lb/>
+               compiere il favore rendendo perfetta questa sua <hi rend="underline">Raccolta</hi> nella mia biblioteca – vale a<lb/>
+               
+               <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+               
+               dire ch’Ella vorrà compiacersi di fornirne que’ fascicoli che avranno veduto la luce dopo<lb/>
+               la morte del suddetto, e che verranno poi. Ella può esser ben sicura di tutta la mia ricono-<lb/>
+               scenza – come può egualmente esserlo di tutta la stima con cui mi pregio di essere</p>
+            
+            <closer>
+               <salute>Di Lei <choice><abbr>Preg.mo</abbr><expan>Pregiatissimo</expan></choice> 
+                  <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> Conte</salute><lb/>
+               <dateline>Di Recanati 8 X.bre 1852</dateline><lb/>
+               <signed>Sua <choice><abbr>D.v.ma</abbr><expan>Devotissima</expan></choice> Serva<lb/>
+               <persName ref="#pers-47">Paolina Leopardi</persName></signed>
+            </closer>
+
+         </div> 
+            
+            <div n="3">
+               
+               <ab change="#change-2" hand="#hand-1"><choice><abbr>Sig.</abbr><expan>Signor</expan></choice> 
+                  <choice><abbr>M.se.</abbr><expan>Marchese</expan></choice> Filippo Castiglioni<lb/>
+               <placeName ref="#pla-17">Cingoli</placeName></ab>
+               
+            </div>
+            
+            <pb n="2r" xml:id="pb-2r" facs="#i3"/>
+            
+            <div n="4" change="#change-3" hand="#hand-2" ana="#top-10">
+            
+               <p><seg rend="insetLeft5">Il <title>Commentario Storico de Ecclesiis Recanatensi et Lauretana</title> ecc. del fu</seg><lb/>
+                  <choice><abbr>Can.co</abbr><expan>Canonico</expan></choice> <persName ref="#pers-72">Vogel</persName> si conserva in quest’Archivio del Capitolo, a cui l’Autore ne dette<lb/>
+                  la proprietà: consiste in due grossi Volumi manoscritti, l’uno di Testo, l’altro<lb/>
+                  di Documenti. Questi ultimi sono in N.° di 159; il primo è un’atto di donazio-<lb/>
+                  ne in favore della Chiesa di S. Giovanni di Monte Volpo (o Volpino) di <placeName ref="#pla-1">Recanati</placeName>, da-<lb/>
+                  tato del Giugno 1151: l’ultimo è un Breve di Pio Settimo dato li 18. Maggio 1806.<lb/>
+                  con cui si accorda agli Altaristi di questa Cattedrale il privilegio d’una medaglia ecc.<lb/>
+                  So che il <persName ref="#pers-72">Vogel</persName> aveva impreso altre opere storiche fra cui appariscono complete il<lb/>
+                  = <title>Codex Firmanus</title> = e il = <title>Cordex Farfensis</title> = Questi due preziosi manoscritti fino a die-<lb/>
+                  ci anni addietro erano in proprietà del <choice><abbr>Sig.r</abbr><expan>Signor</expan></choice> <choice><abbr>M.se</abbr><expan>Marchese</expan></choice> <persName ref="#pers-73">Filippo Solari</persName> di <placeName ref="#pla-12">Loreto</placeName>, <gap reason="damage" extent="2" unit="words"/><seg cert="high">che li</seg><lb/>
+                  custodiva con molta gelosia. Ora non saprei in quali mani siano passati.</p>
+               
+               <p><seg rend="insetLeft5">In questa Cancelleria Vescovile si hanno molte memorie del <persName ref="#pers-72">Vogel</persName></seg><lb/>
+                  intorno ai Canonicati ed altri Benefici di questa Chiesa. Potrebbero considerar-<lb/>
+                  si piuttosto una Selva, o materiali per farne un’opera, piuttosto che una Sto-<lb/>
+                  ria esatta, e compita.</p>
+                                         
+         </div>
+                            
+            <pb n="2v" xml:id="pb-2v" facs="#i4"/>
+              
+            <div n="5">
+               
+               <fw type="other" change="#change-5"><placeName ref="#pla-18">MACERATA</placeName></fw>
+               
+               <fw type="other" change="#change-5"><placeName ref="#pla-1">RECANATI</placeName></fw>
+               
+               <fw type="other" change="#change-5"><placeName ref="#pla-18">MACERATA</placeName> 9<lb/> DEC.<lb/> 52</fw>
+               
+               <p change="#change-4" hand="#hand-1" rend="center">Al Nobile e Chiarissimo Signore<lb/>
+                  <choice><abbr>S.r</abbr><expan>Signor</expan></choice> 
+                  <choice><abbr>M.se</abbr><expan>Marchese</expan></choice>
+                  <persName ref="#pers-71">Filippo Raffaelli</persName>.<lb/>
+                  = <placeName ref="#pla-17">Cingoli</placeName>.</p>
+               
+            </div>
+                   
+         </div>
+         
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_dj.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS/ADD/6210/16</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher/>
+            <availability xml:id="displayImageRights" status="restricted">
+               <p>Public domain.</p>
+            </availability>
+            <availability xml:id="downloadImageRights" status="restricted">
+               <licence>Images made available for download are licensed under a Creative Commons
+                  Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+            </availability>
+            <availability xml:id="metadataRights" status="restricted">
+               <licence>This metadata is licensed under a Creative Commons Attribution-NonCommercial
+                  3.0 Unported License.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Cambridge University Library</repository>
+                  <idno>MS Add.6210.16</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     
+
+                  </summary>
+                  <msItem xml:id="Letter_1">
+                     <title>Letter from Giacomo Leopardi to Antonio Fortunato Stella</title>
+                     <textLang mainLang="ita">Italian</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaf">
+                     <supportDesc material="paper">
+                        <support>Paper with <watermark></watermark> watermark</support>
+                        <extent>2 pages </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="hand-1" scope="major" medium="thin-brown-ink">Giacomo Leopardi, thin-brown ink.</handNote>
+                  </handDesc>
+                  
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="18260326">26 Marzo 1826</origDate>
+                     <origPlace key="3181927">Bologna</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+
+            <listPerson> 
+                             
+               <person xml:id="pers-1">
+                  <persName key="12311353">
+                     <forename>Giacomo</forename>
+                     <surname>Leopardi</surname>
+                  </persName>
+               </person>     
+               
+               <person xml:id="pers-6">
+                  <persName key="51815878">
+                     <forename>Antonio Fortunato</forename>
+                     <surname>Stella</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-34">
+                  <persName key="">
+                     <forename>Giuseppe</forename>
+                     <surname>Moratti</surname>
+                  </persName>
+               </person>
+               
+               <person xml:id="pers-35">
+                  <persName key="">
+                     <forename>Rosa</forename>
+                     <surname>Simonazzi Padovani</surname>
+                  </persName>
+               </person>
+                              
+            </listPerson>
+            
+            <listPlace>
+               
+               <place xml:id="pla-3">
+                  <placeName key="3173434">Milano</placeName>
+               </place>
+               
+               <place xml:id="pla-7">
+                  <placeName key="3181927">Bologna</placeName>
+               </place>   
+                              
+            </listPlace>
+            
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="top-2"><catDesc>Greetings</catDesc></category>
+               <category xml:id="top-3"><catDesc>Information on literary works</catDesc></category>
+               <category xml:id="top-4"><catDesc>Publication of literary works</catDesc></category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      
+      <profileDesc>
+         
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="12311353">Leopardi, Giacomo, 1798-1837</persName>
+               <date when="18260326">26 Marzo 1826</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="51815878">Stella, Antonio Fortunato, 1757-1833</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <creation>
+            <listChange ordered="true">
+               <change xml:id="change-1">Main body of letter, Giacomo Leopardi.</change>
+               <change xml:id="change-2">Address, Giacomo Leopardi.</change>
+            </listChange>
+         </creation>
+         
+      </profileDesc>
+      <revisionDesc>
+         <change when="20210724"><persName>Gioele Marozzi</persName> revised header and added
+            transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic decls="#document-thumbnail" rend="portrait"
+         url="MS-ADD-06210-000-00053"/>
+      <surface xml:id="i1" n="1r">
+         <graphic decls="#downloadImageRights #download" height="4916px" width="2919px" rend="portrait"
+            url="MS-ADD-06210-000-00053"/>
+      </surface>
+      <surface xml:id="i2" n="1v">
+         <graphic decls="#downloadImageRights #download" height="5024px" width="3104px" rend="portrait"
+            url="MS-ADD-06210-000-00054"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="1">
+
+            <pb n="1r" xml:id="pb-1r" facs="#i1"/>
+         
+         <div n="2" change="#change-1" hand="#hand-1" ana="#top-2 #top-3 #top-4">
+            
+            <opener>
+               <dateline><placeName ref="#pla-7">Bologna</placeName> 26 Marzo 1826</dateline>
+               <salute><rs ref="#pers-6"><choice><abbr>Sig.</abbr><expan>Signore</expan></choice> ed Amico</rs>
+                  <choice><abbr>amatis.</abbr><expan>amatissimo</expan></choice> e
+                  <choice><abbr>preg.mo</abbr><expan>pregiatissimo</expan></choice> 
+               </salute>
+            </opener>
+            
+            <p><seg rend="insetLeft5">Rendo risposta alle 
+               <choice><abbr>fav.me</abbr><expan>favoritissime</expan></choice> 
+               sue de' 20 e 22 cor-</seg><lb/>
+               rente. Son tornato a raccomandare al <persName ref="#pers-34">Moratti</persName> l'affar delle spe-<lb/>
+               dizioni, come fo quasi ogni volta. Ma <rs ref="#pers-34">egli</rs> mi risponde sempre di<lb/>
+               non aver mancato di spedir subito, e io non so che cosa mi replica-<lb/>
+               re. Non veggo a che attribuire questi maledettissimi ritardi (i qua-<lb/>
+               li è più che certo che non provengono nè potrebbero proveni-<lb/>
+               re da questa censura), se non all'infame negligenza delle diligen-<lb/>
+               ze e delle poste. Se a ciò Ella crede ch'io possa porre qualche<lb/>
+               riparo, mi scriva il come, e io farò tutto il possibile. Ho ricevuto<lb/>
+               le nuove prove del <title>Petrarca</title>, e del <title>Cicerone</title>, che consegnerò in-<lb/>
+               fallibilmente al <persName ref="#pers-34">Moratti</persName> quest'altro ordinario, con nuove raccomanda-<lb/>
+               zioni. La mia intenzione sarebbe di terminare il lavoro del <title>Petrarca</title><lb/>
+               per questo autunno, se la salute o altro ostacolo non m'impedirà. Gli<lb/>
+               altri volumetti della <title>Collezione dei Moralisti</title> conterebbero =Scelta di<lb/>
+               discorsi di Dione Grisostomo.= Idem di Massimo Tirio. = Idem di Pen-<lb/>
+               sieri filosofici di autori perduti, dalla collezione di Stobeo. = Idem di<lb/>
+               favole esopiane di autori greci. = Il Gerone di Senofonte.= Questo è<lb/>
+               quanto posso dirle fin qui, giacchè io stesso non saprei ancora deter-<lb/>
+               minarmi circa gli altri, e risolverei in seguito._ Confesso che mi sen-<lb/>
+               to molto lusingato e superbo del voto favorevole che Ella accor-<lb/>
+               da alle predilette mie <title><hi rend="underline">Operette morali</hi></title>. 
+               Il <choice><abbr>ms.</abbr><expan>manoscritto</expan></choice> è di 311. pagine,<lb/>
+               precisamente della forma del <choice><abbr>ms.</abbr><expan>manoscritto</expan></choice> d'Isocrate che le ho spedito,<lb/> 
+               scrittura egualmente fitta, di mio carattere. Sarei ben contento<lb/>
+               se Ella volesse e potesse esserne l'editore. Delle offerte<lb/>
+               (di cui ella mi domanda) non dobbiamo parlare. Già s'intende che<lb/>
+               quel poco di buono ch'io ho o posso avere in materie lette-<lb/>
+               rarie, e che sia di suo uso, dev'esser suo senz'altri discorsi. Sola-<lb/>
+               mente la prego a darmi una risposta concreta in questo proposito<lb/>
+               tosto ch'ella potrà. Debbo far<unclear>e</unclear> a lei ed a tutta la sua fami-<lb/>
+               glia, i complimenti di <choice><abbr>Mad.</abbr><expan>Madama</expan></choice> 
+               <persName ref="#pers-35">Padovani</persName>, che abita ora qui nella mia<lb/>
+               
+               <pb n="1v" xml:id="pb-1v" facs="#i2"/>
+               
+               stessa casa al mio stesso piano. Vi unisco i miei, e, con tutto il<lb/>
+               cuore abbracciandola, e augurandole ogni contentezza, mi ripeto</p>
+            
+            <closer>
+               <salute>suo <choice><abbr>obbl.mo</abbr><expan>obbligatissimo</expan></choice> e 
+                  <choice><abbr>cordialiss.</abbr><expan>cordialissimo</expan></choice> 
+                  <choice><abbr>s.re</abbr><expan>servitore</expan></choice> ed amico</salute><lb/>
+               <signed><persName ref="#pers-1">Giacomo Leopardi</persName>.</signed>
+            </closer>
+                                         
+         </div>
+              
+            <div n="3">
+               
+               <p change="#change-2" hand="#hand-1" rend="center">All'<choice><abbr>Illustriss.</abbr><expan>Illustrissimo</expan></choice> Signore<lb/>
+                  Il <choice><abbr>Sig.</abbr><expan>Signor</expan></choice> <persName ref="#pers-6"><choice><abbr>Ant.</abbr><expan>Antonio</expan></choice> Fortunato Stella</persName><lb/>
+               <placeName ref="#pla-3">Milano</placeName></p>
+
+            </div>
+                   
+         </div>
+         
+      </body>
+   </text>
+</TEI>
