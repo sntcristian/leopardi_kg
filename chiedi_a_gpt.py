@@ -1,9 +1,10 @@
 from lxml import etree
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+from openai import OpenAI
 import re
 import glob
 import json
 from tqdm import tqdm
+import json
 
 def parse_tei(xml_file_path):
     ns = {'tei': 'http://www.tei-c.org/ns/1.0', "xml":"http://www.w3.org/XML/1998/namespace"}
@@ -65,6 +66,10 @@ def parse_tei(xml_file_path):
         receiver=""
 
     doc_txt = " ".join([t.strip() for t in root.find('.//tei:text/tei:body', namespaces=ns).itertext()])
+    doc_txt = re.sub("- ", "", doc_txt)
+    doc_txt = re.sub("\s+", " ", doc_txt)
+    if len(sender)>0:
+        doc_txt = "Lettera di "+re.sub(" \(.*?\)", "", sender)+" a "+re.sub(" \(.*?\)", "", receiver)+". "+doc_txt
     output = {"id_doc":id_doc, 
               "repo":repository, 
               "title":title,
@@ -82,55 +87,10 @@ def parse_tei(xml_file_path):
     return output
 
 
-def extract_triplets_typed(text):
-    triplets = []
-    relation = ''
-    text = text.strip()
-    current = 'x'
-    subject, relation, object_, object_type, subject_type = '','','','',''
-
-    for token in text.replace("<s>", "").replace("<pad>", "").replace("</s>", "").replace("tp_XX", "").replace("__en__", "").split():
-        if token == "<triplet>" or token == "<relation>":
-            current = 't'
-            if relation != '':
-                triplets.append({'head': subject.strip(), 'head_type': subject_type, 'type': relation.strip(),'tail': object_.strip(), 'tail_type': object_type})
-                relation = ''
-            subject = ''
-        elif token.startswith("<") and token.endswith(">"):
-            if current == 't' or current == 'o':
-                current = 's'
-                if relation != '':
-                    triplets.append({'head': subject.strip(), 'head_type': subject_type, 'type': relation.strip(),'tail': object_.strip(), 'tail_type': object_type})
-                object_ = ''
-                subject_type = token[1:-1]
-            else:
-                current = 'o'
-                object_type = token[1:-1]
-                relation = ''
-        else:
-            if current == 't':
-                subject += ' ' + token
-            elif current == 's':
-                object_ += ' ' + token
-            elif current == 'o':
-                relation += ' ' + token
-    if subject != '' and relation != '' and object_ != '' and object_type != '' and subject_type != '':
-        triplets.append({'head': subject.strip(), 'head_type': subject_type, 'type': relation.strip(),'tail': object_.strip(), 'tail_type': object_type})
-    return triplets
-
-# Load model and tokenizer
-tokenizer = AutoTokenizer.from_pretrained("Babelscape/mrebel-large-32", tgt_lang="tp_XX") 
-tokenizer._src_lang = "it_XX"
-tokenizer.cur_lang_code_id = tokenizer.convert_tokens_to_ids("it_XX")
-tokenizer.set_src_lang_special_tokens("it_XX")
-model = AutoModelForSeq2SeqLM.from_pretrained("Babelscape/mrebel-large-32")
-gen_kwargs = {
-    "max_length": 256,
-    "length_penalty": 0,
-    "num_beams": 3,
-    "num_return_sequences": 3,
-    "forced_bos_token_id": None,
-}
+client = OpenAI(
+    # defaults to os.environ.get("OPENAI_API_KEY")
+    api_key='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',
+)
 
 
 pbar = tqdm(total=41)
@@ -140,27 +100,25 @@ for tei_doc in glob.glob("xml_tei/*.txt"):
     xml_file_path = tei_doc
     data = parse_tei(xml_file_path)
     text = data["text"]
-    model_inputs = tokenizer(text, max_length=256, padding=True, truncation=True, return_tensors = 'pt')
-    generated_tokens = model.generate(
-    model_inputs["input_ids"].to(model.device),
-    attention_mask=model_inputs["attention_mask"].to(model.device),
-    decoder_start_token_id = tokenizer.convert_tokens_to_ids("tp_XX"),
-    **gen_kwargs,
-)
-    # Extract text
-    decoded_preds = tokenizer.batch_decode(generated_tokens, skip_special_tokens=False)
-    triples_set = set()
-    # Extract triplets
-    for sentence in decoded_preds:
-        triples = extract_triplets_typed(sentence)
-        for triple in triples:
-            triple_string="<"+triple["head"]+"; "+triple["head_type"]+"> <"+triple["type"]+"> <"+triple["tail"]+"; "+triple["tail_type"]+">"
-            triples_set.add(triple_string)
-    triples_lst = list(triples_set)
-    data["triples"]=triples_lst
-    lst_of_dict.append(data)
-    pbar.update(1)
-pbar.close()
+    prompt = """Estrai entità e relazioni dal testo in input. 
+    Scrivi la risposta nel seguente formato JSON: [(soggetto, predicato, oggetto)]
+    Input: """+text
+    response = client.chat.completions.create(
+        messages=[
+        {"role":"system", "content":"Sei un sistema di estrazione di informazioni utile."},
+        {"role": "user","content": prompt}
+    ],
+    model="gpt-3.5-turbo")
+    triples = re.sub("La risposta in formato JSON è la seguente:\s+","", response.choices[0].message.content)
+    try:
+        json_triples = json.loads(triples)
+        data["chat-gpt"]=json_triples
+        lst_of_dict.append(data)
+        pbar.update(1)
+    except:
+        print(data["id_doc"])
+        pbar.update(1)
+        continue
 
-with open("test2.json", "w", encoding="utf-8") as f:
+with open("test3.json", "w", encoding="utf-8") as f:
     json.dump(lst_of_dict, f, ensure_ascii=False, indent=4)

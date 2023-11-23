@@ -47,30 +47,10 @@
             }
         ],
         "triples": [
-            "<secondo semestre del 1818.; concept> <follows> <secondo semestre; concept>",
-            "<1821; time> <follows> <1820; time>",
-            "<secondo semestre del 1818.; concept> <part of> <Spettatore; concept>"
-        ],
-        "chatgpt":[
-            {"soggetto": "Giacomo Leopardi", "predicato": "scrive", "oggetto": "Lettera"},
-            {"soggetto": "Lettera", "predicato": "giunge", "oggetto": "coll' ultimo ordinario"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "risponde", "oggetto": "immediatamente"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "si addolora", "oggetto": "del disturbo che lei riceve per parte di mio padre"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "non difende", "oggetto": "mio padre"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "concede ragione", "oggetto": "a lei"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "mostra", "oggetto": "il conto dal quale risultava il credito di lei"},
-            {"soggetto": "Conto", "predicato": "mostra", "oggetto": "parecchi errori, come l'ultimo semestre dello Spettatore mancante e spedizioni non ricevute"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "ricorda", "oggetto": "che nel conto erano scorsi parecchi errori"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "è all'oscuro", "oggetto": "di quanto è passato fra lei e mio padre"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "conosce", "oggetto": "il carattere di mio padre"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "non si maraviglia", "oggetto": "della grande indolenza di mio padre"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "è dolente", "oggetto": "di questo affare"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "non può soddisfarla", "oggetto": "come vorrebbe, essendo un povero figlio di famiglia"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "desidera", "oggetto": "la continuazione della sua amicizia"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "prende parte", "oggetto": "agli affari di mio padre"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "spera", "oggetto": "che lei vorrà graziarlo della continuazione dell'amicizia e adoperarlo dove è buono"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "si conferma", "oggetto": "suo devotissimo e obbligatissimo servitore"}
-          ]          
+            "<Febbario; concept> <follows> <Marzo; concept>",
+            "<secondo semestre del 1818; concept> <part of> <Spettatore; concept>",
+            "<Febbario; time> <part of> <1821; time>"
+        ]
     },
     {
         "id_doc": "MS Add.6210.10",
@@ -141,31 +121,10 @@
             }
         ],
         "triples": [
-            "<medaglia; concept> <author> <Lucio Vero; per>",
-            "<Lucio Vero; per> <award received> <medaglia; concept>",
-            "<medaglia di Lucio Vero; eve> <named after> <Lucio Vero; per>"
-        ],
-        "chatgpt":[
-            {"soggetto": "Giacomo Leopardi", "predicato": "scrive", "oggetto": "Lettera"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "risponde", "oggetto": "alla vostra penultima"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "prende atto", "oggetto": "dell'ultima lettera datata 9 giugno"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "prega", "oggetto": "di ringraziare infinitamente da sua parte il Sig. Cav. Cavalier Visconti per il gentilissimo dono"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "riceve", "oggetto": "l'amicizia di Cav. Cavalier Visconti come dono prezioso"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "duole", "oggetto": "essere poco esperto in Archeologia e Numismatica"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "non può proferire", "oggetto": "un giudizio ragionato sulle Dissertazioni di Cav. Cavalier Visconti"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "persuadono e piacciono", "oggetto": "i pareri e le prove di Cav. Cavalier Visconti, specialmente riguardo alla medaglia di Lucio Vero"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "non ha visto", "oggetto": "il libro di suo padre in materia di Archeologia"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "non osa domandare", "oggetto": "il libro di suo padre"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "non ha libri sufficienti", "oggetto": "di Numismatica"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "interroga", "oggetto": "mio padre"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "manda", "oggetto": "la descrizione di una moneta"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "ringrazia", "oggetto": "delle affettuose esibizioni ed espressioni di Melchiorri Giuseppe"},
-            {"soggetto": "Carlo", "predicato": "abbraccia e ringrazia", "oggetto": "per l'amicizia proferita da Melchiorri Giuseppe"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "ringrazia", "oggetto": "Melchiorri Giuseppe per le affettuose esibizioni"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "desidera corrispondere", "oggetto": "in qualunque modo piaccia a Melchiorri Giuseppe"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "ricorda", "oggetto": "ai vostri, e in particolare alla Mamma"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "scrive", "oggetto": "una lettera a Melchiorri Giuseppe il 21 giugno da Recanati"}
-          ]          
+            "<Lucio Vero; per> <notable work> <medaglia; media>",
+            "<medaglia; media> <author> <Lucio Vero; per>",
+            "<medaglia; concept> <author> <Lucio Vero; per>"
+        ]
     },
     {
         "id_doc": "MS Add.6210.4",
@@ -264,33 +223,10 @@
             }
         ],
         "triples": [
-            "<Stimatissimo Sig. Signore; per> <date of death> <Dicembre 1816; date>",
-            "<Stimatissimo Sig. Signore; per> <date of birth> <Dicembre 1816; date>",
-            "<Heschelio; org> <part of> <Cod. Codice Vaticano; concept>"
-        ],
-        "chatgpt":[
-            {"soggetto": "Giacomo Leopardi", "predicato": "scrive", "oggetto": "Lettera"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "ringrazia", "oggetto": "Francesco Cancellieri"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "sentite", "oggetto": "indisposizioni di Francesco Cancellieri"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "prova rimorso", "oggetto": "di averlo infastidito in stato di indisposizione"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "desidera", "oggetto": "compensare e sollevare Francesco Cancellieri"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "ringrazia", "oggetto": "Francesco Cancellieri per le notizie sulle Inscrizioni Triopee"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "comunicherà", "oggetto": "le Inscrizioni Triopee in altra sua operetta"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "avverte", "oggetto": "delle due emendazioni dell'Heschelio nel Codice Vaticano"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "complimenta", "oggetto": "Francesco Cancellieri per le scoperte nel Codice Vaticano"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "avverte", "oggetto": "che il prezzo della stampa richiesto da Contedini lo ha distolto dall'impresa"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "è contentissimo", "oggetto": "della stampa richiesta dal Sig. De Romanis"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "ha dei dubbi", "oggetto": "sulla stampa richiesta dal Sig. De Romanis"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "invia", "oggetto": "una lettera a Francesco Cancellieri con i dubbi sulla stampa"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "chiede", "oggetto": "a Francesco Cancellieri di prendersi cura della legatura se il Sig. Ab. Amati non può farlo"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "prega", "oggetto": "Francesco Cancellieri di pregare il Sig. Ab. Amati o il Tipografo di occuparsi della legatura"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "supplica", "oggetto": "Francesco Cancellieri di fare due correzioni nel Ms. Manoscritto"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "ritorna", "oggetto": "gli ossequi dei suoi Padre, Zio e Fratello a Francesco Cancellieri"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "ritorna", "oggetto": "agli ossequi di Francesco Cancellieri"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "ritorna", "oggetto": "agli ossequi di Francesco Cancellieri"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "esprime", "oggetto": "la sua riconoscenza e stima a Francesco Cancellieri"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "è e sarà", "oggetto": "sempre devotissimo e obbligatissimo servitore di Francesco Cancellieri"}
-          ]          
+            "<I; concept> <part of> <Codice Vaticano; concept>",
+            "<I; media> <part of> <Codice Vaticano; concept>",
+            "<Heschelio; org> <part of> <Codice Vaticano; concept>"
+        ]
     },
     {
         "id_doc": "MS Add.6210.5",
@@ -350,23 +286,10 @@
             }
         ],
         "triples": [
-            "<Lettere sopra la condotta di Bonaparte a Sant'Elena del Chirurgo Warden; org> <language of work or name> <inglese; concept>",
-            "<1817; time> <follows> <1816; time>",
-            "<Lettere sopra la condotta di Bonaparte a Sant'Elena del Chirurgo Warden; media> <language of work or name> <inglese; concept>"
-        ],
-        "chatgpt":[
-            {"soggetto": "Giacomo Leopardi", "predicato": "scrive", "oggetto": "Lettera"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "offre", "oggetto": "la stampa della traduzione delle Lettere sopra la condotta di Bonaparte a Sant'Elena"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "rivolge", "oggetto": "a Niccolò Capurro per proporre la stampa della traduzione"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "conosce", "oggetto": "un mio conoscente"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "conosce", "oggetto": "la traduzione delle Lettere sopra la condotta di Bonaparte a Sant'Elena del Chirurgo Warden"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "informa", "oggetto": "Niccolò Capurro che il possessore del manoscritto desidera qualche compenso per la sua fatica"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "avverte", "oggetto": "Niccolò Capurro che l'originale ha tre rami"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "chiede", "oggetto": "a Niccolò Capurro se vuole far uso dei rami dell'originale"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "informa", "oggetto": "Niccolò Capurro che l'originale è in ottavo, con margine, carattere grande, pag. 219"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "chiede", "oggetto": "a Niccolò Capurro di indicare se accetta l'offerta del manoscritto"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "si rallegra", "oggetto": "di aver avuto occasione di protestare la sua piena e sincera stima a Niccolò Capurro"}
-          ]          
+            "<Lettere sopra la condotta di Bonaparte a Sant'Elena del Chirurgo Warden; media> <inception> <5 Decembre 1817; date>",
+            "<Lettere sopra la condotta di Bonaparte a Sant'Elena del Chirurgo Warden; concept> <part of> <10 Recanati; media>",
+            "<1817; time> <follows> <1816; time>"
+        ]
     },
     {
         "id_doc": "MS Add.6210.11",
@@ -430,22 +353,10 @@
             }
         ],
         "triples": [
-            "<Effemeridi; media> <instance of> <Osservazioni eusebiane; concept>",
-            "<27 Giugno 1823; time> <end time> <27 Giugno 1823; date>",
-            "<27 Giugno 1823; time> <point in time> <27 Giugno 1823; date>"
-        ],
-        "chatgpt":[
-            {"soggetto": "Giacomo Leopardi", "predicato": "si lamenta", "oggetto": "di essere stato dimenticato da Giuseppe Melchiorri"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "vorrebbe sapere", "oggetto": "degli studi, della salute, degli amici e delle novità letterarie di Giuseppe Melchiorri"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "chiede", "oggetto": "a Giuseppe Melchiorri di informarsi da Cardinali se la creazione degli ufficiali del Registro avrà luogo alla fine di questo mese"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "chiede", "oggetto": "informazioni sullo stato della pubblicazione delle sue Osservazioni eusebiane"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "dichiara", "oggetto": "di aver gettato la fatica delle Osservazioni eusebiane, non avendo copie del manoscritto"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "chiede", "oggetto": "a Giuseppe Melchiorri, in caso di miracolo, di mandargli i stamponi delle Osservazioni eusebiane tramite un vetturale"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "esprime", "oggetto": "il desiderio di ricevere notizie da Giuseppe Melchiorri e di essere informato su vari argomenti"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "saluta", "oggetto": "gli amici, in particolare il Cavaliere Marini e Visconti"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "dichiarazione di affetto", "oggetto": "vuole bene a Giuseppe Melchiorri"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "chiede", "oggetto": "a Giuseppe Melchiorri di dirgli qualcosa e si congeda"}
-          ]          
+            "<27 Giugno 1823; time> <inception> <27 Giugno 1823; date>",
+            "<27 Giugno 1823; time> <follows> <Effemeridi; time>",
+            "<27 Giugno; time> <part of> <Giugno; concept>"
+        ]
     },
     {
         "id_doc": "MS Add.6210.39",
@@ -488,23 +399,10 @@
             }
         ],
         "triples": [
-            "<Amico Car.mo Carissimo; per> <place of death> <Roma; loc>",
+            "<Amico Car.mo; per> <place of birth> <Roma; loc>",
             "<Amico Car.mo Carissimo; per> <place of birth> <Roma; loc>",
-            "<Amico Car.mo Carissimo Roma; per> <place of birth> <Roma; loc>"
-        ],
-        "chatgpt":[
-            {"soggetto": "Monaldo Leopardi", "predicato": "ringrazia", "oggetto": "Giuseppe Politi per l'interessamento nella sua lite e per la lettera della Signora di Giuseppe Politi"},
-            {"soggetto": "Monaldo Leopardi", "predicato": "assicura", "oggetto": "la Signora di Giuseppe Politi del suo rispetto e della sua riconoscenza"},
-            {"soggetto": "Monaldo Leopardi", "predicato": "chiede", "oggetto": "a Giuseppe Politi di continuare a raccomandare le sue cause al Signore"},
-            {"soggetto": "Monaldo Leopardi", "predicato": "informa", "oggetto": "Giuseppe Politi della situazione con il Computista del Buon Governo e dei piani per risolvere l'affare"},
-            {"soggetto": "Monaldo Leopardi", "predicato": "promette", "oggetto": "di risolvere l'affare senza l'intervento di Monsignor Brignole Ponente"},
-            {"soggetto": "Monaldo Leopardi", "predicato": "informa", "oggetto": "Giuseppe Politi che Sala è convinto della malignità di Mazzanti e che non lo riceve più"},
-            {"soggetto": "Monaldo Leopardi", "predicato": "assicura", "oggetto": "Giuseppe Politi che si informerà su quanto accaduto con gli affari di Massucci e di Giuseppe Politi"},
-            {"soggetto": "Monaldo Leopardi", "predicato": "spiega", "oggetto": "le ragioni del ritardo nell'affrontare le questioni di Giuseppe Politi e sue"},
-            {"soggetto": "Monaldo Leopardi", "predicato": "ringrazia", "oggetto": "Giuseppe Politi per le informazioni sull'Arcidiacono e dichiara la sua determinazione a non cedere in un affare in cui si sente offeso e puntigliato"},
-            {"soggetto": "Monaldo Leopardi", "predicato": "dichiara", "oggetto": "di non voler cedere nulla all'Arcidiacono e si impegna a lottare contro di lui in ogni sede"},
-            {"soggetto": "Monaldo Leopardi", "predicato": "saluta", "oggetto": "Giuseppe Politi, il Decano e gli altri figli di Giuseppe Politi"}
-          ]          
+            "<Car.mo Carissimo; per> <place of birth> <Roma; loc>"
+        ]
     },
     {
         "id_doc": "MS Add.6210.7",
@@ -547,18 +445,10 @@
             }
         ],
         "triples": [
-            "<V.E. Vostra Eccellenza Reverendiss. Reverendissima; per> <religion> <Accademici; concept>",
-            "<V.E. Vostra Eccellenza Reverendiss. Reverendissima; per> <ethnic group> <Accademici; concept>"
-        ],
-        "chatgpt":[
-            {"soggetto": "Giacomo Leopardi", "predicato": "ringrazia", "oggetto": "V.E. Reverendissima e gli illustri Accademici per l'iscrizione al loro collegio"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "riconosce", "oggetto": "l'onore ricevuto e promette di mostrarsi riconoscente con fatti"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "chiede", "oggetto": "a V.E. Reverendissima di essere testimone della sua gratitudine nei confronti degli Accademici"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "dichiara", "oggetto": "di debere obbligazioni speciali a V.E. Reverendissima"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "si impegna", "oggetto": "a vincere la sua mediocrità per rendere onore all'iscrizione ricevuta"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "si dichiara", "oggetto": "Umo Umilissimo, Devotissimo e Gratiss Gratissimo Servitore di V.E. Reverendissima"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "rivolge", "oggetto": "la lettera a Sua Eccellenza Reverendissima Monsignor G. Giuseppe Zacchia, Delegato Apostolico di Ascoli e Presidente dell'Accademia Trudentina"}
-          ]          
+            "<V.E. Vostra Eccellenza Reverendiss. Reverendissima; per> <spouse> <V.E. Vostra Eccellenza Reverendiss. Reverendissima; per>",
+            "<V.E. Vostra Eccellenza Reverendiss. Reverendissima; per> <child> <Eccellenza Reverendiss. Reverendissima; per>",
+            "<V.E. Vostra Eccellenza Reverendiss. Reverendissima; per> <sibling> <V.E. Vostra Eccellenza Reverendiss. Reverendissima; per>"
+        ]
     },
     {
         "id_doc": "MS Add.6210.13",
@@ -608,20 +498,10 @@
             }
         ],
         "triples": [
-            "<Recanati; per> <child> <Caro Peppino; per>",
-            "<Pippo; per> <spouse> <Tuta; per>",
-            "<1824; time> <point in time> <1824; date>",
-            "<Tuta; per> <spouse> <Pippo; per>"
-        ],
-        "chatgpt":[
-            {"soggetto": "Giacomo Leopardi", "predicato": "esprime", "oggetto": "meraviglia per la lettera di Giuseppe Melchiorri del 27 Dicembre 1823"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "chiede", "oggetto": "a Giuseppe Melchiorri di verificare se la sua precedente lettera con l'Errata dell'Eusebio è stata smarrita"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "si dispiace", "oggetto": "all'idea che la lettera precedente possa essere perduta"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "ringrazia", "oggetto": "Giuseppe Melchiorri per gli auguri e li rende di cuore"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "saluta", "oggetto": "la Tuta e Pippo e augura loro un buon anno"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "conclude", "oggetto": "la lettera con due volte 'Addio'"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "invia", "oggetto": "la lettera a Giuseppe Melchiorri, Marchese, a Roma"}
-          ]          
+            "<Tuta; per> <sibling> <Pippo; per>",
+            "<Tuta; per> <spouse> <Pippo; per>",
+            "<Tuta; per> <spouse> <Pippo; concept>"
+        ]
     },
     {
         "id_doc": "MS Add.6210.12",
@@ -664,21 +544,11 @@
             }
         ],
         "triples": [
-            "<Caro Peppino; per> <date of death> <14 Novembre 1823; date>",
-            "<Peppino; per> <date of death> <14 Novembre 1823; date>",
-            "<Caro Peppino; media> <author> <Peppino; per>"
-        ],
-        "chatgpt":[
-            {"soggetto": "Giacomo Leopardi", "predicato": "riconosce", "oggetto": "che Giuseppe Melchiorri ha ragione di rimproverargli il silenzio"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "spiega", "oggetto": "i motivi del suo silenzio dovuti agli studi e alla mancanza di argomenti particolari"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "chiede", "oggetto": "a Giuseppe Melchiorri di inviargli un esemplare integro della stampa Eusebiana prima della legatura"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "promette", "oggetto": "di correggere eventuali errori (Errata) nella stampa Eusebiana e restituire l'esemplare"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "esprime", "oggetto": "partecipazione ai disgusti di Giuseppe Melchiorri e desiderio di consolarlo"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "manifesta", "oggetto": "l'amicizia sincera, costante, fedele ed affettuosa che prova per Giuseppe Melchiorri"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "fa", "oggetto": "voti e desideri per la felicità di Giuseppe Melchiorri"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "conclude", "oggetto": "l'esortazione ad amarlo e ad avere fiducia in lui"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "si rallegra", "oggetto": "per l'avanzamento delle iscrizioni Vaticane di Giuseppe Melchiorri"}
-          ]          
+            "<Eusebiana; per> <notable work> <Errata; media>",
+            "<14 Novembre; time> <part of> <Novembre; concept>",
+            "<stampa Eusebiana; media> <instance of> <stampa; concept>",
+            "<Errata; media> <author> <Eusebiana; per>"
+        ]
     },
     {
         "id_doc": "MS Add.6210.6",
@@ -728,9 +598,9 @@
             }
         ],
         "triples": [
-            "<paia; concept> <subclass of> <carta cerulea; concept>",
-            "<carta gialla; concept> <subclass of> <carta cerulea; concept>",
-            "<paia; concept> <made from material> <carta cerulea; concept>"
+            "<carta gialla; concept> <instance of> <cerulea; concept>",
+            "<carta gialla; concept> <part of> <paia; concept>",
+            "<carta gialla; concept> <instance of> <carta cerulea; concept>"
         ]
     },
     {
@@ -781,9 +651,9 @@
             }
         ],
         "triples": [
-            "<Ornatissimo Sig. Signore Recanati; per> <date of birth> <15 Novembre 1816; date>",
-            "<Libretto del Mosco; concept> <named after> <Mosco; per>",
-            "<Libretto del Mosco; org> <named after> <Mosco; per>"
+            "<Bifolchetto; concept> <part of> <Libretto del Mosco; concept>",
+            "<Amore avante; concept> <part of> <Libretto del Mosco; concept>",
+            "<Mosco; org> <part of> <Libretto del Mosco; concept>"
         ]
     },
     {
@@ -841,25 +711,10 @@
             }
         ],
         "triples": [
-            "<Cicerone; per> <student> <Petrarca; per>",
-            "<Petrarca; per> <student> <Cicerone; per>",
-            "<Cicerone; per> <influenced by> <Petrarca; per>"
-        ],
-        "chatgpt":[
-            {"soggetto": "Giacomo Leopardi", "predicato": "scrive", "oggetto": "Lettera"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "rende risposta", "oggetto": "alle fav.me favoritissime sue de' 20 e 22 corrente"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "torna a raccomandare", "oggetto": "al Moratti l'affar delle spedizioni"},
-            {"soggetto": "Moratti", "predicato": "risponde", "oggetto": "di non aver mancato di spedir subito"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "non sa", "oggetto": "che cosa replicare"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "ha ricevuto", "oggetto": "le nuove prove del Petrarca e del Cicerone"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "consegnerà", "oggetto": "infallibilmente al Moratti quest'altro ordinario, con nuove raccomandazioni"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "confessa", "oggetto": "di sentirsi lusingato e superbo del voto favorevole dato alle sue Operette morali"},
-            {"soggetto": "ms. manoscritto", "predicato": "è", "oggetto": "di 311 pagine"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "sarebbe ben contento", "oggetto": "se Ella volesse e potesse esserne l'editore"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "prega", "oggetto": "di darmi una risposta concreta in questo proposito"},
-            {"soggetto": "Giacomo Leopardi", "predicato": "debbo fare", "oggetto": "i complimenti di Mad. Padovani a lei ed a tutta la sua famiglia"},
-            {"soggetto": "Mad. Padovani", "predicato": "abita", "oggetto": "ora nella stessa casa al mio stesso piano di Giacomo Leopardi"}
-          ]          
+            "<Cicerone; per> <replaces> <Petrarca; per>",
+            "<Cicerone; per> <occupation> <ordinario; concept>",
+            "<Petrarca; per> <sibling> <Cicerone; per>"
+        ]
     },
     {
         "id_doc": "MS Add.6210.17",
@@ -923,9 +778,9 @@
             }
         ],
         "triples": [
-            "<Locanda della Pace; loc> <located on street> <Corso; loc>",
-            "<Bologna; loc> <shares border with> <Recana- ti; loc>",
-            "<Locanda della Pace; loc> <located on street> <Strada Stefano; loc>"
+            "<Locanda della Pace; loc> <location> <Corso; loc>",
+            "<Locanda della Pace; loc> <location> <Bologna; loc>",
+            "<Locanda della Pace; loc> <part of> <Corso; loc>"
         ]
     },
     {
@@ -976,9 +831,9 @@
             }
         ],
         "triples": [
-            "<carta; concept> <has quality> <caratteri; concept>",
-            "<manoscritto; concept> <subclass of> <carta; concept>",
-            "<manoscritto; concept> <made from material> <carta; concept>"
+            "<Antici; per> <notable work> <Lettera ultima; concept>",
+            "<Lettera ultima; org> <author> <Antici; per>",
+            "<Lettera ultima; concept> <author> <Antici; per>"
         ]
     },
     {
@@ -1050,9 +905,9 @@
             }
         ],
         "triples": [
-            "<Teatro del Corso; loc> <occupant> <casa Badini; loc>",
+            "<Teatro del Corso; loc> <location> <Milano; loc>",
             "<casa Badini; loc> <part of> <Teatro del Corso; loc>",
-            "<casa Badini; loc> <location> <Teatro del Corso; loc>"
+            "<Bentivoglio; loc> <location> <Milano; loc>"
         ]
     },
     {
@@ -1117,9 +972,8 @@
             }
         ],
         "triples": [
-            "<Giacomo Leopardi; per> <position held> <Obbl.mo Obbligatissimo Servo; per>",
-            "<Giacomo Leopardi; per> <position held> <Dev.mo Devotissimo Obbl.mo Obbligatissimo Servo; per>",
-            "<Giacomo Leopardi; per> <position held> <Dev.mo Devotissimo Obbl.mo Obbligatissimo Servo; concept>"
+            "<Abate Cancellieri; media> <author> <Giacomo Leopardi; per>",
+            "<Giacomo Leopardi; per> <notable work> <Abate Cancellieri; media>"
         ]
     },
     {
@@ -1180,10 +1034,10 @@
             }
         ],
         "triples": [
-            "<D. Paolo; per> <sibling> <Matteo; per>",
-            "<Matteo; per> <sibling> <D. Paolo; misc>",
+            "<Dialoghetti; media> <author> <Papà; per>",
+            "<Matteo; per> <sibling> <D.Paolo; per>",
             "<Matteo; per> <sibling> <D. Paolo; per>",
-            "<D. Paolo; misc> <sibling> <Matteo; per>"
+            "<Papà; per> <notable work> <Dialoghetti; media>"
         ]
     },
     {
@@ -1201,9 +1055,10 @@
         "persons": [],
         "places": [],
         "triples": [
-            "<Bertiand de Nantes; per> <occupation> <geologo; concept>",
-            "<Cadmo; media> <author> <Bagnoli; per>",
-            "<Hnuboldt; per> <student> <Pietro Pietrini; per>"
+            "<Cadmo; concept> <author> <Bagnoli; per>",
+            "<Bagnoli; per> <notable work> <Cadmo; concept>",
+            "<Bagnoli; per> <notable work> <Cadmo; media>",
+            "<Cadmo; media> <author> <Bagnoli; per>"
         ]
     },
     {
@@ -1261,9 +1116,9 @@
             }
         ],
         "triples": [
-            "<Recanati; per> <work location> <Cancellieri; loc>",
-            "<Recanati; per> <languages spoken, written or signed> <eusebiane; concept>",
-            "<Recanati; per> <residence> <Cancellieri; loc>"
+            "<Arcadici; media> <instance of> <Canzoni; concept>",
+            "<Recanati; media> <author> <Peppino; per>",
+            "<Recanati; per> <place of birth> <Cancellieri; loc>"
         ]
     },
     {
@@ -1316,8 +1171,8 @@
             }
         ],
         "triples": [
-            "<Iddio; per> <spouse> <Teresa; per>",
-            "<Teresa; per> <spouse> <Iddio; per>",
+            "<Iddio; per> <occupation> <sapientissimo; concept>",
+            "<Amalia; per> <sibling> <Teresa; per>",
             "<Iddio; misc> <child> <Iddio; per>"
         ]
     },
@@ -1393,9 +1248,9 @@
             }
         ],
         "triples": [
-            "<Loreto; loc> <located in the administrative territorial entity> <Recanati; loc>",
-            "<Vogel; per> <place of death> <Loreto; loc>",
-            "<Loreto; loc> <part of> <Recanati; loc>"
+            "<Vogel; per> <occupation> <canonico; concept>",
+            "<Loreto; loc> <location> <Recanati; loc>",
+            "<Recanati; loc> <shares border with> <Loreto; loc>"
         ]
     },
     {
@@ -1453,9 +1308,8 @@
             }
         ],
         "triples": [
-            "<Michele Moroni; per> <sibling> <Monaldo Leopardi; per>",
+            "<Monaldo Leopardi; per> <child> <Monaldo Leopardi; per>",
             "<Monaldo Leopardi; per> <sibling> <Michele Moroni; per>",
-            "<Monaldo Leopardi; per> <relative> <Michele Moroni; per>",
             "<Monaldo Leopardi; per> <child> <Michele Moroni; per>"
         ]
     },
@@ -1507,9 +1361,9 @@
             }
         ],
         "triples": [
-            "<Ranieri; per> <genre> <Commedia; concept>",
-            "<Monaca di Monza; loc> <located in the administrative territorial entity> <Monza; loc>",
-            "<Monaca di Monza; loc> <medical condition> <mal d'occhi; concept>"
+            "<Monaca di Monza; loc> <location> <Monza; loc>",
+            "<Commedia; concept> <instance of> <genere di dramma; concept>",
+            "<Ranieri; per> <genre> <Commedia; concept>"
         ]
     },
     {
@@ -1615,9 +1469,9 @@
             }
         ],
         "triples": [
-            "<Una bella Signora; per> <field of work> <autografi; concept>",
-            "<Una bella Signora; per> <date of death> <24 Maggio 1831; date>",
-            "<Una bella Signora; concept> <date of death> <24 Maggio 1831; date>"
+            "<autografi; concept> <instance of> <autografo; concept>",
+            "<Una bella Signora; per> <genre> <autografi; concept>",
+            "<autografo; concept> <instance of> <autografi; concept>"
         ]
     },
     {
@@ -1687,9 +1541,9 @@
             }
         ],
         "triples": [
-            "<28 giugno; concept> <part of> <LUGLIO; concept>",
-            "<28 giugno; time> <part of> <LUGLIO; concept>",
-            "<1830; time> <point in time> <1830; date>"
+            "<LUGLIO; concept> <follows> <28 Giug; concept>",
+            "<LUGLIO; concept> <follows> <28 Giug.; concept>",
+            "<LUGLIO; concept> <follows> <giugno; concept>"
         ]
     },
     {
@@ -1753,7 +1607,7 @@
         ],
         "triples": [
             "<Settembre; concept> <follows> <Agosto; concept>",
-            "<Mennais; per> <position held> <abate; concept>"
+            "<Mennais; per> <place of birth> <Firenze; loc>"
         ]
     },
     {
@@ -1809,8 +1663,9 @@
             }
         ],
         "triples": [
-            "<Monaldo Leopardi; per> <family> <Conte Monaldo Leopardi Recanati; loc>",
-            "<Monaldo Leopardi; per> <noble title> <Conte; concept>"
+            "<Monaldo Leopardi; per> <notable work> <Recanati; loc>",
+            "<Monaldo Leopardi; per> <place of birth> <Firenze; loc>",
+            "<Monaldo Leopardi; per> <occupation> <Conte; concept>"
         ]
     },
     {
@@ -1882,9 +1737,9 @@
             }
         ],
         "triples": [
-            "<Carlotta Lenzoni; per> <place of death> <Firenze; loc>",
-            "<Firenze; loc> <elevation above sea level> <3; num>",
-            "<Carlotta Lenzoni; per> <place of birth> <Firenze; loc>"
+            "<24 Maggio; time> <part of> <Maggio; concept>",
+            "<24 Maggio; time> <follows> <25 Maggio; time>",
+            "<Firenze; loc> <country> <A.; loc>"
         ]
     },
     {
@@ -1945,9 +1800,9 @@
             }
         ],
         "triples": [
-            "<Monaldo Leopardi; per> <child> <Monaldo Leopardi; per>",
-            "<Monaldo Leopardi; per> <child> <Monaldo Leopardi Loreto; per>",
-            "<Monaldo Leopardi; per> <noble title> <Conte; concept>"
+            "<Recanati; loc> <location> <FIRENZE; loc>",
+            "<Monaldo Leopardi; per> <place of birth> <Loreto; loc>",
+            "<Recanati; loc> <location> <Firenze; loc>"
         ]
     },
     {
@@ -1986,9 +1841,9 @@
             }
         ],
         "triples": [
-            "<Via del Corso; loc> <located in the administrative territorial entity> <Firenze; loc>",
-            "<Feliciano Niccolini; per> <place of birth> <Via del Corso; loc>",
-            "<Feliciano Niccolini; per> <notable work> <Via del Corso; loc>"
+            "<Leopardi; per> <occupation> <s.re servitore; concept>",
+            "<Leopardi; per> <notable work> <Signor Feliciano Niccolini; media>",
+            "<Leopardi; per> <occupation> <servitore; concept>"
         ]
     },
     {
@@ -2053,9 +1908,9 @@
             }
         ],
         "triples": [
-            "<Sig. Signor Conte; per> <relative> <Sig. Signor Giovan- ni Galvani; per>",
-            "<Sig. Signor Conte Conte; per> <relative> <Sig. Signor Giovan- ni Galvani; per>",
-            "<21 di Giugno; time> <point in time> <21 di Giugno; date>"
+            "<21; time> <part of> <Giugno; concept>",
+            "<Pregiatissimo e Chiarissimo Sig. Signor Conte; media> <instance of> <autografi; concept>",
+            "<Pregiatissimo e Chiarissimo Sig. Signor Conte; unk> <instance of> <autografi; concept>"
         ]
     },
     {
@@ -2142,9 +1997,9 @@
             }
         ],
         "triples": [
-            "<Recanati; per> <date of birth> <19 Aprile 1829; date>",
-            "<Recanati; per> <place of birth> <Cariss; loc>",
-            "<Recanati; concept> <date of birth> <19 Aprile 1829; date>"
+            "<Gennaio passato; concept> <part of> <7 del corrente; concept>",
+            "<Gennaio passato; concept> <part of> <corrente; concept>",
+            "<Gennaio passato; concept> <follows> <7 del corrente; concept>"
         ]
     },
     {
@@ -2235,9 +2090,9 @@
             }
         ],
         "triples": [
-            "<Contedini; media> <author> <Ella; per>",
-            "<P.rone Padrone ed Amico; concept> <author> <Sig. Signor Cancellieri; per>",
-            "<Contedini; org> <author> <Ella; per>"
+            "<Contedini; concept> <author> <Ella; per>",
+            "<Fogli; per> <notable work> <Contedini; org>",
+            "<Contedini; org> <author> <Fogli; per>"
         ]
     },
     {
@@ -2295,9 +2150,9 @@
             }
         ],
         "triples": [
-            "<Bellini; per> <notable work> <Rivista letteraria; concept>",
-            "<Rivista letteraria; concept> <author> <Bellini; per>",
-            "<Orazio; per> <notable work> <Salterio; media>"
+            "<Discorso sopra la fama di Orazio; concept> <author> <Salterio; per>",
+            "<Discorso sopra la fama di Orazio; concept> <author> <Orazio; per>",
+            "<Discorso sopra la fama di Orazio; concept> <follows> <Salterio; concept>"
         ]
     },
     {
@@ -2360,9 +2215,9 @@
             }
         ],
         "triples": [
-            "<Madama Mason; per> <spouse> <Carmi; per>",
-            "<Carmi; per> <spouse> <Madama Mason; per>",
-            "<1828; time> <follows> <1827; time>"
+            "<Strozzi; per> <notable work> <Monaca; media>",
+            "<Carmi; loc> <location> <Firenze; loc>",
+            "<Madama Mason; per> <spouse> <Carmi; per>"
         ]
     },
     {
@@ -2395,13 +2250,20 @@
         ],
         "places": [],
         "triples": [
-            "<Erennio Filone Crestomat; per> <part of> <Crestomatia I; org>",
-            "<Aristofane; per> <sibling> <Antifane; per>",
-            "<Platone; per> <sibling> <Antifane; per>",
-            "<Antifane; per> <sibling> <Aristofane; per>",
-            "<Erennio Filone Crestomat; per> <part of> <Leopardi Crestomatia I; media>",
-            "<Antifane; per> <sibling> <Platone; per>",
-            "<Crestomatia I; org> <part of> <Monaldo Leopardi; per>"
+            "<antica Commedia; loc> <characters> <Filippide; per>",
+            "<antica Commedia; loc> <characters> <Aristofane; per>",
+            "<antica Commedia; loc> <characters> <Ferecrate; per>",
+            "<antica Commedia; loc> <characters> <Menandro; misc>",
+            "<Aristofane; per> <spouse> <Ferecrate; per>",
+            "<Platone; per> <notable work> <Antifane; org>",
+            "<antica Commedia; loc> <characters> <Antifane; misc>",
+            "<antica Commedia; loc> <characters> <Difilo; per>",
+            "<Platone; per> <notable work> <antica Commedia; loc>",
+            "<antica Commedia; loc> <characters> <Platone; per>",
+            "<Antifane; org> <author> <Platone; per>",
+            "<Aristofane; per> <notable work> <antica Commedia; loc>",
+            "<antica Commedia; loc> <characters> <Filemone; misc>",
+            "<antica Commedia; loc> <characters> <Apollodoro; misc>"
         ]
     },
     {
@@ -2445,9 +2307,9 @@
             }
         ],
         "triples": [
-            "<Cap. Capitolo; org> <author> <Rosini Pisa; per>",
-            "<Al Chiariss; per> <place of death> <FIRENZE; loc>",
-            "<Prof. Rosini; per> <place of birth> <Pisa; loc>"
+            "<Cap. Capitolo; org> <author> <Rosini; per>",
+            "<Il Capitolo del villano; concept> <author> <Rosini Pisa; per>",
+            "<Cap. Capitolo; org> <author> <Prof. Rosini; per>"
         ]
     },
     {
@@ -2543,9 +2405,9 @@
             }
         ],
         "triples": [
-            "<Caro Cugino; per> <languages spoken, written or signed> <latina; concept>",
-            "<Caro Cugino; per> <languages spoken, written or signed> <latino; concept>",
-            "<Recanati; per> <date of death> <13 Maggio 1822; date>"
+            "<liana; concept> <instance of> <latina; concept>",
+            "<occhi; concept> <part of> <testa; concept>",
+            "<Cilicia; loc> <location> <Roma; loc>"
         ]
     },
     {
@@ -2617,9 +2479,9 @@
             }
         ],
         "triples": [
-            "<Caro Cugino; per> <date of birth> <7 Giugno 1822; date>",
-            "<Caro Cugino; per> <occupation> <scrittori; concept>",
-            "<Caro Cugino; per> <date of death> <7 Giugno 1822; date>"
+            "<passo del Petrarca; loc> <part of> <Crusca del Cesari; concept>",
+            "<Ingomberare; concept> <part of> <passo del Petrarca; loc>",
+            "<Ingomberare; concept> <instance of> <passo del Petrarca; loc>"
         ]
     },
     {
@@ -2682,7 +2544,9 @@
             }
         ],
         "triples": [
-            "<Carlo Emmanuele de' Conti Muzzarelli Uditore della S. Sacra Rota Roma; per> <place of birth> <Roma; loc>"
+            "<Carlo Emmanuele de' Conti Muzzarelli; per> <place of birth> <Roma; loc>",
+            "<Carlo Emmanuele de' Conti Muzzarelli Uditore; unk> <place of birth> <Roma; loc>",
+            "<Carlo Emmanuele de' Conti Muzzarelli; unk> <place of birth> <Roma; loc>"
         ]
     },
     {
@@ -2708,12 +2572,12 @@
         ],
         "places": [],
         "triples": [
-            "<Di un Ermia Fab.; media> <author> <Giacomo Leopardi; per>",
-            "<Di un Ermia; media> <author> <Giacomo Leopardi; per>",
-            "<Giacomo Leopardi; per> <notable work> <Di un Ermia; media>",
-            "<Di un Ermia Fab.; org> <author> <Giacomo Leopardi; per>",
+            "<Di un Ermia Fab.; concept> <author> <Giacomo Leopardi; per>",
+            "<Giacomo Leopardi; per> <notable work> <Di un Ermia Fab.; org>",
             "<Giacomo Leopardi; per> <notable work> <Di un Ermia Fab.; media>",
-            "<Giacomo Leopardi; per> <notable work> <Di un Ermia Fab.; org>"
+            "<Di un Ermia Fab.; org> <author> <Giacomo Leopardi; per>",
+            "<Giacomo Leopardi; per> <notable work> <Di un Ermia Fab.; concept>",
+            "<Di un Ermia Fab.; media> <author> <Giacomo Leopardi; per>"
         ]
     }
 ]
