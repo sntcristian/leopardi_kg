@@ -16,6 +16,12 @@
     P128_is_carried_by :doc1;
     P190_has_symbolic_content :triple1
 
+:triple1 rdf:type rdf:Statement;
+    rdf:subject :Giacomo_Leopardi;
+    rdf:predicate :non_difende;
+    rdf:object :padre;
+    :source :letter1.
+
 :timespan1 a E52_Time-Span ;
         rdfs:label "26 Febbraio 1821" .
 

@@ -1,0 +1,1367 @@
+[
+    {
+        "id_doc": "MS Add.6210.38",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Antonio Fortunato Stella",
+        "lang": "Italian",
+        "support": "Paper with double lily watermark",
+        "extent": "4 pages ",
+        "orig_date": "26 Febbraio 1821",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Stella, Antonio Fortunato, 1757-1833 (51815878)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Stella, Antonio Fortunato, 1757-1833.  Recanati 26 Febbario 1821 Stimatissimo Signore La sua graditissima 14. andante mi giunse coll' ultimo ordinario e rispondo immediatamente. Vorrei ch'Ella si persuadesse [symbol standing for \"adding something\"] che il disturbo ch'Ella riceve per parte di mio padre , mi addolora e mi attrista infinitamente. Io non sono bene informato della cosa, ma tuttavia non solo non difendo mio padre, ma do schiettamente ragione a lei. Dirò sinceramente tutto quello che io so. Quando ella inviò a mio padre il conto, dal quale risultava il noto suo credito, vale a dire, due anni addietro e più, se non erro, mio padre me lo fece vedere; e quindi si pose ad esaminare le sue carte, per riscontrare le partite di quel conto. Io mi ricordo che nel conto erano scorsi parecchi errori. Per esempio, l'ultimo semestre dello Spettatore, cioè il secondo semestre del 1818. non ci era mai stato spedito. E una o due delle ultime spedizioni fatte a mio padre da Lei, o dal suo negozio, non sono state mai ricevute. Se mio padre allora le rispondesse, io non lo so; e d'allora in poi, sono affatto all'oscuro di quanto è passato fra lei e mio padre : se non che dall'ultima sua pregiatiss. pregiatissima intendo con sommo dispiacere, il rifiuto della cambiale, e il silenzio di mio padre . Io conosco il carattere di mio padre : e perciò non mi maraviglio della sua grande indolenza intorno agli affari propri. Io so ch'egli agisce colla stessa indolenza anche nelle cose che l'interessano sommamente, e nelle quali dovrebbe esser premuroso pel suo proprio vantaggio. Ne ho molti esempi, ed io medesimo ne sono uno. Se io avessi creduto di poterla servire presso mio padre , l'avrei fatto col possibile impegno. Ma conoscendo il suo modo di pensare, e sapendo ch'egli non ama che i figli prendano parte veruna agli affari suoi, ho veduto bene, che in vece di servirla, non avrei fatto che proccurare nuovi dispiaceri a me stesso. Ella non può figurarsi quanto io sia dolente di questo affare. Se non fossi un povero figlio di famiglia, vorrei subito soddisfarla di tutto io medesimo, come se si trattasse di un debito mio. V. S. Vostra Signoria si compiaccia di credermi, e di accertarsi che la puntualità in qualunque impegno, mi sta a cuore sopra ogni cosa. S'io posso servirla in qualche altro modo, coglierò con gioia l'occasione di mostrarle quanto vivamente io desideri la continuazione della sua amicizia. Ardisco sperare ch'Ella vorrà graziarmi di questa continuazione, e adoperarmi dov'io sia buono. Anzi ne la prego di tutto cuore. E con piena stima e sincerità mi confermo Suo D.mo Devotissimo Obbl.mo Obbligatissimo S.re Servitore Giacomo Leopardi . RECANATI All' Ill.mo Illustrissimo Signore Il Sig. Signor Antonio Fortunato Stella Milano ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "51815878",
+                "ref": "pers-6",
+                "forename": "Antonio Fortunato",
+                "surname": "Stella",
+                "persName": "Antonio Fortunato Stella"
+            },
+            {
+                "key": "9709149068390265730006",
+                "ref": "pers-14",
+                "forename": "Monaldo",
+                "surname": "Leopardi",
+                "persName": "Monaldo Leopardi"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3173434",
+                "ref": "pla-3",
+                "placeName": "Milano"
+            }
+        ],
+        "chat-gpt":[
+            ["Giacomo Leopardi", "scrive a", "Antonio Fortunato Stella"],
+            ["Antonio Fortunato Stella", "riceve", "lettera di Giacomo Leopardi"],
+            ["Antonio Fortunato Stella", "riceve", "lettera 14 di Giacomo Leopardi"],
+            ["Giacomo Leopardi", "è addolorato per", "disturbo ricevuto da Antonio Fortunato Stella"],
+            ["Giacomo Leopardi", "è attristato per", "disturbo ricevuto da Antonio Fortunato Stella"],
+            ["Giacomo Leopardi", "non difende", "mio padre"],
+            ["Giacomo Leopardi", "dà ragione a", "Antonio Fortunato Stella"],
+            ["Antonio Fortunato Stella", "inviò", "conto a mio padre"],
+            ["mio padre", "mostra", "conto a Giacomo Leopardi"],
+            ["Giacomo Leopardi", "esamina", "carte di mio padre"],
+            ["Giacomo Leopardi", "ricorda", "errori nel conto di Antonio Fortunato Stella"],
+            ["Giacomo Leopardi", "ricorda", "mancata spedizione dello Spettatore"],
+            ["Giacomo Leopardi", "ricorda", "non ricezione di spedizioni da Antonio Fortunato Stella"],
+            ["Giacomo Leopardi", "è all'oscuro di", "fatti tra Antonio Fortunato Stella e mio padre"],
+            ["Antonio Fortunato Stella", "riceve", "rifiuto della cambiale da Giacomo Leopardi"],
+            ["Antonio Fortunato Stella", "riceve", "silenzio di mio padre"],
+            ["Giacomo Leopardi", "conosce", "carattere di mio padre"],
+            ["Giacomo Leopardi", "non si maraviglia di", "indolenza di mio padre negli affari"],
+            ["Giacomo Leopardi", "è dolente di", "affare tra Antonio Fortunato Stella e mio padre"],
+            ["Giacomo Leopardi", "desidera", "continuazione dell'amicizia con Antonio Fortunato Stella"],
+            ["Giacomo Leopardi", "chiede", "graziamento per la continuazione dell'amicizia"],
+            ["Giacomo Leopardi", "chiede", "opportunità di servire Antonio Fortunato Stella"]
+          ]          
+    },
+    {
+        "id_doc": "MS Add.6210.10",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Giuseppe Melchiorri",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "2 pages ",
+        "orig_date": "24 Giugno 1822.",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Melchiorri, Giuseppe, 1796-1855 (2821485)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Melchiorri, Giuseppe, 1796-1855.  24 Giugno 1822. Caro Cugino . Risposi alla vostra penultima. Ora all'ultima dei 9. Vi prego di ringraziare infinitamente da mia parte il Sig. Signor Cav. Cavalier Visconti del gentilissimo dono che mi manda. E ditegli che ricevo come dono anche più prezioso l'amicizia sua, della quale, per l'espressione della vostra lettera, mi par ch'io mi possa vantare. Mi duole assai che nell'Archeologia e nella Numismatica io sia poco meno che idiota, e perciò non possa proferire un giudizio ragionato sopra le sue Dissertazioni. Ma dico sinceramente che i suoi pareri, e le prove che n'adduce, per quel tanto ch'io n'intendo, mi persuadono, e mi piacciono molto, e massimamente quel che dice della medaglia di Lucio Vero mi par che sia molto utile e molto ben dimostrato. Sappiate che mio padre non m'ha neppur fatto vedere il suo libro, e però non ardisco nè mi curo di domandarglielo. E questo mi serva di scusa, se non ve lo mando, perch'io non l'ho. Torno a dire che l'Archeologia non fu mai nè il mio studio nè il mio genio. Sicchè, non avendo nemmeno libri sufficienti di Numismatica, non vi so dire se fra le nostre monete antiche se ne trovi alcuna inedita. Nondimeno, per servirvi, ho interrogato mio padre , il quale m'ha detto d'averne una, di cui nessuno degl'intendenti che n'ha domandato, gli ha saputo dar notizia. Me n'ha fatto la descrizione, e ve la mando. Coi vostri libri vedrete se sia veramente inedita, e se vi faccia al caso. Non entrerò a discorrere quanto sia lontana dal verisimile, e quasi dal possibile, la mia venuta costì. Ma vi ringrazio cordialmente delle affettuose esibizioni ed espressioni che mi fate, e desidero di corrispondervi interamente in qualunque modo vi piacerà. Carlo v' abbraccia e v'è molto grato dell'amicizia che gli proferite; v'ama e vi saluta. Ricordatemi ai vostri, e in particolare alla Mamma , alla quale ho scritto poco fa, e vorrei che lo sapesse, in caso che la lettera fosse smarrita. Addio, addio. State bene ed amatemi. Risposta al N.° 7._ Al Nobil Uomo Sig. Signor M.se Marchese Giuseppe Melchiorri Roma RECANATI 21 GIUGNO ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "9709149068390265730006",
+                "ref": "pers-14",
+                "forename": "Monaldo",
+                "surname": "Leopardi",
+                "persName": "Monaldo Leopardi"
+            },
+            {
+                "key": "47597875",
+                "ref": "pers-15",
+                "forename": "Carlo Orazio",
+                "surname": "Leopardi",
+                "persName": "Carlo Orazio Leopardi"
+            },
+            {
+                "key": "2821485",
+                "ref": "pers-20",
+                "forename": "Giuseppe",
+                "surname": "Melchiorri",
+                "persName": "Giuseppe Melchiorri"
+            },
+            {
+                "key": "",
+                "ref": "pers-24",
+                "forename": "Ferdinanda",
+                "surname": "Leopardi",
+                "persName": "Ferdinanda Leopardi"
+            },
+            {
+                "key": "19668291",
+                "ref": "pers-26",
+                "forename": "Pietro Ercole",
+                "surname": "Visconti",
+                "persName": "Pietro Ercole Visconti"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3169069",
+                "ref": "pla-2",
+                "placeName": "Roma"
+            }
+        ],
+        "chat-gpt": [
+            ["Giacomo Leopardi", "scrive a", "Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "risponde a", "penultima lettera di Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "ringrazia", "Cav. Cavalier Visconti"],
+            ["Cav. Cavalier Visconti", "invia", "gentilissimo dono a Giacomo Leopardi"],
+            ["Giacomo Leopardi", "riceve", "gentilissimo dono da Cav. Cavalier Visconti"],
+            ["Giacomo Leopardi", "ricorda", "amicizia di Cav. Cavalier Visconti"],
+            ["Giacomo Leopardi", "duole", "essere poco esperto in Archeologia e Numismatica"],
+            ["Cav. Cavalier Visconti", "è esperto in Archeologia e Numismatica"],
+            ["Cav. Cavalier Visconti", "scrive", "Dissertazioni su Archeologia e Numismatica"],
+            ["Giacomo Leopardi", "concorda con", "pareri e prove di Cav. Cavalier Visconti"],
+            ["Giacomo Leopardi", "apprezza", "pareri e prove di Cav. Cavalier Visconti"],
+            ["Cav. Cavalier Visconti", "dice", "medaglia di Lucio Vero è utile e ben dimostrato"],
+            ["Giacomo Leopardi", "non ha visto", "libro di Numismatica di suo padre"],
+            ["Giacomo Leopardi", "non può", "mandare il libro di suo padre a Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "chiede scusa", "per non poter mandare il libro di suo padre"],
+            ["Giacomo Leopardi", "interroga", "suo padre su monete antiche inedite"],
+            ["Giacomo Leopardi", "riceve", "descrizione di moneta da suo padre"],
+            ["Giacomo Leopardi", "manda", "descrizione di moneta a Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "loda", "amicizia che Giuseppe Melchiorri proferisce a Carlo"],
+            ["Carlo", "abbraccia", "Giuseppe Melchiorri"],
+            ["Carlo", "è grato", "dell'amicizia che Giuseppe Melchiorri proferisce"],
+            ["Carlo", "ama", "Giuseppe Melchiorri"],
+            ["Carlo", "saluta", "Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "ricorda", "ai tuoi e alla Mamma nella lettera a Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "ha scritto", "alla Mamma"],
+            ["Giacomo Leopardi", "vuole che", "la Mamma sappia in caso di smarrimento della lettera"],
+            ["Giacomo Leopardi", "dice", "addio"],
+            ["Giacomo Leopardi", "augura", "benessere a Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "chiede", "di amarlo"],
+            ["Giacomo Leopardi", "risponde", "al N.° 7 di Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "augura", "buona salute a Giuseppe Melchiorri"]
+          ]          
+    },
+    {
+        "id_doc": "MS Add.6210.4",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Francesco Cancellieri",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "4 pages ",
+        "orig_date": "9. Decembre 1816.",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Cancellieri, Francesco, 1751-1826 (17213238)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Cancellieri, Francesco, 1751-1826.  Stimatissimo Sig. Signore 9 Dic. Dicembre 1816 Non ho termini che bastino per ringraziarla della grandissima premura che si è presa di favorirmi in mezzo alle sue indisposizioni che con molto dispiacere sento che ancora continuano. Provo rimorso di averla infastidita in questo suo stato, e desidererei poterla in qualche modo compensare e sollevare. Il suo vero amore per le lettere e la sua forza d'animo le varranno per soccorso contro gl'incommodi naturali. Le sono veramente tenuto delle notizie che così liberalmente si è compiaciuto di comunicarmi intorno alle Inscrizioni Triopee , e siccome esse per la maggior parte appartengono ad Erode Attico, le porrò a parte per altra mia operetta, dove mi occorre parlare di quel Retore, affine di non ingombrare ora il Ms. Manoscritto con pericolo di errori per parte dello Stampatore. Ho avvertito che le due emendazioni dell' Heschelio che Ella ha ritrovate nel Cod. Codice Vaticano sono appunto quelle che si contengono in due postille dello stesso autore le quali sono appiedi della Iscrizione del tomo VII del Meursio da me citato, come anche in una lettera dell' Heschelio al Meursio mentovata pure da me nella prefazione. Questa lettera fu scritta soli tre giorni prima di quella di Grutero da lei veduta. Il prezzo della stampa che si richiede dal Contedini mi avea già distolto dall'impresa, quando ho veduto quello che si cerca dal Sig. Signor De Romanis del quale sono contentissimo, e tanto, che mi sono sopraggiunti alcuni dubbi, che Ella rileverà dalla lettera che le acchiudo e che la prego di far avere al nominato Sig. Signor . Se questi dubbj son vani Ella potrà immediatamente far cominciare l'edizione, intorno alla quale non mi resta a raccomandarle altro che la sollecitudine per parte della Stamperia, e l'accurata revisione delle copie che come Ella può insegnarmi, in queste sorte di opere è di somma necessità. Ma di questa non temo, essendo in troppo buone mani. Se il Sig. Signor Ab. Abate Amati vorrà incaricarsene, farò che in dimostrazione di gratitudine gli ene siano consegnate 15. copie dell' a opuscolo, ed altrettante prego ora lei ad accettarne quando saranno in istato, per mezzo del mio Zio Antici , al quale scriverò a questo effetto. Saranno a lei di puro imbarazzo, ma la sua avarizia di comandi non mi lascia altro modo di attestarle la mia sincerissima riconoscenza. Il nominato mio Zio s'incaricherà a mia istanza della distribuzione e del pagamento, ma della Legatura non potrebbe, non avendo pratica di queste cose, e però Ella mi farà sommo favore se vorrà pregare il Sig. Signor Ab. Abate Amati , o lo stesso Tipografo a prendersene cura, il che sarà molto facile non volendo io altra legatura che l'ordinaria e del solito minor prezzo. Debbo anche supplicarla di due correzioni che bramerei facesse nel Ms. Manoscritto La prima nella seconda Iscrizione, terzina 17. della versione, verso primo, dove è scritto: offrirgli , che come Ella vedrà, è errore, parlandosi di donna, e bisogna porre offrirle . L'altra è nelle varietà di Lezione che sono appiè del volumetto, dove io giunto alle varietà del nono verso della Iscrizione ho posto una linea così: 9. ὣς ) ὡς. III. Questa è necessario cancellare interamente, perchè la varietà che consiste nei soli accenti non ha più luogo, stampandosi il Libro senza accenti. Se però il Libro non dovesse stamparsi dal De Romanis , questa correzione non dovrà farsi. Ho grandissima ripugnanza d'incommodarla, e per diminuirle in qualche modo il fastidio, ho scritto direttamente al De Romanis la Lettera che riceverà con questa. La prego con tutto il cuore a tener gran conto della sua salute che desidero ardentemente migliorata molto e presto, e se le fosse possibile di onorarmi una volta di un suo ordine, la supplico a non risparmiarmi mai in verun modo. Le ritorno gli ossequi dei miei Padre Zio e Fratello ai quali ho presentati i suoi graditissimi saluti. Tutta la mia riconoscenza e la mia stima mi vengono ora nella mente e sulla penna per dirle che io sono e sarò sempre Recanati 9. Decembre 1816. Suo Dev.mo Devotissimo Obbl.mo Obbligatissimo Servitore Giacomo Leopardi . ex libris [...] FRANCA P.P. RECANATI P.P. 12 DECEMB All' Ill.mo Illustrissimo Sig. Signor P.ne Padrone Col.mo Colendissimo Il Sig. Signor Ab. Abate Francesco Cancellieri Roma . P.P. ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "35548704",
+                "ref": "pers-2",
+                "forename": "Carlo",
+                "surname": "Antici",
+                "persName": "Carlo Antici"
+            },
+            {
+                "key": "17213238",
+                "ref": "pers-3",
+                "forename": "Francesco",
+                "surname": "Cancellieri",
+                "persName": "Francesco Cancellieri"
+            },
+            {
+                "key": "27089021",
+                "ref": "pers-9",
+                "forename": "David",
+                "surname": "Hoeschel",
+                "persName": "David Hoeschel"
+            },
+            {
+                "key": "100203633",
+                "ref": "pers-10",
+                "forename": "Johannes",
+                "surname": "van Meurs",
+                "persName": "Johannes van Meurs"
+            },
+            {
+                "key": "61599137",
+                "ref": "pers-11",
+                "forename": "Janus",
+                "surname": "Gruter",
+                "persName": "Janus Gruter"
+            },
+            {
+                "key": "222787200",
+                "ref": "pers-12",
+                "forename": "Mariano",
+                "surname": "De Romanis",
+                "persName": "Mariano De Romanis"
+            },
+            {
+                "key": "39484385",
+                "ref": "pers-13",
+                "forename": "Girolamo",
+                "surname": "Amati",
+                "persName": "Girolamo Amati"
+            },
+            {
+                "key": "9709149068390265730006",
+                "ref": "pers-14",
+                "forename": "Monaldo",
+                "surname": "Leopardi",
+                "persName": "Monaldo Leopardi"
+            },
+            {
+                "key": "47597875",
+                "ref": "pers-15",
+                "forename": "Carlo Orazio",
+                "surname": "Leopardi",
+                "persName": "Carlo Orazio Leopardi"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3169069",
+                "ref": "pla-2",
+                "placeName": "Roma"
+            }
+        ],
+        "chat-gpt": [
+            ["Giacomo Leopardi", "scrive a", "Francesco Cancellieri"],
+            ["Giacomo Leopardi", "ringrazia", "Francesco Cancellieri"],
+            ["Giacomo Leopardi", "ringrazia", "Francesco Cancellieri per la grandissima premura"],
+            ["Giacomo Leopardi", "esprime", "dispiacere per le indisposizioni di Francesco Cancellieri"],
+            ["Giacomo Leopardi", "prova", "rimorso per aver infastidito Francesco Cancellieri"],
+            ["Giacomo Leopardi", "desidera", "compensare e sollevare Francesco Cancellieri"],
+            ["Giacomo Leopardi", "apprezza", "amore di Francesco Cancellieri per le lettere"],
+            ["Giacomo Leopardi", "apprezza", "forza d'animo di Francesco Cancellieri"],
+            ["Giacomo Leopardi", "informa", "Francesco Cancellieri sulle Inscrizioni Triopee"],
+            ["Giacomo Leopardi", "promette", "condividere le Inscrizioni Triopee con Francesco Cancellieri in un'altra sua operetta"],
+            ["Giacomo Leopardi", "informa", "Francesco Cancellieri sulle emendazioni dell'Heschelio nel Codice Vaticano"],
+            ["Giacomo Leopardi", "nota", "che le emendazioni dell'Heschelio nel Codice Vaticano sono già presenti in postille dello stesso autore"],
+            ["Giacomo Leopardi", "nota", "che le emendazioni dell'Heschelio nel Codice Vaticano sono presenti in una lettera dell'Heschelio al Meursio"],
+            ["Giacomo Leopardi", "chiede", "a Francesco Cancellieri di iniziare l'edizione se i dubbi sono vani"],
+            ["Giacomo Leopardi", "chiede", "a Francesco Cancellieri di assicurare la sollecitudine della Stamperia e l'accurata revisione delle copie"],
+            ["Giacomo Leopardi", "offre", "15 copie dell'opuscolo a Francesco Cancellieri come segno di gratitudine"],
+            ["Giacomo Leopardi", "chiede", "a Francesco Cancellieri di accettare 15 copie dell'opuscolo"],
+            ["Giacomo Leopardi", "chiarisce", "che la legatura desiderata è quella ordinaria e del solito minor prezzo"],
+            ["Giacomo Leopardi", "prega", "Francesco Cancellieri di pregare il Sig. Signor Ab. Abate Amati o il Tipografo di occuparsi della legatura"],
+            ["Giacomo Leopardi", "chiede", "due correzioni nel manoscritto"],
+            ["Giacomo Leopardi", "chiede", "cancellazione della varietà di lezione nel nono verso della Iscrizione"],
+            ["Giacomo Leopardi", "chiede", "correzione nella seconda Iscrizione, terzina 17, verso primo"],
+            ["Giacomo Leopardi", "scrive", "direttamente al De Romanis la Lettera"],
+            ["Giacomo Leopardi", "supplica", "Francesco Cancellieri di tenere conto della sua salute"],
+            ["Giacomo Leopardi", "desidera", "miglioramento rapido della salute di Francesco Cancellieri"],
+            ["Giacomo Leopardi", "supplica", "Francesco Cancellieri di onorarlo con un suo ordine"],
+            ["Giacomo Leopardi", "ritorna", "gli ossequi dei suoi Padre Zio e Fratello a Francesco Cancellieri"],
+            ["Giacomo Leopardi", "dichiara", "riconoscenza e stima per Francesco Cancellieri"]
+          ]          
+    },
+    {
+        "id_doc": "MS Add.6210.11",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Giuseppe Melchiorri",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "2 pages ",
+        "orig_date": "27 Giugno 1823.",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Melchiorri, Giuseppe, 1796-1855 (2821485)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Melchiorri, Giuseppe, 1796-1855.  27 Giugno 1823. Veramente non è bisognato molto tempo a fare che voi vi scordaste affatto di me, perchè dopo la seconda lettera, alla quale risposi subito, mi avete piantato, ed è un mese intiero che non mi scrivete. Vorrei sapere qualche cosa degli studi vostri, della vostra salute, degli amici, delle novità letterarie, ma voi mi lasciate allo scuro come un gufo. Vorrei ancora che intendeste da Cardinali se la creazione di quegli ufficiali del Registro avrà luogo alla fine di questo mese, come diceva, o se avrà luogo mai in altro tempo, acciocchè io sapessi come mi ho da regolare, o mi possa metter l'animo in pace di non muovermi più di qua. Delle mie Osservazioni eusebiane, non so se l'Effemeridi n'abbiano pubblicato altro, o se dormano, o in somma che cosa ne sia successo. Non avendo nè potendo più avere nessuna copia del manoscritto, farò conto di aver gettata la fatica che ci ho posta di cinque mesi, e fatica vera e continua di tutto il giorno, senza divertimenti e senza ciarle: benchè conosco di aver fatto molto male a voler pubblicare quelle Osservazioni in Roma , dove, fuori dei sassi, non si capisce altro. Se per miracolo poteste avere quegli stamponi, bisognerebbe che me li mandaste per qualche vetturale o vetturino, che, venendo qua, sarà pagato; e credo che ne troverete facilmente alla Stelletta o altrove; perchè in questa stagione non sarà facile di trovare un'occasione che li porti gratis. Fuori di burla, se siete vivo e se non volete che dica male di voi, scrivetemi. Di me non vi posso dir altro se non che vi voglio bene al solito, benchè il vostro silenzio mi sappia un poco strano. Delle notizie letterarie sapete bene ch'io non sono in luogo da poterne avere. Salutatemi gli amici, e in particolare il Cav. Cavaliere Marini , e Visconti se lo vedete; vogliatemi bene anche voi, e ditemi qualche cosa. Addio addio. N.° 13._ Risposto il dì 9. Luglio RECANATI Al Nobil Uomo Sig. Signor March. Marchese Giuseppe Melchiorri Roma 29 GIUGNO ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "2821485",
+                "ref": "pers-20",
+                "forename": "Giuseppe",
+                "surname": "Melchiorri",
+                "persName": "Giuseppe Melchiorri"
+            },
+            {
+                "key": "19668291",
+                "ref": "pers-26",
+                "forename": "Pietro Ercole",
+                "surname": "Visconti",
+                "persName": "Pietro Ercole Visconti"
+            },
+            {
+                "key": "54900671",
+                "ref": "pers-27",
+                "forename": "Clemente",
+                "surname": "Cardinali",
+                "persName": "Clemente Cardinali"
+            },
+            {
+                "key": "52551041",
+                "ref": "pers-28",
+                "forename": "Luigi",
+                "surname": "Marini",
+                "persName": "Luigi Marini"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3169069",
+                "ref": "pla-2",
+                "placeName": "Roma"
+            }
+        ],
+        "chat-gpt": [
+            ["Giacomo Leopardi", "scrive a", "Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "esprime", "delusione per il silenzio di Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "chiede", "informazioni sugli studi di Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "chiede", "informazioni sulla salute di Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "chiede", "informazioni sugli amici di Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "chiede", "informazioni sulle novità letterarie a Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "chiede", "a Giuseppe Melchiorri se la creazione degli ufficiali del Registro avrà luogo alla fine di questo mese"],
+            ["Giacomo Leopardi", "chiede", "a Giuseppe Melchiorri di verificare presso i Cardinali la data della creazione degli ufficiali del Registro"],
+            ["Giacomo Leopardi", "chiede", "a Giuseppe Melchiorri se la creazione degli ufficiali del Registro avrà luogo in altro tempo"],
+            ["Giacomo Leopardi", "esprime", "preoccupazione per la sua situazione in relazione alla creazione degli ufficiali del Registro"],
+            ["Giacomo Leopardi", "informa", "Giuseppe Melchiorri della sua ignoranza riguardo alle pubblicazioni delle Osservazioni eusebiane"],
+            ["Giacomo Leopardi", "esprime", "disincanto riguardo alle Osservazioni eusebiane"],
+            ["Giacomo Leopardi", "esprime", "insoddisfazione per la pubblicazione delle Osservazioni eusebiane a Roma"],
+            ["Giacomo Leopardi", "chiede", "a Giuseppe Melchiorri se l'Effemeridi ha pubblicato altro riguardo alle Osservazioni eusebiane"],
+            ["Giacomo Leopardi", "dichiara", "di considerare la fatica delle Osservazioni eusebiane come gettata"],
+            ["Giacomo Leopardi", "chiede", "a Giuseppe Melchiorri se ha copie del manoscritto delle Osservazioni eusebiane"],
+            ["Giacomo Leopardi", "invita", "Giuseppe Melchiorri a inviare, se possibile, gli stamponi delle Osservazioni eusebiane"],
+            ["Giacomo Leopardi", "informa", "Giuseppe Melchiorri sulla difficoltà di trovare un'occasione per trasportare gli stamponi gratuitamente"],
+            ["Giacomo Leopardi", "chiede", "a Giuseppe Melchiorri di scrivere se è vivo e di non farlo parlare male"],
+            ["Giacomo Leopardi", "esprime", "affetto e desiderio di sentire notizie da Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "saluta", "gli amici attraverso Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "saluta", "il Cavaliere Marini attraverso Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "chiede", "a Giuseppe Melchiorri di volergli bene e di dirgli qualcosa"]
+          ]          
+    },
+    {
+        "id_doc": "MS Add.6210.39",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Monaldo Leopardi to Giuseppe Politi",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "4 pages ",
+        "orig_date": "30. del 1829.",
+        "orig_place": "Roma (3169069)",
+        "sender": "Leopardi, Monaldo, 1776-1847 (9709149068390265730006)",
+        "receiver": "Politi, Giuseppe ()",
+        "text": "Lettera di Leopardi, Monaldo, 1776-1847 a Politi, Giuseppe.  Amico Car.mo Carissimo Roma 30. del 1829. Ero certissimo della compiacenza v.ra vostra per il buon esito della mia Lite essendo ugualmente certo della v.ra vostra cordiale amicizia di cui mi avete date tante riprove. Contavo altresì che la v.ra vostra degna Signora avrebbe avuta la bontà di interessarsene, ma non mi aspettavo quelle graditissime linee con le quali ha voluto onorarmi nella v.ra vostra Lettera. Io non ardisco di risponderle direttamente ma assicuratela di tutto il mio rispetto e della mia vivissima riconoscenza, pregandola di continuare a raccomandare al Signore questa e le altre mie cose. Anche voi non lasciate di fare lo stesso. Vi scrissi che il S.r Signor Piazza venne una matina a trovarmi quando non ero in casa. Dopo non si è veduto mai più . Questo però non fà niente perchè a debito tempo io lo trovarò, e metterò tutto in regola. Ieri dopo altri inutili accessi, trovai finalm.e finalmente in casa il Computista del Buon Gov.no Governo , e lo trovai persuaso che io fossi stato assoluto pienamente secondo la sua relazione. Stupì sentendo che avevo subìta una nuova condanna, e restammo d’accordo intorno al modo con cui dobbiamo procurare che l’affare esca di mano a M.r Monsignor Brignole Ponente d.a della Marca, ed unico rimastoci contrario nella Cong.ne Congregazione . Io avrei buoni Canali con lu per lui e segnatamente quello del Card.e Cardinale Franzoni suo Zio, ma M.r Monsignor Brignole è scrupoloso, e quando li scrupolosi sono importati non ci si cava niente. Bensì lasciatemi fare, e spero che faremo la festa senza di lui. Sala è convinto della malignità del Mazzanti, e mi disse che in ultimo non lo aveva più voluto ricevere. Resterete però maravigliato sentendo che degli affari vostri vostri e di Massucci esso non sapeva niente . Come possa esser questo io non lo sò, ma me lo ha detto, e ripetuto costantissimamente. Con un poco di pazienza scuoprirò tutto, e vi terrò ragguagliato di tutto. Non vi faccia maraviglia se ho tardato in dar mano a queste cose perchè la mia Causa Moroni n la quale non ammetteva dilazione mi teneva occupato, e incapace di altra seria incombenza. Neppure vi faccia maraviglia se prima di proporre in Buon Gov.no Governo le cose vostre proporrò le mie, perchè intendo di farlo per il meglio, dovendo prima purgarmi dal le mie colpe per potere mostrare la faccia, ed essere più addattato peroratore per gli altri. Assicuratevi bensì che la pendenza v.ra vostra tanto in ordine alla convenienza, come in ordine al decoro mi stà a cuore più della mia, e che non partirò di quì se non la avrò finita, credessi di restarci per questo solo. Vi ringrazio di quanto mi scrivete intorno all’Arcidiacono, e lo riconosco effetto del v.ro vostro buon cuore. Di più conosco che in fondo dite bene e la cosa litigata non merita tanta pena. Ma amico mio, io mi sento offeso e puntigliato all’ultimo segno, e non ascoltarò mai parole di concordia in un affare in cui l’Arcidiacono mi ha trattato, e mi tratta senza civiltà, senza amicizia, e senza gratitudine. Anche l’ultima E Supplica data al Papa è un sacco di insulti, e spero che verrà rigettata. Comunque però sia io finchè in Casa mia ci sarà un paolo di Capitale gli terrò piede in Rota, in Concilio, in Terra, in in Cielo, e solo gli cederei se la causa si portasse all’Inferno perchè laggiù non ci voglio andare, nè solo, nè accompagnato con lui. Io non gli voglio dar niente, neppure un Canestro di Broccoli, e vadano pure in fiamma tutti i li Benefizii, e tutti gli arcidiaconi delle ostinati, furbi, ingordi, ed ingrati. Addio Car.mo Carissimo A.co Amico . Perdonate alla mia brevità perchè devo rispondere a 15 Lettere. Saluti al Decano, e alli altri amabili vostri Figliuoli, e sono di tutto cuore V.ro Vostro Aff.o Affezionatissimo Obb.o Obbligatissimo A.co Amico Monaldo Leopardi ROMA ROMA A S. E. Sua Eccellenza Il S.r Signor Cav.e Cavaliere Gius.e Giuseppe Politi. = Recanati = 3FEBBRARO ",
+        "persons": [
+            {
+                "key": "9709149068390265730006",
+                "ref": "pers-14",
+                "forename": "Monaldo",
+                "surname": "Leopardi",
+                "persName": "Monaldo Leopardi"
+            },
+            {
+                "key": "",
+                "ref": "pers-67",
+                "forename": "Giuseppe",
+                "surname": "Politi",
+                "persName": "Giuseppe Politi"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3169069",
+                "ref": "pla-2",
+                "placeName": "Roma"
+            }
+        ],
+        "chat-gpt": [
+            ["Monaldo Leopardi", "scrive a", "Giuseppe Politi"],
+            ["Monaldo Leopardi", "ringrazia", "Giuseppe Politi per l'interessamento nella sua Lite"],
+            ["Monaldo Leopardi", "esprime", "certezza della cordiale amicizia di Giuseppe Politi"],
+            ["Monaldo Leopardi", "invia", "saluti alla Signora di Giuseppe Politi"],
+            ["Monaldo Leopardi", "informa", "Giuseppe Politi riguardo al Signor Piazza che è venuto a trovarlo"],
+            ["Monaldo Leopardi", "comunica", "che il Computista del Buon Governo è convinto che Monaldo Leopardi sia stato assoluto pienamente"],
+            ["Monaldo Leopardi", "pianifica", "come far uscire l'affare dalle mani di Monsignor Brignole Ponente"],
+            ["Monaldo Leopardi", "pensa", "di fare la festa senza l'intervento di Monsignor Brignole Ponente"],
+            ["Monaldo Leopardi", "informa", "che Sala è convinto della malignità del Mazzanti"],
+            ["Monaldo Leopardi", "comunica", "che Sala non sapeva nulla degli affari di Giuseppe Politi e Massucci"],
+            ["Monaldo Leopardi", "promette", "di scoprire tutto riguardo agli affari di Giuseppe Politi e tenerlo aggiornato"],
+            ["Monaldo Leopardi", "spiega", "che la sua causa Moroni lo ha tenuto occupato"],
+            ["Monaldo Leopardi", "promette", "di proporre prima le sue cause in Buon Governo prima di quelle di Giuseppe Politi"],
+            ["Monaldo Leopardi", "assicura", "che la pendenza di Giuseppe Politi è di grande importanza per lui e che non partirà finché non sarà risolta"],
+            ["Monaldo Leopardi", "ringrazia", "Giuseppe Politi per le informazioni sull'Arcidiacono"],
+            ["Monaldo Leopardi", "esprime", "offesa e rancore nei confronti dell'Arcidiacono per il trattamento ricevuto"],
+            ["Monaldo Leopardi", "annuncia", "la determinazione di tenere piede in Rota, in Concilio, in Terra, e in Cielo contro l'Arcidiacono"],
+            ["Monaldo Leopardi", "manifesta", "il rifiuto di dare qualsiasi cosa all'Arcidiacono"],
+            ["Monaldo Leopardi", "saluta", "i Figliuoli di Giuseppe Politi e il Decano"],
+            ["Monaldo Leopardi", "chiede", "perdono per la brevità della lettera"],
+            ["Monaldo Leopardi", "invia", "saluti a Sua Eccellenza Il Signor Cavaliere Giuseppe Politi"]
+          ]          
+    },
+    {
+        "id_doc": "MS Add.6210.7",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Giuseppe Zacchia",
+        "lang": "Italian",
+        "support": "Paper with PM watermark",
+        "extent": "4 pages ",
+        "orig_date": "10 Luglio 1820",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Zacchia, Giuseppe Antonio 1787-1845 (89644942)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Zacchia, Giuseppe Antonio 1787-1845.  Eccellenza Reverendiss. Reverendissima Quando è piaciuto a V.E. Vostra Eccellenza Reverendiss. Reverendissima e a cotesti illustri Accademici di ascrivermi al loro collegio, non hanno fatto cosa che disdicesse alla benignità loro, ma sibbene al merito mio. Forse però hanno giudicato che la squisitezza della cortesia debba risplendere tanto più quanto si dimostra in persone di più basso affare. Perchè non è strano che si onorino le virtù e le dottrine insigni, ma il ricercare spontaneamente i piccoli e oscuri, è segno certo di singolare umanità. Laonde l'obbligo ch'io porto a V.E. Vostra Eccellenza Reverendiss. Reverendissima e a codesti Signori Accademici, cresce in proporzione della mia bassezza. Io prego V.E. Vostra Eccellenza Reveren diss. Reverendissima che si voglia compiacere di esser testimonio a cotesti Signori della mia somma gratitudine verso loro, oltre alle obbligazioni speciali ch'io debbo e professo in particolare a V.E. Vostra Eccellenza Reverendiss. Reverendissima . Resterà ch'io mi sforzi di mostrarmi riconoscente alle Signorie loro col fatto, vincendo la mediocrità mia, perchè l'onore che mi hanno conferito, non mi ridondi piuttosto in vergogna che in ornamento.E con profondissimo osseguio mi dichiaro Di V.E. Vostra Eccellenza Reverendiss. Reverendissima Recanati 10 Luglio 1820 U.mo Umilissimo D.mo Devotissimo e Gratiss Gratissimo Servitore Giacomo Leopardi S.E. Sua Eccellenza Reverendiss. Reverendissima Mons. Monsignor G. Giuseppe Zacchia Deleg. Delegato Ap. Apostolico di Ascoli e Presid. Presidente dell' Accad. Accademia Trudentina Ascoli ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "89644942",
+                "ref": "pers-19",
+                "forename": "Giuseppe Antonio",
+                "surname": "Zacchia",
+                "persName": "Giuseppe Antonio Zacchia"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3182748",
+                "ref": "pla-8",
+                "placeName": "Ascoli Piceno"
+            }
+        ],
+        "chat-gpt":[
+            ["Giacomo Leopardi", "scrive a", "G. Giuseppe Zacchia"],
+            ["Giacomo Leopardi", "ringrazia", "G. Giuseppe Zacchia e gli Accademici di Ascoli per l'iscrizione al loro collegio"],
+            ["Giacomo Leopardi", "riconosce", "il gesto di onorare anche persone di affare più basso come segno di singolare umanità"],
+            ["Giacomo Leopardi", "prende", "l'obbligo di dimostrare la sua gratitudine nei fatti"],
+            ["Giacomo Leopardi", "si impegna", "a vincere la sua mediocrità e mostrarsi riconoscente alle Signorie"],
+            ["Giacomo Leopardi", "esprime", "profondo ossequio a G. Giuseppe Zacchia"],
+            ["Giacomo Leopardi", "si dichiara", "umilissimo, devotissimo e gratissimo servitore di G. Giuseppe Zacchia"],
+            ["Giacomo Leopardi", "rivolge", "la lettera a Sua Eccellenza Reverendissima Monsignor G. Giuseppe Zacchia, Delegato Apostolico di Ascoli e Presidente dell'Accademia Trudentina"]
+          ]          
+    },
+    {
+        "id_doc": "MS Add.6210.13",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Giuseppe Melchiorri",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "2 pages ",
+        "orig_date": "2. Gen. 1824.",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Melchiorri, Giuseppe, 1796-1855 (2821485)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Melchiorri, Giuseppe, 1796-1855.  Recanati 2. Gen. 1824. Caro Peppino . La tua dei 27. Dec. Decembre non mi ha fatto poca meraviglia, perch'io ti aveva scritto lungamente due o tre ordinari prima, mandandoti l'Errata dell'Eusebio. Mi dispiacerebbe assai che quella lettera fosse perduta. Fammi grazia di ricercarla alla posta, e di avvisarmi se mai fosse smarrita, chè in questo caso mi converrà tornar da capo, e ripeterti tutto quello ch'io ti aveva già scritto. Non puoi e non devi credere ch'io sia capace di dimenticarti. Ti ringrazio degli auguri che mi fai, e te li rendo di tutto cuore, anche per parte dei miei. Circa i lamenti e le confidenze che mi facesti nell'altra tua, non voglio per ora ripetere quel che ti dissi molto a lungo nella mia ultima, la quale mi piace di sperare che non sia andata a male. Salutami la Tuta e Pippo , e dà loro il buon anno da mia parte. Addio addio. Addio addio. 4 GEN RECANATI Al Nobil Uomo Sig. Signor March. Marchese Giuseppe Melchiorri Roma a 24. Genn.o Gennaio 1824. Risposto a questa, ed all'altra delli 19 X.mbre Dicembre 1823._ ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "2821485",
+                "ref": "pers-20",
+                "forename": "Giuseppe",
+                "surname": "Melchiorri",
+                "persName": "Giuseppe Melchiorri"
+            },
+            {
+                "key": "161159474180227661442",
+                "ref": "pers-29",
+                "forename": "Filippo Antonio",
+                "surname": "De Romanis",
+                "persName": "Filippo Antonio De Romanis"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3169069",
+                "ref": "pla-2",
+                "placeName": "Roma"
+            }
+        ],
+        "chat-gpt": [
+            ["Giacomo Leopardi", "scrive a", "Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "chiede", "a Giuseppe Melchiorri di cercare la lettera inviata precedentemente"],
+            ["Giacomo Leopardi", "esprime", "meraviglia per la lettera di Giuseppe Melchiorri del 27 dicembre"],
+            ["Giacomo Leopardi", "informa", "Giuseppe Melchiorri di avergli già scritto lungamente due o tre ordinari prima, mandandogli l'Errata dell'Eusebio"],
+            ["Giacomo Leopardi", "si dispiace", "all'idea che la lettera precedente possa essere perduta e chiede a Giuseppe Melchiorri di cercarla"],
+            ["Giacomo Leopardi", "ringrazia", "Giuseppe Melchiorri degli auguri e gliela rende"],
+            ["Giacomo Leopardi", "invia", "saluti a Tuta e Pippo tramite Giuseppe Melchiorri"]
+          ]          
+    },
+    {
+        "id_doc": "MS Add.6210.12",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Giuseppe Melchiorri",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "2 pages ",
+        "orig_date": "14. Novembre 1823.",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Melchiorri, Giuseppe, 1796-1855 (2821485)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Melchiorri, Giuseppe, 1796-1855.  14. Novembre 1823. Caro Peppino . Questa volta avete ragione di farmi dei rimproveri sopra il mio silenzio, perchè veramente è un pezzo che non vi ho scritto. Il trovarmi occupato ne' miei poveri studi, e il non aver niente di particolare da dirvi, mi han fatto mandar la cosa d'oggi in domani, finchè voi coll'ultima vostra mi avete prevenuto. Quanto alla stampa Eusebiana, io vi prego che quando sarà tirato l'ultimo foglio, prima che si venga alla legatura, mi mandiate un esemplare intiero, acciocchè io possa vedere se la stampa ha bisogno d'un' Errata , come già restammo d'accordo. Mandatemelo per la posta, sotto fascia, come si spediscono i giornali, scrivendo sopra la fasciatura il numero de' fogli di stampa contenuti nell'esemplare. Io farò subito l' Errata e ve lo manderò, e vi scriverò circa il restante. Siate certo, mio caro Peppino , ch'io prendo parte ai vostri disgusti come se fossero mier miei propri. Quanto io desidero di consolarvi, potete giudicarlo facilmente, se conoscete l'amicizia e l'affezione ch'io vi porto. E se bastasse per vostra consolazione l'avere un amico il più sincero, il più costante, il più fedele ed affettuoso, voi sareste consolatissimo, perchè questo amico l'avete in me. Poichè la sola amicizia non può bastare, e le forze mi mancano a potervi confortare altrimenti, gradite, se non altro, i voti e i desiderii ch'io formo della fe vostra felicità. Amatemi, ch'io v'amo sempre, e v'amo assai; non dubitate di me, se posso servirvi in qualche cosa, comandatemi senza riguardi. Addio. Addio. Mi rallegro molto che le iscrizioni Vaticane vadano avanti. Non può esser che voi non abbiate ad esser contento una volta di questo travaglio. a 6. X.mbre Dicembre 1823_ Risposto mandando sotto fascia il richiesto Esemplare delle Osservaz. Eusebiane 16 NOVEMBRE RECANATI Al Nobil Uomo Il Sig. Signor Marchese Giuseppe Melchiorri . Roma ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "2821485",
+                "ref": "pers-20",
+                "forename": "Giuseppe",
+                "surname": "Melchiorri",
+                "persName": "Giuseppe Melchiorri"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3169069",
+                "ref": "pla-2",
+                "placeName": "Roma"
+            }
+        ],
+        "chat-gpt": [
+            ["Giacomo Leopardi", "scrive a", "Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "chiede", "a Giuseppe Melchiorri di inviargli un esemplare completo della stampa Eusebiana prima della legatura"],
+            ["Giacomo Leopardi", "prevede", "di fare l'Errata sulla stampa Eusebiana e di inviarla a Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "condivide", "con Giuseppe Melchiorri i suoi desideri di consolarlo e di partecipare ai suoi disgusti"],
+            ["Giacomo Leopardi", "assicura", "a Giuseppe Melchiorri della sua amicizia sincera, costante, fedele ed affettuosa"],
+            ["Giacomo Leopardi", "esprime", "desideri e voti per la felicità di Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "invita", "Giuseppe Melchiorri a comandarlo senza riguardi se può servirlo in qualche cosa"]
+          ]          
+    },
+    {
+        "id_doc": "MS Add.6210.6",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Francesco Cancellieri",
+        "lang": "Italian",
+        "support": "Paper with P M / coat of arms watermark",
+        "extent": "4 pages ",
+        "orig_date": "14. Dec.bre 1818.",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Cancellieri, Francesco, 1751-1826 (17213238)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Cancellieri, Francesco, 1751-1826.  Pregiatiss. Pregiatissimo Sig.re Signore P.rone Padrone ed Amico . 14 Dic. Dicembre 1818 Non posso esprimerle abbastanza con parole la mia gratitudine per la tanta premura e cortesia con cui Ella si compiace di riscontrare il mio foglio relativo al noto Ms. manoscritto . Dello Stampatore e del prezzo non posso essere se non soddisfattissimo. Quanto al numero delle copie, a me ne basteranno 300. Del restante Ella mi farà gran favore se vorrà ordinare che se ne imprima una mezza dozzina in carta cerulea, e far piegare e coprire tutti i fogli costì con carta gialla, o come meglio le paia. Circa alla distribuzione, non volendo farne spargere costì se non poche copie, e far passare il rimanente in Lombardia, basterà ch'Ella si voglia compiacere di spedirmene per la posta, come il libricciuolo sarà stampato, e di accettarne Ella una dozzina in povero contrassegno della mia vivissima riconoscenza, che vorrei di tutto cuore poterle dimostrare con cose meno frivole. Il resto, frattanto ch'io attendo risposta di Lombardia, s'Ella non crederà che stia sicuro presso lo Stampatore, potrà ordinare che si consegni nel Collegio Capranica al Vicerettore Sig. Signor D. Don Natanaele Fucili , il quale ne avrà cura secondo ch'io gli scriverò. Ma già sino da quando io le spediva il Ms. manoscritto , era e sono anche presentemente nello stesso timore con Lei per rispetto alla Censura, la quale in caso che non volesse passarlo, o vi ordinasse qualche minimo cambiamento, prego Lei a volerlo spedire direttamente per per la posta sotto fascia al Sig. Pietro Giordani a Piacenza . Come mi con fonde ciò ch'Ella mi dice di volersi incaricare Ella stessa della correzione, così mi attrista fortemente la notizia della continuazione de' suoi dolori, dei quali, benchè Ella sappia sostenerli eroicamente, non può non affliggersi chiunque conosce l'importanza della sua preziosa salute per il bene delle lettere, e la incredibile bontà del suo cuore. Ritornandole i saluti affettuosissimi di mio padre e di mio fratello, io le auguro con tutta l'anima il fine delle sue sofferenze, ed ogni più cara consolazione e prosperità nel corso delle prossime Feste, ed auguro a me stesso di potermi dare a vedere effettivamente Recanati 14. Dec.bre 1818. Suo Dev.mo Devotissimo Obbl.mo Obbligatissimo S.re Servitore ed Amico Giacomo Leopardi . P.P. RECANATI P.P. Franca 21 DECEMB All' Ill.mo Illustrissimo S.re Signor P.ne Padrone Col.mo Colendissimo Il S.r Signor Ab. Abate Francesco Cancellieri . Roma ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "17213238",
+                "ref": "pers-3",
+                "forename": "Francesco",
+                "surname": "Cancellieri",
+                "persName": "Francesco Cancellieri"
+            },
+            {
+                "key": "",
+                "ref": "pers-18",
+                "forename": "Natanaele",
+                "surname": "Fucili",
+                "persName": "Natanaele Fucili"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3169069",
+                "ref": "pla-2",
+                "placeName": "Roma"
+            }
+        ],
+        "chat-gpt":[
+            ["Giacomo Leopardi", "scrive a", "Francesco Cancellieri"],
+            ["Giacomo Leopardi", "esprime", "gratitudine a Francesco Cancellieri per la premura e cortesia riguardo al manoscritto"],
+            ["Giacomo Leopardi", "è soddisfattissimo", "dello Stampatore e del prezzo del manoscritto"],
+            ["Giacomo Leopardi", "chiede", "300 copie del manoscritto"],
+            ["Giacomo Leopardi", "chiede", "una mezza dozzina di copie in carta cerulea, piegate e coperte con carta gialla"],
+            ["Giacomo Leopardi", "chiede", "a Francesco Cancellieri di spedirgli le copie per posta quando saranno stampate"],
+            ["Giacomo Leopardi", "offre", "una dozzina di copie in contrassegno a Francesco Cancellieri come segno di riconoscenza"],
+            ["Giacomo Leopardi", "propone", "di consegnare il resto delle copie al Vicerettore D. Don Natanaele Fucili nel Collegio Capranica, se la censura non presenta problemi"],
+            ["Giacomo Leopardi", "preoccupato", "della censura, propone di spedire direttamente a Pietro Giordani a Piacenza se necessario"],
+            ["Giacomo Leopardi", "attristato", "per la notizia della continuazione dei dolori di Francesco Cancellieri"],
+            ["Giacomo Leopardi", "augura", "a Francesco Cancellieri il fine delle sofferenze, consolazioni e prosperità durante le prossime Feste"]
+          ]          
+    },
+    {
+        "id_doc": "MS Add.6210.2",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Antonio Fortunato Stella",
+        "lang": "Italian",
+        "support": "Paper with two heart-shaped keys watermark",
+        "extent": "2 pages ",
+        "orig_date": "15. Novembre 1816.",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Stella, Antonio Fortunato, 1757-1833 (51815878)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Stella, Antonio Fortunato, 1757-1833.  Ornatissimo Sig. Signore Recanati 15. Novembre 1816. Non so se le abbia dato nel genio l'articolo sopra il Salterio Italianizzato , ch'ebbi il piacere di prometterle a voce e che ho poi veduto inserito nello Spettatore . Se non le spiacciono i miei articoli eccolene un altro già fatto, e sarò pronto a servirla anche di altri solo ch'ella mi mostri di desiderarli, e mi accenni gli argomenti sopra i quali le occorrebbero. Sì come io non ho rigettato che il Saggio di traduzione annesso al Mosco , converrà o dopo terminato l'inserimento della Batracomiomachia o quando meglio tornerà, porre nello Spettatore l'epigramma sopra Amore avante, e l'Idillio che ha per titolo \" il Bifolchetto \", le quali due cose sono nel Libretto del Mosco prima dell'indicato Saggio . È necessario pubblicarle perchè mancano al compimento delle poesie di Mosco, e sono state promesse da me nel Discorso preliminare inserito nel N° 57. dello Spettatore . Se il Sig. Tosi si compiacesse per mantenere la nostra amicizia, e per istruirci dei tanti aneddoti e notizie Letterarie che egli conosce, di scriverci qualche Lettera, ci farebbe cosa molto gradita. Le scrivo a piedi il titolo di un libro che si desidera. Ella mi creda Suo Vero Servo ed Amico Giacomo Leopardi . Titolo del libro che si desidera prontamente per ispedizione al prezzo medio dei tre annunziati. Porphyrii, Eusebii, Philonis Iudaei Opera et Fragmenta novissime detecta. Mediolani typis regiis 1816. 2.18 1.5 3.18 7.17 RECANATI All'Ornatissimo Sig. Signor Antonio Fortunato Stella. Milano . [...]Nove 22 ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "51815878",
+                "ref": "pers-6",
+                "forename": "Antonio Fortunato",
+                "surname": "Stella",
+                "persName": "Antonio Fortunato Stella"
+            },
+            {
+                "key": "33673036",
+                "ref": "pers-7",
+                "forename": "Paolo Antonio",
+                "surname": "Tosi",
+                "persName": "Paolo Antonio Tosi"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3173434",
+                "ref": "pla-3",
+                "placeName": "Milano"
+            }
+        ],
+        "chat-gpt": [
+            ["Giacomo Leopardi", "scrive a", "Antonio Fortunato Stella"],
+            ["Giacomo Leopardi", "fa riferimento a", "un articolo sul Salterio Italianizzato nel quale aveva promesso articoli futuri"],
+            ["Giacomo Leopardi", "offre", "di scrivere ulteriori articoli su richiesta di Antonio Fortunato Stella"],
+            ["Giacomo Leopardi", "accenna", "alla possibile pubblicazione nello Spettatore dell'epigramma su Amore e dell'Idillio 'Il Bifolchetto' dal Libretto del Mosco"],
+            ["Giacomo Leopardi", "spiega", "la necessità di pubblicare l'epigramma su Amore e l'Idillio 'Il Bifolchetto' per completare le poesie di Mosco"],
+            ["Giacomo Leopardi", "chiede", "a Antonio Fortunato Stella di scrivere alcune lettere per mantenere l'amicizia e condividere aneddoti e notizie letterarie"],
+            ["Giacomo Leopardi", "scrive", "il titolo di un libro richiesto: 'Porphyrii, Eusebii, Philonis Iudaei Opera et Fragmenta novissime detecta. Mediolani typis regiis 1816.'"],
+            ["Giacomo Leopardi", "chiede", "la pronta spedizione del libro a un prezzo medio dei tre annunciati"],
+            ["Giacomo Leopardi", "si firma", "come 'Suo Vero Servo ed Amico' di Antonio Fortunato Stella"]
+          ]          
+    },
+    {
+        "id_doc": "MS Add.6210.17",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Antonio Fortunato Stella",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "2 pages ",
+        "orig_date": "23 Maggio 1827",
+        "orig_place": "Bologna (3181927)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Stella, Antonio Fortunato, 1757-1833 (51815878)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Stella, Antonio Fortunato, 1757-1833.  Bologna 23 Maggio 1827 Sig. Signore ed Amico e Le ritorno oggi il nono foglio delle Operette . Col seguente ordinario rimetterò il decimo. Ricordo, che le Note mi bisogna rivederle in filoni. Mad. Madama Padovani è qui ancora. Essendo morto il suo e mio albergatore, ha mutato alloggio; ed io non l'ho veduta dopo il mio ritorno; ma so che sta bene. Io abito alla Locanda della Pace , sul Corso , o Strada Stefano . E se Ella vuole, in questo medesimo albergo le farò preparare l'alloggio: una o più camere, secondo che Ella m'indicherà. La prego di avvertire il suo Uffizio, che io mi trovo a Bologna , non più a Recanati . La sua ultima, che ho ricevuta dal Sig. Signor Moratti , era indirizzata a Recanati ; e l'Aprile del Ricoglitore mi fu spedito là, e di là l'ho ricevuto. Sono sempre più impaziente di riabbracciarla, e vo contando i giorni. I miei complimenti alla sua famiglia e allo sposo. La saluto con tutto il cuore, e le auguro un viaggio ed arrivo felicissimo. Il suo cordialiss. cordialissimo amico e s.re servitore Giacomo Leopardi Prospero Viani ad Antonio Bianchini 1878. ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "51815878",
+                "ref": "pers-6",
+                "forename": "Antonio Fortunato",
+                "surname": "Stella",
+                "persName": "Antonio Fortunato Stella"
+            },
+            {
+                "key": "",
+                "ref": "pers-35",
+                "forename": "Rosa",
+                "surname": "Simonazzi Padovani",
+                "persName": "Rosa Simonazzi Padovani"
+            },
+            {
+                "key": "377232",
+                "ref": "pers-36",
+                "forename": "Prospero",
+                "surname": "Viani",
+                "persName": "Prospero Viani"
+            },
+            {
+                "key": "88779512",
+                "ref": "pers-37",
+                "forename": "Antonio",
+                "surname": "Bianchini",
+                "persName": "Antonio Bianchini"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3181927",
+                "ref": "pla-7",
+                "placeName": "Bologna"
+            }
+        ],
+        "chat-gpt": [
+            ["Giacomo Leopardi", "scrive a", "Antonio Fortunato Stella"],
+            ["Giacomo Leopardi", "comunica", "il ritorno del nono foglio delle Operette a Antonio Fortunato Stella"],
+            ["Giacomo Leopardi", "informa", "che rimetterà il decimo foglio delle Operette con il seguente ordinario"],
+            ["Giacomo Leopardi", "ricorda", "la necessità di rivedere le Note in filoni"],
+            ["Giacomo Leopardi", "informa", "che Madama Padovani è ancora a Bologna, ma ha cambiato alloggio dopo la morte del suo e di Leopardi albergatore"],
+            ["Giacomo Leopardi", "offre", "di far preparare l'alloggio per Antonio Fortunato Stella nella stessa Locanda della Pace a Bologna, dove alloggia lui"],
+            ["Giacomo Leopardi", "chiede", "ad Antonio Fortunato Stella di avvertire il suo Ufficio che si trova a Bologna, non più a Recanati"],
+            ["Giacomo Leopardi", "informa", "che l'ultima lettera di Antonio Fortunato Stella ricevuta dal Sig. Signor Moratti era indirizzata a Recanati"],
+            ["Giacomo Leopardi", "esprime", "la sua impazienza nel riabbracciare Antonio Fortunato Stella e conta i giorni"],
+            ["Giacomo Leopardi", "invia", "i suoi complimenti alla famiglia e allo sposo di Antonio Fortunato Stella"],
+            ["Giacomo Leopardi", "saluta", "Antonio Fortunato Stella con tutto il cuore e gli augura un viaggio ed arrivo felicissimo"],
+            ["Giacomo Leopardi", "si firma", "come 'cordialissimo amico e servitore' di Antonio Fortunato Stella"]
+          ]          
+    },
+    {
+        "id_doc": "MS Add.6210.15",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Giuseppe Melchiorri",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "2 pages ",
+        "orig_date": "18 Gen. 1826.",
+        "orig_place": "Bologna (3181927)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Melchiorri, Giuseppe, 1796-1855 (2821485)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Melchiorri, Giuseppe, 1796-1855.  Bologna 18 Gen. 1826. Caro Peppino . Ti ringrazio tanto delle Varianti Lagomarsiniane che manderò a Milano al Bentivoglio . Farò le tue parti con Orioli quando lo vedrò. Il trecentista del secolo 19 è già stampato e pubblicato, e a Milano è stato accolto per vero trecentista. Te ne manderò copia subito che ne avrò. Le mie Canzoni si ristamperanno forse qui insieme colle altre mie opericciuole di cui si vuol fare un'edizione completa. Ma intanto se tu ne volessi una copia, potrei forse trovarla e spedirtela se mi si darà occasione. Io abito all' ingresso del Teatro del Corso, in casa Badini , presso il signor Aliprandi . Dei miei studi non posso dirti nulla, perchè sto spasimando dal freddo, e non ho coraggio di star mezz'ora al tavolino. Questo è certamente l'ultimo inverno ch'io passo qui. Ho fatto ricerca per servirti circa i monum. monumenti egiziani, e trovo che sarà ben difficile trovare un libraio che rilevi un numero di copie. Bensì si troverà facilmente un onestuomo che s'incarichi dello smercio di quelli esemplari che tu vorrai, ma tenendoli per tuo conto. Qui gli studi archeologici e filologici sono in uno stato che fa pietà, anzi non esistono affatto. Non si sa altro che far sonetti, e letterato e sonettista son sinonimi. Mi ha fatto ridere il sentire che costì si attribuiscano a Giordani due sonetti. Non occorre che ti risponda che non sono suoi. Giordani non ha mai fatto e non farebbe un verso in sua vita, se anche lo scorticassero. Abbi cura alla tua salute e voglimi bene. Se vedi Furlanetto o gli scrivi, salutalo da mia parte. Io ti amo e ti abbraccio di cuore. Addio addio. Il tuo G. Leopardi Risposto a 7. Febrajo 1826. 21 GENNAJO BOLOGNA Al Nobil Uomo Il Sig. Signor Marchese Giuseppe Melchiorri Roma ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "2821485",
+                "ref": "pers-20",
+                "forename": "Giuseppe",
+                "surname": "Melchiorri",
+                "persName": "Giuseppe Melchiorri"
+            },
+            {
+                "key": "20423730",
+                "ref": "pers-30",
+                "forename": "Francesco Maria",
+                "surname": "Bentivoglio",
+                "persName": "Francesco Maria Bentivoglio"
+            },
+            {
+                "key": "314799510",
+                "ref": "pers-31",
+                "forename": "Vincenzo",
+                "surname": "Aliprandi",
+                "persName": "Vincenzo Aliprandi"
+            },
+            {
+                "key": "4899893",
+                "ref": "pers-32",
+                "forename": "Pietro",
+                "surname": "Giordani",
+                "persName": "Pietro Giordani"
+            },
+            {
+                "key": "15531114",
+                "ref": "pers-33",
+                "forename": "Giuseppe",
+                "surname": "Furlanetto",
+                "persName": "Giuseppe Furlanetto"
+            }
+        ],
+        "places": [
+            {
+                "key": "3169069",
+                "ref": "pla-2",
+                "placeName": "Roma"
+            },
+            {
+                "key": "3181927",
+                "ref": "pla-7",
+                "placeName": "Bologna"
+            }
+        ],
+        "chat-gpt": [
+            ["Giacomo Leopardi", "scrive a", "Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "ringrazia", "Giuseppe Melchiorri per le Varianti Lagomarsiniane"],
+            ["Giacomo Leopardi", "informa", "che manderà le Varianti Lagomarsiniane a Milano al Bentivoglio"],
+            ["Giacomo Leopardi", "promette", "di fare le parti di Giuseppe Melchiorri con Orioli quando lo vedrà"],
+            ["Giacomo Leopardi", "informa", "che il trecentista del secolo 19 è già stampato e pubblicato, e a Milano è stato accolto come vero trecentista"],
+            ["Giacomo Leopardi", "promette", "di mandare una copia del trecentista del secolo 19 a Giuseppe Melchiorri subito che ne avrà"],
+            ["Giacomo Leopardi", "informa", "che le sue Canzoni si ristamperanno forse a Bologna insieme alle altre sue opericciuole per un'edizione completa"],
+            ["Giacomo Leopardi", "offre", "di spedire una copia delle sue Canzoni a Giuseppe Melchiorri se ne volesse una"],
+            ["Giacomo Leopardi", "informa", "che abita all'ingresso del Teatro del Corso, in casa Badini, presso il signor Aliprandi"],
+            ["Giacomo Leopardi", "informa", "di aver fatto ricerca per servire Giuseppe Melchiorri circa i monumenti egiziani"],
+            ["Giacomo Leopardi", "prevede", "che sarà difficile trovare un libraio che rilevi un numero di copie dei monumenti egiziani"],
+            ["Giacomo Leopardi", "prevede", "che sarà facile trovare un onesto uomo che si occupi dello smercio di quegli esemplari per conto di Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "sottolinea", "che gli studi archeologici e filologici sono in uno stato che fa pietà, anzi non esistono affatto"],
+            ["Giacomo Leopardi", "commenta", "che a Roma si attribuiscono a Giordani due sonetti, ma Leopardi nega che siano suoi"],
+            ["Giacomo Leopardi", "esorta", "Giuseppe Melchiorri ad avere cura della sua salute e gli vuole bene"],
+            ["Giacomo Leopardi", "chiede", "a Giuseppe Melchiorri di salutare da parte sua Furlanetto, se lo vede o gli scrive"],
+            ["Giacomo Leopardi", "esprime", "l'amore e l'abbraccio di cuore a Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "si congeda", "dicendo addio due volte"]
+          ]          
+    },
+    {
+        "id_doc": "MS Add.6210.29",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Monaldo Leopardi",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "2 pages ",
+        "orig_date": "8 Marzo 1832",
+        "orig_place": "Roma (3169069)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Leopardi, Monaldo, 1776-1847 (9709149068390265730006)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Leopardi, Monaldo, 1776-1847.  Roma 8 Marzo 1832 Mio caro Papà , I Dialoghetti , di cui la ringrazio di cuore, continuano qui ad essere ricercatissimi. Io non ne ho più in proprietà se non una copia, la quale però non so quando mi tornerà in mano. Mi dispiace molto di un falò del quale mi scrisse Paolina ; tanto più chio non posso credere che vi sia o vi sia stato veramente pericolo. Io, forse per con qualche mia colpa, ho ripreso un poco di febbre; la quale però, mediante un buon purgante, passò la sera del primo giorno, e mi lasciò un discreto raffreddor di petto, il quale pure colla cura e collo stare in casa, par che vada a finire: e spero che non m' impedirà di pormi in legno per Firenze , come ho intenzione di fare tra pochi giorni, se piace a Dio. Tornerò a scriverle prima della mia partenza, e gliel'annunzierò più precisamente. Matteo e D. Paolo, partito per Perugia , dove è stato mandato di stanza, mi raccomandano di riverirla. Così Fucili, il quale veggo non di rado; ottima persona e molto sensata a parer mio. Fui da donna Livia, la quale si loda moltissimo di Recanati , e massime delle attenzioni usatele da lei. Le auguro una buona Quaresima, e baciandole la mano la prego di cuore a benedirmi. Il suo Giacomo p. Luigi Al N. Nobil Uomo Sig. Signor Conte Monaldo Leopardi Recanati ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "9709149068390265730006",
+                "ref": "pers-14",
+                "forename": "Monaldo",
+                "surname": "Leopardi",
+                "persName": "Monaldo Leopardi"
+            },
+            {
+                "key": "29611067",
+                "ref": "pers-47",
+                "forename": "Paolina",
+                "surname": "Leopardi",
+                "persName": "Paolina Leopardi"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3169069",
+                "ref": "pla-2",
+                "placeName": "Roma"
+            },
+            {
+                "key": "3176958",
+                "ref": "pla-6",
+                "placeName": "Firenze"
+            },
+            {
+                "key": "6542125",
+                "ref": "pla-16",
+                "placeName": "Perugia"
+            }
+        ],
+        "chat-gpt": [
+            ["Giacomo Leopardi", "scrive a", "Monaldo Leopardi"],
+            ["Giacomo Leopardi", "ringrazia", "Monaldo Leopardi per I Dialoghetti"],
+            ["Giacomo Leopardi", "informa", "Monaldo Leopardi che I Dialoghetti sono ricercatissimi a Roma"],
+            ["Giacomo Leopardi", "informa", "Monaldo Leopardi che non ha più in proprietà I Dialoghetti, tranne una copia che non sa quando tornerà in mano"],
+            ["Giacomo Leopardi", "si dispiace", "per un falò del quale gli scrisse Paolina, ma non crede che vi sia stato veramente pericolo"],
+            ["Giacomo Leopardi", "informa", "Monaldo Leopardi che ha ripreso un poco di febbre, ma che è passata la sera del primo giorno, lasciandogli un discreto raffreddore al petto"],
+            ["Giacomo Leopardi", "spera", "che il raffreddore non gli impedirà di partire per Firenze tra pochi giorni"],
+            ["Giacomo Leopardi", "annuncia", "a Monaldo Leopardi che tornerà a scrivergli prima della partenza e gli darà informazioni più precise"],
+            ["Giacomo Leopardi", "raccomanda", "Monaldo Leopardi a riverire Matteo e D. Paolo, che sono partiti per Perugia"],
+            ["Giacomo Leopardi", "raccomanda", "Monaldo Leopardi a riverire Fucili, che vede non di rado e reputa ottima persona e molto sensata"],
+            ["Giacomo Leopardi", "informa", "Monaldo Leopardi che è stato da donna Livia, la quale si loda molto di Recanati e delle attenzioni ricevute"],
+            ["Giacomo Leopardi", "augura", "a Monaldo Leopardi una buona Quaresima"],
+            ["Giacomo Leopardi", "chiede", "a Monaldo Leopardi di benedirlo, baciandogli la mano"]
+          ]          
+    },
+    {
+        "id_doc": "MS Add.6210.28",
+        "repo": "Cambridge University Library",
+        "title": "Annex to the previous letter from Giacomo Leopardi to Mario Valdrighi",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "2 pages ",
+        "orig_date": "26 Luglio 1831",
+        "orig_place": "Firenze (3176958)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Valdrighi, Mario (12225977)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Valdrighi, Mario.  # Boerhaave. ° Micheli, botanico. # Gio. Targioni Tozzetti. Anton Domenico Gabbiani. # Gio. Fabbroni. ° Gasparo Mazzi, naturalista. ° Luigi Canali, naturalista. ## I due Savi, padre e figlio, naturalisti. # Bertiand de Nantes, naturalista e geologo. # Pentland, viaggiatore, geologo e naturalista. Pietro Pietrini [bracket] Giuseppe Mojon # Hnuboldt. # Antonio Cocchi: = un suo scritto. ° Magliabechi. # Molina, ex gesuita del Chili: = una poesia di sua mano . # Sismondi. # Filicaia: = un sonetto di sua mano. Bagnoli, autore del Cadmo. ° Consalvi. # Lafayette. # Il presente re di Prussia. ",
+        "persons": [],
+        "places": [],
+        "chat-gpt": [
+            ["Giacomo Leopardi", "scrive a", "Mario Valdrighi"],
+            ["Giacomo Leopardi", "menziona", "Boerhaave"],
+            ["Giacomo Leopardi", "menziona", "Micheli (botanico)"],
+            ["Giacomo Leopardi", "menziona", "Gio. Targioni Tozzetti"],
+            ["Giacomo Leopardi", "menziona", "Anton Domenico Gabbiani"],
+            ["Giacomo Leopardi", "menziona", "Gio. Fabbroni"],
+            ["Giacomo Leopardi", "menziona", "Gasparo Mazzi (naturalista)"],
+            ["Giacomo Leopardi", "menziona", "Luigi Canali (naturalista)"],
+            ["Giacomo Leopardi", "menziona", "I due Savi (padre e figlio, naturalisti)"],
+            ["Giacomo Leopardi", "menziona", "Bertiand de Nantes (naturalista e geologo)"],
+            ["Giacomo Leopardi", "menziona", "Pentland (viaggiatore, geologo e naturalista)"],
+            ["Giacomo Leopardi", "menziona", "Pietro Pietrini"],
+            ["Giacomo Leopardi", "menziona", "Giuseppe Mojon"],
+            ["Giacomo Leopardi", "menziona", "Humboldt"],
+            ["Giacomo Leopardi", "menziona", "Antonio Cocchi e un suo scritto"],
+            ["Giacomo Leopardi", "menziona", "Magliabechi"],
+            ["Giacomo Leopardi", "menziona", "Molina (ex gesuita del Chili) e una poesia di sua mano"],
+            ["Giacomo Leopardi", "menziona", "Sismondi"],
+            ["Giacomo Leopardi", "menziona", "Filicaia e un sonetto di sua mano"],
+            ["Giacomo Leopardi", "menziona", "Bagnoli (autore del Cadmo)"],
+            ["Giacomo Leopardi", "menziona", "Consalvi"],
+            ["Giacomo Leopardi", "menziona", "Lafayette"],
+            ["Giacomo Leopardi", "menziona", "Il presente re di Prussia"]
+          ]          
+    },
+    {
+        "id_doc": "MS Add.6210.14",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Giuseppe Melchiorri",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "4 pages ",
+        "orig_date": "8. Gennaio 1825.",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Melchiorri, Giuseppe, 1796-1855 (2821485)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Melchiorri, Giuseppe, 1796-1855.  Recanati 8. Gennaio 1825. Caro Peppino. Rispondo alla cara tua de' 30 Decembre. Ti ringrazio assai delle notizie sull'Eschilo, e sull'Amaduzzi. Ti ringrazio anche molto di quelle che mi dai sulle mie Canzoni , e in particolare di quanto mi dic e i degli Arcadici. Ti assicuro che io provo sempre un gran piacere quando sono informato del male che si dice di me. Del resto poi, se gli Arcadici abbiano ragione o torto, giudicherà il pubblico. Ho già scritto costà per vedere di farti pagare in Roma gli scudi 12.50 pagandoli io qua. Se questo non si potrà eseguire, ve li manderò direttamente per la posta. Quanto all'uso delle copie eusebiane, io vorrei che mi favoriste di farne aver quattro a Cancellieri , che potrà darle a qualche forestiere che se ne intenda. Se voi crederete che alcuno di vostra conoscenza sia capace di gradirle o di leggerle, disponete di quel numero di copie che vi aggrada. Ma credo che difficilmente troverete costì chi si curi di un dono tale, o lo possa adoprare. In ogni modo voi prendetevi una copia per voi, anzi per me e per amor mio. Le altre converrà che voi mi facciate il favore di mandarmele per qualche spedizioniere, o per occasione. Ma il più facile sarà per via di spedizioniere. Se voi non potete ancora mandarmi le stampe di cui mi avete parlato, vi prego a mandarmi separatamente per la posta la lettera di Missirini , acciocchè io possa rispondere a quel buon galantuomo, che dopo la mia partenza da Roma mi ha fatto molte gentilezze, e per il quale ho, ed ho sempre avuta molta stima. Avrò caro d'intendere a vostro comodo il pensiero di De Romanis sopra la proposizione che vi pregai di fargli a mio nome, cioè sul Teofrasto. Voi non mi potete far cosa più grata che parlarmi di voi. E però non mi dite che il vostro piagnisteo mi attedierà, perchè anzi le querele che voi fate meco amichevolmente, mi sono dolcissime, in quanto che mi dimostrano la confidenza vostra. Parlatemi anche, vi prego, dei vostri studi. Io vi ritorno moltiplicati gli augurii del buon anno, e desidero che l' anno futuro ponga fine per voi alle molestie del passato. Amatemi come io fo, e comandatemi. Addio, addio. Risposto a 16. Genn.o Gennaio 1825. 12 GENNAIO RECANATI Al Nobil Uomo Sig. Signor March. Marchese Giuseppe Melchiorri Roma ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "17213238",
+                "ref": "pers-3",
+                "forename": "Francesco",
+                "surname": "Cancellieri",
+                "persName": "Francesco Cancellieri"
+            },
+            {
+                "key": "2821485",
+                "ref": "pers-20",
+                "forename": "Giuseppe",
+                "surname": "Melchiorri",
+                "persName": "Giuseppe Melchiorri"
+            },
+            {
+                "key": "161159474180227661442",
+                "ref": "pers-29",
+                "forename": "Filippo Antonio",
+                "surname": "De Romanis",
+                "persName": "Filippo Antonio De Romanis"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3169069",
+                "ref": "pla-2",
+                "placeName": "Roma"
+            }
+        ],
+        "chat-gpt": [
+            ["Giacomo Leopardi", "scrive a", "Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "ringrazia", "Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "riceve", "notizie su Eschilo e Amaduzzi da Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "ringrazia", "Giuseppe Melchiorri per le informazioni sulle sue Canzoni e sugli Arcadici"],
+            ["Giacomo Leopardi", "informa", "Giuseppe Melchiorri dell'invio di scudi 12.50"],
+            ["Giacomo Leopardi", "chiede", "a Giuseppe Melchiorri di fargli avere quattro copie eusebiane"],
+            ["Giacomo Leopardi", "consiglia", "Giuseppe Melchiorri di dare le copie eusebiane a Cancellieri per qualche forestiere"],
+            ["Giacomo Leopardi", "chiede", "a Giuseppe Melchiorri di prendersi una copia delle stampe eusebiane per lui"],
+            ["Giacomo Leopardi", "chiede", "a Giuseppe Melchiorri di inviargli la lettera di Missirini per poter rispondere"],
+            ["Giacomo Leopardi", "esprime", "il desiderio di conoscere il pensiero di De Romanis sulla proposta riguardante il Teofrasto"],
+            ["Giacomo Leopardi", "chiede", "a Giuseppe Melchiorri di parlare dei suoi studi"],
+            ["Giacomo Leopardi", "augura", "a Giuseppe Melchiorri un buon anno e desidera la fine delle sue molestie"],
+            ["Giacomo Leopardi", "esprime", "la dolcezza che provano le lamentele amichevoli di Giuseppe Melchiorri"],
+            ["Giacomo Leopardi", "augura", "a Giuseppe Melchiorri che l'anno futuro ponga fine alle sue molestie"],
+            ["Giacomo Leopardi", "chiede", "a Giuseppe Melchiorri di amarlo e comandarlo"]
+          ]
+          
+    },
+    {
+        "id_doc": "MS Add.6210.40",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Paolina Leopardi to Amalia",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "4 pages ",
+        "orig_date": "5 12/64",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Paolina, 1800-1869 (29611067)",
+        "receiver": "Amalia ()",
+        "text": "Lettera di Leopardi, Paolina, 1800-1869 a Amalia.  embossed stamp Preg.ma Pregiatissima Sig.a Signora Amalia La sventura che mi ha colpita non è venuta solo per nuocermi, essa ha avuto anche il suo lato utile, e se mi apporta inquietudini ed amarezze infinite mi ha svelato anche, a mio vantaggio ed ammestramento, quali sono i veri e quali i falsi amici di tanti che mi circondano. Perciò, tra tutti il sommo vantaggio che tanto luttuose vicende mi porsero – e che io non esito punto a chiamare opere del sapientissimo e provvidentissimo Iddio, vi è l’amicizia che per le oscure sue vie mi si preparava in un’anima per pregi i più sublimi sommamente rara ed amorevole ed in un cuore per sentimenti i più nobili e delicati impareggiabile – voglio dire della stimatissima e cara Amalia – Io non ho mai ardito sperare di poter ritrovare – oltre quello dell’adorata Teresa – un cuore che senta veramente le mie ambasce, una piccola confortatrice che raddolcisca l’amarezza de’ miei pensieri – che mi sollevi nell’oppressione della mia trista fortuna; ma però contro le mie previsioni e contro i miei meriti, io godo di potere aggiungere alla sua il tesoro della di Lei inapprezzabile amicizia. Questa io reputo beneficio altrettanto gradito quanto insperato, e se mi lega vie maggiorme.e maggiormente a Teresa che me l’ha procurato, m’incombe obbligo di apprezzarlo come si merita, e darle indubbie prove di mia gratitudine e riconoscenza – Poichè ella ha saputo – mia cara Sig.a Signora Amalia nel brevissimo tempo che ha preso a carteggiare con Teresa così moltiplicare i titoli alle mie obbligazioni verso di Lei, che mi veggo fin d’ora impossibilitata a renderle la pariglia. Il vedere com’Ella ha saputo penetrarsi delle dolorose nostre vicende per dolersi con noi e compatirci, e quindi l’impresa che tanto generosamente si assunse di mettere fra noi desolati la parola dell’incoraggiamento e della consolazione, mi commosse di tenerezza e riconoscenza. Ella così ha nobilmente cancellato mille amarezze dagli animi n.ri nostri e ci ha sollevato lo spirito altamente oppresso per le altrui malvolenze ed ingiustizie. Ella sia benedetta, e Iddio la ricambi secondo il suo merito, chè io non varrò mai a restituirle così segnalati servigi. Posso solo assicurarla che saranno incancellabili i sentimenti che nutro per così elette azioni, che il suo nome apporta conforto e sollievo, e balsamo ristoratore. – Quanto ella si compiace manifestare a mio riguardo, io debbo guardarmi dall’attribuirlo a merito mio, ma solo alla sua naturale benevolenza e cortesia. Teresa occupatissima in questi giorni nello scrivere per Carlo m’incarica di ringraziarla vivamente della sua carissima lettera ultima – dopo la quale io non ho potuto più resistere al desiderio di esprimerle io stessa la mia gratitudine per tanta sua affezione e rara cordialità. Ella sappia – cara Sig.a Signora Amalia di avere in me una persona riconoscentissima a tanta sua benevolenza, e che si pregia di essere e dichiararsi Sua D.v.ma Devotissima , Obbl.ma Obbligatissima S.a Serva Paolina Leopardi P.S. Teresa , Carlo , l' ab. abate Della Vecchia , le fanno mille complimenti e saluti Recanati 5 12/64 ",
+        "persons": [
+            {
+                "key": "47597875",
+                "ref": "pers-15",
+                "forename": "Carlo Orazio",
+                "surname": "Leopardi",
+                "persName": "Carlo Orazio Leopardi"
+            },
+            {
+                "key": "29611067",
+                "ref": "pers-47",
+                "forename": "Paolina",
+                "surname": "Leopardi",
+                "persName": "Paolina Leopardi"
+            },
+            {
+                "key": "89284919",
+                "ref": "pers-68",
+                "forename": "Teresa",
+                "surname": "Teja Leopardi",
+                "persName": "Teresa Teja Leopardi"
+            },
+            {
+                "key": "",
+                "ref": "pers-69",
+                "forename": "Giovanni Battista",
+                "surname": "Dalla Vecchia",
+                "persName": "Giovanni Battista Dalla Vecchia"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            }
+        ],
+        "chat-gpt": [
+            ["Paolina Leopardi", "scrive a", "Amalia"],
+            ["Paolina Leopardi", "ringrazia", "Amalia per la sua amicizia"],
+            ["Paolina Leopardi", "considera", "l'amicizia di Amalia come un vantaggio in mezzo alle sue sventure"],
+            ["Paolina Leopardi", "riconosce", "Amalia come un vero e raro amico, un confortatore"],
+            ["Paolina Leopardi", "esprime", "la gratitudine per l'amicizia di Amalia"],
+            ["Paolina Leopardi", "riconosce", "Amalia per la generosità e le azioni segnalate che hanno alleviato le loro sofferenze"],
+            ["Paolina Leopardi", "augura", "la benedizione di Dio a Amalia e spera che sia ricambiata secondo il suo merito"],
+            ["Paolina Leopardi", "assicura", "che i sentimenti di riconoscenza per l'amicizia di Amalia saranno incancellabili"],
+            ["Paolina Leopardi", "ringrazia", "Amalia per la lettera carissima, esprimendo la sua gratitudine e affezione"],
+            ["Paolina Leopardi", "esprime", "che Teresa, Carlo, e l'abate Della Vecchia inviano mille complimenti e saluti a Amalia"]
+          ]          
+    },
+    {
+        "id_doc": "MS Add.6210.41",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Paolina Leopardi and Filippo Castiglioni to Filippo Raffaelli",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "4 pages ",
+        "orig_date": "8 X.bre 1852",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Paolina, 1800-1869 (29611067)",
+        "receiver": "Raffaelli, Filippo (39754174)",
+        "text": "Lettera di Leopardi, Paolina, 1800-1869 a Raffaelli, Filippo.  Preg.mo Pregiatissimo Sig. Signor M.se. Marchese Sono veramente dolente di non potere corrispondere alla brama che ho di compiacerla nel darle tutti que’ dettagli ch’ella mi richiede sul canonico Vogel . Io era ben piccina, o forse non era neppur nata quando egli venne in Recanati – l’ho conosciuto però più tardi e ricordo che frequentava la domestica biblioteca, ma io era in età così infantile che non posso dir altro di lui se non che era dottissimo, e venne poi no minato Canonico a Loreto ove portossi e morì. In mia casa non trovo memorie che lo riguardino. La sua opera o Commentario com’Ella lo chiama io credo che si conservi accuratamente e gelosamente dal Capitolo recanatese… Io era a questo punto della mia lettera, quando per fortuna m’è capitata persona la quale interrogata da me sul canonico Vogel e sulla sua opera od altro, ha posto in questo foglio qualche linea che vorrei le servisse – e se non altro servirà a farle intendere la compiacenza che avrei nel servirla in qualche guisa. Con molta ansietà e con molto gradimento riceverò il dono ch’Ella gentilmente mi promette, ossia il quinto fascicolo della sua pregevole Raccolta di lettere, si perchè da Lei ordinato sì perchè vi si fa motto del povero e diletto mio fratello. Io spero ch’Ella vorrà compiere il favore rendendo perfetta questa sua Raccolta nella mia biblioteca – vale a dire ch’Ella vorrà compiacersi di fornirne que’ fascicoli che avranno veduto la luce dopo la morte del suddetto, e che verranno poi. Ella può esser ben sicura di tutta la mia riconoscenza – come può egualmente esserlo di tutta la stima con cui mi pregio di essere Di Lei Preg.mo Pregiatissimo Sig. Signor Conte Di Recanati 8 X.bre 1852 Sua D.v.ma Devotissima Serva Paolina Leopardi Sig. Signor M.se. Marchese Filippo Castiglioni Cingoli Il Commentario Storico de Ecclesiis Recanatensi et Lauretana ecc. del fu Can.co Canonico Vogel si conserva in quest’Archivio del Capitolo, a cui l’Autore ne dette la proprietà: consiste in due grossi Volumi manoscritti, l’uno di Testo, l’altro di Documenti. Questi ultimi sono in N.° di 159; il primo è un’atto di donazione in favore della Chiesa di S. Giovanni di Monte Volpo (o Volpino) di Recanati , datato del Giugno 1151: l’ultimo è un Breve di Pio Settimo dato li 18. Maggio 1806. con cui si accorda agli Altaristi di questa Cattedrale il privilegio d’una medaglia ecc. So che il Vogel aveva impreso altre opere storiche fra cui appariscono complete il = Codex Firmanus = e il = Cordex Farfensis = Questi due preziosi manoscritti fino a dieci anni addietro erano in proprietà del Sig.r Signor M.se Marchese Filippo Solari di Loreto , che li custodiva con molta gelosia. Ora non saprei in quali mani siano passati. In questa Cancelleria Vescovile si hanno molte memorie del Vogel intorno ai Canonicati ed altri Benefici di questa Chiesa. Potrebbero considerarsi piuttosto una Selva, o materiali per farne un’opera, piuttosto che una Storia esatta, e compita. MACERATA RECANATI MACERATA 9 DEC. 52 Al Nobile e Chiarissimo Signore S.r Signor M.se Marchese Filippo Raffaelli . = Cingoli . ",
+        "persons": [
+            {
+                "key": "29611067",
+                "ref": "pers-47",
+                "forename": "Paolina",
+                "surname": "Leopardi",
+                "persName": "Paolina Leopardi"
+            },
+            {
+                "key": "",
+                "ref": "pers-70",
+                "forename": "Filippo",
+                "surname": "Castiglioni",
+                "persName": "Filippo Castiglioni"
+            },
+            {
+                "key": "39754174",
+                "ref": "pers-71",
+                "forename": "Filippo",
+                "surname": "Raffaelli",
+                "persName": "Filippo Raffaelli"
+            },
+            {
+                "key": "17475203",
+                "ref": "pers-72",
+                "forename": "Joseph Anton",
+                "surname": "Vogel",
+                "persName": "Joseph Anton Vogel"
+            },
+            {
+                "key": "78669916",
+                "ref": "pers-73",
+                "forename": "Filippo",
+                "surname": "Solari",
+                "persName": "Filippo Solari"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "6539726",
+                "ref": "pla-12",
+                "placeName": "Loreto"
+            },
+            {
+                "key": "6541067",
+                "ref": "pla-17",
+                "placeName": "Cingoli"
+            },
+            {
+                "key": "6540106",
+                "ref": "pla-18",
+                "placeName": "Macerata"
+            }
+        ],
+        "chat-gpt": [
+            ["Paolina Leopardi", "scrive a", "Filippo Raffaelli"],
+            ["Paolina Leopardi", "esprime", "rammarico per non poter fornire dettagli su Canonico Vogel"],
+            ["Paolina Leopardi", "conosce", "Canonico Vogel, dottissimo, venuto a Recanati, diventato Canonico a Loreto e deceduto"],
+            ["Paolina Leopardi", "informa", "che la sua casa non ha memorie specifiche su Canonico Vogel"],
+            ["Paolina Leopardi", "chiede", "informazioni a terzi su Canonico Vogel e la sua opera"],
+            ["Paolina Leopardi", "riceve", "informazioni su Canonico Vogel e la conservazione del suo Commentario Storico presso il Capitolo recanatese"],
+            ["Paolina Leopardi", "esprime", "ansietà e gradimento per il dono promesso da Filippo Raffaelli, il quinto fascicolo della sua Raccolta di lettere"],
+            ["Paolina Leopardi", "spera", "che Filippo Raffaelli possa completare la Raccolta includendo i fascicoli pubblicati dopo la morte di suo fratello"],
+            ["Paolina Leopardi", "ringrazia", "Filippo Raffaelli in anticipo per il dono e gli assicura la sua riconoscenza e stima"],
+            ["Filippo Raffaelli", "informa", "Paolina Leopardi sulla conservazione del Commentario Storico del Canonico Vogel presso il Capitolo recanatese"],
+            ["Filippo Raffaelli", "descrive", "i due grossi volumi del Commentario Storico, uno di testo e l'altro di documenti"],
+            ["Filippo Raffaelli", "elenco", "alcuni documenti presenti nel Commentario Storico, tra cui un atto di donazione del 1151 e un breve di Pio Settimo del 1806"],
+            ["Filippo Raffaelli", "informa", "che Canonico Vogel aveva anche intrapreso altre opere storiche, come il Codex Firmanus e il Codex Farfensis"],
+            ["Filippo Raffaelli", "indica", "che i manoscritti erano in precedenza in possesso del Marchese Filippo Solari di Loreto, ma ora non sa dove siano"],
+            ["Filippo Raffaelli", "descrive", "materiale storico riguardante Canonico Vogel nella Cancelleria Vescovile di Macerata"],
+            ["Filippo Raffaelli", "consiglia", "considerare queste memorie come materiali per un'opera piuttosto che una storia esatta"],
+            ["Filippo Raffaelli", "conclude", "la lettera, indicando la data e destinatario"]
+          ]          
+    },
+    {
+        "id_doc": "MS Add.6210.19",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Carlo Emanuele Muzzarelli",
+        "lang": "Italian",
+        "support": "Paper with BONDON 1812 watermark",
+        "extent": "4 pages ",
+        "orig_date": "28 Giugno 1828",
+        "orig_place": "Firenze (3176958)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Muzzarelli, Carlo Emmanuele, 1797-1856 (18677718)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Muzzarelli, Carlo Emmanuele, 1797-1856.  03 1282 Eccellenza Reverendissima La mia famiglia, sapendo che V. Vostra Ecc. Eccellenza Reverendiss. Reverendissima mi ha onorato più volte di molti segni di benevolenza, ha desiderato che io raccomandassi a Lei la causa che mio padre, Monaldo Leopardi , ha col conte Michele Moroni , e che dee proporsi fra poco a codesto Tribunale della Rota. Io la raccomanderei all' Ecc. Eccellenza V.ra Vostra caldissimamente e instantissimamente, come cosa che per necessità c'interessa moltissimo; se credessi che in simili cose potesse aver luogo altra raccomandazione che quella della giustizia. La quale è ben vero che tutte le persone intendenti da noi consultate, ci assicurano esser dal lato nostro evidentemente: ma di ciò non mi si appartiene, e sarebbe temerario in me, il parlare in faccia a Lei. Dirò solamente che se la bontà di V. Vostra Ecc. Eccellenza avrà qualche modo di favorire perchè da noi si ottenga quello che sarà giudicato giusto e di ragione, in tal caso io mi terrò e mi chiamerò eternamente obbligato e legato all' Ecc. Eccellenza V.ra Vostra se le piacerà di usare in favor nostro il suo potere. E in ogni caso io le sarò tenutissimo se Ella mi continuerà la sua benevolenza, che mi è cara e preziosa quanto cosa alcuna del mondo. E offerendomi a servirla in tutto che io possa, ho l' onore di confermarmi Di V. Vostra Eccellenza Rev.ma Reverendissima Firenze 28 Giugno 1828 U.mo Umilissimo Obbl.mo Obbligatissimo servitore Giacomo Leopardi Qui si parla assai spesso di Lei con Giordani e con altri, che sono innamorati delle sue virtù, e che la stimano altamente 1 30 GIUGNO FIRENZE A Sua Eccllenza Reverendissima Monsig. Monsignor Carlo Emmanuele Conte Muzzarelli Uditore della Sacra Rota Roma ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "9709149068390265730006",
+                "ref": "pers-14",
+                "forename": "Monaldo",
+                "surname": "Leopardi",
+                "persName": "Monaldo Leopardi"
+            },
+            {
+                "key": "4899893",
+                "ref": "pers-32",
+                "forename": "Pietro",
+                "surname": "Giordani",
+                "persName": "Pietro Giordani"
+            },
+            {
+                "key": "18677718",
+                "ref": "pers-40",
+                "forename": "Carlo Emanuele",
+                "surname": "Muzzarelli",
+                "persName": "Carlo Emanuele Muzzarelli"
+            }
+        ],
+        "places": [
+            {
+                "key": "3169069",
+                "ref": "pla-2",
+                "placeName": "Roma"
+            },
+            {
+                "key": "3176958",
+                "ref": "pla-6",
+                "placeName": "Firenze"
+            }
+        ],
+        "chat-gpt": [
+            ["Giacomo Leopardi", "scrive a", "Carlo Emmanuele Muzzarelli"],
+            ["Famiglia di Giacomo Leopardi", "desidera", "raccomandare a Muzzarelli la causa di Monaldo Leopardi contro il conte Michele Moroni"],
+            ["Giacomo Leopardi", "raccomanda", "calorosamente e insistentemente la causa di suo padre a Carlo Emmanuele Muzzarelli"],
+            ["Giacomo Leopardi", "afferma", "che la giustizia è a favore della loro causa, secondo le persone consultate"],
+            ["Giacomo Leopardi", "chiede", "a Muzzarelli di favorire affinché ottengano giustizia"],
+            ["Giacomo Leopardi", "si impegna", "a essere eternamente obbligato se Muzzarelli userà il suo potere in favore loro"],
+            ["Giacomo Leopardi", "si dichiara", "tenutissimo se Muzzarelli continuerà la sua benevolenza"],
+            ["Giacomo Leopardi", "offre", "di servire Muzzarelli in tutto ciò che può"],
+            ["Giacomo Leopardi", "conferma", "l'obbligo e il legame eterno a Muzzarelli"],
+            ["Giacomo Leopardi", "esprime", "il suo onore di confermarsi umilissimo, obbligatissimo servitore di Muzzarelli"],
+            ["Giacomo Leopardi", "informa", "che si parla spesso di Muzzarelli con Giordani e altri, che lo stimano e ammirano per le sue virtù"]
+          ]          
+    },
+    {
+        "id_doc": "MS Add.6210.31",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Giovanni Rosini",
+        "lang": "Italian",
+        "support": "Paper with dove in a circle watermark",
+        "extent": "2 pages ",
+        "orig_date": "Giugno 1832",
+        "orig_place": "Firenze (3176958)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Rosini, Giovanni, 1776-1855 (144548)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Rosini, Giovanni, 1776-1855.  maggio 1833. 5 4 A. Amico C. Carissimo Vi ringrazio caramente dei libri inviatimi in grazioso dono. Della Commedia non sapremmo che aggiungere Ranieri ed io al giudizio già pronunziatone dal pubblico, eccetto che a me pare che voi abbiate con questa introdotto nel teatro italiano un nuovo genere di dramma, che potrà esser coltivato con molto frutto. Il Saggio mi pare propriamente una bella cosa, pieno di quella erudizione letteraria che oggi è rarissima da per tutto, e piacevole molto a leggere, non ostante la copia delle citazioni, e l'aridità apparente della materia. Il desiderio di servir voi, e di leggere le cose vostre, mi fece esser corrente a promettere quello, che ora trovo assai difficile a mantenere. Voi sapete che il mio mal d'occhi e di nervi, da quando io leggeva la Monaca di Monza , è cresciuto sempre, tanto che ora non son più padrone di me stesso in ciò che appartiene a leggere e scrivere. Un giorno potrò far qualche cosa, e dieci non potrò far nulla, nemmeno leggere le lettere che ricevo. Tutti i miei amici aspettano le risposte per settimane e mesi, perch'io stesso debbo aspettare che gli occhi mi permettano di rispondere. In tale stato, come posso io assumere l'impegno di una corrispondenza regolare? Tanto più che quello, ch'io posso leggere e scrivere anco nelle migliori giornate, è sempre pochissimo. Vedete dunque che io promisi oltre alle mie facoltà, e conoscete bene che queste non son vane scuse. Del resto comandatemi quel che credete ch'io possa, che la volontà di servirvi non mancherà mai. Addio, addio. Ranieri vi saluta assai. ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "144548",
+                "ref": "pers-39",
+                "forename": "Giovanni",
+                "surname": "Rosini",
+                "persName": "Giovanni Rosini"
+            },
+            {
+                "key": "41882223",
+                "ref": "pers-63",
+                "forename": "Antonio",
+                "surname": "Ranieri",
+                "persName": "Antonio Ranieri"
+            }
+        ],
+        "places": [
+            {
+                "key": "3176958",
+                "ref": "pla-6",
+                "placeName": "Firenze"
+            },
+            {
+                "key": "3170646",
+                "ref": "pla-11",
+                "placeName": "Pisa"
+            }
+        ],
+        "chat-gpt": [
+            ["Giacomo Leopardi", "scrive a", "Giovanni Rosini"],
+            ["Giovanni Rosini", "invia in dono", "libri a Giacomo Leopardi"],
+            ["Giacomo Leopardi", "ringrazia", "Giovanni Rosini per i libri ricevuti"],
+            ["Giacomo Leopardi", "esprime", "l'apprezzamento per la Commedia di Giovanni Rosini"],
+            ["Giacomo Leopardi", "aggiunge", "che la Commedia introduce un nuovo genere di dramma nel teatro italiano"],
+            ["Giacomo Leopardi", "osserva", "che il Saggio di Giovanni Rosini è una bella opera, ricca di erudizione letteraria"],
+            ["Giacomo Leopardi", "nota", "la rarità dell'erudizione letteraria in generale"],
+            ["Giacomo Leopardi", "trova", "il Saggio piacevole da leggere nonostante la copia delle citazioni e l'aridità apparente della materia"],
+            ["Giacomo Leopardi", "spiega", "che il suo mal d'occhi e nervi, aggravatosi da quando leggeva la Monaca di Monza, gli impedisce di leggere e scrivere regolarmente"],
+            ["Giacomo Leopardi", "riconosce", "l'impossibilità di mantenere l'impegno di una corrispondenza regolare a causa del suo stato di salute"],
+            ["Giacomo Leopardi", "assicura", "che la volontà di servire non mancherà mai nonostante le difficoltà"],
+            ["Giacomo Leopardi", "saluta", "Ranieri e Giovanni Rosini"],
+            ["Ranieri", "saluta", "Giovanni Rosini"]
+          ]          
+    }
+]
