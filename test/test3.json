@@ -3629,50 +3629,21 @@
                 "placeName": "Modena"
             }
         ],
-        "chat-gpt": {
-            "entities": [
-                {
-                    "soggetto": "Giacomo Leopardi",
-                    "predicato": "scrive a",
-                    "oggetto": "Mario Valdrighi"
-                },
-                {
-                    "soggetto": "Giacomo Leopardi",
-                    "predicato": "riceve",
-                    "oggetto": "lettera di Mario Valdrighi"
-                },
-                {
-                    "soggetto": "Giacomo Leopardi",
-                    "predicato": "riceve",
-                    "oggetto": "nota degli autografi"
-                },
-                {
-                    "soggetto": "Giacomo Leopardi",
-                    "predicato": "riceve",
-                    "oggetto": "nota di Francesco Galvani"
-                },
-                {
-                    "soggetto": "Giacomo Leopardi",
-                    "predicato": "riceve",
-                    "oggetto": "lettera di Giovanni Galvani"
-                },
-                {
-                    "soggetto": "Giacomo Leopardi",
-                    "predicato": "ringrazia",
-                    "oggetto": "Mario Valdrighi"
-                },
-                {
-                    "soggetto": "Giacomo Leopardi",
-                    "predicato": "ringrazia",
-                    "oggetto": "Francesco Galvani"
-                },
-                {
-                    "soggetto": "Giacomo Leopardi",
-                    "predicato": "ringrazia",
-                    "oggetto": "Giovanni Galvani"
-                }
-            ]
-        }
+        "chat-gpt": [
+          ["Giacomo Leopardi", "scrive a", "Conte Mario Valdrighi"],
+          ["Giacomo Leopardi", "riceve", "lettera di Conte Mario Valdrighi del 21 giugno"],
+          ["Giacomo Leopardi", "riceve", "nota degli autografi da Conte Mario Valdrighi"],
+          ["Giacomo Leopardi", "riceve", "nota di autografi da Francesco Galvani"],
+          ["Giacomo Leopardi", "riceve", "lettera affettuosa da Giovanni Galvani"],
+          ["Giacomo Leopardi", "non riesce", "a rispondere immediatamente per assenza e malattia della Signora"],
+          ["Giacomo Leopardi", "riceve", "nota duplicata degli autografi da Francesco Galvani"],
+          ["Giacomo Leopardi", "chiede", "a Conte Mario Valdrighi di comunicare la nota a Francesco Galvani"],
+          ["Giacomo Leopardi", "chiede", "a entrambi di scegliere gli autografi desiderati"],
+          ["Giacomo Leopardi", "indica", "una lista di autografi desiderati"],
+          ["Giacomo Leopardi", "chiede", "di comunicare mille ringraziamenti a Giovanni e Francesco Galvani"],
+          ["Giacomo Leopardi", "offre", "la sua disponibilità ai comandi di Giovanni e Francesco Galvani"],
+          ["Giacomo Leopardi", "ringrazia", "Conte Mario Valdrighi per la gentilezza e la memoria di lui"]
+        ]
     },
     {
         "id_doc": "MS Add.6210.23",
@@ -3757,75 +3728,18 @@
                 "placeName": "Loreto"
             }
         ],
-        "chat-gpt": {
-            "relations": [
-                {
-                    "subject": "Leopardi",
-                    "predicate": "scrive a",
-                    "object": "Rosini"
-                },
-                {
-                    "subject": "Leopardi",
-                    "predicate": "data",
-                    "object": "19 Aprile 1829"
-                },
-                {
-                    "subject": "Leopardi",
-                    "predicate": "racconta",
-                    "object": "dispiacere per non avere ricevuto una lettera di Rosini"
-                },
-                {
-                    "subject": "Leopardi",
-                    "predicate": "racconta",
-                    "object": "aver avuto notizia del successo del romanzo di Rosini"
-                },
-                {
-                    "subject": "Leopardi",
-                    "predicate": "racconta",
-                    "object": "piacere per il successo del romanzo di Rosini"
-                },
-                {
-                    "subject": "Leopardi",
-                    "predicate": "racconta",
-                    "object": "possibili critiche al romanzo di Rosini"
-                },
-                {
-                    "subject": "Leopardi",
-                    "predicate": "racconta",
-                    "object": "speranza che il poema di Rosini venga completato"
-                },
-                {
-                    "subject": "Leopardi",
-                    "predicate": "racconta",
-                    "object": "disperazione e noia che prova nella sua vita a Firenze"
-                },
-                {
-                    "subject": "Leopardi",
-                    "predicate": "invia saluti a",
-                    "object": "Lauretta"
-                },
-                {
-                    "subject": "Leopardi",
-                    "predicate": "invia saluti a",
-                    "object": "Madama Vaccà"
-                },
-                {
-                    "subject": "Leopardi",
-                    "predicate": "invia saluti a",
-                    "object": "Madama Mason"
-                },
-                {
-                    "subject": "Leopardi",
-                    "predicate": "invia saluti a",
-                    "object": "Carmignani"
-                },
-                {
-                    "subject": "Leopardi",
-                    "predicate": "racconta",
-                    "object": "sua condizione di scontentezza e noia quotidiana"
-                }
-            ]
-        }
+        "chat-gpt": [
+          ["Giacomo Leopardi", "scrive a", "Professor Giovanni Rosini"],
+          ["Giacomo Leopardi", "informa", "Giovanni Rosini del successo del suo romanzo"],
+          ["Giacomo Leopardi", "esprime", "rallegramenti per il successo di Giovanni Rosini"],
+          ["Giacomo Leopardi", "esprime", "dispiacere per la domanda sulla ricezione della sua precedente lettera"],
+          ["Giacomo Leopardi", "informa", "Giovanni Rosini delle notizie da Firenze"],
+          ["Giacomo Leopardi", "augura", "a Giovanni Rosini di non trascurare il suo poema"],
+          ["Giacomo Leopardi", "promette", "di fare quanto richiesto da Giovanni Rosini riguardo all'esemplare da Bologna"],
+          ["Giacomo Leopardi", "saluta", "Lauretta, Madama Vaccà, Madama Mason e Carmignani"],
+          ["Giacomo Leopardi", "comunica", "le sue condizioni attuali, vivendo mezzo disperato e soffrendo di noia e rabbia ogni giorno"],
+          ["Giacomo Leopardi", "chiede", "di essere ricordato ai suoi amici"]
+        ]
     },
     {
         "id_doc": "MS Add.6210.37",
@@ -3915,89 +3829,20 @@
             }
         ],
         "chat-gpt": [
-            [
-                "Giacomo Leopardi",
-                "scrive a",
-                "Francesco Cancellieri"
-            ],
-            [
-                "Stampa",
-                "presa in carico da",
-                "sig. signor de Romanis"
-            ],
-            [
-                "Stampa",
-                "richiede una somma di",
-                "cotesti stampatori"
-            ],
-            [
-                "Libretto",
-                "rientra nell'oblio"
-            ],
-            [
-                "Stampa",
-                "si fa a conto degli Stampatori"
-            ],
-            [
-                "Opere",
-                "pubblicate da",
-                "il Mai"
-            ],
-            [
-                "Opere",
-                "pubblicate da",
-                "un giovane disprezzato dai letterati"
-            ],
-            [
-                "Associazioni",
-                "trovate facilmente"
-            ],
-            [
-                "Traduzione dell'Iliade",
-                "pubblicata da",
-                "il Fiocchi"
-            ],
-            [
-                "Opere",
-                "non concesse da stampare a noi miserabili"
-            ],
-            [
-                "Opere",
-                "non pubblicate a causa del discredito dello Spettatore"
-            ],
-            [
-                "Zio Antici",
-                "vuole che gli venga rimandato il libretto"
-            ],
-            [
-                "Opere",
-                "inviate a Milano da Giacomo Leopardi"
-            ],
-            [
-                "Traduzione delle poesie di Mosco",
-                "pubblicata da",
-                "lo Spettatore"
-            ],
-            [
-                "Giornale",
-                "diretto da uno dei più meschini letterati di Milano"
-            ],
-            [
-                "Invio di auguri di felici feste"
-            ],
-            [
-                "Zio Antici",
-                "spera di presto riverire Francesco Cancellieri"
-            ],
-            [
-                "Ringraziamento di Francesco Cancellieri per i favori ricevuti"
-            ],
-            [
-                "Luogo di provenienza della lettera: Recanati"
-            ],
-            [
-                "Destinatario della lettera: Francesco Cancellieri"
-            ]
+          ["Giacomo Leopardi", "scrive a", "Francesco Cancellieri"],
+          ["Giacomo Leopardi", "esprime", "dubbio sulla possibilità della stampa del suo Libretto per il costo indicato"],
+          ["Giacomo Leopardi", "spedisce", "il suo opuscolo a Roma sperando che la spesa di stampa non sia eccessiva"],
+          ["Giacomo Leopardi", "chiede", "a Francesco Cancellieri di far avere il Libretto a Zio Antici"],
+          ["Giacomo Leopardi", "informa", "su come vengono gestite le spese di stampa a Milano"],
+          ["Giacomo Leopardi", "racconta", "le esperienze di altri autori a Milano riguardo alla stampa"],
+          ["Giacomo Leopardi", "condivide", "le difficoltà e le frustrazioni nell'ottenere la stampa delle proprie opere"],
+          ["Giacomo Leopardi", "menziona", "la pubblicazione di opere a Milano a rischio dell'autore e le associazioni"],
+          ["Giacomo Leopardi", "racconta", "esperienze personali di opere inviate a Milano per la stampa"],
+          ["Giacomo Leopardi", "critica", "il giornale Lo Spettatore di Milano"],
+          ["Giacomo Leopardi", "spiega", "la sua selezione di opere da inviare a Lo Spettatore per la pubblicazione"],
+          ["Giacomo Leopardi", "invia", "auguri di felici feste a Francesco Cancellieri"],
+          ["Giacomo Leopardi", "informa", "su aspettative del Zio Antici di incontrare Francesco Cancellieri"],
+          ["Giacomo Leopardi", "ringrazia", "Francesco Cancellieri per la sua bontà e si dichiara suo devoto e obbligato servitore"]
         ]
     },
     {
@@ -4054,135 +3899,27 @@
                 "placeName": "Milano"
             }
         ],
-        "chat-gpt": {
-            "risultati": [
-                [
-                    "Giacomo Leopardi",
-                    "scrive",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "ringrazia",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "parla delle traduzioni",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "discute degli articoli per la Rivista letteraria",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "parla del progetto del Bellini",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "parla dei libri necessari per gli articoli",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "parla delle difficoltà con il testo greco di Callimaco",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "suggerisce un articolo sull'Alicarnasseo del Mai o sul Porfirio Eusebio",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "si riferisce alla spedizione del 9. corso",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "chiede informazioni sul Pacco",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "cerca di recuperare i tomi del Pradt",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "parla dell'Apollonio Rodio",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "parla dell'acquisizione di fama",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "parla dell'Odissea",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "parla di Pindaro",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "parla della stampa della Eneide",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "parla della sua traduzione",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "parla del Monthly Repertory",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "chiede il Catalogo delle stampe del 1400",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "parla delle scene di Seneca",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "parla dei formaggi che tardano ad arrivare",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "parla del Codice con varianti di Seneca",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "chiede il Codice di Seneca",
-                    "Stella"
-                ],
-                [
-                    "Giacomo Leopardi",
-                    "parla dei formaggi",
-                    "Stella"
-                ],
-                [
-                    "Monaldo Leopardi",
-                    "chiede il Catalogo delle stampe del 1400",
-                    "Stella"
-                ]
-            ]
-        }
+        "chat-gpt": [
+          ["Giacomo Leopardi", "risponde", "alla lettera di Antonio Fortunato Stella del 27 corrente"],
+          ["Giacomo Leopardi", "ringrazia", "Antonio Fortunato Stella per i saluti al Sig. Signore Tosi e per le osservazioni sugli articoli"],
+          ["Giacomo Leopardi", "esprime", "dubbi sul proprio merito e sulla qualità delle proprie traduzioni"],
+          ["Giacomo Leopardi", "informa", "su possibili articoli per la Rivista letteraria, incluso uno sul progetto del Bellini"],
+          ["Giacomo Leopardi", "spiega", "le difficoltà legate alla necessità di commissioni per gli articoli richiesti"],
+          ["Giacomo Leopardi", "informa", "su opere che stanno aspettando dalla Spedizione del 9 corrente"],
+          ["Giacomo Leopardi", "chiede", "informazioni sulla sorte di un pacco contenente i tre tomi del Pradt"],
+          ["Giacomo Leopardi", "esprime", "intenzioni di lavorare su articoli per la Rivista letteraria"],
+          ["Giacomo Leopardi", "discute", "le scelte di traduzione e le difficoltà di tradurre Pindaro"],
+          ["Giacomo Leopardi", "informa", "su progressi nella traduzione dell'Odissea"],
+          ["Giacomo Leopardi", "chiede", "accelerazione nella stampa del secondo Libro della Eneide"],
+          ["Giacomo Leopardi", "esprime", "impazienza nel vedere l'esito della traduzione della Eneide"],
+          ["Giacomo Leopardi", "chiede", "due copie dell'Eneide una volta terminata la stampa per risparmiare sulle spese di spedizione"],
+          ["Giacomo Leopardi", "annuncia", "l'invio del Monthly Repertory a suo fratello"],
+          ["Giacomo Leopardi", "chiede", "il Catalogo delle stampe del 1400 da parte di Antonio Fortunato Stella"],
+          ["Giacomo Leopardi", "promette", "di inviare la collazione di una o due scene di Seneca fatte sul Codice che Stella desidera conoscere"],
+          ["Giacomo Leopardi", "ringrazia", "per la possibilità di ottenere il Codice di Seneca e si dichiara pieno di amicizia e riconoscenza"],
+          ["Monaldo Leopardi", "desidera", "che Antonio Fortunato Stella gli mandi il Catalogo delle stampe del 1400 per eventuali scambi"],
+          ["Giacomo Leopardi", "informa", "su varianti e scoli antichi trovati nel Codice di Seneca e propone di accordarsi per ottenere il manoscritto"]
+        ]
     },
     {
         "id_doc": "MS Add.6210.22",
@@ -4243,158 +3980,20 @@
                 "placeName": "Pisa"
             }
         ],
-        "chat-gpt": {
-            "entities": [
-                {
-                    "type": "persona",
-                    "text": "Leopardi",
-                    "start_char": 20,
-                    "end_char": 28
-                },
-                {
-                    "type": "persona",
-                    "text": "Rosini",
-                    "start_char": 34,
-                    "end_char": 40
-                },
-                {
-                    "type": "luogo",
-                    "text": "Recanati",
-                    "start_char": 71,
-                    "end_char": 79
-                },
-                {
-                    "type": "data",
-                    "text": "28 Nov. 1828",
-                    "start_char": 80,
-                    "end_char": 93
-                },
-                {
-                    "type": "persona",
-                    "text": "Giovanni",
-                    "start_char": 96,
-                    "end_char": 103
-                },
-                {
-                    "type": "data",
-                    "text": "1776-1855",
-                    "start_char": 105,
-                    "end_char": 114
-                },
-                {
-                    "type": "data",
-                    "text": "1798-1837",
-                    "start_char": 53,
-                    "end_char": 62
-                },
-                {
-                    "type": "data",
-                    "text": "17",
-                    "start_char": 136,
-                    "end_char": 138
-                },
-                {
-                    "type": "luogo",
-                    "text": "Firenze",
-                    "start_char": 157,
-                    "end_char": 164
-                },
-                {
-                    "type": "opera",
-                    "text": "Monaca",
-                    "start_char": 249,
-                    "end_char": 255
-                },
-                {
-                    "type": "persona",
-                    "text": "Strozzi",
-                    "start_char": 263,
-                    "end_char": 270
-                },
-                {
-                    "type": "opera",
-                    "text": "Monaca",
-                    "start_char": 279,
-                    "end_char": 285
-                },
-                {
-                    "type": "persona",
-                    "text": "Lauretta",
-                    "start_char": 393,
-                    "end_char": 401
-                },
-                {
-                    "type": "persona",
-                    "text": "Mad. Madama Mason",
-                    "start_char": 404,
-                    "end_char": 423
-                },
-                {
-                    "type": "persona",
-                    "text": "Carmignani",
-                    "start_char": 426,
-                    "end_char": 436
-                },
-                {
-                    "type": "persona",
-                    "text": "Leopardi",
-                    "start_char": 524,
-                    "end_char": 532
-                }
-            ],
-            "relations": [
-                {
-                    "subject": "Leopardi",
-                    "predicate": "scrivere",
-                    "object": "romanzo"
-                },
-                {
-                    "subject": "Leopardi",
-                    "predicate": "chiedere",
-                    "object": "copia"
-                },
-                {
-                    "subject": "scrittori",
-                    "predicate": "non trovare",
-                    "object": "interrogativo"
-                },
-                {
-                    "subject": "stilo familiare",
-                    "predicate": "adoperarsi",
-                    "object": "n'è"
-                },
-                {
-                    "subject": "Antologia",
-                    "predicate": "parere",
-                    "object": "vostro"
-                },
-                {
-                    "subject": "Leopardi",
-                    "predicate": "fare complimenti",
-                    "object": "Lauretta"
-                },
-                {
-                    "subject": "Leopardi",
-                    "predicate": "fare complimenti",
-                    "object": "Mad. Madama Mason"
-                },
-                {
-                    "subject": "Leopardi",
-                    "predicate": "fare complimenti",
-                    "object": "Carmignani"
-                },
-                {
-                    "subject": "Leopardi",
-                    "predicate": "farsi dire",
-                    "object": "qualcosa"
-                },
-                {
-                    "subject": "buon albergatore",
-                    "predicate": "famiglia",
-                    "object": "buona"
-                }
-            ]
-        }
+        "chat-gpt": [
+          ["Giacomo Leopardi", "esprime", "gratitudine per la lettera di Giovanni Rosini del 17 novembre 1828"],
+          ["Giacomo Leopardi", "esprime", "piacere per il completamento della Monaca da parte di Giovanni Rosini e lo incoraggia a pensare alla Strozzi"],
+          ["Giacomo Leopardi", "ricorda", "la promessa di Giovanni Rosini di fornirgli una copia completa del suo romanzo sulla Strozzi e la sta aspettando"],
+          ["Giacomo Leopardi", "chiede", "informazioni sulla forma interrogativa 'n'è' nel toscano e suggerisce che possa corrispondere al francese 'n'est-ce-pas'"],
+          ["Giacomo Leopardi", "condivide", "il parere di Giovanni Rosini sulla situazione dell'Antologia"],
+          ["Giacomo Leopardi", "chiede", "di inviare mille complimenti e saluti alla Lauretta, a Mad. Mason, e a Carmignani da parte sua"],
+          ["Giacomo Leopardi", "chiede", "a Giovanni Rosini di fare alcuni saluti e complimenti per suo conto, in particolare al suo albergatore e alla sua famiglia"],
+          ["Giacomo Leopardi", "condivide", "le sue condizioni di salute, lamentando difficoltà nella lettura, scrittura e pensiero"],
+          ["Giacomo Leopardi", "annuncia", "di stare a Recanati per un periodo indefinito e lascia intendere che potrebbe aver concluso il corso della sua vita"],
+          ["Giacomo Leopardi", "chiede", "a Giovanni Rosini di volergli bene e di riverire le sue Signore"],
+          ["Giacomo Leopardi", "congeda", "Giovanni Rosini con un addio"],
+          ["Giacomo Leopardi", "si firma", "come 'Il vostro Leopardi'"]
+        ]
     },
     {
         "id_doc": "MS Add.6210.20",
@@ -4605,64 +4204,20 @@
                 "placeName": "Verona"
             }
         ],
-        "chat-gpt": {
-            "entità": [
-                {
-                    "tipo": "persona",
-                    "nome": "Giacomo Leopardi",
-                    "data_di_nascita": "1798",
-                    "data_di_morte": "1837"
-                },
-                {
-                    "tipo": "persona",
-                    "nome": "Giuseppe Melchiorri",
-                    "data_di_nascita": "1796",
-                    "data_di_morte": "1855"
-                },
-                {
-                    "tipo": "luogo",
-                    "nome": "Recanati",
-                    "data": "13 Maggio 1822"
-                }
-            ],
-            "relazioni": [
-                {
-                    "soggetto": "Giacomo Leopardi",
-                    "predicato": "scrive a",
-                    "oggetto": "Giuseppe Melchiorri"
-                },
-                {
-                    "soggetto": "Giacomo Leopardi",
-                    "predicato": "parla di",
-                    "oggetto": "iscrizione greca metrica"
-                },
-                {
-                    "soggetto": "Giacomo Leopardi",
-                    "predicato": "parla di",
-                    "oggetto": "libro del destinatario"
-                },
-                {
-                    "soggetto": "Giacomo Leopardi",
-                    "predicato": "chiede informazioni su",
-                    "oggetto": "autore di un'opera"
-                },
-                {
-                    "soggetto": "Giacomo Leopardi",
-                    "predicato": "critica traduzione di",
-                    "oggetto": "passo di Strabone"
-                },
-                {
-                    "soggetto": "Giacomo Leopardi",
-                    "predicato": "chiede informazioni su",
-                    "oggetto": "vocabolario della Crusca"
-                },
-                {
-                    "soggetto": "Giacomo Leopardi",
-                    "predicato": "saluta",
-                    "oggetto": "Mamma e ab. Cancellieri"
-                }
-            ]
-        }
+        "chat-gpt": [
+          ["Giacomo Leopardi", "scrive", "a Giuseppe Melchiorri il 13 maggio 1822"],
+          ["Giacomo Leopardi", "spiega", "la sua opinione sull'iscrizione greca e afferma che non sembra opera di un greco, ma potrebbe provenire dalla Cilicia"],
+          ["Giacomo Leopardi", "informa", "che non ricorda di aver visto l'opera a cui Giuseppe Melchiorri fa riferimento"],
+          ["Giacomo Leopardi", "esprime", "la sua incapacità attuale di dedicarsi alle sue attività quotidiane a causa della debolezza degli occhi e della testa"],
+          ["Giacomo Leopardi", "commenda", "l'erudizione e la diligenza presenti nel libro di Giuseppe Melchiorri, ma suggerisce di non parlare di questo con nessuno, poiché non vuole coinvolgimenti letterari al momento"],
+          ["Giacomo Leopardi", "critica", "la traduzione di un passo di Strabone fatta da Nibby e sottolinea che la versione di Giuseppe Melchiorri è migliore ma comunque non del tutto corretta"],
+          ["Giacomo Leopardi", "indica", "che la parola greca ἄξιον nel passo di Strabone non significa 'degno', ma 'capace'"],
+          ["Giacomo Leopardi", "chiede", "a Giuseppe Melchiorri di verificare il passo di Strabone e gli fornisce il testo originale mancante nella citazione di Melchiorri"],
+          ["Giacomo Leopardi", "richiede", "una versione italiana o latina dell'iscrizione greca metrica, specificando che versi senza stenti e imperfezioni sono necessari"],
+          ["Giacomo Leopardi", "chiede", "a Giuseppe Melchiorri di verificare se il Vocabolario della Crusca cita un passo specifico di Petrarca"],
+          ["Giacomo Leopardi", "invia", "saluti alla madre di Giuseppe Melchiorri e all'ab. Cancellieri e comunica che Carlo, presunto fratello di Giuseppe, invia i suoi saluti"],
+          ["Giacomo Leopardi", "congeda", "la lettera con un abbraccio e si firma come 'il Vostro Giacomo Leopardi'"]
+        ]
     },
     {
         "id_doc": "MS Add.6210.9",
@@ -4732,60 +4287,63 @@
                 "placeName": "Roma"
             }
         ],
-        "chat-gpt": {
-            "entities": [
-                {
-                    "subject": "Giacomo Leopardi",
-                    "predicate": "scrive a",
-                    "object": "Giuseppe Melchiorri"
-                },
-                {
-                    "subject": "Giacomo Leopardi",
-                    "predicate": "data",
-                    "object": "7 Giugno 1822"
-                },
-                {
-                    "subject": "Giacomo Leopardi",
-                    "predicate": "ringrazia",
-                    "object": "diligenza usata circa la Crusca del Cesari"
-                },
-                {
-                    "subject": "Giacomo Leopardi",
-                    "predicate": "chiede",
-                    "object": "se la Crusca del Cesari porta un passo del Petrarca sotto la voce Ingomberare"
-                },
-                {
-                    "subject": "Giacomo Leopardi",
-                    "predicate": "chiede",
-                    "object": "vedere se tra gli esempi al verbo Riedere vi è un imperfetto indicativo"
-                },
-                {
-                    "subject": "Giacomo Leopardi",
-                    "predicate": "chiede",
-                    "object": "copiare e mandare l'esempio se lo si trova"
-                },
-                {
-                    "subject": "Giacomo Leopardi",
-                    "predicate": "chiede",
-                    "object": "salutare la mamma e dirle che le scrive oggi"
-                },
-                {
-                    "subject": "Giacomo Leopardi",
-                    "predicate": "chiede",
-                    "object": "saluti all'Abate Cancellieri"
-                },
-                {
-                    "subject": "Giacomo Leopardi",
-                    "predicate": "chiede",
-                    "object": "saluti a Monsignor Mai se lo si incontra"
-                },
-                {
-                    "subject": "Giacomo Leopardi",
-                    "predicate": "scrive",
-                    "object": "Addio, addio"
-                }
+        "chat-gpt": [
+            [
+                "Giacomo Leopardi",
+                "scrive",
+                "a Giuseppe Melchiorri il 7 giugno 1822"
+            ],
+            [
+                "Giacomo Leopardi",
+                "esprime",
+                "dubbio sulla presenza di poesie stampate di quei due scrittori antichi menzionati da Giuseppe Melchiorri"
+            ],
+            [
+                "Giacomo Leopardi",
+                "afferma",
+                "che, pur avendo dubbi sulla loro esistenza, questi dettagli non sono cruciali, e si offre a leggere le poesie inviate da Melchiorri per darne il suo parere"
+            ],
+            [
+                "Giacomo Leopardi",
+                "ringrazia",
+                "Giuseppe Melchiorri per la diligenza nella ricerca della citazione nella Crusca del Cesari riguardo al passo di Petrarca"
+            ],
+            [
+                "Giacomo Leopardi",
+                "chiarisce",
+                "che la sua inavvertenza riguardo al termine 'ingombrare' nella lettera precedente era dovuta al fatto che la Crusca lo tratta insieme a 'ingomberare'"
+            ],
+            [
+                "Giacomo Leopardi",
+                "chiede",
+                "a Giuseppe Melchiorri di verificare se la Crusca del Cesari menziona il passo di Petrarca sotto la voce 'Ingomberare' o in qualche altra sezione"
+            ],
+            [
+                "Giacomo Leopardi",
+                "richiede",
+                "a Giuseppe Melchiorri di cercare esempi dell'imperfetto indicativo del verbo 'Riedere' nel Vocabolario della Crusca"
+            ],
+            [
+                "Giacomo Leopardi",
+                "chiede",
+                "a Giuseppe Melchiorri di mandargli eventuali esempi trovati, anche uno solo, per favoreggiarlo"
+            ],
+            [
+                "Giacomo Leopardi",
+                "invia",
+                "saluti alla madre di Giuseppe Melchiorri e chiede di comunicarle della sua lettera"
+            ],
+            [
+                "Giacomo Leopardi",
+                "invia",
+                "rispetti distinti all'Ab. Cancellieri e a Monsignor Mai, se Melchiorri avesse occasione di vederlo"
+            ],
+            [
+                "Giacomo Leopardi",
+                "congeda",
+                "la lettera con un doppio addio"
             ]
-        }
+        ]
     },
     {
         "id_doc": "MS Add.6210.21",
@@ -4846,27 +4404,19 @@
                 "placeName": "Firenze"
             }
         ],
-        "chat-gpt": {
-            "entità": [
-                {
-                    "tipo": "persona",
-                    "nome": "Giacomo Leopardi",
-                    "dati_anagrafici": "1798-1837"
-                },
-                {
-                    "tipo": "persona",
-                    "nome": "Carlo Emmanuele Muzzarelli",
-                    "dati_anagrafici": "1797-1856"
-                }
-            ],
-            "relazioni": [
-                {
-                    "soggetto": "Giacomo Leopardi",
-                    "predicato": "scrive a",
-                    "oggetto": "Carlo Emmanuele Muzzarelli"
-                }
-            ]
-        }
+        "chat-gpt": [
+          ["Giacomo Leopardi", "scrive", "a Giuseppe Melchiorri il 7 giugno 1822"],
+          ["Giacomo Leopardi", "esprime", "dubbio sulla presenza di poesie stampate di quei due scrittori antichi menzionati da Giuseppe Melchiorri"],
+          ["Giacomo Leopardi", "afferma", "che, pur avendo dubbi sulla loro esistenza, questi dettagli non sono cruciali, e si offre a leggere le poesie inviate da Melchiorri per darne il suo parere"],
+          ["Giacomo Leopardi", "ringrazia", "Giuseppe Melchiorri per la diligenza nella ricerca della citazione nella Crusca del Cesari riguardo al passo di Petrarca"],
+          ["Giacomo Leopardi", "chiarisce", "che la sua inavvertenza riguardo al termine 'ingombrare' nella lettera precedente era dovuta al fatto che la Crusca lo tratta insieme a 'ingomberare'"],
+          ["Giacomo Leopardi", "chiede", "a Giuseppe Melchiorri di verificare se la Crusca del Cesari menziona il passo di Petrarca sotto la voce 'Ingomberare' o in qualche altra sezione"],
+          ["Giacomo Leopardi", "richiede", "a Giuseppe Melchiorri di cercare esempi dell'imperfetto indicativo del verbo 'Riedere' nel Vocabolario della Crusca"],
+          ["Giacomo Leopardi", "chiede", "a Giuseppe Melchiorri di mandargli eventuali esempi trovati, anche uno solo, per favoreggiarlo"],
+          ["Giacomo Leopardi", "invia", "saluti alla madre di Giuseppe Melchiorri e chiede di comunicarle della sua lettera"],
+          ["Giacomo Leopardi", "invia", "rispetti distinti all'Ab. Cancellieri e a Monsignor Mai, se Melchiorri avesse occasione di vederlo"],
+          ["Giacomo Leopardi", "congeda", "la lettera con un doppio addio"]
+        ]
     },
     {
         "id_doc": "MS Add.6210.35",
@@ -4890,101 +4440,32 @@
             }
         ],
         "places": [],
-        "chat-gpt": {
-            "entities": [
-                {
-                    "entity": "Giacomo Leopardi",
-                    "relation": "author"
-                },
-                {
-                    "entity": "Ermia Fab",
-                    "relation": "author"
-                },
-                {
-                    "entity": "Longino",
-                    "relation": "author"
-                },
-                {
-                    "entity": "Paolo beato Apostolo",
-                    "relation": "author"
-                },
-                {
-                    "entity": "Democrito",
-                    "relation": "philosopher"
-                },
-                {
-                    "entity": "Stoici",
-                    "relation": "philosopher"
-                },
-                {
-                    "entity": "Eraclito",
-                    "relation": "philosopher"
-                },
-                {
-                    "entity": "Pitagora",
-                    "relation": "philosopher"
-                },
-                {
-                    "entity": "Dinarco",
-                    "relation": "philosopher"
-                },
-                {
-                    "entity": "Crizia",
-                    "relation": "philosopher"
-                }
-            ],
-            "relations": [
-                {
-                    "subject": "Giacomo Leopardi",
-                    "predicate": "author of",
-                    "object": "tale, da altri permanente per poco tempo. V’ha chi la riduce alla condizione dei bruti, chi la scioglie in atomi, chi per la 3. volta passare la fa nno nel corpo, chi definisc on e gli fissa il periodo di 3000. anni: giacchè coloro eziandio che non neppur vivono per lo spazio di 100. anni annunzia prometto ngli 3000 futuri anni di durata. Tali cose in qual modo fa d’uopo appellare? Portento come a me sembra, o demenza, o insania, o discordia, o tutto ciò insieme"
-                },
-                {
-                    "subject": "Ermia Fab",
-                    "predicate": "author of",
-                    "object": "Opuscolo di Ermia filosofo. Paolo beato Apostolo scrivendo ai Corintj che abitavano vicino alla Grecia Laconica = o diletti = pronunciò la sapienza di questo mondo è stoltezza appresso Dio = non inconsideratamente favellando. Posciachè sembrami avere essa avuto principio dalla trasgressione degli Angeli, per la qual cosa e quindi nè concordi dogmi nè consenzienti stabiliscono i filosofi a gara ragionando. L Infatti altri small triangle dicono l’anima esser fuoco small triangle sì come Democrito small triangle altri come gli Stoici aria, altri mente, altri moto come Eraclito, altri vapore, altri forza emanante dagli astri, altri nu mero motore come Pitagora, altri acqua generatrice come Ippone, altri elemento small triangle dagli elementi small triangle derivato dagli elementi small triangle altri armonia come Dinarco, altri sangue come Crizia, altri spirito, altri monade sì come Pitagora, e d gli antichi altri ancora cose a queste contrarie. Quanti ragionamenti intorno a ciò! quanti argomenti! e quanti ancora di sofisti che contrastano più tosto che rinvenire il vero. Ma poniamo: contendono intorno all’anima, ma delle rima nenti cose però intorno ad essa symbol standing for \"adding something\" spettanti concordemente favellano? Altri dicono chiamano il piacere di lei essere un bene di lei symbol standing for \"adding something\" un bene , altri un male, altri una cosa media tra il bene ed il male. La sua natura da alcuni vien detta immortale, da altri mor"
-                },
-                {
-                    "subject": "Longino",
-                    "predicate": "author of",
-                    "object": "vedilo pure p. 248. lin. 27.28 Derisione dei filosofi gentili"
-                },
-                {
-                    "subject": "Paolo beato Apostolo",
-                    "predicate": "author of",
-                    "object": "scrivendo ai Corintj che abitavano vicino alla Grecia Laconica = o diletti = pronunciò la sapienza di questo mondo è stoltezza appresso Dio = non inconsideratamente favellando. Posciachè sembrami avere essa avuto principio dalla trasgressione degli Angeli, per la qual cosa e quindi nè concordi dogmi nè consenzienti stabiliscono i filosofi a gara ragionando."
-                },
-                {
-                    "subject": "Democrito",
-                    "predicate": "philosopher",
-                    "object": "sì come Democrito"
-                },
-                {
-                    "subject": "Stoici",
-                    "predicate": "philosopher",
-                    "object": "small triangle altri come gli Stoici"
-                },
-                {
-                    "subject": "Eraclito",
-                    "predicate": "philosopher",
-                    "object": "come Eraclito"
-                },
-                {
-                    "subject": "Pitagora",
-                    "predicate": "philosopher",
-                    "object": "come Pitagora"
-                },
-                {
-                    "subject": "Dinarco",
-                    "predicate": "philosopher",
-                    "object": "come Dinarco"
-                },
-                {
-                    "subject": "Crizia",
-                    "predicate": "philosopher",
-                    "object": "come Crizia"
-                }
-            ]
-        }
+        "chat-gpt": [
+          ["Paolo beato Apostolo", "scrivere", "ai Corintj"],
+          ["Paolo beato Apostolo", "pronunciare", "la sapienza di questo mondo è stoltezza appresso Dio"],
+          ["sapienza di questo mondo", "avere", "principio dalla trasgressione degli Angeli"],
+          ["filosofi", "stabilire", "dogmi non concordi"],
+          ["filosofi", "consentire", "non concordare"],
+          ["altri", "dire", "l'anima essere fuoco"],
+          ["altri", "dire", "l'anima essere aria"],
+          ["altri", "dire", "l'anima essere mente"],
+          ["altri", "dire", "l'anima essere moto"],
+          ["altri", "dire", "l'anima essere vapore"],
+          ["altri", "dire", "l'anima essere forza emanante dagli astri"],
+          ["altri", "dire", "l'anima essere numero motore"],
+          ["altri", "dire", "l'anima essere acqua generatrice"],
+          ["altri", "dire", "l'anima essere elemento dagli elementi derivato"],
+          ["altri", "dire", "l'anima essere armonia"],
+          ["altri", "dire", "l'anima essere sangue"],
+          ["altri", "dire", "l'anima essere spirito"],
+          ["altri", "dire", "l'anima essere monade"],
+          ["antichi", "dire", "cose a queste contrarie"],
+          ["filosofi", "ragionare", "a gara"],
+          ["altri", "dire", "piacere di lei essere un bene"],
+          ["altri", "dire", "piacere di lei essere un male"],
+          ["altri", "dire", "piacere di lei essere una cosa media tra il bene ed il male"],
+          ["alcuni", "dire", "natura dell'anima essere immortale"],
+          ["alcuni", "dire", "natura dell'anima essere mortale"]
+        ]
     }
 ]
