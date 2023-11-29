@@ -2837,61 +2837,19 @@
             }
         ],
         "chat-gpt": [
-            [
-                "Giacomo Leopardi",
-                "scrive",
-                "a Giuseppe Melchiorri il 7 giugno 1822"
-            ],
-            [
-                "Giacomo Leopardi",
-                "esprime",
-                "dubbio sulla presenza di poesie stampate di quei due scrittori antichi menzionati da Giuseppe Melchiorri"
-            ],
-            [
-                "Giacomo Leopardi",
-                "afferma",
-                "che, pur avendo dubbi sulla loro esistenza, questi dettagli non sono cruciali, e si offre a leggere le poesie inviate da Melchiorri per darne il suo parere"
-            ],
-            [
-                "Giacomo Leopardi",
-                "ringrazia",
-                "Giuseppe Melchiorri per la diligenza nella ricerca della citazione nella Crusca del Cesari riguardo al passo di Petrarca"
-            ],
-            [
-                "Giacomo Leopardi",
-                "chiarisce",
-                "che la sua inavvertenza riguardo al termine 'ingombrare' nella lettera precedente era dovuta al fatto che la Crusca lo tratta insieme a 'ingomberare'"
-            ],
-            [
-                "Giacomo Leopardi",
-                "chiede",
-                "a Giuseppe Melchiorri di verificare se la Crusca del Cesari menziona il passo di Petrarca sotto la voce 'Ingomberare' o in qualche altra sezione"
-            ],
-            [
-                "Giacomo Leopardi",
-                "richiede",
-                "a Giuseppe Melchiorri di cercare esempi dell'imperfetto indicativo del verbo 'Riedere' nel Vocabolario della Crusca"
-            ],
-            [
-                "Giacomo Leopardi",
-                "chiede",
-                "a Giuseppe Melchiorri di mandargli eventuali esempi trovati, anche uno solo, per favoreggiarlo"
-            ],
-            [
-                "Giacomo Leopardi",
-                "invia",
-                "saluti alla madre di Giuseppe Melchiorri e chiede di comunicarle della sua lettera"
-            ],
-            [
-                "Giacomo Leopardi",
-                "invia",
-                "rispetti distinti all'Ab. Cancellieri e a Monsignor Mai, se Melchiorri avesse occasione di vederlo"
-            ],
-            [
-                "Giacomo Leopardi",
-                "congeda",
-                "la lettera con un doppio addio"
-            ]
+          ["Giacomo Leopardi", "scrive una lettera a", "Carlo Emmanuele Muzzarelli"],
+          ["Carlo Emmanuele Muzzarelli", "è destinatario della lettera di", "Giacomo Leopardi"],
+          ["Giacomo Leopardi", "riceve una lettera da", "Carlo Emmanuele Muzzarelli"],
+          ["Carlo Emmanuele Muzzarelli", "è chiamato Monsignore mio Pregiatissimo"],
+          ["Giacomo Leopardi", "ringrazia Carlo Emmanuele Muzzarelli"],
+          ["Carlo Emmanuele Muzzarelli", "invita Giacomo Leopardi a cantare le lodi del Monti"],
+          ["Giacomo Leopardi", "è impossibilitato a scrivere a causa dello stato della sua salute"],
+          ["Giacomo Leopardi", "invia i suoi complimenti tramite la Signora Lenzoni"],
+          ["Carlo Emmanuele Muzzarelli", "riceve complimenti dalla Signora Lenzoni"],
+          ["Giacomo Leopardi", "esprime la sua devota obbligazione a Carlo Emmanuele Muzzarelli"],
+          ["Carlo Emmanuele Muzzarelli", "è Uditore della S. Sacra Rota a Roma"],
+          ["Giacomo Leopardi", "si trova a Firenze"],
+          ["Carlo Emmanuele Muzzarelli", "si trova a Roma"]
         ]
     },
     {

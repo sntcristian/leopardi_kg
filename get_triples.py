@@ -93,8 +93,12 @@ for row in data:
     for sentence in decoded_preds:
         triples = extract_triplets_typed(sentence)
         for pred_triple in triples:
-            triple_string = "<" + pred_triple["head"] + "> <" + pred_triple["type"] + "> <" + pred_triple["tail"] + ">"
-            output_triples_set.add(triple_string)
+            if pred_triple["head"].startswith("Lettera di Leopardi") or pred_triple["tail"].startswith("Lettera di "
+                                                                                                    "Leopardi"):
+                continue
+            else:
+                triple_string = "<" + pred_triple["head"] + "> <" + pred_triple["type"] + "> <" + pred_triple["tail"] + ">"
+                output_triples_set.add(triple_string)
     triples_lst = list(output_triples_set)
     result_entry["raw_text"] = triples_lst
     gpt_triples = row["chat-gpt"]
@@ -114,8 +118,13 @@ for row in data:
     for sentence in decoded_preds:
         triples = extract_triplets_typed(sentence)
         for pred_triple in triples:
-            triple_string="<"+pred_triple["head"]+"> <"+pred_triple["type"]+"> <"+pred_triple["tail"]+">"
-            output_triples_set.add(triple_string)
+            if pred_triple["head"].startswith("Lettera di Leopardi") or pred_triple["tail"].startswith("Lettera di "
+                                                                                                       "Leopardi"):
+                continue
+            else:
+                triple_string = "<" + pred_triple["head"] + "> <" + pred_triple["type"] + "> <" + pred_triple[
+                    "tail"] + ">"
+                output_triples_set.add(triple_string)
     triples_lst = list(output_triples_set)
     result_entry["gpt_answer"]=triples_lst
     results.append(result_entry)
@@ -123,5 +132,5 @@ for row in data:
 pbar.close()
 
 
-with open("results.json", "w", encoding="utf-8") as f:
+with open("test_results.json", "w", encoding="utf-8") as f:
     json.dump(results, f, indent=4, ensure_ascii=False)
