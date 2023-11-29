@@ -86,10 +86,10 @@ def parse_tei(xml_file_path):
             }
     return output
 
-
+# Usa api key personale
 client = OpenAI(
     # defaults to os.environ.get("OPENAI_API_KEY")
-    api_key='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',
+    api_key=None
 )
 
 
@@ -100,8 +100,8 @@ for tei_doc in glob.glob("xml_tei/*.txt"):
     xml_file_path = tei_doc
     data = parse_tei(xml_file_path)
     text = data["text"]
-    prompt = """Estrai entità e relazioni dal testo in input. 
-    Scrivi la risposta nel seguente formato JSON: [(soggetto, predicato, oggetto)]
+    prompt = """Estrai triple semantiche dal testo in input. 
+    Scrivi la risposta nel seguente formato JSON: [[entità1, relazione, entità2]]
     Input: """+text
     response = client.chat.completions.create(
         messages=[
@@ -109,7 +109,7 @@ for tei_doc in glob.glob("xml_tei/*.txt"):
         {"role": "user","content": prompt}
     ],
     model="gpt-3.5-turbo")
-    triples = re.sub("La risposta in formato JSON è la seguente:\s+","", response.choices[0].message.content)
+    triples = re.sub(".*?\s(?=\[)","", response.choices[0].message.content)
     try:
         json_triples = json.loads(triples)
         data["chat-gpt"]=json_triples
@@ -120,5 +120,5 @@ for tei_doc in glob.glob("xml_tei/*.txt"):
         pbar.update(1)
         continue
 
-with open("test3.json", "w", encoding="utf-8") as f:
+with open("data.json", "w", encoding="utf-8") as f:
     json.dump(lst_of_dict, f, ensure_ascii=False, indent=4)

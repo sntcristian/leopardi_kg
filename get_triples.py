@@ -2,7 +2,12 @@ from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 import re
 import json
 from tqdm import tqdm
+import torch
 
+device = "cuda:0" if torch.cuda.is_available() else "cpu"
+print(device)
+# questo codice usa il modello mREBEL di Babelscape
+# per documentazione vedi: https://huggingface.co/Babelscape/mrebel-large
 def extract_triplets_typed(text):
     triplets = []
     relation = ''
@@ -41,11 +46,12 @@ def extract_triplets_typed(text):
 
 
 # Load model and tokenizer
-tokenizer = AutoTokenizer.from_pretrained("Babelscape/mrebel-large", tgt_lang="tp_XX") 
+tokenizer = AutoTokenizer.from_pretrained("Babelscape/mrebel-large", tgt_lang="tp_XX")
 tokenizer._src_lang = "it_XX"
 tokenizer.cur_lang_code_id = tokenizer.convert_tokens_to_ids("it_XX")
 tokenizer.set_src_lang_special_tokens("it_XX")
 model = AutoModelForSeq2SeqLM.from_pretrained("Babelscape/mrebel-large")
+model.to(device)
 gen_kwargs = {
     "max_length": 256,
     "length_penalty": 0,
@@ -55,16 +61,43 @@ gen_kwargs = {
 }
 
 
-pbar = tqdm(total=1)
+pbar = tqdm(total=40)
 
 
-with open("test/test4.json", "r", encoding="utf-8") as f:
+with open("data.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
+results = []
+
 for row in data:
-    context = "Lettera di "+re.sub("\(.*?\)", "", row["sender"])+" a "+re.sub("\(.*?\)", "", row["receiver"])+". "
+    result_entry = dict()
+    result_entry["id_doc"]=row["id_doc"]
+    result_entry["text"]=row["text"]
+    if len(row["sender"])>0:
+        context = "Lettera di "+re.sub("\(.*?\)", "", row["sender"])+" a "+re.sub("\(.*?\)", "", row["receiver"])+". "
+    else:
+        context=""
+    raw_text = row["text"]
+    text = context + ". ".join(raw_text)
+    model_inputs = tokenizer(text, max_length=256, padding=True, truncation=True, return_tensors='pt')
+    generated_tokens = model.generate(
+        model_inputs["input_ids"].to(device),
+        attention_mask=model_inputs["attention_mask"].to(device),
+        decoder_start_token_id=tokenizer.convert_tokens_to_ids("tp_XX"),
+        **gen_kwargs,
+    )
+    # Extract text
+    decoded_preds = tokenizer.batch_decode(generated_tokens, skip_special_tokens=False)
+    # Extract triplets
+    output_triples_set = set()
+    for sentence in decoded_preds:
+        triples = extract_triplets_typed(sentence)
+        for pred_triple in triples:
+            triple_string = "<" + pred_triple["head"] + "> <" + pred_triple["type"] + "> <" + pred_triple["tail"] + ">"
+            output_triples_set.add(triple_string)
+    triples_lst = list(output_triples_set)
+    result_entry["raw_text"] = triples_lst
     gpt_triples = row["chat-gpt"]
-    triples_set = set()
     gpt_triples = [" ".join(triple) for triple in gpt_triples]
     text = context+". ".join(gpt_triples)
     model_inputs = tokenizer(text, max_length=256, padding=True, truncation=True, return_tensors = 'pt')
@@ -77,12 +110,18 @@ for row in data:
     # Extract text
     decoded_preds = tokenizer.batch_decode(generated_tokens, skip_special_tokens=False)
     # Extract triplets
+    output_triples_set = set()
     for sentence in decoded_preds:
         triples = extract_triplets_typed(sentence)
         for pred_triple in triples:
             triple_string="<"+pred_triple["head"]+"> <"+pred_triple["type"]+"> <"+pred_triple["tail"]+">"
-            triples_set.add(triple_string)
-    triples_lst = list(triples_set)
-    print(triples_lst)
+            output_triples_set.add(triple_string)
+    triples_lst = list(output_triples_set)
+    result_entry["gpt_answer"]=triples_lst
+    results.append(result_entry)
     pbar.update(1)
 pbar.close()
+
+
+with open("results.json", "w", encoding="utf-8") as f:
+    json.dump(results, f, indent=4, ensure_ascii=False)
