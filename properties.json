@@ -1,0 +1,20 @@
+{
+  "located in the administrative territorial entity": "http://www.wikidata.org/prop/direct/P131",
+  "part of": "http://www.wikidata.org/prop/direct/P361",
+  "work location": "http://www.wikidata.org/prop/direct/P937",
+  "place of birth": "http://www.wikidata.org/prop/direct/P19",
+  "place of death": "http://www.wikidata.org/prop/direct/P20",
+  "occupation": "http://www.wikidata.org/prop/direct/P106",
+  "author": "http://www.wikidata.org/prop/direct/P50",
+  "notable work": "http://www.wikidata.org/prop/direct/P800",
+  "student": "http://www.wikidata.org/prop/direct/P802",
+  "contains": "http://www.wikidata.org/prop/direct/P4330",
+  "located on street": "http://www.wikidata.org/prop/direct/P669",
+  "residence": "http://www.wikidata.org/prop/direct/P551",
+  "country of citizenship": "http://www.wikidata.org/prop/direct/P27",
+  "religious order": "http://www.wikidata.org/prop/direct/P611",
+  "child": "http://www.wikidata.org/prop/direct/P40",
+  "opposite of": "http://www.wikidata.org/prop/direct/P461",
+  "based on": "http://www.wikidata.org/prop/direct/P144",
+  "sibling": "http://www.wikidata.org/prop/direct/P3373"
+}
