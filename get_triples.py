@@ -3,6 +3,7 @@ import re
 import json
 from tqdm import tqdm
 import torch
+import requests
 
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 print(device)
@@ -63,8 +64,8 @@ gen_kwargs = {
 
 pbar = tqdm(total=40)
 
-
-with open("data.json", "r", encoding="utf-8") as f:
+properties = set()
+with open("data/data.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 results = []
@@ -73,12 +74,8 @@ for row in data:
     result_entry = dict()
     result_entry["id_doc"]=row["id_doc"]
     result_entry["text"]=row["text"]
-    if len(row["sender"])>0:
-        context = "Lettera di "+re.sub("\(.*?\)", "", row["sender"])+" a "+re.sub("\(.*?\)", "", row["receiver"])+". "
-    else:
-        context=""
     raw_text = row["text"]
-    text = context + ". ".join(raw_text)
+    text = raw_text
     model_inputs = tokenizer(text, max_length=256, padding=True, truncation=True, return_tensors='pt')
     generated_tokens = model.generate(
         model_inputs["input_ids"].to(device),
@@ -103,7 +100,7 @@ for row in data:
     result_entry["raw_text"] = triples_lst
     gpt_triples = row["chat-gpt"]
     gpt_triples = [" ".join(triple) for triple in gpt_triples]
-    text = context+". ".join(gpt_triples)
+    text = ". ".join(gpt_triples)
     model_inputs = tokenizer(text, max_length=256, padding=True, truncation=True, return_tensors = 'pt')
     generated_tokens = model.generate(
     model_inputs["input_ids"].to(model.device),
@@ -118,13 +115,10 @@ for row in data:
     for sentence in decoded_preds:
         triples = extract_triplets_typed(sentence)
         for pred_triple in triples:
-            if pred_triple["head"].startswith("Lettera di Leopardi") or pred_triple["tail"].startswith("Lettera di "
-                                                                                                       "Leopardi"):
-                continue
-            else:
-                triple_string = "<" + pred_triple["head"] + "> <" + pred_triple["type"] + "> <" + pred_triple[
-                    "tail"] + ">"
-                output_triples_set.add(triple_string)
+            triple_string = "<" + pred_triple["head"] + "> <" + pred_triple["type"] + "> <" + pred_triple[
+                "tail"] + ">"
+            properties.add(pred_triple["type"])
+            output_triples_set.add(triple_string)
     triples_lst = list(output_triples_set)
     result_entry["gpt_answer"]=triples_lst
     results.append(result_entry)
@@ -132,5 +126,31 @@ for row in data:
 pbar.close()
 
 
-with open("test_results.json", "w", encoding="utf-8") as f:
+with open("results/results.json", "w", encoding="utf-8") as f:
     json.dump(results, f, indent=4, ensure_ascii=False)
+
+url = 'https://query.wikidata.org/sparql'
+
+property_to_id = {}
+for property in properties:
+    query = '''
+    SELECT ?prop 
+    WHERE
+    {
+      ?prop wikibase:directClaim ?a .
+      ?prop rdfs:label ?propLabel.  
+      filter(lang(?propLabel) = "en")
+      filter(regex(?propLabel, "^'''+property+'''$", "i")).
+    }
+'''
+    r = requests.get(url, headers={'User-Agent': 'LeopardiBot'}, params={'format': 'json', 'query': query})
+    result = r.json()["results"]["bindings"]
+    if len(result) > 0:
+        q_id = result[0]["prop"]["value"]
+        print(q_id)
+        property_to_id[property]=q_id
+
+with open("data/properties.json", "w", encoding="utf-8") as f:
+    json.dump(property_to_id, f, indent=4, ensure_ascii=False)
+
+
