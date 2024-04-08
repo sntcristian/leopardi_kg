@@ -70,8 +70,8 @@ def parse_tei(xml_file_path):
     doc_txt = re.sub("\s+", " ", doc_txt)
     if len(sender)>0:
         doc_txt = "Lettera di "+re.sub(" \(.*?\)", "", sender)+" a "+re.sub(" \(.*?\)", "", receiver)+". "+doc_txt
-    output = {"id_doc":id_doc, 
-              "repo":repository, 
+    output = {"id_doc":id_doc,
+              "repo":repository,
               "title":title,
               "lang":lang,
               "support":support,
@@ -89,36 +89,39 @@ def parse_tei(xml_file_path):
 # Usa api key personale
 client = OpenAI(
     # defaults to os.environ.get("OPENAI_API_KEY")
-    api_key=None
+    api_key=""
 )
 
 
-pbar = tqdm(total=41)
+pbar = tqdm(total=len(glob.glob("xml_tei/*.txt")))
 
 lst_of_dict = []
 for tei_doc in glob.glob("xml_tei/*.txt"):
     xml_file_path = tei_doc
     data = parse_tei(xml_file_path)
     text = data["text"]
-    prompt = """Estrai triple semantiche dal testo in input. 
-    Scrivi la risposta nel seguente formato JSON: [[entità1, relazione, entità2]]
+    prompt = """Estrai triple RDF dal testo in input. Usa espressioni in Inglese per le proprietà, ad esempio ":dateOfBirth" o :placeOfDeath" e persone, luoghi, organizzazioni e opere citati come soggetti e oggetti delle triple. 
+    Scrivi le triple nel seguente formato JSON: ["entità1", "relazione", "entità2"]. 
+    Rileggi il testo per controllare errori di sintassi nel JSON.
     Input: """+text
     response = client.chat.completions.create(
         messages=[
         {"role":"system", "content":"Sei un sistema di estrazione di informazioni utile."},
         {"role": "user","content": prompt}
     ],
-    model="gpt-3.5-turbo")
-    triples = re.sub(".*?\s(?=\[)","", response.choices[0].message.content)
+    model="gpt-4")
+    triples = re.sub(".*?\s(?=\[)", "", response.choices[0].message.content)
+#     triples = re.match(".*?(\[.*?)", response.choices[0].message.content).group(1)
+#     print(triples)
     try:
         json_triples = json.loads(triples)
         data["chat-gpt"]=json_triples
         lst_of_dict.append(data)
         pbar.update(1)
     except:
-        print(data["id_doc"])
+        print(data["id_doc"], "\n", triples)
         pbar.update(1)
         continue
 
-with open("data.json", "w", encoding="utf-8") as f:
+with open("data_gpt4.json", "w", encoding="utf-8") as f:
     json.dump(lst_of_dict, f, ensure_ascii=False, indent=4)

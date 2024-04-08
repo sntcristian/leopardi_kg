@@ -1,0 +1,2623 @@
+[
+    {
+        "id_doc": "MS Add.6210.1",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Francesco Cancellieri",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "2 pages",
+        "orig_date": "19. Maggio 1816. -\n                        20 Maggio",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Cancellieri, Francesco, 1751-1826 (17213238)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Cancellieri, Francesco, 1751-1826.  Pregiatissimo Sig. Signore Per mezzo del mio Sig. Signor Zio Antici le inviai, sono già molti ordinari, una mia lunga lettera, in cui ardiva pregarla di qualche favore. Supponendo che essa si sia smarrita, e vedendomi sul punto di spedire a Milano il mio Frontone , la supplico a darmi le notizie che può, sopra il Programma di M. Marco Cor. Cornelio Frontone di Freytag , che Ella mi accennò in una lettera indirizzata al mio Sig. Signor Zio . Mai non ne ha fatta parola nella sua edizione latina: ed io però le sarò sommamente tenuto, se potrò per suo mezzo venire in cognizione di questo qualunque siasi opuscolo, dal cui titolo non mi è possibile rilevarne il contenuto. Ella cominci a comandarmi, e continui ad avermi per Recanati 19. Maggio 1816. Suo Dev.mo Devotissimo Obbl.mo Obbligatissimo Servo Giacomo Leopardi È pregato di voltare li 20 Maggio Il suo silenzio, mio degnissimo Sig: Signor Ab: Abate Cancellieri , sul quesito di mio Nipote desta in me l'apprensione di qualche nuova sua infermità. Le vorrei dunque inoltrare il presente ricordo col mezzo di mia moglie , la quale s'informerà e m'informerà del suo stato di salute. Quando questa stia salda, il ritardo del suo riscontro potrà affliggere l'erudita curiorità del mio nipote , ma non turberà l'animo di chi con decisa stima si protesta Suo Dev: Devoto Obbl: Obbligato Serv. Servo e A.o Amico Carlo Antici ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "35548704",
+                "ref": "pers-2",
+                "forename": "Carlo",
+                "surname": "Antici",
+                "persName": "Carlo Antici"
+            },
+            {
+                "key": "17213238",
+                "ref": "pers-3",
+                "forename": "Francesco",
+                "surname": "Cancellieri",
+                "persName": "Francesco Cancellieri"
+            },
+            {
+                "key": "47116573",
+                "ref": "pers-4",
+                "forename": "Friedrich Gotthilf",
+                "surname": "Freytag",
+                "persName": "Friedrich Gotthilf Freytag"
+            },
+            {
+                "key": "",
+                "ref": "pers-5",
+                "forename": "Marianna",
+                "surname": "Mattei",
+                "persName": "Marianna Mattei"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3173434",
+                "ref": "pla-3",
+                "placeName": "Milano"
+            }
+        ],
+        "chat-gpt": [
+            [
+                "Giacomo Leopardi",
+                ":dateOfBirth",
+                "1798"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":dateOfDeath",
+                "1837"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":sentLetterTo",
+                "Francesco Cancellieri"
+            ],
+            [
+                "Francesco Cancellieri",
+                ":dateOfBirth",
+                "1751"
+            ],
+            [
+                "Francesco Cancellieri",
+                ":dateOfDeath",
+                "1826"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":wrote",
+                "Frontone"
+            ],
+            [
+                "Francesco Cancellieri",
+                ":receivedLetterFrom",
+                "Giacomo Leopardi"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":requestedInformationFrom",
+                "Francesco Cancellieri"
+            ],
+            [
+                "Carlo Antici",
+                ":communicatedWith",
+                "Francesco Cancellieri"
+            ],
+            [
+                "Carlo Antici",
+                ":familyRelation",
+                "Giacomo Leopardi"
+            ],
+            [
+                "Carlo Antici",
+                ":isMarriedTo",
+                "Unnamed wife"
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS Add.6210.6",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Francesco Cancellieri",
+        "lang": "Italian",
+        "support": "Paper with P M / coat of arms watermark",
+        "extent": "4 pages ",
+        "orig_date": "14. Dec.bre 1818.",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Cancellieri, Francesco, 1751-1826 (17213238)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Cancellieri, Francesco, 1751-1826.  Pregiatiss. Pregiatissimo Sig.re Signore P.rone Padrone ed Amico . 14 Dic. Dicembre 1818 Non posso esprimerle abbastanza con parole la mia gratitudine per la tanta premura e cortesia con cui Ella si compiace di riscontrare il mio foglio relativo al noto Ms. manoscritto . Dello Stampatore e del prezzo non posso essere se non soddisfattissimo. Quanto al numero delle copie, a me ne basteranno 300. Del restante Ella mi farà gran favore se vorrà ordinare che se ne imprima una mezza dozzina in carta cerulea, e far piegare e coprire tutti i fogli costì con carta gialla, o come meglio le paia. Circa alla distribuzione, non volendo farne spargere costì se non poche copie, e far passare il rimanente in Lombardia, basterà ch'Ella si voglia compiacere di spedirmene per la posta, come il libricciuolo sarà stampato, e di accettarne Ella una dozzina in povero contrassegno della mia vivissima riconoscenza, che vorrei di tutto cuore poterle dimostrare con cose meno frivole. Il resto, frattanto ch'io attendo risposta di Lombardia, s'Ella non crederà che stia sicuro presso lo Stampatore, potrà ordinare che si consegni nel Collegio Capranica al Vicerettore Sig. Signor D. Don Natanaele Fucili , il quale ne avrà cura secondo ch'io gli scriverò. Ma già sino da quando io le spediva il Ms. manoscritto , era e sono anche presentemente nello stesso timore con Lei per rispetto alla Censura, la quale in caso che non volesse passarlo, o vi ordinasse qualche minimo cambiamento, prego Lei a volerlo spedire direttamente per per la posta sotto fascia al Sig. Pietro Giordani a Piacenza . Come mi con fonde ciò ch'Ella mi dice di volersi incaricare Ella stessa della correzione, così mi attrista fortemente la notizia della continuazione de' suoi dolori, dei quali, benchè Ella sappia sostenerli eroicamente, non può non affliggersi chiunque conosce l'importanza della sua preziosa salute per il bene delle lettere, e la incredibile bontà del suo cuore. Ritornandole i saluti affettuosissimi di mio padre e di mio fratello, io le auguro con tutta l'anima il fine delle sue sofferenze, ed ogni più cara consolazione e prosperità nel corso delle prossime Feste, ed auguro a me stesso di potermi dare a vedere effettivamente Recanati 14. Dec.bre 1818. Suo Dev.mo Devotissimo Obbl.mo Obbligatissimo S.re Servitore ed Amico Giacomo Leopardi . P.P. RECANATI P.P. Franca 21 DECEMB All' Ill.mo Illustrissimo S.re Signor P.ne Padrone Col.mo Colendissimo Il S.r Signor Ab. Abate Francesco Cancellieri . Roma ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "17213238",
+                "ref": "pers-3",
+                "forename": "Francesco",
+                "surname": "Cancellieri",
+                "persName": "Francesco Cancellieri"
+            },
+            {
+                "key": "",
+                "ref": "pers-18",
+                "forename": "Natanaele",
+                "surname": "Fucili",
+                "persName": "Natanaele Fucili"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3169069",
+                "ref": "pla-2",
+                "placeName": "Roma"
+            }
+        ],
+        "chat-gpt": [
+            [
+                "Giacomo Leopardi",
+                ":dateOfBirth",
+                "1798"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":dateOfDeath",
+                "1837"
+            ],
+            [
+                "Francesco Cancellieri",
+                ":dateOfBirth",
+                "1751"
+            ],
+            [
+                "Francesco Cancellieri",
+                ":dateOfDeath",
+                "1826"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":recipient",
+                "Francesco Cancellieri"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":dateOfLetter",
+                "14 December 1818"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":numberOfCopies",
+                "300"
+            ],
+            [
+                "Francesco Cancellieri",
+                ":residence",
+                "Roma"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":residence",
+                "Recanati"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":assignedTask",
+                "Correction of manuscript"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":topicOfLetter",
+                "Printing of manuscript"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":desires",
+                "Paper to be yellow or blue"
+            ],
+            [
+                "Francesco Cancellieri",
+                ":assignedTask",
+                "Distribution of copies in Lombardia"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":recipientIfCensorIssues",
+                "Pietro Giordani"
+            ],
+            [
+                "Pietro Giordani",
+                ":residence",
+                "Piacenza"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":friend",
+                "Natanaele Fucili"
+            ],
+            [
+                "Natanaele Fucili",
+                ":position",
+                "Vicerector of Collegio Capranica"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":wishes",
+                "End of Francesco Cancellieri's sufferings"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":dateOfLetter",
+                "21 December 1818"
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS Add.6210.7",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Giuseppe Zacchia",
+        "lang": "Italian",
+        "support": "Paper with PM watermark",
+        "extent": "4 pages ",
+        "orig_date": "10 Luglio 1820",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Zacchia, Giuseppe Antonio 1787-1845 (89644942)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Zacchia, Giuseppe Antonio 1787-1845.  Eccellenza Reverendiss. Reverendissima Quando è piaciuto a V.E. Vostra Eccellenza Reverendiss. Reverendissima e a cotesti illustri Accademici di ascrivermi al loro collegio, non hanno fatto cosa che disdicesse alla benignità loro, ma sibbene al merito mio. Forse però hanno giudicato che la squisitezza della cortesia debba risplendere tanto più quanto si dimostra in persone di più basso affare. Perchè non è strano che si onorino le virtù e le dottrine insigni, ma il ricercare spontaneamente i piccoli e oscuri, è segno certo di singolare umanità. Laonde l'obbligo ch'io porto a V.E. Vostra Eccellenza Reverendiss. Reverendissima e a codesti Signori Accademici, cresce in proporzione della mia bassezza. Io prego V.E. Vostra Eccellenza Reveren diss. Reverendissima che si voglia compiacere di esser testimonio a cotesti Signori della mia somma gratitudine verso loro, oltre alle obbligazioni speciali ch'io debbo e professo in particolare a V.E. Vostra Eccellenza Reverendiss. Reverendissima . Resterà ch'io mi sforzi di mostrarmi riconoscente alle Signorie loro col fatto, vincendo la mediocrità mia, perchè l'onore che mi hanno conferito, non mi ridondi piuttosto in vergogna che in ornamento.E con profondissimo osseguio mi dichiaro Di V.E. Vostra Eccellenza Reverendiss. Reverendissima Recanati 10 Luglio 1820 U.mo Umilissimo D.mo Devotissimo e Gratiss Gratissimo Servitore Giacomo Leopardi S.E. Sua Eccellenza Reverendiss. Reverendissima Mons. Monsignor G. Giuseppe Zacchia Deleg. Delegato Ap. Apostolico di Ascoli e Presid. Presidente dell' Accad. Accademia Trudentina Ascoli ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "89644942",
+                "ref": "pers-19",
+                "forename": "Giuseppe Antonio",
+                "surname": "Zacchia",
+                "persName": "Giuseppe Antonio Zacchia"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3182748",
+                "ref": "pla-8",
+                "placeName": "Ascoli Piceno"
+            }
+        ],
+        "chat-gpt": [
+            [
+                "Giacomo Leopardi",
+                ":dateOfBirth",
+                "1798"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":dateOfDeath",
+                "1837"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":letterRecipient",
+                "Giuseppe Antonio Zacchia"
+            ],
+            [
+                "Giuseppe Antonio Zacchia",
+                ":dateOfBirth",
+                "1787"
+            ],
+            [
+                "Giuseppe Antonio Zacchia",
+                ":dateOfDeath",
+                "1845"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":writesLetter",
+                "Giuseppe Antonio Zacchia"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":memberOf",
+                "Accademia Trudentina"
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS Add.6210.9",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Giuseppe Melchiorri",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "2 pages ",
+        "orig_date": "7 Giugno 1822.",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Melchiorri, Giuseppe, 1796-1855 (2821485)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Melchiorri, Giuseppe, 1796-1855.  7 Giugno 1822. Caro Cugino . Non crederei che vi fossero poesie stampate di quei due scrittori antichi che voi dite. Non ne ho mai nè veduto, nè sentito o trovato che se ne faccia menzione. Ma come il sì può dirsi molte volte di certo, così il no difficilmente si può assicurare. Questi dubbi però, essendo lontani, non importano gran fatto in queste tali cose, purchè le poesie che dite sieno degne della stampa per sè medesime. Quando me le mandiate, le leggerò volentieri, e ve ne dirò il parer mio. Vi ringrazio della diligenza usata circa la Crusca del Cesari . Fu mia inavvertenza lo scrivervi ingombrare , perchè la Crusca non ne fa un articolo separato, ma lo mette insieme con ingomberare . Resterebbe dunque che mi diceste se la Crusca del Cesari porta o no quel passo del Petrarca, sotto la voce Ingomberare , o sotto qualcuno de' suoi §. Con questa occasione mi fareste anche grazia di vedere se tra gli esempi portati al verbo Riedere , ve ne fosse alcuno dove si trovasse l'imperfetto indicativo di questo verbo; cioè qualch'esempio dove si dicesse riedea , o riedeva , riedeano , riedevano ec. Tutto questo però a vostro pieno comodo, e senza disturbo delle vostre occupazioni. Se trovaste un esempio , come dico, mi fareste molto favore a copiarlo e mandarmelo; e quando anche ve ne trovaste più d'uno, basterebbe che ne mandaste uno solo. Vogliatemi bene: salutatemi la Mamma , alla quale scrivo oggi, e favoritemi di dirglielo. I miei rispetti distinti all' Ab. Abate Cancellieri , e a Monsig. Monsignor Mai , se avete occasione di vederlo. Addio, addio. Risposta al N.° 6._ 9 GIUGNO RECANATI Al Nobil Uomo Il Sig. Signor March. Marchese Giuseppe Melchiorri Roma ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "17213238",
+                "ref": "pers-3",
+                "forename": "Francesco",
+                "surname": "Cancellieri",
+                "persName": "Francesco Cancellieri"
+            },
+            {
+                "key": "2821485",
+                "ref": "pers-20",
+                "forename": "Giuseppe",
+                "surname": "Melchiorri",
+                "persName": "Giuseppe Melchiorri"
+            },
+            {
+                "key": "24705039",
+                "ref": "pers-22",
+                "forename": "Antonio",
+                "surname": "Cesari",
+                "persName": "Antonio Cesari"
+            },
+            {
+                "key": "",
+                "ref": "pers-24",
+                "forename": "Ferdinanda",
+                "surname": "Leopardi",
+                "persName": "Ferdinanda Leopardi"
+            },
+            {
+                "key": "100180720",
+                "ref": "pers-25",
+                "forename": "Angelo",
+                "surname": "Mai",
+                "persName": "Angelo Mai"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3169069",
+                "ref": "pla-2",
+                "placeName": "Roma"
+            }
+        ],
+        "chat-gpt": [
+            [
+                "Giacomo Leopardi",
+                ":dateOfBirth",
+                "1798"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":dateOfDeath",
+                "1837"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":letterRecipient",
+                "Giuseppe Melchiorri"
+            ],
+            [
+                "Giuseppe Melchiorri",
+                ":dateOfBirth",
+                "1796"
+            ],
+            [
+                "Giuseppe Melchiorri",
+                ":dateOfDeath",
+                "1855"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":dateOfLetter",
+                "7 Giugno 1822"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":correspondenceLocation",
+                "Recanati"
+            ],
+            [
+                "Giuseppe Melchiorri",
+                ":correspondenceLocation",
+                "Roma"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":greetingRecipient",
+                "Ab. Abate Cancellieri"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":greetingRecipient",
+                "Monsig. Monsignor Mai"
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS Add.6210.12",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Giuseppe Melchiorri",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "2 pages ",
+        "orig_date": "14. Novembre 1823.",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Melchiorri, Giuseppe, 1796-1855 (2821485)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Melchiorri, Giuseppe, 1796-1855.  14. Novembre 1823. Caro Peppino . Questa volta avete ragione di farmi dei rimproveri sopra il mio silenzio, perchè veramente è un pezzo che non vi ho scritto. Il trovarmi occupato ne' miei poveri studi, e il non aver niente di particolare da dirvi, mi han fatto mandar la cosa d'oggi in domani, finchè voi coll'ultima vostra mi avete prevenuto. Quanto alla stampa Eusebiana, io vi prego che quando sarà tirato l'ultimo foglio, prima che si venga alla legatura, mi mandiate un esemplare intiero, acciocchè io possa vedere se la stampa ha bisogno d'un' Errata , come già restammo d'accordo. Mandatemelo per la posta, sotto fascia, come si spediscono i giornali, scrivendo sopra la fasciatura il numero de' fogli di stampa contenuti nell'esemplare. Io farò subito l' Errata e ve lo manderò, e vi scriverò circa il restante. Siate certo, mio caro Peppino , ch'io prendo parte ai vostri disgusti come se fossero mier miei propri. Quanto io desidero di consolarvi, potete giudicarlo facilmente, se conoscete l'amicizia e l'affezione ch'io vi porto. E se bastasse per vostra consolazione l'avere un amico il più sincero, il più costante, il più fedele ed affettuoso, voi sareste consolatissimo, perchè questo amico l'avete in me. Poichè la sola amicizia non può bastare, e le forze mi mancano a potervi confortare altrimenti, gradite, se non altro, i voti e i desiderii ch'io formo della fe vostra felicità. Amatemi, ch'io v'amo sempre, e v'amo assai; non dubitate di me, se posso servirvi in qualche cosa, comandatemi senza riguardi. Addio. Addio. Mi rallegro molto che le iscrizioni Vaticane vadano avanti. Non può esser che voi non abbiate ad esser contento una volta di questo travaglio. a 6. X.mbre Dicembre 1823_ Risposto mandando sotto fascia il richiesto Esemplare delle Osservaz. Eusebiane 16 NOVEMBRE RECANATI Al Nobil Uomo Il Sig. Signor Marchese Giuseppe Melchiorri . Roma ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "2821485",
+                "ref": "pers-20",
+                "forename": "Giuseppe",
+                "surname": "Melchiorri",
+                "persName": "Giuseppe Melchiorri"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3169069",
+                "ref": "pla-2",
+                "placeName": "Roma"
+            }
+        ],
+        "chat-gpt": [
+            [
+                "Giacomo Leopardi",
+                ":dateOfBirth",
+                "1798"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":dateOfDeath",
+                "1837"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":sentLetterTo",
+                "Giuseppe Melchiorri"
+            ],
+            [
+                "Giuseppe Melchiorri",
+                ":dateOfBirth",
+                "1796"
+            ],
+            [
+                "Giuseppe Melchiorri",
+                ":dateOfDeath",
+                "1855"
+            ],
+            [
+                "Lettera di Leopardi",
+                ":sentOn",
+                "14. Novembre 1823"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":discusses",
+                "stampa Eusebiana"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":requests",
+                "esemplare di stampa Eusebiana"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":expresses",
+                "amicizia"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":expresses",
+                "affezione"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":wishes",
+                "felicita' per Giuseppe Melchiorri"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":approves",
+                "iscrizioni Vaticane"
+            ],
+            [
+                "Osservazioni Eusebiane",
+                ":sentTo",
+                "Giacomo Leopardi"
+            ],
+            [
+                "Lettera di Leopardi",
+                ":dated",
+                "16 NOVEMBRE RECANATI"
+            ],
+            [
+                "Lettera di Leopardi",
+                ":addressedTo",
+                "Giuseppe Melchiorri"
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS Add.6210.14",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Giuseppe Melchiorri",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "4 pages ",
+        "orig_date": "8. Gennaio 1825.",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Melchiorri, Giuseppe, 1796-1855 (2821485)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Melchiorri, Giuseppe, 1796-1855.  Recanati 8. Gennaio 1825. Caro Peppino. Rispondo alla cara tua de' 30 Decembre. Ti ringrazio assai delle notizie sull'Eschilo, e sull'Amaduzzi. Ti ringrazio anche molto di quelle che mi dai sulle mie Canzoni , e in particolare di quanto mi dic e i degli Arcadici. Ti assicuro che io provo sempre un gran piacere quando sono informato del male che si dice di me. Del resto poi, se gli Arcadici abbiano ragione o torto, giudicherà il pubblico. Ho già scritto costà per vedere di farti pagare in Roma gli scudi 12.50 pagandoli io qua. Se questo non si potrà eseguire, ve li manderò direttamente per la posta. Quanto all'uso delle copie eusebiane, io vorrei che mi favoriste di farne aver quattro a Cancellieri , che potrà darle a qualche forestiere che se ne intenda. Se voi crederete che alcuno di vostra conoscenza sia capace di gradirle o di leggerle, disponete di quel numero di copie che vi aggrada. Ma credo che difficilmente troverete costì chi si curi di un dono tale, o lo possa adoprare. In ogni modo voi prendetevi una copia per voi, anzi per me e per amor mio. Le altre converrà che voi mi facciate il favore di mandarmele per qualche spedizioniere, o per occasione. Ma il più facile sarà per via di spedizioniere. Se voi non potete ancora mandarmi le stampe di cui mi avete parlato, vi prego a mandarmi separatamente per la posta la lettera di Missirini , acciocchè io possa rispondere a quel buon galantuomo, che dopo la mia partenza da Roma mi ha fatto molte gentilezze, e per il quale ho, ed ho sempre avuta molta stima. Avrò caro d'intendere a vostro comodo il pensiero di De Romanis sopra la proposizione che vi pregai di fargli a mio nome, cioè sul Teofrasto. Voi non mi potete far cosa più grata che parlarmi di voi. E però non mi dite che il vostro piagnisteo mi attedierà, perchè anzi le querele che voi fate meco amichevolmente, mi sono dolcissime, in quanto che mi dimostrano la confidenza vostra. Parlatemi anche, vi prego, dei vostri studi. Io vi ritorno moltiplicati gli augurii del buon anno, e desidero che l' anno futuro ponga fine per voi alle molestie del passato. Amatemi come io fo, e comandatemi. Addio, addio. Risposto a 16. Genn.o Gennaio 1825. 12 GENNAIO RECANATI Al Nobil Uomo Sig. Signor March. Marchese Giuseppe Melchiorri Roma ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "17213238",
+                "ref": "pers-3",
+                "forename": "Francesco",
+                "surname": "Cancellieri",
+                "persName": "Francesco Cancellieri"
+            },
+            {
+                "key": "2821485",
+                "ref": "pers-20",
+                "forename": "Giuseppe",
+                "surname": "Melchiorri",
+                "persName": "Giuseppe Melchiorri"
+            },
+            {
+                "key": "161159474180227661442",
+                "ref": "pers-29",
+                "forename": "Filippo Antonio",
+                "surname": "De Romanis",
+                "persName": "Filippo Antonio De Romanis"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3169069",
+                "ref": "pla-2",
+                "placeName": "Roma"
+            }
+        ],
+        "chat-gpt": [
+            [
+                "Giacomo Leopardi",
+                ":wroteLetterTo",
+                "Giuseppe Melchiorri"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":letterDate",
+                "8 Gennaio 1825"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":birthYear",
+                "1798"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":deathYear",
+                "1837"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":locationOfWriting",
+                "Recanati"
+            ],
+            [
+                "Giuseppe Melchiorri",
+                ":birthYear",
+                "1796"
+            ],
+            [
+                "Giuseppe Melchiorri",
+                ":deathYear",
+                "1855"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":mentionedInLetter",
+                "Eschilo"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":mentionedInLetter",
+                "Amaduzzi"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":wrote",
+                "Canzoni"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":mentionedInLetter",
+                "Arcadici"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":mentionedInLetter",
+                "Cancellieri"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":mentionedInLetter",
+                "Missirini"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":mentionedInLetter",
+                "De Romanis"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":mentionedInLetter",
+                "Teofrasto"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":wroteLetterFrom",
+                "Recanati"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":sendLetterTo",
+                "Roma"
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS Add.6210.16",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Antonio Fortunato Stella",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "2 pages ",
+        "orig_date": "26 Marzo 1826",
+        "orig_place": "Bologna (3181927)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Stella, Antonio Fortunato, 1757-1833 (51815878)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Stella, Antonio Fortunato, 1757-1833.  Bologna 26 Marzo 1826 Sig. Signore ed Amico amatis. amatissimo e preg.mo pregiatissimo Rendo risposta alle fav.me favoritissime sue de' 20 e 22 corrente. Son tornato a raccomandare al Moratti l'affar delle spedizioni, come fo quasi ogni volta. Ma egli mi risponde sempre di non aver mancato di spedir subito, e io non so che cosa mi replicare. Non veggo a che attribuire questi maledettissimi ritardi (i quali è più che certo che non provengono nè potrebbero provenire da questa censura), se non all'infame negligenza delle diligenze e delle poste. Se a ciò Ella crede ch'io possa porre qualche riparo, mi scriva il come, e io farò tutto il possibile. Ho ricevuto le nuove prove del Petrarca , e del Cicerone , che consegnerò infallibilmente al Moratti quest'altro ordinario, con nuove raccomandazioni. La mia intenzione sarebbe di terminare il lavoro del Petrarca per questo autunno, se la salute o altro ostacolo non m'impedirà. Gli altri volumetti della Collezione dei Moralisti conterebbero =Scelta di discorsi di Dione Grisostomo.= Idem di Massimo Tirio. = Idem di Pensieri filosofici di autori perduti, dalla collezione di Stobeo. = Idem di favole esopiane di autori greci. = Il Gerone di Senofonte.= Questo è quanto posso dirle fin qui, giacchè io stesso non saprei ancora determinarmi circa gli altri, e risolverei in seguito._ Confesso che mi sento molto lusingato e superbo del voto favorevole che Ella accorda alle predilette mie Operette morali . Il ms. manoscritto è di 311. pagine, precisamente della forma del ms. manoscritto d'Isocrate che le ho spedito, scrittura egualmente fitta, di mio carattere. Sarei ben contento se Ella volesse e potesse esserne l'editore. Delle offerte (di cui ella mi domanda) non dobbiamo parlare. Già s'intende che quel poco di buono ch'io ho o posso avere in materie letterarie, e che sia di suo uso, dev'esser suo senz'altri discorsi. Solamente la prego a darmi una risposta concreta in questo proposito tosto ch'ella potrà. Debbo far e a lei ed a tutta la sua famiglia, i complimenti di Mad. Madama Padovani , che abita ora qui nella mia stessa casa al mio stesso piano. Vi unisco i miei, e, con tutto il cuore abbracciandola, e augurandole ogni contentezza, mi ripeto suo obbl.mo obbligatissimo e cordialiss. cordialissimo s.re servitore ed amico Giacomo Leopardi . All' Illustriss. Illustrissimo Signore Il Sig. Signor Ant. Antonio Fortunato Stella Milano ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "51815878",
+                "ref": "pers-6",
+                "forename": "Antonio Fortunato",
+                "surname": "Stella",
+                "persName": "Antonio Fortunato Stella"
+            },
+            {
+                "key": "",
+                "ref": "pers-34",
+                "forename": "Giuseppe",
+                "surname": "Moratti",
+                "persName": "Giuseppe Moratti"
+            },
+            {
+                "key": "",
+                "ref": "pers-35",
+                "forename": "Rosa",
+                "surname": "Simonazzi Padovani",
+                "persName": "Rosa Simonazzi Padovani"
+            }
+        ],
+        "places": [
+            {
+                "key": "3173434",
+                "ref": "pla-3",
+                "placeName": "Milano"
+            },
+            {
+                "key": "3181927",
+                "ref": "pla-7",
+                "placeName": "Bologna"
+            }
+        ],
+        "chat-gpt": [
+            [
+                "Giacomo Leopardi",
+                ":wroteTo",
+                "Antonio Fortunato Stella"
+            ],
+            [
+                "Letter",
+                ":sentFrom",
+                "Bologna"
+            ],
+            [
+                "Letter",
+                ":sentOn",
+                "26 Marzo 1826"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":mentioned",
+                "Moratti"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":mentioned",
+                "Petrarca"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":mentioned",
+                "Cicerone"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":willDeliver",
+                "le nuove prove del Petrarca"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":willDeliver",
+                "le nuove prove del Cicerone"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":workOn",
+                "il lavoro del Petrarca"
+            ],
+            [
+                "Collezione dei Moralisti",
+                ":contains",
+                "Scelta di discorsi di Dione Grisostomo"
+            ],
+            [
+                "Collezione dei Moralisti",
+                ":contains",
+                "Idem di Massimo Tirio"
+            ],
+            [
+                "Collezione dei Moralisti",
+                ":contains",
+                "Pensieri filosofici di autori perduti"
+            ],
+            [
+                "Collezione dei Moralisti",
+                ":contains",
+                "favole esopiane di autori greci"
+            ],
+            [
+                "Collezione dei Moralisti",
+                ":contains",
+                "Il Gerone di Senofonte"
+            ],
+            [
+                "Letter",
+                ":mentioned",
+                "Operette morali"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":hasOwnership",
+                "ms. manoscritto"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":desired",
+                "essere l'editore"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":mentioned",
+                "Madama Padovani"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":residesIn",
+                "la mia stessa casa"
+            ],
+            [
+                "Letter",
+                ":sentTo",
+                "Il Signor Antonio Fortunato Stella"
+            ],
+            [
+                "Letter",
+                ":sentToPlace",
+                "Milano"
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS Add.6210.18",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Monaldo Leopardi",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "2 pages ",
+        "orig_date": "23 Giugno 1827",
+        "orig_place": "Firenze (3176958)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Leopardi, Monaldo, 1776-1847 (9709149068390265730006)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Leopardi, Monaldo, 1776-1847.  27 GIUGNO FIRENZE Al Nobil Uomo Il Sig. Signor Conte Monaldo Leopardi Recanati Stato Romano Firenze 23 Giugno 1827 Carissimo Sig. Signore Padre Partii da Bologna ai 20, e il giorno seguente, la mattina, arrivai a Firenze , dopo un viaggio ottimo. Non so quanto mi tratterrò. Il non poter uscir di casa di giorno per la flussion d'occhi che mi molesta costantemente, mi dà molta malinconia, e m'impedisce di conoscere la città; nella quale veramente non godo nulla. Sono obbligato a rifiutare tutti gl'inviti che mi vengono fatti, e la gran festa fiorentina di domani (giorno di S. San G. Giovanni Battista) sarà per me un giorno feriato. Gli altri avranno corse di bighe, corse di barberi dei primi d'Italia, fuochi artifiziali che costano non so quante migliaia, ec. Faccia, la prego, i miei saluti più teneri alla Mamma e ai fratelli. Sono impaziente di sentire che la Mamma sia perfettamente guarita del piede. Le bacio la mano con tutta l'anima, e le chiedo la benedizione. Il suo amorosissimo figlio Giacomo . 1 ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "9709149068390265730006",
+                "ref": "pers-14",
+                "forename": "Monaldo",
+                "surname": "Leopardi",
+                "persName": "Monaldo Leopardi"
+            },
+            {
+                "key": "1569009",
+                "ref": "pers-38",
+                "forename": "Adelaide",
+                "surname": "Antici",
+                "persName": "Adelaide Antici"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3176958",
+                "ref": "pla-6",
+                "placeName": "Firenze"
+            },
+            {
+                "key": "3181927",
+                "ref": "pla-7",
+                "placeName": "Bologna"
+            }
+        ],
+        "chat-gpt": [
+            [
+                "Giacomo Leopardi",
+                ":dateOfBirth",
+                "1798"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":dateOfDeath",
+                "1837"
+            ],
+            [
+                "Monaldo Leopardi",
+                ":dateOfBirth",
+                "1776"
+            ],
+            [
+                "Monaldo Leopardi",
+                ":dateOfDeath",
+                "1847"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":sentLetterTo",
+                "Monaldo Leopardi"
+            ],
+            [
+                "Monaldo Leopardi",
+                ":livesIn",
+                "Recanati"
+            ],
+            [
+                "Recanati",
+                ":partOf",
+                "Stato Romano"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":sentLetterFrom",
+                "Firenze"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":departureDate",
+                "20 Giugno 1827"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":arrivalDate",
+                "21 Giugno 1827"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":hasHealthIssue",
+                "flussion d'occhi"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":refused",
+                "invitations"
+            ],
+            [
+                "Monaldo Leopardi",
+                ":isAddressedIn",
+                "Lettera di Leopardi"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":sentLetterOn",
+                "27 Giugno 1827"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":isEagerToHear",
+                "Mamma sia perfettamente guarita"
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS Add.6210.19",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Carlo Emanuele Muzzarelli",
+        "lang": "Italian",
+        "support": "Paper with BONDON 1812 watermark",
+        "extent": "4 pages ",
+        "orig_date": "28 Giugno 1828",
+        "orig_place": "Firenze (3176958)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Muzzarelli, Carlo Emmanuele, 1797-1856 (18677718)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Muzzarelli, Carlo Emmanuele, 1797-1856.  03 1282 Eccellenza Reverendissima La mia famiglia, sapendo che V. Vostra Ecc. Eccellenza Reverendiss. Reverendissima mi ha onorato più volte di molti segni di benevolenza, ha desiderato che io raccomandassi a Lei la causa che mio padre, Monaldo Leopardi , ha col conte Michele Moroni , e che dee proporsi fra poco a codesto Tribunale della Rota. Io la raccomanderei all' Ecc. Eccellenza V.ra Vostra caldissimamente e instantissimamente, come cosa che per necessità c'interessa moltissimo; se credessi che in simili cose potesse aver luogo altra raccomandazione che quella della giustizia. La quale è ben vero che tutte le persone intendenti da noi consultate, ci assicurano esser dal lato nostro evidentemente: ma di ciò non mi si appartiene, e sarebbe temerario in me, il parlare in faccia a Lei. Dirò solamente che se la bontà di V. Vostra Ecc. Eccellenza avrà qualche modo di favorire perchè da noi si ottenga quello che sarà giudicato giusto e di ragione, in tal caso io mi terrò e mi chiamerò eternamente obbligato e legato all' Ecc. Eccellenza V.ra Vostra se le piacerà di usare in favor nostro il suo potere. E in ogni caso io le sarò tenutissimo se Ella mi continuerà la sua benevolenza, che mi è cara e preziosa quanto cosa alcuna del mondo. E offerendomi a servirla in tutto che io possa, ho l' onore di confermarmi Di V. Vostra Eccellenza Rev.ma Reverendissima Firenze 28 Giugno 1828 U.mo Umilissimo Obbl.mo Obbligatissimo servitore Giacomo Leopardi Qui si parla assai spesso di Lei con Giordani e con altri, che sono innamorati delle sue virtù, e che la stimano altamente 1 30 GIUGNO FIRENZE A Sua Eccllenza Reverendissima Monsig. Monsignor Carlo Emmanuele Conte Muzzarelli Uditore della Sacra Rota Roma ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "9709149068390265730006",
+                "ref": "pers-14",
+                "forename": "Monaldo",
+                "surname": "Leopardi",
+                "persName": "Monaldo Leopardi"
+            },
+            {
+                "key": "4899893",
+                "ref": "pers-32",
+                "forename": "Pietro",
+                "surname": "Giordani",
+                "persName": "Pietro Giordani"
+            },
+            {
+                "key": "18677718",
+                "ref": "pers-40",
+                "forename": "Carlo Emanuele",
+                "surname": "Muzzarelli",
+                "persName": "Carlo Emanuele Muzzarelli"
+            }
+        ],
+        "places": [
+            {
+                "key": "3169069",
+                "ref": "pla-2",
+                "placeName": "Roma"
+            },
+            {
+                "key": "3176958",
+                "ref": "pla-6",
+                "placeName": "Firenze"
+            }
+        ],
+        "chat-gpt": [
+            [
+                "Giacomo Leopardi",
+                ":dateOfBirth",
+                "1798"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":dateOfDeath",
+                "1837"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":writesTo",
+                "Carlo Emmanuele Muzzarelli"
+            ],
+            [
+                "Carlo Emmanuele Muzzarelli",
+                ":dateOfBirth",
+                "1797"
+            ],
+            [
+                "Carlo Emmanuele Muzzarelli",
+                ":dateOfDeath",
+                "1856"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":hasFamilyRelation",
+                "Monaldo Leopardi"
+            ],
+            [
+                "Monaldo Leopardi",
+                ":hasDisputeWith",
+                "Michele Moroni"
+            ],
+            [
+                "Michele Moroni",
+                ":isInvolvedInDispute",
+                "Tribunale della Rota"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":sendsLetter",
+                "28 June 1828"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":livesIn",
+                "Firenze"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":speaksWith",
+                "Giordani"
+            ],
+            [
+                "Carlo Emmanuele Muzzarelli",
+                ":position",
+                "Uditore della Sacra Rota"
+            ],
+            [
+                "Carlo Emmanuele Muzzarelli",
+                ":livesIn",
+                "Roma"
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS Add.6210.20",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Giovanni Rosini",
+        "lang": "Italian",
+        "support": "Paper with Conte | Alessandro Ce[...] watermark",
+        "extent": "2 pages ",
+        "orig_date": "3 Settembre 1828",
+        "orig_place": "Firenze (3176958)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Rosini, Giovanni, 1776-1855 (144548)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Rosini, Giovanni, 1776-1855.  Cap. Capitolo 21. p. pagina 18. lin. linea 19 stampata sarebbe Il Capitolo del villano a' miei orecchi par bello e buono. Questo è quanto posso dire; perchè del resto non ho trattato gran fatto con villani di Toscana, nè avuta occasione o ragione di fare studio del loro dialetto nei libri. Ma credo che tutti quelli che in quanto a questo particolare si trovano nel caso mio, (e saranno quasi tutti i lettori), resteranno egualmente contenti del vostro capitolo. 3 SETTEMBRE 1828 FIRENZE Al Chiariss. Chiarissimo Sig. Signor Prof. Professor Rosini Pisa ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "144548",
+                "ref": "pers-39",
+                "forename": "Giovanni",
+                "surname": "Rosini",
+                "persName": "Giovanni Rosini"
+            }
+        ],
+        "places": [
+            {
+                "key": "3176958",
+                "ref": "pla-6",
+                "placeName": "Firenze"
+            },
+            {
+                "key": "3170646",
+                "ref": "pla-11",
+                "placeName": "Pisa"
+            }
+        ],
+        "chat-gpt": [
+            [
+                "Giacomo Leopardi",
+                ":dateOfBirth",
+                "1798"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":dateOfDeath",
+                "1837"
+            ],
+            [
+                "Giovanni Rosini",
+                ":dateOfBirth",
+                "1776"
+            ],
+            [
+                "Giovanni Rosini",
+                ":dateOfDeath",
+                "1855"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":wroteTo",
+                "Giovanni Rosini"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":mentioned",
+                "Il Capitolo del villano"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":mentioned",
+                "Toscana"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":mentioned",
+                "dialetto"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":referredTo",
+                "lettori"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":letterDate",
+                "3 SETTEMBRE 1828"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":locationOfWriting",
+                "FIRENZE"
+            ],
+            [
+                "Giovanni Rosini",
+                ":workLocation",
+                "Pisa"
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS Add.6210.22",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Giovanni Rosini",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "2 pages ",
+        "orig_date": "28 Nov. 1828.",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Rosini, Giovanni, 1776-1855 (144548)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Rosini, Giovanni, 1776-1855.  1 Recanati 28 Nov. 1828. Amico cariss. carissimo La vostra dei 17 mi fu gratissima come ogni altra, e più ancora delle altre, perchè desiderata molto, dopo il lungo silenzio succeduto alla partenza vostra da Firenze . Ho caro assai che abbiate posta l'ultima mano alla vostra Monaca , e che andiate pensando alla Strozzi. A proposito della Strozzi e della Monaca, vi ricordate voi d'avermi promesso una copia intera e perfetta del vostro romanzo? Io non vi assolvo certamente dalla promessa, e sto aspettando l'effetto. Il ne (o piuttosto il n'è ) interrogativo, non mi ricordo di averlo trovato negli scrittori; ma nello stile familiare, credo possa adoprarsi, essendo frequentissimo nel parlar toscano lo scambio della negativa non in una semplice 'n , o n' . Quel n'è ? corrisponde al francese n'est-ce-pas ? Sono in tutto e per tutto del vostro parere circa l'Antologia, ma che s'ha a dire?_ Alla Lauretta, a Mad. Madama Mason , a Carmi gnani vi prego a fare mille complimenti e saluti per mia parte. Anche vi sarò grato se favorirete di far dire qualche cosa in mio nome al mio buon albergatore ed alla sua buona famiglia. Le mie nuove sono le solite: non posso nè leggere nè scrivere nè pensare, nè digerire il mio pranzo, ch'è pur piccino. Starò qui non so quanto, forse sempre: fo conto di aver terminato il corso della mia vita. Vogliatemi bene, e riverite le vostre Signore. Addio, addio. Il vostro Leopardi . ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "144548",
+                "ref": "pers-39",
+                "forename": "Giovanni",
+                "surname": "Rosini",
+                "persName": "Giovanni Rosini"
+            },
+            {
+                "key": "",
+                "ref": "pers-41",
+                "forename": "Margaret Jane",
+                "surname": "King",
+                "persName": "Margaret Jane King"
+            },
+            {
+                "key": "39366861",
+                "ref": "pers-42",
+                "forename": "Giovanni",
+                "surname": "Carmignani",
+                "persName": "Giovanni Carmignani"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3176958",
+                "ref": "pla-6",
+                "placeName": "Firenze"
+            },
+            {
+                "key": "3170646",
+                "ref": "pla-11",
+                "placeName": "Pisa"
+            }
+        ],
+        "chat-gpt": [
+            [
+                "Giacomo Leopardi",
+                ":dateOfBirth",
+                "1798"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":dateOfDeath",
+                "1837"
+            ],
+            [
+                "Giovanni Rosini",
+                ":dateOfBirth",
+                "1776"
+            ],
+            [
+                "Giovanni Rosini",
+                ":dateOfDeath",
+                "1855"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":sentLetterTo",
+                "Giovanni Rosini"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":letterSentDate",
+                "28 Nov. 1828"
+            ],
+            [
+                "Giovanni Rosini",
+                ":left",
+                "Firenze"
+            ],
+            [
+                "Giovanni Rosini",
+                ":wrote",
+                "Monaca"
+            ],
+            [
+                "Giovanni Rosini",
+                ":wrote",
+                "Strozzi"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":waitingFor",
+                "copy of Giovanni Rosini's novel"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":livesIn",
+                "Recanati"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":sentGreetingsTo",
+                "Lauretta"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":sentGreetingsTo",
+                "Madama Mason"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":sentGreetingsTo",
+                "Carmignani"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":askedGiovanniRosiniToGreet",
+                "his host and his family"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":unableTo",
+                "read"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":unableTo",
+                "write"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":unableTo",
+                "think"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":unableTo",
+                "digest his small meal"
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS Add.6210.23",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Giovanni Rosini",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "2 pages ",
+        "orig_date": "19 Aprile 1829",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Rosini, Giovanni, 1776-1855 (144548)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Rosini, Giovanni, 1776-1855.  Recanati 19 Aprile 1829 Cariss. Carissimo Amico 5 Mi dispiace nella cara vostra dei 7 del corrente, che mi domandiate se ricevessi l'altra del Gennaio passato: perchè questo è segno che voi non abbiate avuta la mia risposta, la quale fu prontissima; se però non fosse, come dubito, che l'abbiate ricevuta in fatti, ma ve la siate dimenticata. Da Firenze io aveva già notizia del successo felice del vostro romanzo, del quale mi rallegro, benchè non mi riesca nuovo. Critiche se ne faranno sicuramente, e infinite; cioè tante, quant e i saranno i lettori, che si crederanno giudici: ma quale è l'opera che non si critichi? Ho piacere che siate intorno alla Strozzi , ma non vorrei che perciò trascuraste affatto il vostro poema, il quale, continuato e finito come l'avete condotto fin qui, riuscirà certamente una bella cosa. Ricevuto che avrò da Bologna l'esemplare che mi significate, farò quel che volete voi: ma la faccenda andrà in lungo, perchè qua le spedizioni arrivano in capo a qualche anno. Salutate tanto tanto la Lauretta: anche Mad. Madama Vaccà , Mad. Madama Mason , e Carmignani . Le mie nuove sono, ch'io vivo qui mezzo disperato; anzi non vivo, ma scoppio di rabbia e di noia ogni giorno. Non fo nulla, nè spero nulla. Addio: vogliatemi bene, e ricordatemi ai vostri. Aff.mo Affezionatissimo amico Leopardi Al Chiarissimo Sig. Signor Profess. Professor Giovanni Rosini Pisa LORETO Imp RECANATI 24 APRILE 1829 ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "144548",
+                "ref": "pers-39",
+                "forename": "Giovanni",
+                "surname": "Rosini",
+                "persName": "Giovanni Rosini"
+            },
+            {
+                "key": "",
+                "ref": "pers-41",
+                "forename": "Margaret Jane",
+                "surname": "King",
+                "persName": "Margaret Jane King"
+            },
+            {
+                "key": "39366861",
+                "ref": "pers-42",
+                "forename": "Giovanni",
+                "surname": "Carmignani",
+                "persName": "Giovanni Carmignani"
+            },
+            {
+                "key": "",
+                "ref": "pers-45",
+                "forename": "Luisa",
+                "surname": "Strozzi Capponi",
+                "persName": "Luisa Strozzi Capponi"
+            },
+            {
+                "key": "",
+                "ref": "pers-46",
+                "forename": "Sofia",
+                "surname": "Caudeiron Vaccà Berlinghieri",
+                "persName": "Sofia Caudeiron Vaccà Berlinghieri"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3176958",
+                "ref": "pla-6",
+                "placeName": "Firenze"
+            },
+            {
+                "key": "3181927",
+                "ref": "pla-7",
+                "placeName": "Bologna"
+            },
+            {
+                "key": "3170646",
+                "ref": "pla-11",
+                "placeName": "Pisa"
+            },
+            {
+                "key": "6539726",
+                "ref": "pla-12",
+                "placeName": "Loreto"
+            }
+        ],
+        "chat-gpt": [
+            [
+                "Giacomo Leopardi",
+                ":dateOfBirth",
+                "1798"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":dateOfDeath",
+                "1837"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":sendLetter",
+                "Giovanni Rosini"
+            ],
+            [
+                "Giovanni Rosini",
+                ":dateOfBirth",
+                "1776"
+            ],
+            [
+                "Giovanni Rosini",
+                ":dateOfDeath",
+                "1855"
+            ],
+            [
+                "Letter",
+                ":dateOfWriting",
+                "19 Aprile 1829"
+            ],
+            [
+                "Letter",
+                ":placeOfWriting",
+                "Recanati"
+            ],
+            [
+                "Giovanni Rosini",
+                ":work",
+                "romanzo"
+            ],
+            [
+                "Giovanni Rosini",
+                ":work",
+                "poema"
+            ],
+            [
+                "Giovanni Rosini",
+                ":associatedWith",
+                "Strozzi"
+            ],
+            [
+                "Giovanni Rosini",
+                ":knownTo",
+                "Madama Vaccà"
+            ],
+            [
+                "Giovanni Rosini",
+                ":knownTo",
+                "Madama Mason"
+            ],
+            [
+                "Giovanni Rosini",
+                ":knownTo",
+                "Carmignani"
+            ],
+            [
+                "Letter",
+                ":placeOfSending",
+                "LORETO Imp RECANATI 24 APRILE 1829"
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS Add.6210.24",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Paolina Leopardi",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "2 pages ",
+        "orig_date": "28 Giug.",
+        "orig_place": "Firenze (3176958)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Leopardi, Paolina, 1800-1869 (29611067)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Leopardi, Paolina, 1800-1869.  28 Giug. Cara Pilla . Son guarito, grazie a Dio, del raffreddore, e di nuovo sto benino assai; sempre in giro a restituir visite. Nuove conoscenze, nuove amicizie: amicizia intima con Frullani , direttore generale de' Catasti. Qui ho riveduto Mad. Madama Laura Parra , che starà ancora del tempo. Abito vicinissimo al General Colletta , e quasi ogni giorno o egli è da me, o io da lui. La sera son fuori, ma in conversazione poco, perchè alle 11. per lo più ceno. Eccovi le mie nuove. Addio, addio. Alla Signora Contessa Paolina Leopardi Loreto per Recanati FIRENZE 1830 28 giugno LUGLIO ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "29611067",
+                "ref": "pers-47",
+                "forename": "Paolina",
+                "surname": "Leopardi",
+                "persName": "Paolina Leopardi"
+            },
+            {
+                "key": "81588654",
+                "ref": "pers-48",
+                "forename": "Giuliano",
+                "surname": "Frullani",
+                "persName": "Giuliano Frullani"
+            },
+            {
+                "key": "42717315",
+                "ref": "pers-49",
+                "forename": "Laura",
+                "surname": "Parra",
+                "persName": "Laura Parra"
+            },
+            {
+                "key": "7469628",
+                "ref": "pers-50",
+                "forename": "Pietro",
+                "surname": "Colletta",
+                "persName": "Pietro Colletta"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3176958",
+                "ref": "pla-6",
+                "placeName": "Firenze"
+            },
+            {
+                "key": "6539726",
+                "ref": "pla-12",
+                "placeName": "Loreto"
+            }
+        ],
+        "chat-gpt": [
+            [
+                "Giacomo Leopardi",
+                ":dateOfBirth",
+                "1798"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":dateOfDeath",
+                "1837"
+            ],
+            [
+                "Paolina Leopardi",
+                ":dateOfBirth",
+                "1800"
+            ],
+            [
+                "Paolina Leopardi",
+                ":dateOfDeath",
+                "1869"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":wroteLetterTo",
+                "Paolina Leopardi"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":isAcquaintanceOf",
+                "Frullani"
+            ],
+            [
+                "Frullani",
+                ":jobTitle",
+                "direttore generale de' Catasti"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":hasMet",
+                "Madama Laura Parra"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":livesCloseTo",
+                "General Colletta"
+            ],
+            [
+                "Letter",
+                ":date",
+                "1830-06-28"
+            ],
+            [
+                "Letter",
+                ":location",
+                "FIRENZE"
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS Add.6210.25",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Giovanni Rosini",
+        "lang": "Italian",
+        "support": "Paper with P M watermark",
+        "extent": "2 pages ",
+        "orig_date": "24 Maggio 1831",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Rosini, Giovanni, 1776-1855 (144548)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Rosini, Giovanni, 1776-1855.  s 2 24 Maggio 1831 A. Amico C. Carissimo Una bella Signora , che ha una ricca collezione di autografi d'uomini illustri d'ogni genere , mi ha istantemente pregato a procurargliene quanti più posso. Voi avete un'immensa corrispondenza, avete conosciuto e conoscete quasi tutti gli uomini più famosi del nostro tempo, di più siete onnipotente in Pisa , e potete ottenere costì da altri tutto ciò che volete, finalmente siete buon cavaliere e cortese verso le belle Signore: fatemi dunque la grazia di vedere tra le vostre carte se potete disfarvi di qualche lettera di persona illustre, e di cercare anco se costì se ne trovassero presso altri che volessero compiacervene. Fatemela, ve ne prego, ma davvero, e non mandate la cosa in dimenticanza. Sarebbe possibile di trovar costì un autografo dell' Alfieri ? Oh quanto sarebbe caro alla raccoglitrice! Del resto voi avrete presso la Signora tutto l'onore che vi apparterrà, se mi favorirete. Come state? come vanno i vostri lavori? E il Pacini che fa? Sinner mi scrive da Parigi ai 24 di Gennaio: Je ne pus vous écrire de Pise . le bon M. Monsieur Rosini , auquel je suis très reconnaissant de toutes les bontés qu'il a eues pour moi, absorbait tous mes instants. Il en fut de même à Gênes de la part de M. Monsieur de Negro, a Milan de M.me Madame Al brizzi, à Turin de MM. Monsieurs Peyron et Boucheron . Dites cela à M. Monsieur Rosini : c'est lui qui m'avait bien voulu recommander à ces personnes distinguées. Faites-lui mille compliments affectueux: répétez-lui que je m'estimerais heureux de pouvoir lui être bon à quelque chose à Paris . _ E ai 30 di Marzo: Que fait l'eccellent M. Monsieur Rosini ? et sa Luisa Strozzi ? Rappelez-moi à son bienveillant souvenir. _ Vogliatemi bene e scrivetemi Addio, addio di tutto cuore. Il v.ro vostro Leopardi . Al Celebre Sig. Signor Prof. Professor Giovanni Rosini Pisa FIRENZE 25 MAGGIO 1831 ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "144548",
+                "ref": "pers-39",
+                "forename": "Giovanni",
+                "surname": "Rosini",
+                "persName": "Giovanni Rosini"
+            },
+            {
+                "key": "",
+                "ref": "pers-45",
+                "forename": "Luisa",
+                "surname": "Strozzi Capponi",
+                "persName": "Luisa Strozzi Capponi"
+            },
+            {
+                "key": "7469628",
+                "ref": "pers-51",
+                "forename": "Fanny",
+                "surname": "Targioni Tozzetti",
+                "persName": "Fanny Targioni Tozzetti"
+            },
+            {
+                "key": "39389587",
+                "ref": "pers-52",
+                "forename": "Vittorio",
+                "surname": "Alfieri",
+                "persName": "Vittorio Alfieri"
+            },
+            {
+                "key": "68920700",
+                "ref": "pers-53",
+                "forename": "Gabriel Rudolphe Louis",
+                "surname": "de Sinner",
+                "persName": "Gabriel Rudolphe Louis de Sinner"
+            },
+            {
+                "key": "19835436",
+                "ref": "pers-54",
+                "forename": "Amedeo",
+                "surname": "Peyron",
+                "persName": "Amedeo Peyron"
+            },
+            {
+                "key": "34800363",
+                "ref": "pers-55",
+                "forename": "Carlo",
+                "surname": "Boucheron",
+                "persName": "Carlo Boucheron"
+            }
+        ],
+        "places": [
+            {
+                "key": "3173434",
+                "ref": "pla-3",
+                "placeName": "Milano"
+            },
+            {
+                "key": "2968851",
+                "ref": "pla-5",
+                "placeName": "Paris"
+            },
+            {
+                "key": "3176958",
+                "ref": "pla-6",
+                "placeName": "Firenze"
+            },
+            {
+                "key": "3170646",
+                "ref": "pla-11",
+                "placeName": "Pisa"
+            },
+            {
+                "key": "6542282",
+                "ref": "pla-13",
+                "placeName": "Genova"
+            },
+            {
+                "key": "3165525",
+                "ref": "pla-14",
+                "placeName": "Torino"
+            }
+        ],
+        "chat-gpt": [
+            [
+                "Giacomo Leopardi",
+                ":dateOfBirth",
+                "1798"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":dateOfDeath",
+                "1837"
+            ],
+            [
+                "Giovanni Rosini",
+                ":dateOfBirth",
+                "1776"
+            ],
+            [
+                "Giovanni Rosini",
+                ":dateOfDeath",
+                "1855"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":writeLetterTo",
+                "Giovanni Rosini"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":letterDate",
+                "24 Maggio 1831"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":livingIn",
+                "FIRENZE"
+            ],
+            [
+                "Giovanni Rosini",
+                ":livingIn",
+                "Pisa"
+            ],
+            [
+                "Giovanni Rosini",
+                ":jobTitle",
+                "Professor"
+            ],
+            [
+                "Giovanni Rosini",
+                ":knowsPerson",
+                "Pacini"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":seekingFor",
+                "autographs"
+            ],
+            [
+                "Giovanni Rosini",
+                ":correspondsTo",
+                "famous people"
+            ],
+            [
+                "Giovanni Rosini",
+                ":isPowerfulIn",
+                "Pisa"
+            ],
+            [
+                "Giovanni Rosini",
+                ":canGetThingsFromOthersIn",
+                "Pisa"
+            ],
+            [
+                "Giovanni Rosini",
+                ":isGallantTowards",
+                "ladies"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":requestsTo",
+                "Giovanni Rosini"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":askAbout",
+                "Pacini"
+            ],
+            [
+                "Sinner",
+                ":wroteLetterTo",
+                "Giacomo Leopardi"
+            ],
+            [
+                "Sinner",
+                ":isIn",
+                "Paris"
+            ],
+            [
+                "Sinner",
+                ":letterDate",
+                "24 di Gennaio"
+            ],
+            [
+                "Sinner",
+                ":isGratefulTo",
+                "Giovanni Rosini"
+            ],
+            [
+                "Giovanni Rosini",
+                ":recommendedSinnerTo",
+                "distinguished people"
+            ],
+            [
+                "Sinner",
+                ":isIn",
+                "Genoa"
+            ],
+            [
+                "Sinner",
+                ":receivedBontiesFrom",
+                "Monsieur de Negro"
+            ],
+            [
+                "Sinner",
+                ":isIn",
+                "Milan"
+            ],
+            [
+                "Sinner",
+                ":receivedBontiesFrom",
+                "Madame Al brizzi"
+            ],
+            [
+                "Sinner",
+                ":isIn",
+                "Turin"
+            ],
+            [
+                "Sinner",
+                ":receivedBontiesFrom",
+                "Monsieurs Peyron and Boucheron "
+            ],
+            [
+                "Giovanni Rosini",
+                ":knowsPerson",
+                "Luisa Strozzi"
+            ],
+            [
+                "Giovanni Rosini",
+                ":receivedLetterFrom",
+                "Giacomo Leopardi"
+            ],
+            [
+                "Giovanni Rosini",
+                ":isFamousPerson",
+                "true"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":correspondsTo",
+                "Giovanni Rosini"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":letterDate",
+                "25 MAGGIO 1831"
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS Add.6210.26",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Giovanni Rosini",
+        "lang": "Italian",
+        "support": "Paper with dove in a circle watermark",
+        "extent": "2 pages ",
+        "orig_date": "15 Giugno 1831",
+        "orig_place": "Firenze (3176958)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Rosini, Giovanni, 1776-1855 (144548)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Rosini, Giovanni, 1776-1855.  14 3 Firenze 24 Maggio 1831 A. Amico C.mo Carissimo Non dimenticate, vi prego, la promessa che mi fate nella cara vostra dei 25 Maggio. Quegli autografi, che mi promettete, mi saranno graditissimi, e così altri se potete trovarne. Ho detto mi saranno , e doveva dire mi sarebbero , perchè in verità temo assai dela vostra dimenticanza. Godo che il M. Pacini continui. Nella prima delle due stanze, che mi trascrivete, avete voi notato che la rima fuoco è ripetuta? Tenetemi per pronto a servirvi nell'elogio del Pindemonte , e in ogni altra cosa, come meglio io possa. Ho scritto al Sinner , e fatto con lui le vostre parti. La Carlotta Lenzoni vi saluta molto. Non mi maraviglio punto dei tradimenti fattivi dal vostro traduttor francese; ma perchè non trovate voi modo di far pubblicare la traduzione, che faceste fare per vostro conto? Avete voi lettere di Lamartine ? anche di questo sarebbero a proposito pel fatto mio degli autografi. Abbiate cura della salute, e vogliatemi bene. Addio addio. Il vostro Leopardi . FIRENZE Al Celebre Sig. Signor Prof. Professor Giovanni Rosini Pisa 25 MAGGIO 1831 ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "144548",
+                "ref": "pers-39",
+                "forename": "Giovanni",
+                "surname": "Rosini",
+                "persName": "Giovanni Rosini"
+            },
+            {
+                "key": "19161028847523741723",
+                "ref": "pers-43",
+                "forename": "Carlotta",
+                "surname": "Lenzoni de' Medici",
+                "persName": "Carlotta Lenzoni de' Medici"
+            },
+            {
+                "key": "68920700",
+                "ref": "pers-53",
+                "forename": "Gabriel Rudolphe Louis",
+                "surname": "de Sinner",
+                "persName": "Gabriel Rudolphe Louis de Sinner"
+            },
+            {
+                "key": "56647756",
+                "ref": "pers-56",
+                "forename": "Ippolito",
+                "surname": "Pindemonte",
+                "persName": "Ippolito Pindemonte"
+            },
+            {
+                "key": "95150108",
+                "ref": "pers-57",
+                "forename": "Alphonse Marie Louis",
+                "surname": "de Lamartine",
+                "persName": "Alphonse Marie Louis de Lamartine"
+            }
+        ],
+        "places": [
+            {
+                "key": "3176958",
+                "ref": "pla-6",
+                "placeName": "Firenze"
+            },
+            {
+                "key": "3170646",
+                "ref": "pla-11",
+                "placeName": "Pisa"
+            }
+        ],
+        "chat-gpt": [
+            [
+                "Giacomo Leopardi",
+                ":dateOfBirth",
+                "1798"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":dateOfDeath",
+                "1837"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":sentLetterTo",
+                "Giovanni Rosini"
+            ],
+            [
+                "Giovanni Rosini",
+                ":dateOfBirth",
+                "1776"
+            ],
+            [
+                "Giovanni Rosini",
+                ":dateOfDeath",
+                "1855"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":requested",
+                "autographs"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":writtenTo",
+                "Sinner"
+            ],
+            [
+                "Carlotta Lenzoni",
+                ":greeted",
+                "Giovanni Rosini"
+            ],
+            [
+                "Giovanni Rosini",
+                ":hasLetterFrom",
+                "Lamartine"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":location",
+                "Firenze"
+            ],
+            [
+                "Giovanni Rosini",
+                ":location",
+                "Pisa"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":dateOfLetter",
+                "24 May 1831"
+            ],
+            [
+                "Giovanni Rosini",
+                ":dateOfLetterReceived",
+                "25 May 1831"
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS Add.6210.29",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Monaldo Leopardi",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "2 pages ",
+        "orig_date": "8 Marzo 1832",
+        "orig_place": "Roma (3169069)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Leopardi, Monaldo, 1776-1847 (9709149068390265730006)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Leopardi, Monaldo, 1776-1847.  Roma 8 Marzo 1832 Mio caro Papà , I Dialoghetti , di cui la ringrazio di cuore, continuano qui ad essere ricercatissimi. Io non ne ho più in proprietà se non una copia, la quale però non so quando mi tornerà in mano. Mi dispiace molto di un falò del quale mi scrisse Paolina ; tanto più chio non posso credere che vi sia o vi sia stato veramente pericolo. Io, forse per con qualche mia colpa, ho ripreso un poco di febbre; la quale però, mediante un buon purgante, passò la sera del primo giorno, e mi lasciò un discreto raffreddor di petto, il quale pure colla cura e collo stare in casa, par che vada a finire: e spero che non m' impedirà di pormi in legno per Firenze , come ho intenzione di fare tra pochi giorni, se piace a Dio. Tornerò a scriverle prima della mia partenza, e gliel'annunzierò più precisamente. Matteo e D. Paolo, partito per Perugia , dove è stato mandato di stanza, mi raccomandano di riverirla. Così Fucili, il quale veggo non di rado; ottima persona e molto sensata a parer mio. Fui da donna Livia, la quale si loda moltissimo di Recanati , e massime delle attenzioni usatele da lei. Le auguro una buona Quaresima, e baciandole la mano la prego di cuore a benedirmi. Il suo Giacomo p. Luigi Al N. Nobil Uomo Sig. Signor Conte Monaldo Leopardi Recanati ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "9709149068390265730006",
+                "ref": "pers-14",
+                "forename": "Monaldo",
+                "surname": "Leopardi",
+                "persName": "Monaldo Leopardi"
+            },
+            {
+                "key": "29611067",
+                "ref": "pers-47",
+                "forename": "Paolina",
+                "surname": "Leopardi",
+                "persName": "Paolina Leopardi"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3169069",
+                "ref": "pla-2",
+                "placeName": "Roma"
+            },
+            {
+                "key": "3176958",
+                "ref": "pla-6",
+                "placeName": "Firenze"
+            },
+            {
+                "key": "6542125",
+                "ref": "pla-16",
+                "placeName": "Perugia"
+            }
+        ],
+        "chat-gpt": [
+            [
+                "Giacomo Leopardi",
+                ":dateOfBirth",
+                "1798"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":dateOfDeath",
+                "1837"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":wroteTo",
+                "Monaldo Leopardi"
+            ],
+            [
+                "Monaldo Leopardi",
+                ":dateOfBirth",
+                "1776"
+            ],
+            [
+                "Monaldo Leopardi",
+                ":dateOfDeath",
+                "1847"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":wroteFrom",
+                "Roma"
+            ],
+            [
+                "The letter",
+                ":date",
+                "8 Marzo 1832"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":mentions",
+                "I Dialoghetti"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":mentions",
+                "Paolina"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":mentionedHealthIssue",
+                "febbre"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":plannedToTravelTo",
+                "Firenze"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":mentions",
+                "Matteo"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":mentions",
+                "D. Paolo"
+            ],
+            [
+                "D. Paolo",
+                ":travelledTo",
+                "Perugia"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":mentions",
+                "Fucili"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":visited",
+                "donna Livia"
+            ],
+            [
+                "donna Livia",
+                ":praises",
+                "Recanati"
+            ],
+            [
+                "Monaldo Leopardi",
+                ":livesIn",
+                "Recanati"
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS Add.6210.31",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Giovanni Rosini",
+        "lang": "Italian",
+        "support": "Paper with dove in a circle watermark",
+        "extent": "2 pages ",
+        "orig_date": "Giugno 1832",
+        "orig_place": "Firenze (3176958)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Rosini, Giovanni, 1776-1855 (144548)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Rosini, Giovanni, 1776-1855.  maggio 1833. 5 4 A. Amico C. Carissimo Vi ringrazio caramente dei libri inviatimi in grazioso dono. Della Commedia non sapremmo che aggiungere Ranieri ed io al giudizio già pronunziatone dal pubblico, eccetto che a me pare che voi abbiate con questa introdotto nel teatro italiano un nuovo genere di dramma, che potrà esser coltivato con molto frutto. Il Saggio mi pare propriamente una bella cosa, pieno di quella erudizione letteraria che oggi è rarissima da per tutto, e piacevole molto a leggere, non ostante la copia delle citazioni, e l'aridità apparente della materia. Il desiderio di servir voi, e di leggere le cose vostre, mi fece esser corrente a promettere quello, che ora trovo assai difficile a mantenere. Voi sapete che il mio mal d'occhi e di nervi, da quando io leggeva la Monaca di Monza , è cresciuto sempre, tanto che ora non son più padrone di me stesso in ciò che appartiene a leggere e scrivere. Un giorno potrò far qualche cosa, e dieci non potrò far nulla, nemmeno leggere le lettere che ricevo. Tutti i miei amici aspettano le risposte per settimane e mesi, perch'io stesso debbo aspettare che gli occhi mi permettano di rispondere. In tale stato, come posso io assumere l'impegno di una corrispondenza regolare? Tanto più che quello, ch'io posso leggere e scrivere anco nelle migliori giornate, è sempre pochissimo. Vedete dunque che io promisi oltre alle mie facoltà, e conoscete bene che queste non son vane scuse. Del resto comandatemi quel che credete ch'io possa, che la volontà di servirvi non mancherà mai. Addio, addio. Ranieri vi saluta assai. ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "144548",
+                "ref": "pers-39",
+                "forename": "Giovanni",
+                "surname": "Rosini",
+                "persName": "Giovanni Rosini"
+            },
+            {
+                "key": "41882223",
+                "ref": "pers-63",
+                "forename": "Antonio",
+                "surname": "Ranieri",
+                "persName": "Antonio Ranieri"
+            }
+        ],
+        "places": [
+            {
+                "key": "3176958",
+                "ref": "pla-6",
+                "placeName": "Firenze"
+            },
+            {
+                "key": "3170646",
+                "ref": "pla-11",
+                "placeName": "Pisa"
+            }
+        ],
+        "chat-gpt": [
+            [
+                "Leopardi, Giacomo",
+                ":dateOfBirth",
+                "1798"
+            ],
+            [
+                "Leopardi, Giacomo",
+                ":dateOfDeath",
+                "1837"
+            ],
+            [
+                "Rosini, Giovanni",
+                ":dateOfBirth",
+                "1776"
+            ],
+            [
+                "Rosini, Giovanni",
+                ":dateOfDeath",
+                "1855"
+            ],
+            [
+                "Leopardi, Giacomo",
+                ":sentLetterOn",
+                "maggio 1833"
+            ],
+            [
+                "Leopardi, Giacomo",
+                ":sentLetterTo",
+                "Rosini, Giovanni"
+            ],
+            [
+                "Leopardi, Giacomo",
+                ":thankedFor",
+                "libri"
+            ],
+            [
+                "Leopardi, Giacomo",
+                ":mentionOfWork",
+                "Commedia"
+            ],
+            [
+                "Leopardi, Giacomo",
+                ":mentionOfWork",
+                "Saggio"
+            ],
+            [
+                "Leopardi, Giacomo",
+                ":sufferingFrom",
+                "mal d'occhi e di nervi"
+            ],
+            [
+                "Leopardi, Giacomo",
+                ":readBook",
+                "Monaca di Monza"
+            ],
+            [
+                "Ranieri",
+                ":gaveGreetings",
+                "Rosini, Giovanni"
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS Add.6210.32",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Monaldo Leopardi",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "2 pages ",
+        "orig_date": "24 Ott. 1832",
+        "orig_place": "Firenze (3176958)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Leopardi, Monaldo, 1776-1847 (9709149068390265730006)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Leopardi, Monaldo, 1776-1847.  24 Ott. Ottobre 1832 Caro Papà mio Torno in questo punto da una breve passeggiata che ho fatto dopo un mese giusto di ritiro. Sto sufficientemente, e spero che le forze mi torneranno presto, se la stagione mi lascerà fare un poco di moto. Non sono ancora deciso dove passar l'inverno, e la decisione dipenderà in gran parte dalla mia salute: ma benchè questo clima non sia eccellente, si può scusare con questo, che gli altri due reumi ultimi mi favorirono in Roma , non qui. Ranieri mi aveva già scritto da Roma l'incontro avuto, lodandosi della sua gentilezza. Aspetto a momenti l'esemplare del Bonafede, che deve già essere in Firenze . Caro Papà mio, scriverei più, ma gli occhi non mi concedono altro. Saluto tutti, e bacio a Lei affettuosamente la mano. Il suo Giacomo . Al N. Nobil U. Uomo Sig. Signor Conte Monaldo Leopardi Loreto per Recanati FIRENZE 28 OTTOBRE ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "9709149068390265730006",
+                "ref": "pers-14",
+                "forename": "Monaldo",
+                "surname": "Leopardi",
+                "persName": "Monaldo Leopardi"
+            },
+            {
+                "key": "41882223",
+                "ref": "pers-63",
+                "forename": "Antonio",
+                "surname": "Ranieri",
+                "persName": "Antonio Ranieri"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3169069",
+                "ref": "pla-2",
+                "placeName": "Roma"
+            },
+            {
+                "key": "3176958",
+                "ref": "pla-6",
+                "placeName": "Firenze"
+            },
+            {
+                "key": "6539726",
+                "ref": "pla-12",
+                "placeName": "Loreto"
+            }
+        ],
+        "chat-gpt": [
+            [
+                "Giacomo Leopardi",
+                ":dateOfBirth",
+                "1798"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":dateOfDeath",
+                "1837"
+            ],
+            [
+                "Monaldo Leopardi",
+                ":dateOfBirth",
+                "1776"
+            ],
+            [
+                "Monaldo Leopardi",
+                ":dateOfDeath",
+                "1847"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":wroteLetterTo",
+                "Monaldo Leopardi"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":dateOfLetter",
+                "24 Ottobre 1832"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":livesIn",
+                "Firenze"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":hasHealthCondition",
+                "Reumatismo"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":isUncertain",
+                "Dove passare l'inverno"
+            ],
+            [
+                "Ranieri",
+                ":isIn",
+                "Roma"
+            ],
+            [
+                "Ranieri",
+                ":wroteTo",
+                "Giacomo Leopardi"
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS Add.6210.33",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Feliciano Niccolini",
+        "lang": "Italian",
+        "support": "Paper with watermark",
+        "extent": "2 pages ",
+        "orig_date": "1833",
+        "orig_place": "Firenze (3176958)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Nicolini, Feliciano ()",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Nicolini, Feliciano.  Essendo affrettato di metter mano alla ristampa de' miei dialoghi, ed a ciò avendo assoluta necessità di quell'esemplare ch'è presso di Lei, solo che si trovi disponibile in tutta Firenze , la prego ad aver la bontà di rimandarmelo al più presto. Mi comandi e mi creda Suo obbl.mo obbligatissimo s.re servitore ed amico Leopardi . Al N. Nobil U. Uomo Il Sig. Signor Feliciano Niccolini Via del Corso ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "",
+                "ref": "pers-64",
+                "forename": "Feliciano",
+                "surname": "Niccolini",
+                "persName": "Feliciano Niccolini"
+            }
+        ],
+        "places": [
+            {
+                "key": "3176958",
+                "ref": "pla-6",
+                "placeName": "Firenze"
+            }
+        ],
+        "chat-gpt": [
+            [
+                "Giacomo Leopardi",
+                ":writeLetterTo",
+                "Feliciano Nicolini"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":yearOfBirth",
+                "1798"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":yearOfDeath",
+                "1837"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":location",
+                "Firenze"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":request",
+                "return of dialogues"
+            ],
+            [
+                "Feliciano Nicolini",
+                ":location",
+                "Via del Corso"
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS Add.6210.38",
+        "repo": "Cambridge University Library",
+        "title": "Letter from Giacomo Leopardi to Antonio Fortunato Stella",
+        "lang": "Italian",
+        "support": "Paper with double lily watermark",
+        "extent": "4 pages ",
+        "orig_date": "26 Febbraio 1821",
+        "orig_place": "Recanati (6541846)",
+        "sender": "Leopardi, Giacomo, 1798-1837 (12311353)",
+        "receiver": "Stella, Antonio Fortunato, 1757-1833 (51815878)",
+        "text": "Lettera di Leopardi, Giacomo, 1798-1837 a Stella, Antonio Fortunato, 1757-1833.  Recanati 26 Febbario 1821 Stimatissimo Signore La sua graditissima 14. andante mi giunse coll' ultimo ordinario e rispondo immediatamente. Vorrei ch'Ella si persuadesse [symbol standing for \"adding something\"] che il disturbo ch'Ella riceve per parte di mio padre , mi addolora e mi attrista infinitamente. Io non sono bene informato della cosa, ma tuttavia non solo non difendo mio padre, ma do schiettamente ragione a lei. Dirò sinceramente tutto quello che io so. Quando ella inviò a mio padre il conto, dal quale risultava il noto suo credito, vale a dire, due anni addietro e più, se non erro, mio padre me lo fece vedere; e quindi si pose ad esaminare le sue carte, per riscontrare le partite di quel conto. Io mi ricordo che nel conto erano scorsi parecchi errori. Per esempio, l'ultimo semestre dello Spettatore, cioè il secondo semestre del 1818. non ci era mai stato spedito. E una o due delle ultime spedizioni fatte a mio padre da Lei, o dal suo negozio, non sono state mai ricevute. Se mio padre allora le rispondesse, io non lo so; e d'allora in poi, sono affatto all'oscuro di quanto è passato fra lei e mio padre : se non che dall'ultima sua pregiatiss. pregiatissima intendo con sommo dispiacere, il rifiuto della cambiale, e il silenzio di mio padre . Io conosco il carattere di mio padre : e perciò non mi maraviglio della sua grande indolenza intorno agli affari propri. Io so ch'egli agisce colla stessa indolenza anche nelle cose che l'interessano sommamente, e nelle quali dovrebbe esser premuroso pel suo proprio vantaggio. Ne ho molti esempi, ed io medesimo ne sono uno. Se io avessi creduto di poterla servire presso mio padre , l'avrei fatto col possibile impegno. Ma conoscendo il suo modo di pensare, e sapendo ch'egli non ama che i figli prendano parte veruna agli affari suoi, ho veduto bene, che in vece di servirla, non avrei fatto che proccurare nuovi dispiaceri a me stesso. Ella non può figurarsi quanto io sia dolente di questo affare. Se non fossi un povero figlio di famiglia, vorrei subito soddisfarla di tutto io medesimo, come se si trattasse di un debito mio. V. S. Vostra Signoria si compiaccia di credermi, e di accertarsi che la puntualità in qualunque impegno, mi sta a cuore sopra ogni cosa. S'io posso servirla in qualche altro modo, coglierò con gioia l'occasione di mostrarle quanto vivamente io desideri la continuazione della sua amicizia. Ardisco sperare ch'Ella vorrà graziarmi di questa continuazione, e adoperarmi dov'io sia buono. Anzi ne la prego di tutto cuore. E con piena stima e sincerità mi confermo Suo D.mo Devotissimo Obbl.mo Obbligatissimo S.re Servitore Giacomo Leopardi . RECANATI All' Ill.mo Illustrissimo Signore Il Sig. Signor Antonio Fortunato Stella Milano ",
+        "persons": [
+            {
+                "key": "12311353",
+                "ref": "pers-1",
+                "forename": "Giacomo",
+                "surname": "Leopardi",
+                "persName": "Giacomo Leopardi"
+            },
+            {
+                "key": "51815878",
+                "ref": "pers-6",
+                "forename": "Antonio Fortunato",
+                "surname": "Stella",
+                "persName": "Antonio Fortunato Stella"
+            },
+            {
+                "key": "9709149068390265730006",
+                "ref": "pers-14",
+                "forename": "Monaldo",
+                "surname": "Leopardi",
+                "persName": "Monaldo Leopardi"
+            }
+        ],
+        "places": [
+            {
+                "key": "6541846",
+                "ref": "pla-1",
+                "placeName": "Recanati"
+            },
+            {
+                "key": "3173434",
+                "ref": "pla-3",
+                "placeName": "Milano"
+            }
+        ],
+        "chat-gpt": [
+            [
+                "Lettera di Leopardi, Giacomo",
+                ":dateOfWriting",
+                "1821-02-26"
+            ],
+            [
+                "Lettera di Leopardi, Giacomo",
+                ":sentTo",
+                "Stella, Antonio Fortunato"
+            ],
+            [
+                "Lettera di Leopardi, Giacomo",
+                ":placeOfWriting",
+                "Recanati"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":yearOfBirth",
+                "1798"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":yearOfDeath",
+                "1837"
+            ],
+            [
+                "Antonio Fortunato Stella",
+                ":yearOfBirth",
+                "1757"
+            ],
+            [
+                "Antonio Fortunato Stella",
+                ":yearOfDeath",
+                "1833"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":sentLetterTo",
+                "Antonio Fortunato Stella"
+            ],
+            [
+                "Giacomo Leopardi",
+                ":expressedFeelingInLetter",
+                "puntualità in qualunque impegno, mi sta a cuore sopra ogni cosa"
+            ]
+        ]
+    }
+]

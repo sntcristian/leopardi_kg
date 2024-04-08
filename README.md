@@ -14,7 +14,7 @@ our pipeline is presented below.
 
 ![Illustration of the KE approach used in this repository.](docs/cudl_approach.png)
 
-## Related Project
+## About
 
 The source code and data here published are the result of research studies for the digitization project related to the 
 manuscripts of Giacomo 

@@ -108,6 +108,8 @@ for row in data:
                 tail_uri = URIRef("http://example.org/"+re.sub("\W","_", pred_triple["tail"]))
                 if (head_uri, uri_property, tail_uri) in triples_added:
                     continue
+                elif head_uri==tail_uri:
+                    continue
                 else:
                     G.add((triple_uri, RDF.type, RDF.Statement))
                     G.add((triple_uri, RDF.subject, head_uri))
