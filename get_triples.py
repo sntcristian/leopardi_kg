@@ -122,7 +122,7 @@ for row in data:
     result_entry["gpt_answer"] = triples_lst
     results.append(result_entry)
     pbar.update(1)
-    
+
     # To get triples from raw text
     # result_entry["text"]=row["text"]
     # raw_text = row["text"]
