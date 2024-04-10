@@ -83,6 +83,46 @@ results = []
 for row in data:
     result_entry = dict()
     result_entry["id_doc"]=row["id_doc"]
+    gpt_triples = row["chat-gpt"]
+    output_triples_set = set()
+    for triple in gpt_triples:
+        prop = triple[1]
+        new_prop = ""
+        for char in prop:
+            if char==":":
+                continue
+            elif char.islower() == True:
+                new_prop+=char
+            else:
+                new_prop+=" "+char.lower()
+        triple_string1 = " ".join([triple[0], new_prop, triple[2]])
+        model_inputs = tokenizer(triple_string1, max_length=256, padding=True, truncation=True, return_tensors='pt')
+        generated_tokens = model.generate(
+            model_inputs["input_ids"].to(model.device),
+            attention_mask=model_inputs["attention_mask"].to(model.device),
+            **gen_kwargs,
+        )
+
+        # Extract text
+        decoded_preds = tokenizer.batch_decode(generated_tokens, skip_special_tokens=False)
+        # Extract triplets
+        for sentence in decoded_preds:
+            triples = extract_triplets(sentence)
+            for pred_triple in triples:
+                triple_string2 = "<" + pred_triple["head"] + "> <" + pred_triple["type"] + "> <" + pred_triple[
+                    "tail"] + ">"
+                embedding1 = sentence_transformer.encode(triple_string1, convert_to_tensor=True)
+                embedding2 = sentence_transformer.encode(triple_string2, convert_to_tensor=True)
+                similarity = util.pytorch_cos_sim(embedding1, embedding2)
+                if similarity.item() >= 0.9 and (pred_triple["head"]==triple[0] or pred_triple["head"]==triple[2]):
+
+                    properties.add(pred_triple["type"])
+                    output_triples_set.add(triple_string2)
+    triples_lst = list(output_triples_set)
+    result_entry["gpt_answer"] = triples_lst
+    results.append(result_entry)
+    pbar.update(1)
+    
     # To get triples from raw text
     # result_entry["text"]=row["text"]
     # raw_text = row["text"]
@@ -132,45 +172,7 @@ for row in data:
     #         output_triples_set.add(triple_string)
     # triples_lst = list(output_triples_set)
     # result_entry["gpt_answer"]=triples_lst
-    gpt_triples = row["chat-gpt"]
-    output_triples_set = set()
-    for triple in gpt_triples:
-        prop = triple[1]
-        new_prop = ""
-        for char in prop:
-            if char==":":
-                continue
-            elif char.islower() == True:
-                new_prop+=char
-            else:
-                new_prop+=" "+char.lower()
-        triple_string1 = " ".join([triple[0], new_prop, triple[2]])
-        model_inputs = tokenizer(triple_string1, max_length=256, padding=True, truncation=True, return_tensors='pt')
-        generated_tokens = model.generate(
-            model_inputs["input_ids"].to(model.device),
-            attention_mask=model_inputs["attention_mask"].to(model.device),
-            **gen_kwargs,
-        )
 
-        # Extract text
-        decoded_preds = tokenizer.batch_decode(generated_tokens, skip_special_tokens=False)
-        # Extract triplets
-        for sentence in decoded_preds:
-            triples = extract_triplets(sentence)
-            for pred_triple in triples:
-                triple_string2 = "<" + pred_triple["head"] + "> <" + pred_triple["type"] + "> <" + pred_triple[
-                    "tail"] + ">"
-                embedding1 = sentence_transformer.encode(triple_string1, convert_to_tensor=True)
-                embedding2 = sentence_transformer.encode(triple_string2, convert_to_tensor=True)
-                similarity = util.pytorch_cos_sim(embedding1, embedding2)
-                if similarity.item() >= 0.9 and (pred_triple["head"]==triple[0] or pred_triple["head"]==triple[2]):
-
-                    properties.add(pred_triple["type"])
-                    output_triples_set.add(triple_string2)
-        pbar.update(1)
-    triples_lst = list(output_triples_set)
-    result_entry["gpt_answer"] = triples_lst
-    results.append(result_entry)
 
 
 
