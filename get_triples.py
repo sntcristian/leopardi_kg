@@ -3,6 +3,7 @@ import json
 from tqdm import tqdm
 from sentence_transformers import SentenceTransformer, util
 import torch
+import requests
 
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 print(device)
@@ -72,7 +73,7 @@ gen_kwargs = {
 sentence_transformer = SentenceTransformer('all-MiniLM-L6-v2')
 
 properties = set()
-with open("data_gpt4_all.json", "r", encoding="utf-8") as f:
+with open("data/data_gpt4.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 pbar = tqdm(total=len(data))
@@ -159,44 +160,45 @@ for row in data:
             for pred_triple in triples:
                 triple_string2 = "<" + pred_triple["head"] + "> <" + pred_triple["type"] + "> <" + pred_triple[
                     "tail"] + ">"
-                properties.add(pred_triple["type"])
                 embedding1 = sentence_transformer.encode(triple_string1, convert_to_tensor=True)
                 embedding2 = sentence_transformer.encode(triple_string2, convert_to_tensor=True)
                 similarity = util.pytorch_cos_sim(embedding1, embedding2)
                 if similarity.item() >= 0.9 and (pred_triple["head"]==triple[0] or pred_triple["head"]==triple[2]):
-                    print(triple_string1, triple_string2, similarity.item())
+
+                    properties.add(pred_triple["type"])
                     output_triples_set.add(triple_string2)
+        pbar.update(1)
     triples_lst = list(output_triples_set)
     result_entry["gpt_answer"] = triples_lst
     results.append(result_entry)
 
 
 
-with open("results_gpt4_test3.json", "w", encoding="utf-8") as f:
+with open("results/results_gpt4.json", "w", encoding="utf-8") as f:
     json.dump(results, f, indent=4, ensure_ascii=False)
 
-# url = 'https://query.wikidata.org/sparql'
-#
-# property_to_id = {}
-# for property in properties:
-#     query = '''
-#     SELECT ?prop
-#     WHERE
-#     {
-#       ?prop wikibase:directClaim ?a .
-#       ?prop rdfs:label ?propLabel.
-#       filter(lang(?propLabel) = "en")
-#       filter(regex(?propLabel, "^'''+property+'''$", "i")).
-#     }
-#     '''
-#     r = requests.get(url, headers={'User-Agent': 'LeopardiBot'}, params={'format': 'json', 'query': query})
-#     result = r.json()["results"]["bindings"]
-#     if len(result) > 0:
-#         q_id = result[0]["prop"]["value"]
-#         print(q_id)
-#         property_to_id[property]=q_id
-#
-# with open("properties_test.json", "w", encoding="utf-8") as f:
-#     json.dump(property_to_id, f, indent=4, ensure_ascii=False)
+url = 'https://query.wikidata.org/sparql'
+
+property_to_id = {}
+for property in properties:
+    query = '''
+    SELECT ?prop
+    WHERE
+    {
+      ?prop wikibase:directClaim ?a .
+      ?prop rdfs:label ?propLabel.
+      filter(lang(?propLabel) = "en")
+      filter(regex(?propLabel, "^'''+property+'''$", "i")).
+    }
+    '''
+    r = requests.get(url, headers={'User-Agent': 'LeopardiBot'}, params={'format': 'json', 'query': query})
+    result = r.json()["results"]["bindings"]
+    if len(result) > 0:
+        q_id = result[0]["prop"]["value"]
+        print(q_id)
+        property_to_id[property]=q_id
+
+with open("data/properties_gpt4.json", "w", encoding="utf-8") as f:
+    json.dump(property_to_id, f, indent=4, ensure_ascii=False)
 
 
