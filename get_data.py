@@ -89,7 +89,7 @@ def parse_tei(xml_file_path):
 # Usa api key personale
 client = OpenAI(
     # defaults to os.environ.get("OPENAI_API_KEY")
-    api_key=""
+    api_key="put your OpenAI API Key"
 )
 
 
@@ -123,5 +123,5 @@ for tei_doc in glob.glob("xml_tei/*.txt"):
         pbar.update(1)
         continue
 
-with open("data_gpt4.json", "w", encoding="utf-8") as f:
+with open("data/data_gpt4.json", "w", encoding="utf-8") as f:
     json.dump(lst_of_dict, f, ensure_ascii=False, indent=4)
