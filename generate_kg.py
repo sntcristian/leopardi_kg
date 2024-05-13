@@ -146,4 +146,4 @@ for row1, row2 in zip(data, results):
 #     pbar.update(1)
 #
 # G.bind('crm', crm)
-G.serialize(destination="results/leopardi_cudl_test.ttl")
+G.serialize(destination="results/leopardi_cudl_gpt4.ttl")

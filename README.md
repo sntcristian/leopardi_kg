@@ -8,7 +8,7 @@ The automatically extracted Knowledge Graph is available in this [Turtle File](r
 
 ## Pipeline
 
-The Knowledge Graph was extracted by using Babelscape's [mREBEL](https://huggingface.co/Babelscape/mrebel-large) 
+The Knowledge Graph was extracted by using Babelscape's [REBEL](https://huggingface.co/Babelscape/rebel-large) 
 jointly with ChatGPT, which was used to pre-process the Italian text in natural language triples. An illustration of 
 our pipeline is presented below.
 
