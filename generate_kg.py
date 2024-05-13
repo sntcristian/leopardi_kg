@@ -62,9 +62,9 @@ for row1, row2 in zip(data, results):
         if id_property:
             triple_id += 1
             triple_uri = URIRef("http://example.org/statement_" + str(triple_id))
-            uri_property = URIRef("http://example.org/" + re.sub("\W", "_", item_lst[1]))
-            head_uri = URIRef("http://example.org/" + re.sub("\W", "_", item_lst[0]))
-            tail_uri = URIRef("http://example.org/" + re.sub("\W", "_", item_lst[2]))
+            uri_property = URIRef("http://example.org/property/" + re.sub("\W", "_", item_lst[1]))
+            head_uri = URIRef("http://example.org/entity/" + re.sub("\W", "_", item_lst[0]))
+            tail_uri = URIRef("http://example.org/entity/" + re.sub("\W", "_", item_lst[2]))
             if (head_uri, uri_property, tail_uri) in triples_added:
                 continue
             elif head_uri == tail_uri:
@@ -146,4 +146,4 @@ for row1, row2 in zip(data, results):
 #     pbar.update(1)
 #
 # G.bind('crm', crm)
-G.serialize(destination="results/leopardi_cudl_gpt4.ttl")
+G.serialize(destination="results/leopardi_cudl_final.ttl")
