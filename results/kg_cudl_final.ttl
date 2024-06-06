@@ -4,7 +4,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://example.org/MS-ADD-06210-00001> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00001> a crm:E31_Document ;
     dcterms:created """19. Maggio 1816. -
                         20 Maggio"""@it ;
     dcterms:extent "2 pages"@it ;
@@ -12,285 +12,159 @@
     dcterms:title "Letter from Giacomo Leopardi to Francesco Cancellieri"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00001/1> .
 
-<http://example.org/MS-ADD-06210-00002> a crm:E31_Document ;
-    dcterms:created "15. Novembre 1816."@it ;
-    dcterms:extent "2 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Giacomo Leopardi to Antonio Fortunato Stella"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00002/1> .
-
-<http://example.org/MS-ADD-06210-00003> a crm:E31_Document ;
-    dcterms:created "25. Novembre 1816."@it ;
-    dcterms:extent "4 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Giacomo Leopardi to Francesco Cancellieri"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00003/1> .
-
-<http://example.org/MS-ADD-06210-00004> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00004> a crm:E31_Document ;
     dcterms:created "9. Decembre 1816."@it ;
     dcterms:extent "4 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Giacomo Leopardi to Francesco Cancellieri"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00004/1> .
 
-<http://example.org/MS-ADD-06210-00005> a crm:E31_Document ;
-    dcterms:created "5 Decembre 1817"@it ;
-    dcterms:extent "4 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Giacomo Leopardi to Niccolò Capurro"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00005/1> .
-
-<http://example.org/MS-ADD-06210-00006> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00006> a crm:E31_Document ;
     dcterms:created "14. Dec.bre 1818."@it ;
     dcterms:extent "4 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Giacomo Leopardi to Francesco Cancellieri"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00006/1> .
 
-<http://example.org/MS-ADD-06210-00007> a crm:E31_Document ;
-    dcterms:created "10 Luglio 1820"@it ;
-    dcterms:extent "4 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Giacomo Leopardi to Giuseppe Zacchia"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00007/1> .
-
-<http://example.org/MS-ADD-06210-00008> a crm:E31_Document ;
-    dcterms:created "13 Maggio 1822."@it ;
-    dcterms:extent "4 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Giacomo Leopardi to Giuseppe Melchiorri"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00008/1> .
-
-<http://example.org/MS-ADD-06210-00009> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00009> a crm:E31_Document ;
     dcterms:created "7 Giugno 1822."@it ;
     dcterms:extent "2 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Giacomo Leopardi to Giuseppe Melchiorri"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00009/1> .
 
-<http://example.org/MS-ADD-06210-00010> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00010> a crm:E31_Document ;
     dcterms:created "24 Giugno 1822."@it ;
     dcterms:extent "2 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Giacomo Leopardi to Giuseppe Melchiorri"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00010/1> .
 
-<http://example.org/MS-ADD-06210-00011> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00011> a crm:E31_Document ;
     dcterms:created "27 Giugno 1823."@it ;
     dcterms:extent "2 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Giacomo Leopardi to Giuseppe Melchiorri"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00011/1> .
 
-<http://example.org/MS-ADD-06210-00012> a crm:E31_Document ;
-    dcterms:created "14. Novembre 1823."@it ;
-    dcterms:extent "2 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Giacomo Leopardi to Giuseppe Melchiorri"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00012/1> .
-
-<http://example.org/MS-ADD-06210-00013> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00013> a crm:E31_Document ;
     dcterms:created "2. Gen. 1824."@it ;
     dcterms:extent "2 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Giacomo Leopardi to Giuseppe Melchiorri"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00013/1> .
 
-<http://example.org/MS-ADD-06210-00014> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00014> a crm:E31_Document ;
     dcterms:created "8. Gennaio 1825."@it ;
     dcterms:extent "4 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Giacomo Leopardi to Giuseppe Melchiorri"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00014/1> .
 
-<http://example.org/MS-ADD-06210-00015> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00015> a crm:E31_Document ;
     dcterms:created "18 Gen. 1826."@it ;
     dcterms:extent "2 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Giacomo Leopardi to Giuseppe Melchiorri"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00015/1> .
 
-<http://example.org/MS-ADD-06210-00016> a crm:E31_Document ;
-    dcterms:created "26 Marzo 1826"@it ;
-    dcterms:extent "2 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Giacomo Leopardi to Antonio Fortunato Stella"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00016/1> .
-
-<http://example.org/MS-ADD-06210-00017> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00017> a crm:E31_Document ;
     dcterms:created "23 Maggio 1827"@it ;
     dcterms:extent "2 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Giacomo Leopardi to Antonio Fortunato Stella"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00017/1> .
 
-<http://example.org/MS-ADD-06210-00018> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00018> a crm:E31_Document ;
     dcterms:created "23 Giugno 1827"@it ;
     dcterms:extent "2 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Giacomo Leopardi to Monaldo Leopardi"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00018/1> .
 
-<http://example.org/MS-ADD-06210-00019> a crm:E31_Document ;
-    dcterms:created "28 Giugno 1828"@it ;
-    dcterms:extent "4 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Giacomo Leopardi to Carlo Emanuele Muzzarelli"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00019/1> .
-
-<http://example.org/MS-ADD-06210-00020> a crm:E31_Document ;
-    dcterms:created "3 Settembre 1828"@it ;
-    dcterms:extent "2 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Giacomo Leopardi to Giovanni Rosini"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00020/1> .
-
-<http://example.org/MS-ADD-06210-00021> a crm:E31_Document ;
-    dcterms:created "8 Novembre 1828"@it ;
-    dcterms:extent "4 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Giacomo Leopardi to Carlo Emanuele Muzzarelli"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00021/1> .
-
-<http://example.org/MS-ADD-06210-00022> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00022> a crm:E31_Document ;
     dcterms:created "28 Nov. 1828."@it ;
     dcterms:extent "2 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Giacomo Leopardi to Giovanni Rosini"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00022/1> .
 
-<http://example.org/MS-ADD-06210-00023> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00023> a crm:E31_Document ;
     dcterms:created "19 Aprile 1829"@it ;
     dcterms:extent "2 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Giacomo Leopardi to Giovanni Rosini"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00023/1> .
 
-<http://example.org/MS-ADD-06210-00024> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00024> a crm:E31_Document ;
     dcterms:created "28 Giug."@it ;
     dcterms:extent "2 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Giacomo Leopardi to Paolina Leopardi"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00024/1> .
 
-<http://example.org/MS-ADD-06210-00025> a crm:E31_Document ;
-    dcterms:created "24 Maggio 1831"@it ;
-    dcterms:extent "2 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Giacomo Leopardi to Giovanni Rosini"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00025/1> .
-
-<http://example.org/MS-ADD-06210-00026> a crm:E31_Document ;
-    dcterms:created "15 Giugno 1831"@it ;
-    dcterms:extent "2 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Giacomo Leopardi to Giovanni Rosini"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00026/1> .
-
-<http://example.org/MS-ADD-06210-00027> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00027> a crm:E31_Document ;
     dcterms:created "26 Luglio 1831"@it ;
     dcterms:extent "4 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Giacomo Leopardi to Mario Valdrighi"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00027/1> .
 
-<http://example.org/MS-ADD-06210-00028> a crm:E31_Document ;
-    dcterms:created "26 Luglio 1831"@it ;
-    dcterms:extent "2 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Annex to the previous letter from Giacomo Leopardi to Mario Valdrighi"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00028/1> .
-
-<http://example.org/MS-ADD-06210-00029> a crm:E31_Document ;
-    dcterms:created "8 Marzo 1832"@it ;
-    dcterms:extent "2 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Giacomo Leopardi to Monaldo Leopardi"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00029/1> .
-
-<http://example.org/MS-ADD-06210-00030> a crm:E31_Document ;
-    dcterms:created "14 Agosto 1832"@it ;
-    dcterms:extent "2 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Giacomo Leopardi to Monaldo Leopardi"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00030/1> .
-
-<http://example.org/MS-ADD-06210-00031> a crm:E31_Document ;
-    dcterms:created "Giugno 1832"@it ;
-    dcterms:extent "2 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Giacomo Leopardi to Giovanni Rosini"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00031/1> .
-
-<http://example.org/MS-ADD-06210-00032> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00032> a crm:E31_Document ;
     dcterms:created "24 Ott. 1832"@it ;
     dcterms:extent "2 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Giacomo Leopardi to Monaldo Leopardi"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00032/1> .
 
-<http://example.org/MS-ADD-06210-00033> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00033> a crm:E31_Document ;
     dcterms:created "1833"@it ;
     dcterms:extent "2 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Giacomo Leopardi to Feliciano Niccolini"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00033/1> .
 
-<http://example.org/MS-ADD-06210-00034> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00034> a crm:E31_Document ;
     dcterms:created "1814"@it ;
     dcterms:extent "4 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Notes taken and translated from Fabricius"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00034/1> .
 
-<http://example.org/MS-ADD-06210-00035> a crm:E31_Document ;
-    dcterms:created "1813"@it ;
-    dcterms:extent "2 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Fragment of a translation from the Greek literature"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00035/1> .
-
-<http://example.org/MS-ADD-06210-00036> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00036> a crm:E31_Document ;
     dcterms:created "6 Decembre 1816."@it ;
     dcterms:extent "2 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Giacomo Leopardi to Antonio Fortunato Stella"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00036/1> .
 
-<http://example.org/MS-ADD-06210-00037> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00037> a crm:E31_Document ;
     dcterms:created "20. X.bre 1816."@it ;
     dcterms:extent "4 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Giacomo Leopardi to Francesco Cancellieri"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00037/1> .
 
-<http://example.org/MS-ADD-06210-00038> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00038> a crm:E31_Document ;
     dcterms:created "26 Febbraio 1821"@it ;
     dcterms:extent "4 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Giacomo Leopardi to Antonio Fortunato Stella"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00038/1> .
 
-<http://example.org/MS-ADD-06210-00039> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00039> a crm:E31_Document ;
     dcterms:created "30. del 1829."@it ;
     dcterms:extent "4 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Monaldo Leopardi to Giuseppe Politi"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00039/1> .
 
-<http://example.org/MS-ADD-06210-00040> a crm:E31_Document ;
+<http://example.org/document/MS-ADD-06210-00040> a crm:E31_Document ;
     dcterms:created "5 12/64"@it ;
     dcterms:extent "4 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Paolina Leopardi to Amalia"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00040/1> .
-
-<http://example.org/MS-ADD-06210-00041> a crm:E31_Document ;
-    dcterms:created "8 X.bre 1852"@it ;
-    dcterms:extent "4 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Paolina Leopardi and Filippo Castiglioni to Filippo Raffaelli"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00041/1> .
 
 <http://example.org/statement_1> a rdf:Statement ;
     rdfs:label "<Salterio Italianizzato> <author> <Giacomo Leopardi>"@en ;
@@ -544,6 +418,62 @@
     rdf:predicate <http://example.org/property/located_in_the_administrative_territorial_entity> ;
     rdf:subject <http://example.org/entity/Niccolò_Capurro> .
 
+<http://example.org/document/MS-ADD-06210-00007> a crm:E31_Document ;
+    dcterms:created "10 Luglio 1820"@it ;
+    dcterms:extent "4 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Letter from Giacomo Leopardi to Giuseppe Zacchia"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00007/1> .
+
+<http://example.org/document/MS-ADD-06210-00016> a crm:E31_Document ;
+    dcterms:created "26 Marzo 1826"@it ;
+    dcterms:extent "2 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Letter from Giacomo Leopardi to Antonio Fortunato Stella"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00016/1> .
+
+<http://example.org/document/MS-ADD-06210-00019> a crm:E31_Document ;
+    dcterms:created "28 Giugno 1828"@it ;
+    dcterms:extent "4 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Letter from Giacomo Leopardi to Carlo Emanuele Muzzarelli"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00019/1> .
+
+<http://example.org/document/MS-ADD-06210-00020> a crm:E31_Document ;
+    dcterms:created "3 Settembre 1828"@it ;
+    dcterms:extent "2 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Letter from Giacomo Leopardi to Giovanni Rosini"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00020/1> .
+
+<http://example.org/document/MS-ADD-06210-00021> a crm:E31_Document ;
+    dcterms:created "8 Novembre 1828"@it ;
+    dcterms:extent "4 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Letter from Giacomo Leopardi to Carlo Emanuele Muzzarelli"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00021/1> .
+
+<http://example.org/document/MS-ADD-06210-00029> a crm:E31_Document ;
+    dcterms:created "8 Marzo 1832"@it ;
+    dcterms:extent "2 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Letter from Giacomo Leopardi to Monaldo Leopardi"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00029/1> .
+
+<http://example.org/document/MS-ADD-06210-00030> a crm:E31_Document ;
+    dcterms:created "14 Agosto 1832"@it ;
+    dcterms:extent "2 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Letter from Giacomo Leopardi to Monaldo Leopardi"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00030/1> .
+
+<http://example.org/document/MS-ADD-06210-00031> a crm:E31_Document ;
+    dcterms:created "Giugno 1832"@it ;
+    dcterms:extent "2 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Letter from Giacomo Leopardi to Giovanni Rosini"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00031/1> .
+
 <http://example.org/entity/Accademia_Trudentina> a owl:Thing ;
     rdfs:label "Accademia Trudentina"@en .
 
@@ -655,6 +585,34 @@
     rdfs:label "subclass of"@en ;
     rdfs:seeAlso <http://www.wikidata.org/entity/P279> .
 
+<http://example.org/document/MS-ADD-06210-00008> a crm:E31_Document ;
+    dcterms:created "13 Maggio 1822."@it ;
+    dcterms:extent "4 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Letter from Giacomo Leopardi to Giuseppe Melchiorri"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00008/1> .
+
+<http://example.org/document/MS-ADD-06210-00012> a crm:E31_Document ;
+    dcterms:created "14. Novembre 1823."@it ;
+    dcterms:extent "2 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Letter from Giacomo Leopardi to Giuseppe Melchiorri"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00012/1> .
+
+<http://example.org/document/MS-ADD-06210-00025> a crm:E31_Document ;
+    dcterms:created "24 Maggio 1831"@it ;
+    dcterms:extent "2 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Letter from Giacomo Leopardi to Giovanni Rosini"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00025/1> .
+
+<http://example.org/document/MS-ADD-06210-00041> a crm:E31_Document ;
+    dcterms:created "8 X.bre 1852"@it ;
+    dcterms:extent "4 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Letter from Paolina Leopardi and Filippo Castiglioni to Filippo Raffaelli"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00041/1> .
+
 <http://example.org/entity/Auditor_of_the_Sacred_Rota> a owl:Thing ;
     rdfs:label "Auditor of the Sacred Rota"@en .
 
@@ -697,6 +655,34 @@
     rdfs:label "spouse"@en ;
     rdfs:seeAlso <http://www.wikidata.org/entity/P26> .
 
+<http://example.org/document/MS-ADD-06210-00003> a crm:E31_Document ;
+    dcterms:created "25. Novembre 1816."@it ;
+    dcterms:extent "4 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Letter from Giacomo Leopardi to Francesco Cancellieri"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00003/1> .
+
+<http://example.org/document/MS-ADD-06210-00005> a crm:E31_Document ;
+    dcterms:created "5 Decembre 1817"@it ;
+    dcterms:extent "4 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Letter from Giacomo Leopardi to Niccolò Capurro"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00005/1> .
+
+<http://example.org/document/MS-ADD-06210-00028> a crm:E31_Document ;
+    dcterms:created "26 Luglio 1831"@it ;
+    dcterms:extent "2 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Annex to the previous letter from Giacomo Leopardi to Mario Valdrighi"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00028/1> .
+
+<http://example.org/document/MS-ADD-06210-00035> a crm:E31_Document ;
+    dcterms:created "1813"@it ;
+    dcterms:extent "2 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Fragment of a translation from the Greek literature"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00035/1> .
+
 <http://example.org/entity/personMentioned> a owl:Thing ;
     rdfs:label "personMentioned"@en .
 
@@ -707,6 +693,20 @@
 <http://example.org/property/position_held> a owl:ObjectProperty ;
     rdfs:label "position held"@en ;
     rdfs:seeAlso <http://www.wikidata.org/entity/P39> .
+
+<http://example.org/document/MS-ADD-06210-00002> a crm:E31_Document ;
+    dcterms:created "15. Novembre 1816."@it ;
+    dcterms:extent "2 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Letter from Giacomo Leopardi to Antonio Fortunato Stella"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00002/1> .
+
+<http://example.org/document/MS-ADD-06210-00026> a crm:E31_Document ;
+    dcterms:created "15 Giugno 1831"@it ;
+    dcterms:extent "2 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Letter from Giacomo Leopardi to Giovanni Rosini"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00026/1> .
 
 <http://example.org/property/notable_work> a owl:ObjectProperty ;
     rdfs:label "notable work"@en ;

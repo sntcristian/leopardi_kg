@@ -46,12 +46,12 @@ for row1, row2 in zip(data, results):
     language = row1["lang"]
     orig_date = row1["orig_date"]
     extent = row1["extent"]
-    G.add((URIRef("http://example.org/"+id_doc), RDF.type, crm.E31_Document))
-    G.add((URIRef("http://example.org/"+id_doc), DCTERMS.title, Literal(title, lang="en")))
-    G.add((URIRef("http://example.org/" + id_doc), DCTERMS.language, Literal(language, lang="en")))
-    G.add((URIRef("http://example.org/" + id_doc), DCTERMS.created, Literal(orig_date, lang="it")))
-    G.add((URIRef("http://example.org/" + id_doc), DCTERMS.extent, Literal(extent, lang="it")))
-    G.add((URIRef("http://example.org/" + id_doc), crm.P212_has_display_uri,
+    G.add((URIRef("http://example.org/document/"+id_doc), RDF.type, crm.E31_Document))
+    G.add((URIRef("http://example.org/document/"+id_doc), DCTERMS.title, Literal(title, lang="en")))
+    G.add((URIRef("http://example.org/document/" + id_doc), DCTERMS.language, Literal(language, lang="en")))
+    G.add((URIRef("http://example.org/document/" + id_doc), DCTERMS.created, Literal(orig_date, lang="it")))
+    G.add((URIRef("http://example.org/document/" + id_doc), DCTERMS.extent, Literal(extent, lang="it")))
+    G.add((URIRef("http://example.org/document/" + id_doc), crm.P212_has_display_uri,
            URIRef("https://cudl.lib.cam.ac.uk/view/" + id_doc+"/1")))
     gpt_triples = row2["gpt_answer"]
     for triple in gpt_triples:
