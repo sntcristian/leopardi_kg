@@ -4,7 +4,7 @@
 This repository contains data and source code for a prototypical Knowledge Extraction application for the 
 manuscripts of Leopardi preserved at the [Cambridge University Digital Library](https://cudl.lib.cam.ac.uk/collections/leopardi/1).
 
-The automatically extracted Knowledge Graph is available in this [Turtle File](results/leopardi_cudl.ttl).
+The automatically extracted Knowledge Graph is available in this [Turtle File](results/kg_cudl.ttl).
 
 ## Pipeline
 
