@@ -1,0 +1,1968 @@
+[
+    {
+        "id_doc": "MS-ADD-06210-00001",
+        "gpt_answer": [
+            [
+                "<Programma> <author> <Cornelio Frontone di Freytag>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <relative> <Francesco Cancellieri>",
+                0
+            ],
+            [
+                "<Programma> <founded by> <Francesco Cancellieri>",
+                0
+            ],
+            [
+                "<Programma> <owned by> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<his wife> <spouse> <Carlo Antici>",
+                0
+            ],
+            [
+                "<Carlo Antici> <spouse> <his wife>",
+                0
+            ],
+            [
+                "<Francesco Cancellieri> <relative> <Carlo Antici>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00002",
+        "gpt_answer": [
+            [
+                "<Salterio Italianizzato> <author> <Giacomo Leopardi>",
+                1
+            ],
+            [
+                "<Il Bifolchetto> <part of> <Libretto del Mosco>",
+                1
+            ],
+            [
+                "<Discorso preliminare> <publisher> <Spettatore>",
+                0
+            ],
+            [
+                "<Spettatore> <author> <Salterio Italianizzato>",
+                1
+            ],
+            [
+                "<Batracomiomachia> <publisher> <Spettatore>",
+                0
+            ],
+            [
+                "<Discorso preliminare> <participant> <Mosco>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <influenced by> <Sig.Tosi>",
+                0
+            ],
+            [
+                "<Porphyrii, Eusebii, Philonis Iudaei Opera et Fragmenta novissime detecta> <publication date> <1816>",
+                0
+            ],
+            [
+                "<Saggio di traduzione> <located in the administrative territorial entity> <Mosco>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <relative> <Antonio Fortunato Stella>",
+                0
+            ],
+            [
+                "<Epigramma sopra Amore> <part of> <Libretto del Mosco>",
+                1
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00003",
+        "gpt_answer": [
+            [
+                "<Francesco Cancellieri> <work location> <Rome>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <relative> <Francesco Cancellieri>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <member of political party> <Antici>",
+                0
+            ],
+            [
+                "<assembly cost> <part of> <Printing cost breakdown>",
+                0
+            ],
+            [
+                "<Printing cost breakdown> <facet of> <printing cost>",
+                0
+            ],
+            [
+                "<composition cost> <subclass of> <Printing cost breakdown>",
+                1
+            ],
+            [
+                "<Libretto delle Inscrizioni Triopee> <author> <Giacomo Leopardi>",
+                1
+            ],
+            [
+                "<Giacomo Leopardi> <position held> <President of Italy>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <notable work> <Libretto delle Inscrizioni Triopee>",
+                1
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00004",
+        "gpt_answer": [
+            [
+                "<Giacomo Leopardi> <employer> <Abate Amati>",
+                0
+            ],
+            [
+                "<Francesco Cancellieri> <work location> <Rome>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <relative> <Francesco Cancellieri>",
+                0
+            ],
+            [
+                "<Codex Vaticanus> <author> <Heschelio>",
+                0
+            ],
+            [
+                "<Francesco Cancellieri> <medical condition treated> <indispositions>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <member of> <Abate Amati>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <field of work> <manuscript>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <student> <Francesco Cancellieri>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <employer> <Francesco Cancellieri>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <employer> <Contedini>",
+                0
+            ],
+            [
+                "<Francesco Cancellieri> <influenced by> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<De Romanis> <author> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <employer> <Sig. De Romanis>",
+                0
+            ],
+            [
+                "<Herodes Atticus> <notable work> <Inscrizioni Triopee>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <participant in> <expedition>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00005",
+        "gpt_answer": [
+            [
+                "<Lettere sopra la condotta di Bonaparte a Sant'Elena> <author> <Unknown>",
+                1
+            ],
+            [
+                "<London> <language used> <English>",
+                0
+            ],
+            [
+                "<Niccolò Capurro> <located in the administrative territorial entity> <Pisa>",
+                1
+            ],
+            [
+                "<Giacomo Leopardi> <student> <Niccolò Capurro>",
+                0
+            ],
+            [
+                "<Lettere sopra la condotta di Bonaparte a Sant'Elena> <author> <Chirurgo Warden>",
+                1
+            ],
+            [
+                "<Niccolò Capurro> <student of> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Lettere sopra la condotta di Bonaparte a Sant'Elena> <language of work or name> <English>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00006",
+        "gpt_answer": [
+            [
+                "<Manuscript> <author> <Francesco Cancellieri>",
+                0
+            ],
+            [
+                "<Francesco Cancellieri> <significant event> <ongoing pain>",
+                0
+            ],
+            [
+                "<Francesco Cancellieri> <student of> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Francesco Cancellieri> <work location> <Rome>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <relative> <Francesco Cancellieri>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <field of work> <Printing>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <student> <Francesco Cancellieri>",
+                0
+            ],
+            [
+                "<ongoing pain> <participant> <Francesco Cancellieri>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00007",
+        "gpt_answer": [
+            [
+                "<Giuseppe Antonio Zacchia> <work location> <Ascoli>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <member of> <Accademia Trudentina>",
+                0
+            ],
+            [
+                "<Giuseppe Antonio Zacchia> <student> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giuseppe Antonio Zacchia> <influenced by> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <instance of> <humility>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <field of work> <gratitude>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <movement> <Academicians>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <member of> <Accademia Trudentina>",
+                1
+            ],
+            [
+                "<Giuseppe Antonio Zacchia> <member of> <Accademia Trudentina>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00008",
+        "gpt_answer": [
+            [
+                "<Giuseppe Melchiorri> <influenced by> <Strabo>",
+                0
+            ],
+            [
+                "<Vocabolario della Crusca> <author> <Cesari>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <influenced by> <Melchiorri's>",
+                0
+            ],
+            [
+                "<Vocabolario della Crusca> <composer> <Giuseppe Melchiorri>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <significant event> <health issues>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <notable work> <Greek inscription judged by Giacomo Leopardi>",
+                1
+            ],
+            [
+                "<Giuseppe Melchiorri> <influenced by> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giuseppe Melchiorri> <work location> <Rome>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <employer> <Vocabolario della Crusca>",
+                0
+            ],
+            [
+                "<Nibby's translation of Strabo> <author> <Giacomo Leopardi>",
+                1
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00009",
+        "gpt_answer": [
+            [
+                "<Giuseppe Melchiorri> <occupation> <poet>",
+                0
+            ],
+            [
+                "<Giuseppe Melchiorri> <work location> <Rome>",
+                0
+            ],
+            [
+                "<Giuseppe Melchiorri> <influenced by> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <notable work> <ingombrare>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <notable work> <uncertainty about printed poems>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00010",
+        "gpt_answer": [
+            [
+                "<Giacomo Leopardi> <field of work> <Archaeology>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <work location> <Rome>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <member of political party> <Cav. Visconti>",
+                0
+            ],
+            [
+                "<Giuseppe Melchiorri> <influenced by> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giuseppe Melchiorri> <work location> <Rome>",
+                0
+            ],
+            [
+                "<Carlo Leopardi> <relative> <Giuseppe Melchiorri>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <father> <his father>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <place of birth> <Cav. Visconti>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <field of work> <Numismatic>",
+                0
+            ],
+            [
+                "<Giuseppe Melchiorri> <relative> <Carlo Leopardi>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00011",
+        "gpt_answer": [
+            [
+                "<Giacomo Leopardi> <position held> <Registro>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <work location> <Rome>",
+                0
+            ],
+            [
+                "<Osservazioni eusebiane> <editor> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <field of work> <manuscript>",
+                0
+            ],
+            [
+                "<Osservazioni eusebiane> <author> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giuseppe Melchiorri> <influenced by> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giuseppe Melchiorri> <work location> <Rome>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <employer> <carrier>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00012",
+        "gpt_answer": [
+            [
+                "<Giacomo Leopardi> <notable work> <Vatican inscriptions project>",
+                1
+            ],
+            [
+                "<Giacomo Leopardi> <field of work> <studies>",
+                0
+            ],
+            [
+                "<Giuseppe Melchiorri> <influenced by> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giuseppe Melchiorri> <work location> <Rome>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <position held> <Cardinal>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <work location> <Eusebian>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <occupation> <friendship>",
+                0
+            ],
+            [
+                "<Vatican inscriptions project> <creator> <Giacomo Leopardi>",
+                1
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00013",
+        "gpt_answer": [
+            [
+                "<Giacomo Leopardi> <residence> <post office>",
+                0
+            ],
+            [
+                "<Errata for Eusebian work> <author> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giuseppe Melchiorri> <relative> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <significant event> <lost letter>",
+                0
+            ],
+            [
+                "<Giuseppe Melchiorri> <influenced by> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giuseppe Melchiorri> <work location> <Rome>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <significant event> <New Year's wishes>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00014",
+        "gpt_answer": [
+            [
+                "<Giuseppe Melchiorri> <work location> <Rome>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <ethnic group> <Arcadians>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <work location> <Eusebian>",
+                0
+            ],
+            [
+                "<Giuseppe Melchiorri> <influenced by> <Giacomo Leopardi>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00015",
+        "gpt_answer": [
+            [
+                "<Varianti Lagomarsiniane> <composer> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <residence> <Teatro del Corso>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <place of birth> <Furlanetto>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <work location> <Bologna>",
+                0
+            ],
+            [
+                "<Giuseppe Melchiorri> <influenced by> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <place of birth> <Bologna>",
+                0
+            ],
+            [
+                "<Giuseppe Melchiorri> <work location> <Rome>",
+                0
+            ],
+            [
+                "<Canzoni> <student> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <member of sports team> <Orioli>",
+                0
+            ],
+            [
+                "<Giordani> <genre> <sonnets>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00016",
+        "gpt_answer": [
+            [
+                "<Giacomo Leopardi> <employer> <Moratti>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <field of work> <manuscript>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <spouse> <Madama Padovani>",
+                0
+            ],
+            [
+                "<Collection of Moralist Works> <author> <Giacomo Leopardi>",
+                1
+            ],
+            [
+                "<Madama Padovani> <spouse> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <relative> <Antonio Fortunato Stella>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <influenced by> <Antonio Fortunato Stella>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00017",
+        "gpt_answer": [
+            [
+                "<Madama Padovani> <place of birth> <Bologna>",
+                0
+            ],
+            [
+                "<Antonio Fortunato Stella> <relative> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Sig. Moratti> <student> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <member of sports team> <Antonio Fortunato Stella>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <place of birth> <Bologna>",
+                0
+            ],
+            [
+                "<Madama Padovani> <owned by> <landlord>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <relative> <Antonio Fortunato Stella>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <student of> <Sig. Moratti>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00018",
+        "gpt_answer": [
+            [
+                "<flussion d'occhi> <medical condition treated> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Lettera> <author> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Lettera> <location of formation> <Firenze>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <medical condition treated> <flussion d'occhi>",
+                0
+            ],
+            [
+                "<San Giovanni Battista> <located in the administrative territorial entity> <Giugno>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <place of birth> <Bologna>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <work location> <Firenze>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00019",
+        "gpt_answer": [
+            [
+                "<Carlo Emmanuele Muzzarelli> <student of> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Monaldo Leopardi> <position held> <Tribunal of the Rota>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <student> <Carlo Emmanuele Muzzarelli>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <employer> <Carlo Emmanuele Muzzarelli>",
+                0
+            ],
+            [
+                "<Michele Moroni> <influenced by> <Monaldo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <influenced by> <Muzzarelli>",
+                0
+            ],
+            [
+                "<Carlo Emmanuele Muzzarelli> <position held> <Auditor of the Sacred Rota>",
+                1
+            ],
+            [
+                "<Giacomo Leopardi> <work location> <Florence>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <influenced by> <Carlo Emmanuele Muzzarelli>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <place of birth> <Florence>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <family> <family>",
+                0
+            ],
+            [
+                "<Carlo Emmanuele Muzzarelli> <work location> <Rome>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00020",
+        "gpt_answer": [
+            [
+                "<Giacomo Leopardi> <country of citizenship> <Italian>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <student> <Giovanni Rosini>",
+                0
+            ],
+            [
+                "<Capitolo del villano> <presenter> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giovanni Rosini> <student of> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <notable work> <chapter beautiful and good>",
+                1
+            ],
+            [
+                "<Giacomo Leopardi> <place of birth> <Florence>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00021",
+        "gpt_answer": [
+            [
+                "<Giacomo Leopardi> <relative> <Carlo Emmanuele Muzzarelli>",
+                0
+            ],
+            [
+                "<Carlo Emmanuele Muzzarelli> <position held> <Auditor of the Sacred Rota>",
+                1
+            ],
+            [
+                "<Giacomo Leopardi> <significant event> <poor health>",
+                0
+            ],
+            [
+                "<Signora Lenzoni> <employer> <Leopardi's>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <influenced by> <Carlo Emmanuele Muzzarelli>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <place of birth> <Florence>",
+                0
+            ],
+            [
+                "<Carlo Emmanuele Muzzarelli> <work location> <Rome>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00022",
+        "gpt_answer": [
+            [
+                "<Giacomo Leopardi> <significant event> <personal health update>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <student> <Giovanni Rosini>",
+                0
+            ],
+            [
+                "<Giovanni Rosini> <student of> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Recanati> <named after> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <significant event> <death>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <spouse> <Lauretta>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <influenced by> <Rosini>",
+                0
+            ],
+            [
+                "<Giovanni Rosini> <place of death> <location unknown>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <occupation> <innkeeper>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00023",
+        "gpt_answer": [
+            [
+                "<Giacomo Leopardi> <significant event> <personal health update>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <student> <Giovanni Rosini>",
+                0
+            ],
+            [
+                "<Giovanni Rosini> <student of> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Recanati> <named after> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <significant event> <death>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <spouse> <Lauretta>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <influenced by> <Rosini>",
+                0
+            ],
+            [
+                "<Giovanni Rosini> <place of death> <location unknown>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <occupation> <innkeeper>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00024",
+        "gpt_answer": [
+            [
+                "<Giacomo Leopardi> <field of work> <social visits>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <participant in> <recovery from cold>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <spouse> <Madame Laura Parra>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <spouse> <Paolina Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <relative> <General Colletta>",
+                0
+            ],
+            [
+                "<Paolina Leopardi> <spouse> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <employer> <General Colletta>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <place of birth> <Florence>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00024",
+        "gpt_answer": [
+            [
+                "<Giacomo Leopardi> <field of work> <social visits>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <participant in> <recovery from cold>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <spouse> <Madame Laura Parra>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <spouse> <Paolina Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <relative> <General Colletta>",
+                0
+            ],
+            [
+                "<Paolina Leopardi> <spouse> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <employer> <General Colletta>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <place of birth> <Florence>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00025",
+        "gpt_answer": [
+            [
+                "<24 Gennaio> <instance of> <Sinner date>",
+                0
+            ],
+            [
+                "<Giovanni Rosini> <field of work> <correspondence>",
+                0
+            ],
+            [
+                "<Sinner> <author> <Giovanni Rosini>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <student> <Giovanni Rosini>",
+                0
+            ],
+            [
+                "<Giovanni Rosini> <student of> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giovanni Rosini> <spouse> <Luisa Strozzi>",
+                1
+            ],
+            [
+                "<Luisa Strozzi> <spouse> <Giovanni Rosini>",
+                1
+            ],
+            [
+                "<FIRENZE> <instance of> <Letter location>",
+                0
+            ],
+            [
+                "<Sinner> <composer> <Giovanni Rosini>",
+                0
+            ],
+            [
+                "<Sinner> <place of birth> <Parigi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <field of work> <autograph>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00026",
+        "gpt_answer": [
+            [
+                "<Giovanni Rosini> <country of citizenship> <Italian>",
+                0
+            ],
+            [
+                "<Carlotta Lenzoni> <spouse> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <spouse> <Carlotta Lenzoni>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <student> <Giovanni Rosini>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <significant event> <Forgetfulness>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <notable work> <Sinner>",
+                1
+            ],
+            [
+                "<Giovanni Rosini> <student of> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Sinner> <author> <Giacomo Leopardi>",
+                1
+            ],
+            [
+                "<Giacomo Leopardi> <notable work> <betrayal by French translator>",
+                1
+            ],
+            [
+                "<Giovanni Rosini> <relative> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<betrayal by French translator> <author> <Giacomo Leopardi>",
+                1
+            ],
+            [
+                "<Giacomo Leopardi> <influenced by> <Lamartine>",
+                0
+            ],
+            [
+                "<FIRENZE> <instance of> <Letter>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <field of work> <autograph>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00027",
+        "gpt_answer": [
+            [
+                "<Giacomo Leopardi> <influenced by> <Mario Valdrighi>",
+                0
+            ],
+            [
+                "<Mario Valdrighi> <place of birth> <Modena>",
+                0
+            ],
+            [
+                "<Giovanni Galvani> <relative> <Mario Valdrighi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <relative> <Mario Valdrighi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <member of political party> <FIRENZE>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <influenced by> <Francesco Galvani>",
+                0
+            ],
+            [
+                "<MostDesiredAutographs> <has part> <Volta>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <work location> <Modena>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <member of sports team> <Juventus>",
+                0
+            ],
+            [
+                "<Mario Valdrighi> <position held> <Conte>",
+                0
+            ],
+            [
+                "<Francesco Galvani> <relative> <Mario Valdrighi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <field of work> <autograph>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00028",
+        "gpt_answer": [
+            [
+                "<poetry> <subclass of> <work>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <relative> <Mario Valdrighi>",
+                0
+            ],
+            [
+                "<Anton Domenico Gabbiani> <instance of> <personMentioned>",
+                1
+            ],
+            [
+                "<Antonio Cocchi> <occupation> <writing>",
+                0
+            ],
+            [
+                "<botanist> <instance of> <field of expertise>",
+                0
+            ],
+            [
+                "<Gio. Fabbroni> <instance of> <personMentioned>",
+                0
+            ],
+            [
+                "<Magliabechi> <instance of> <personMentioned>",
+                0
+            ],
+            [
+                "<Consalvi> <instance of> <personMentioned>",
+                0
+            ],
+            [
+                "<personMentioned> <position held> <King of Prussia>",
+                0
+            ],
+            [
+                "<Cadmo> <located in the administrative territorial entity> <Bagnoli>",
+                0
+            ],
+            [
+                "<naturalists> <instance of> <field of expertise>",
+                0
+            ],
+            [
+                "<Sismondi> <instance of> <personMentioned>",
+                0
+            ],
+            [
+                "<Luigi Canali> <field of work> <naturalist>",
+                0
+            ],
+            [
+                "<Hnuboldt> <instance of> <personMentioned>",
+                0
+            ],
+            [
+                "<Gasparo Mazzi> <field of work> <naturalist>",
+                0
+            ],
+            [
+                "<Boerhaave> <instance of> <personMentioned>",
+                0
+            ],
+            [
+                "<Pietro Pietrini> <instance of> <personMentioned>",
+                1
+            ],
+            [
+                "<Giuseppe Mojon> <instance of> <personMentioned>",
+                1
+            ],
+            [
+                "<Lafayette> <instance of> <personMentioned>",
+                0
+            ],
+            [
+                "<Filicaia> <genre> <sonnet>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00029",
+        "gpt_answer": [
+            [
+                "<Giacomo Leopardi> <spouse> <Paolina Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <relative> <Monaldo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <work location> <Firenze>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <has effect> <fever>",
+                0
+            ],
+            [
+                "<Monaldo Leopardi> <spouse> <Donna Livia>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <place of birth> <Roma>",
+                0
+            ],
+            [
+                "<Donna Livia> <spouse> <Monaldo Leopardi>",
+                0
+            ],
+            [
+                "<Donna Livia> <member of> <Recanati>",
+                0
+            ],
+            [
+                "<Paolina Leopardi> <spouse> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Dialoghetti> <author> <Giacomo Leopardi>",
+                1
+            ],
+            [
+                "<Monaldo Leopardi> <relative> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Monaldo Leopardi> <sibling> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Monaldo Leopardi> <member of sports team> <Monteo>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <subject has role> <treatment purgative>",
+                0
+            ],
+            [
+                "<Luigi> <said to be the same as> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <said to be the same as> <Luigi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <sibling> <Monaldo Leopardi>",
+                0
+            ],
+            [
+                "<Dialoghetti> <author> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Dialoghetti> <student> <Giacomo Leopardi>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00030",
+        "gpt_answer": [
+            [
+                "<Bill of Exchange> <number of participants> <20>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <sibling> <Monaldo Leopardi>",
+                0
+            ],
+            [
+                "<Monaldo Leopardi> <sibling> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <place of birth> <Roma>",
+                0
+            ],
+            [
+                "<Monaldo Leopardi> <child> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Toscana> <language used> <Dialoghi>",
+                0
+            ],
+            [
+                "<24 francesconi> <instance of> <bill of exchange>",
+                0
+            ],
+            [
+                "<Luigi Giambene> <position held> <General Secretary of the Pontifical Posts>",
+                1
+            ],
+            [
+                "<Monaldo Leopardi> <field of work> <new works>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <child> <Monaldo Leopardi>",
+                0
+            ],
+            [
+                "<Abate La Mennais> <occupation> <speaker>",
+                0
+            ],
+            [
+                "<Bill of Exchange> <author> <Luigi Giambene>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <father> <Monaldo Leopardi>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00031",
+        "gpt_answer": [
+            [
+                "<Commedia> <subclass of> <Italian theatre>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <notable work> <gratitude for books>",
+                1
+            ],
+            [
+                "<Giovanni Rosini> <student> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <position held> <Cardinal>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <position held> <President of Italy>",
+                0
+            ],
+            [
+                "<Giovanni Rosini> <employer> <Commedia>",
+                0
+            ],
+            [
+                "<Giovanni Rosini> <student> <Ranieri>",
+                0
+            ],
+            [
+                "<Saggio> <genre> <erudite>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <medical condition treated> <eye and nerve disease>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00032",
+        "gpt_answer": [
+            [
+                "<Giacomo Leopardi> <work location> <Rome>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <field of work> <writing limited by eye condition>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <sibling> <Monaldo Leopardi>",
+                0
+            ],
+            [
+                "<Monaldo Leopardi> <sibling> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <sport> <football>",
+                0
+            ],
+            [
+                "<kindness received> <facet of> <kindness>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <sports discipline competed in> <walk>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <ethnic group> <Roma>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <relative> <Monaldo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <work location> <Firenze>",
+                0
+            ],
+            [
+                "<FIRENZE> <instance of> <Letter>",
+                0
+            ],
+            [
+                "<health> <subclass of> <decision>",
+                0
+            ],
+            [
+                "<Monaldo Leopardi> <relative> <Giacomo Leopardi>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00033",
+        "gpt_answer": [
+            [
+                "<Giacomo Leopardi> <student> <Feliciano Nicolini>",
+                0
+            ],
+            [
+                "<Feliciano Nicolini> <student of> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Via del Corso> <instance of> <Letter>",
+                0
+            ],
+            [
+                "<Feliciano Nicolini> <operator> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <genre> <dialogues>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00034",
+        "gpt_answer": [
+            [
+                "<New Comedy Poets> <has part> <Diphilus>",
+                0
+            ],
+            [
+                "<Tragic Poets> <has part> <Euripides>",
+                0
+            ],
+            [
+                "<Old Comedy Poets> <has part> <Cratinus>",
+                0
+            ],
+            [
+                "<Erennio Filone> <publisher> <Crestomat>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <relative> <Monaldo Leopardi>",
+                0
+            ],
+            [
+                "<Astrology> <discoverer or inventor> <Chaldeans>",
+                0
+            ],
+            [
+                "<Old Comedy Poets> <has part> <Epicharmus>",
+                0
+            ],
+            [
+                "<Old Comedy Poets> <has part> <Aristophanes>",
+                0
+            ],
+            [
+                "<Tragic Poets> <has part> <Ion>",
+                0
+            ],
+            [
+                "<New Comedy Poets> <has part> <Philippides>",
+                0
+            ],
+            [
+                "<New Comedy Poets> <has part> <Menander>",
+                0
+            ],
+            [
+                "<Simonides> <has part> <ί>",
+                0
+            ],
+            [
+                "<Arithmetic> <discoverer or inventor> <Phoenicians>",
+                0
+            ],
+            [
+                "<Old Comedy Poets> <has part> <Pherecrates>",
+                0
+            ],
+            [
+                "<Monaldo Leopardi> <relative> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<New Comedy Poets> <has part> <Philemon>",
+                0
+            ],
+            [
+                "<Tragic Poets> <has part> <Aeschylus>",
+                0
+            ],
+            [
+                "<New Comedy Poets> <has part> <Apollodorus>",
+                0
+            ],
+            [
+                "<Old Comedy Poets> <has part> <Plato>",
+                0
+            ],
+            [
+                "<Tragic Poets> <has part> <Acheo>",
+                0
+            ],
+            [
+                "<Semonides> <has part> <η>",
+                0
+            ],
+            [
+                "<Music> <discoverer or inventor> <Thracians>",
+                0
+            ],
+            [
+                "<Proclo> <population> <10>",
+                0
+            ],
+            [
+                "<Tragic Poets> <has part> <Sophocles>",
+                0
+            ],
+            [
+                "<Iambic Poets> <has part> <Simonides>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00035",
+        "gpt_answer": [
+            [
+                "<Soul> <subclass of> <force>",
+                0
+            ],
+            [
+                "<Pythagoras> <field of work> <number mover>",
+                0
+            ],
+            [
+                "<Corinthians> <author> <Paul the Apostle>",
+                1
+            ],
+            [
+                "<Soul> <has part> <elements>",
+                0
+            ],
+            [
+                "<Soul> <said to be the same as> <water>",
+                0
+            ],
+            [
+                "<Pleasure> <part of> <soul>",
+                0
+            ],
+            [
+                "<Paul the Apostle> <notable work> <Corinthians>",
+                0
+            ],
+            [
+                "<Critique on Philosophers> <author> <Giacomo Leopardi>",
+                1
+            ],
+            [
+                "<Soul> <said to be the same as> <mind>",
+                0
+            ],
+            [
+                "<Stoics> <named after> <Soul>",
+                0
+            ],
+            [
+                "<Pleasure> <opposite of> <evil>",
+                0
+            ],
+            [
+                "<Soul> <said to be the same as> <spirit>",
+                0
+            ],
+            [
+                "<Philosophical Views> <publication date> <3000>",
+                0
+            ],
+            [
+                "<Soul> <creator> <Heraclitus>",
+                0
+            ],
+            [
+                "<Soul> <subclass of> <harmony>",
+                0
+            ],
+            [
+                "<Angels' Transgression> <main subject> <philosophical discord>",
+                0
+            ],
+            [
+                "<Soul> <subclass of> <vapor>",
+                0
+            ],
+            [
+                "<Soul> <said to be the same as> <monad>",
+                0
+            ],
+            [
+                "<Mockery of the Gentile Philosophers> <author> <Hermias>",
+                1
+            ],
+            [
+                "<Soul> <said to be the same as> <fire>",
+                0
+            ],
+            [
+                "<Soul> <said to be the same as> <blood>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00036",
+        "gpt_answer": [
+            [
+                "<Recanati> <author> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <educated at> <9th course>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <field of work> <critiques>",
+                0
+            ],
+            [
+                "<Monaldo Leopardi> <relative> <Antonio Fortunato Stella>",
+                0
+            ],
+            [
+                "<Pindar's translation by Mazza> <author> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <sibling> <brother>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <influenced by> <Bellini>",
+                0
+            ],
+            [
+                "<Antonio Fortunato Stella> <student> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Monaldo Leopardi> <field of work> <collation>",
+                0
+            ],
+            [
+                "<Stella> <spouse> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <spouse> <Stella>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00037",
+        "gpt_answer": [
+            [
+                "<Francesco Cancellieri> <student of> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Recanati> <author> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <influenced by> <Cancellieri>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <genre> <scudi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <student> <Francesco Cancellieri>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <field of work> <scudi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <employer> <Zio Antici>",
+                0
+            ],
+            [
+                "<Angelo Mai> <work location> <Milan>",
+                0
+            ],
+            [
+                "<Fiocchi> <work location> <Milan>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <work in> <published>",
+                0
+            ],
+            [
+                "<translation of Iliad> <author> <Fiocchi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <work location> <Milan>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00038",
+        "gpt_answer": [
+            [
+                "<Recanati> <author> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <student> <Antonio Fortunato Stella>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <field of work> <debt>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <facet of> <punctuality>",
+                0
+            ],
+            [
+                "<Antonio Fortunato Stella> <student> <Giacomo Leopardi>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <father> <Antonio Fortunato Stella>",
+                0
+            ],
+            [
+                "<Giacomo Leopardi> <relative> <Antonio Fortunato Stella>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00039",
+        "gpt_answer": [
+            [
+                "<Giuseppe Politi> <influenced by> <Monaldo Leopardi>",
+                0
+            ],
+            [
+                "<Monaldo Leopardi> <influenced by> <Monsignor Brignole>",
+                0
+            ],
+            [
+                "<Monaldo Leopardi> <member of political party> <Giuseppe Politi>",
+                0
+            ],
+            [
+                "<Monaldo Leopardi> <position held> <Archdeacon>",
+                0
+            ],
+            [
+                "<Monaldo Leopardi> <present in work> <Sala>",
+                0
+            ],
+            [
+                "<Monaldo Leopardi> <employer> <Sala>",
+                0
+            ],
+            [
+                "<Roma> <author> <Monaldo Leopardi>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00040",
+        "gpt_answer": [
+            [
+                "<Amalia> <spouse> <Abate Della Vecchia>",
+                0
+            ],
+            [
+                "<Paolina Leopardi> <spouse> <Amalia's>",
+                0
+            ],
+            [
+                "<Abate Della Vecchia> <spouse> <Amalia>",
+                0
+            ],
+            [
+                "<Paolina Leopardi> <spouse> <Teresa>",
+                0
+            ],
+            [
+                "<Paolina Leopardi> <spouse> <Amalia>",
+                0
+            ],
+            [
+                "<Amalia> <mother> <Paolina Leopardi>",
+                0
+            ],
+            [
+                "<Carlo> <spouse> <Amalia>",
+                0
+            ],
+            [
+                "<Amalia> <spouse> <Teresa>",
+                0
+            ],
+            [
+                "<Amalia> <spouse> <Carlo>",
+                0
+            ],
+            [
+                "<Teresa> <spouse> <Amalia>",
+                0
+            ],
+            [
+                "<Recanati> <narrative location> <Paolina Leopardi>",
+                0
+            ],
+            [
+                "<Paolina Leopardi> <main subject> <misfortune>",
+                0
+            ],
+            [
+                "<Paolina Leopardi> <notable work> <Amalia's>",
+                0
+            ],
+            [
+                "<Amalia> <spouse> <Paolina Leopardi>",
+                0
+            ],
+            [
+                "<Paolina Leopardi> <child> <Amalia>",
+                0
+            ]
+        ]
+    },
+    {
+        "id_doc": "MS-ADD-06210-00041",
+        "gpt_answer": [
+            [
+                "<Canonico Vogel> <residence> <Leopardi>",
+                0
+            ],
+            [
+                "<Paolina Leopardi> <notable work> <Raffaelli's letter collection>",
+                0
+            ],
+            [
+                "<Recanati> <architect> <Canonico Vogel>",
+                0
+            ],
+            [
+                "<Paolina Leopardi> <spouse> <Filippo Raffaelli>",
+                0
+            ],
+            [
+                "<Canonico Vogel> <work location> <Loreto>",
+                0
+            ],
+            [
+                "<First Document> <publication date> <June 1151>",
+                0
+            ],
+            [
+                "<Vogel's Memorabilia> <collection> <Bishop's Chancellery of Macerata>",
+                1
+            ],
+            [
+                "<Last Document> <publication date> <18 May 1806>",
+                0
+            ],
+            [
+                "<Paolina Leopardi> <sibling> <her brother>",
+                0
+            ],
+            [
+                "<Filippo Solari> <field of work> <jealously guarding the manuscripts>",
+                0
+            ],
+            [
+                "<Filippo Raffaelli> <spouse> <Paolina Leopardi>",
+                0
+            ],
+            [
+                "<Commentario Storico de Ecclesiis Recanatensi et Lauretana> <author> <Canonico Vogel>",
+                1
+            ],
+            [
+                "<Recanati> <narrative location> <Paolina Leopardi>",
+                0
+            ],
+            [
+                "<Commentario Storico de Ecclesiis Recanatensi et Lauretana> <instance of> <manuscript>",
+                0
+            ],
+            [
+                "<Vogel's Memorabilia> <instance of> <Memorabilia>",
+                0
+            ],
+            [
+                "<Canonico Vogel> <place of death> <Loreto>",
+                0
+            ]
+        ]
+    }
+]

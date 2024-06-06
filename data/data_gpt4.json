@@ -61,10 +61,6 @@
             }
         ],
         "chat-gpt": [
-          ["Giacomo Leopardi", ":dateOfBirth", "1798"],
-          ["Giacomo Leopardi", ":dateOfDeath", "1837"],
-          ["Francesco Cancellieri", ":dateOfBirth", "1751"],
-          ["Francesco Cancellieri", ":dateOfDeath", "1826"],
           ["Giacomo Leopardi", ":sentLetterTo", "Francesco Cancellieri"],
           ["Giacomo Leopardi", ":request", "information"],
           ["Marco Cor. Cornelio Frontone di Freytag", ":authorOf", "Programma"],
@@ -126,10 +122,6 @@
               }
           ],
           "chat-gpt": [
-            ["Giacomo Leopardi", ":dateOfBirth", "1798"],
-            ["Giacomo Leopardi", ":dateOfDeath", "1837"],
-            ["Antonio Fortunato Stella", ":dateOfBirth", "1757"],
-            ["Antonio Fortunato Stella", ":dateOfDeath", "1833"],
             ["Giacomo Leopardi", ":sentLetterTo", "Antonio Fortunato Stella"],
             ["Giacomo Leopardi", ":location", "Recanati"],
             ["Giacomo Leopardi", ":dateOfLetter", "15 November 1816"],
@@ -196,10 +188,6 @@
             }
         ],
         "chat-gpt": [
-          ["Giacomo Leopardi", ":dateOfBirth", "1798"],
-          ["Giacomo Leopardi", ":dateOfDeath", "1837"],
-          ["Francesco Cancellieri", ":dateOfBirth", "1751"],
-          ["Francesco Cancellieri", ":dateOfDeath", "1826"],
           ["Giacomo Leopardi", ":sentLetterTo", "Francesco Cancellieri"],
           ["Letter", ":date", "25 November 1816"],
           ["Cav. Antici", ":sharedLetterParagraphWith", "Giacomo Leopardi"],
@@ -474,10 +462,6 @@
             }
         ],
         "chat-gpt":[
-          ["Giacomo Leopardi", ":dateOfBirth", "1798"],
-          ["Giacomo Leopardi", ":dateOfDeath", "1837"],
-          ["Francesco Cancellieri", ":dateOfBirth", "1751"],
-          ["Francesco Cancellieri", ":dateOfDeath", "1826"],
           ["Giacomo Leopardi", ":sentLetterTo", "Francesco Cancellieri"],
           ["Giacomo Leopardi", ":dateOfLetter", "14 December 1818"],
           ["Giacomo Leopardi", ":expressesGratitudeFor", "Francesco Cancellieri's diligence"],
@@ -829,10 +813,6 @@
             }
         ],
         "chat-gpt":[
-          ["Giacomo Leopardi", ":dateOfBirth", "1798"],
-          ["Giacomo Leopardi", ":dateOfDeath", "1837"],
-          ["Giuseppe Melchiorri", ":dateOfBirth", "1796"],
-          ["Giuseppe Melchiorri", ":dateOfDeath", "1855"],
           ["Giacomo Leopardi", ":sentLetterTo", "Giuseppe Melchiorri"],
           ["Giacomo Leopardi", ":dateOfLetter", "24 June 1822"],
           ["Giacomo Leopardi", ":expressesGratitudeTo", "Cav. Visconti"],
@@ -914,10 +894,6 @@
             }
         ],
         "chat-gpt":[
-          ["Giacomo Leopardi", ":dateOfBirth", "1798"],
-          ["Giacomo Leopardi", ":dateOfDeath", "1837"],
-          ["Giuseppe Melchiorri", ":dateOfBirth", "1796"],
-          ["Giuseppe Melchiorri", ":dateOfDeath", "1855"],
           ["Giacomo Leopardi", ":sentLetterTo", "Giuseppe Melchiorri"],
           ["Giacomo Leopardi", ":dateOfLetter", "27 June 1823"],
           ["Giacomo Leopardi", ":expressesConcernOver", "lack of correspondence from Giuseppe Melchiorri"],
@@ -975,10 +951,6 @@
             }
         ],
         "chat-gpt":[
-          ["Giacomo Leopardi", ":dateOfBirth", "1798"],
-          ["Giacomo Leopardi", ":dateOfDeath", "1837"],
-          ["Giuseppe Melchiorri", ":dateOfBirth", "1796"],
-          ["Giuseppe Melchiorri", ":dateOfDeath", "1855"],
           ["Giacomo Leopardi", ":sentLetterTo", "Giuseppe Melchiorri"],
           ["Giacomo Leopardi", ":dateOfLetter", "14 November 1823"],
           ["Giacomo Leopardi", ":acknowledges", "lack of correspondence"],
@@ -1043,10 +1015,6 @@
             }
         ],
         "chat-gpt": [
-          ["Giacomo Leopardi", ":dateOfBirth", "1798"],
-          ["Giacomo Leopardi", ":dateOfDeath", "1837"],
-          ["Giuseppe Melchiorri", ":dateOfBirth", "1796"],
-          ["Giuseppe Melchiorri", ":dateOfDeath", "1855"],
           ["Giacomo Leopardi", ":sentLetterTo", "Giuseppe Melchiorri"],
           ["Giacomo Leopardi", ":dateOfLetter", "2 January 1824"],
           ["Giacomo Leopardi", ":mentionsPreviousLetterContaining", "Errata for Eusebian work"],
@@ -1116,10 +1084,6 @@
             }
         ],
         "chat-gpt":[
-          ["Giacomo Leopardi", ":dateOfBirth", "1798"],
-          ["Giacomo Leopardi", ":dateOfDeath", "1837"],
-          ["Giuseppe Melchiorri", ":dateOfBirth", "1796"],
-          ["Giuseppe Melchiorri", ":dateOfDeath", "1855"],
           ["Giacomo Leopardi", ":sentLetterTo", "Giuseppe Melchiorri"],
           ["Giacomo Leopardi", ":dateOfLetter", "8 January 1825"],
           ["Giacomo Leopardi", ":expressesGratitudeFor", "information on Aeschylus and Amaduzzi"],
@@ -1207,10 +1171,6 @@
             }
         ],
         "chat-gpt":[
-          ["Giacomo Leopardi", ":dateOfBirth", "1798"],
-          ["Giacomo Leopardi", ":dateOfDeath", "1837"],
-          ["Giuseppe Melchiorri", ":dateOfBirth", "1796"],
-          ["Giuseppe Melchiorri", ":dateOfDeath", "1855"],
           ["Giacomo Leopardi", ":sentLetterTo", "Giuseppe Melchiorri"],
           ["Giacomo Leopardi", ":dateOfLetter", "18 January 1826"],
           ["Giacomo Leopardi", ":thanksFor", "Varianti Lagomarsiniane"],
@@ -1285,10 +1245,6 @@
             }
         ],
         "chat-gpt":[
-          ["Giacomo Leopardi", ":dateOfBirth", "1798"],
-          ["Giacomo Leopardi", ":dateOfDeath", "1837"],
-          ["Antonio Fortunato Stella", ":dateOfBirth", "1757"],
-          ["Antonio Fortunato Stella", ":dateOfDeath", "1833"],
           ["Giacomo Leopardi", ":sentLetterTo", "Antonio Fortunato Stella"],
           ["Giacomo Leopardi", ":dateOfLetter", "26 March 1826"],
           ["Giacomo Leopardi", ":addressesPostAndDeliveryIssues", "with Moratti"],
@@ -1441,102 +1397,18 @@
             }
         ],
         "chat-gpt": [
-            [
-                "Giacomo Leopardi",
-                ":dateOfBirth",
-                "1798"
-            ],
-            [
-                "Giacomo Leopardi",
-                ":dateOfDeath",
-                "1837"
-            ],
-            [
-                "Antonio Fortunato Stella",
-                ":dateOfBirth",
-                "1757"
-            ],
-            [
-                "Antonio Fortunato Stella",
-                ":dateOfDeath",
-                "1833"
-            ],
-            [
-                "Giacomo Leopardi",
-                ":sentLetterTo",
-                "Antonio Fortunato Stella"
-            ],
-            [
-                "Giacomo Leopardi",
-                ":dateOfLetter",
-                "23 May 1827"
-            ],
-            [
-                "Giacomo Leopardi",
-                ":mentionsReturnOf",
-                "ninth sheet of Operette Morali"
-            ],
-            [
-                "Giacomo Leopardi",
-                ":plansToSendNext",
-                "tenth sheet of Operette Morali"
-            ],
-            [
-                "Giacomo Leopardi",
-                ":needsToReview",
-                "notes in bundles"
-            ],
-            [
-                "Madama Padovani",
-                ":mentionedAs",
-                "present in Bologna"
-            ],
-            [
-                "Madama Padovani",
-                ":changedAccommodationDueTo",
-                "death of their landlord"
-            ],
-            [
-                "Giacomo Leopardi",
-                ":residesAt",
-                "Locanda della Pace, Bologna"
-            ],
-            [
-                "Giacomo Leopardi",
-                ":offersToArrangeAccommodationFor",
-                "Antonio Fortunato Stella at Locanda della Pace"
-            ],
-            [
-                "Giacomo Leopardi",
-                ":informsChangeOfAddressTo",
-                "Bologna from Recanati"
-            ],
-            [
-                "Giacomo Leopardi",
-                ":mentionsReceivingMailThrough",
-                "Sig. Moratti"
-            ],
-            [
-                "Giacomo Leopardi",
-                ":expressesEagernessToReuniteWith",
-                "Antonio Fortunato Stella"
-            ],
-            [
-                "Giacomo Leopardi",
-                ":sendsGreetingsTo",
-                "Stella's family and son-in-law"
-            ],
-            [
-                "Giacomo Leopardi",
-                ":wishesSafeJourneyTo",
-                "Antonio Fortunato Stella"
-            ],
-            [
-                "Prospero Viani",
-                ":references",
-                "Antonio Bianchini in 1878"
-            ]
+            ["Giacomo Leopardi", "wrote", "Lettera"],
+            ["Lettera", "date", "23 Giugno 1827"],
+            ["Lettera", "sentTo", "Monaldo Leopardi"],
+            ["Lettera", "sentFrom", "Firenze"],
+            ["Giacomo Leopardi", "departedFrom", "Bologna"],
+            ["Giacomo Leopardi", "arrivedAt", "Firenze"],
+            ["Giacomo Leopardi", "departureDate", "20 Giugno 1827"],
+            ["Giacomo Leopardi", "arrivalDate", "21 Giugno 1827"],
+            ["Giacomo Leopardi", "hasHealthIssue", "flussion d'occhi"],
+            ["San Giovanni Battista", "dateOfCelebration", "24 Giugno"]
         ]
+
     },
         {
         "id_doc": "MS-ADD-06210-00019",
@@ -1593,10 +1465,6 @@
             }
         ],
     "chat-gpt":[
-          ["Giacomo Leopardi", ":dateOfBirth", "1798"],
-          ["Giacomo Leopardi", ":dateOfDeath", "1837"],
-          ["Carlo Emmanuele Muzzarelli", ":dateOfBirth", "1797"],
-          ["Carlo Emmanuele Muzzarelli", ":dateOfDeath", "1856"],
           ["Giacomo Leopardi", ":sentLetterTo", "Carlo Emmanuele Muzzarelli"],
           ["Giacomo Leopardi", ":dateOfLetter", "28 June 1828"],
           ["Monaldo Leopardi", ":hasCauseWith", "Michele Moroni"],
@@ -1652,10 +1520,6 @@
             }
         ],
         "chat-gpt":[
-          ["Giacomo Leopardi", ":dateOfBirth", "1798"],
-          ["Giacomo Leopardi", ":dateOfDeath", "1837"],
-          ["Giovanni Rosini", ":dateOfBirth", "1776"],
-          ["Giovanni Rosini", ":dateOfDeath", "1855"],
           ["Giacomo Leopardi", ":sentLetterTo", "Giovanni Rosini"],
           ["Giacomo Leopardi", ":dateOfLetter", "3 September 1828"],
           ["Giacomo Leopardi", ":commentsOn", "Capitolo del villano"],

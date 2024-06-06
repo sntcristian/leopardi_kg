@@ -8,11 +8,11 @@ from rdflib.namespace import RDF, RDFS, DCTERMS, OWL
 
 with open("data/data_gpt4.json", "r", encoding="utf-8") as f1:
     data = json.load(f1)
-with open("results/results_gpt4.json", "r", encoding="utf-8") as f2:
+with open("results/results_final.json", "r", encoding="utf-8") as f2:
     results = json.load(f2)
 with open("data/entities.json", "r", encoding="utf-8") as f3:
     entities = json.load(f3)
-with open("data/properties_gpt4.json", "r", encoding="utf-8") as f4:
+with open("data/properties_final.json", "r", encoding="utf-8") as f4:
     properties = json.load(f4)
 
 
@@ -55,42 +55,45 @@ for row1, row2 in zip(data, results):
            URIRef("https://cudl.lib.cam.ac.uk/view/" + id_doc+"/1")))
     gpt_triples = row2["gpt_answer"]
     for triple in gpt_triples:
-        print(triple)
-        item_lst = re.findall(r'<([^>]*)>', triple)
-        print(item_lst)
-        id_property = properties.get(item_lst[1], None)
-        if id_property:
-            triple_id += 1
-            triple_uri = URIRef("http://example.org/statement_" + str(triple_id))
-            uri_property = URIRef("http://example.org/property/" + re.sub("\W", "_", item_lst[1]))
-            head_uri = URIRef("http://example.org/entity/" + re.sub("\W", "_", item_lst[0]))
-            tail_uri = URIRef("http://example.org/entity/" + re.sub("\W", "_", item_lst[2]))
-            if (head_uri, uri_property, tail_uri) in triples_added:
-                continue
-            elif head_uri == tail_uri:
-                continue
-            else:
-                G.add((triple_uri, RDF.type, RDF.Statement))
-                G.add((triple_uri, RDF.subject, head_uri))
-                G.add((triple_uri, RDF.predicate, uri_property))
-                G.add((triple_uri, RDF.object, tail_uri))
-                G.add((triple_uri, DCTERMS.source, URIRef("http://example.org/" + id_doc)))
-                G.add((head_uri, RDF.type, OWL.Thing))
-                G.add((head_uri, RDFS.label, Literal(item_lst[0], lang="en")))
-                G.add((uri_property, RDF.type, OWL.ObjectProperty))
-                G.add((uri_property, RDFS.label, Literal(item_lst[1], lang="en")))
-                G.add((uri_property, RDFS.seeAlso, URIRef(id_property)))
-                G.add((tail_uri, RDF.type, OWL.Thing))
-                G.add((tail_uri, RDFS.label, Literal(item_lst[2], lang="en")))
-                head_id = [key for key, value in entities.items() if value == item_lst[0]]
-                if 0 < len(head_id) < 2:
-                    head_id = URIRef(head_id[0])
-                    G.add((head_uri, RDFS.seeAlso, head_id))
-                tail_id = [key for key, value in entities.items() if value == item_lst[2]]
-                if 0 < len(tail_id) < 2:
-                    tail_id = URIRef(tail_id[0])
-                    G.add((tail_uri, RDFS.seeAlso, tail_id))
-                triples_added.add((head_uri, uri_property, tail_uri))
+        triple_str = triple[0]
+        triple_value = triple[1]
+        if triple_value==1:
+            item_lst = re.findall(r'<([^>]*)>', triple_str)
+            print(item_lst)
+            id_property = properties.get(item_lst[1], None)
+            if id_property:
+                triple_id += 1
+                triple_uri = URIRef("http://example.org/statement_" + str(triple_id))
+                uri_property = URIRef("http://example.org/property/" + re.sub("\W", "_", item_lst[1]))
+                head_uri = URIRef("http://example.org/entity/" + re.sub("\W", "_", item_lst[0]))
+                tail_uri = URIRef("http://example.org/entity/" + re.sub("\W", "_", item_lst[2]))
+                if (head_uri, uri_property, tail_uri) in triples_added:
+                    continue
+                elif head_uri == tail_uri:
+                    continue
+                else:
+                    G.add((triple_uri, RDF.type, RDF.Statement))
+                    G.add((triple_uri, RDF.subject, head_uri))
+                    G.add((triple_uri, RDF.predicate, uri_property))
+                    G.add((triple_uri, RDF.object, tail_uri))
+                    G.add((triple_uri, DCTERMS.source, URIRef("http://example.org/document/" + id_doc)))
+                    G.add((triple_uri, RDFS.label, Literal(triple_str, lang="en")))
+                    G.add((head_uri, RDF.type, OWL.Thing))
+                    G.add((head_uri, RDFS.label, Literal(item_lst[0], lang="en")))
+                    G.add((uri_property, RDF.type, OWL.ObjectProperty))
+                    G.add((uri_property, RDFS.label, Literal(item_lst[1], lang="en")))
+                    G.add((uri_property, RDFS.seeAlso, URIRef(id_property)))
+                    G.add((tail_uri, RDF.type, OWL.Thing))
+                    G.add((tail_uri, RDFS.label, Literal(item_lst[2], lang="en")))
+                    head_id = [key for key, value in entities.items() if value == item_lst[0]]
+                    if 0 < len(head_id) < 2:
+                        head_id = URIRef(head_id[0])
+                        G.add((head_uri, RDFS.seeAlso, head_id))
+                    tail_id = [key for key, value in entities.items() if value == item_lst[2]]
+                    if 0 < len(tail_id) < 2:
+                        tail_id = URIRef(tail_id[0])
+                        G.add((tail_uri, RDFS.seeAlso, tail_id))
+                    triples_added.add((head_uri, uri_property, tail_uri))
     pbar.update(1)
 
 
@@ -146,4 +149,4 @@ for row1, row2 in zip(data, results):
 #     pbar.update(1)
 #
 # G.bind('crm', crm)
-G.serialize(destination="results/leopardi_cudl_final.ttl")
+G.serialize(destination="results/kg_cudl_final.ttl")
