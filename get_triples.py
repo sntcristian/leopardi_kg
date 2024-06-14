@@ -7,8 +7,7 @@ import requests
 
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 print(device)
-# questo codice usa il modello mREBEL di Babelscape
-# per documentazione vedi: https://huggingface.co/Babelscape/mrebel-large
+
 def extract_triplets(text):
     triplets = []
     relation, subject, relation, object_ = '', '', '', ''
@@ -138,7 +137,7 @@ for property in properties:
         print(q_id)
         property_to_id[property]=q_id
 
-with open("data/properties_final.json", "w", encoding="utf-8") as f:
+with open("data/properties.json", "w", encoding="utf-8") as f:
     json.dump(property_to_id, f, indent=4, ensure_ascii=False)
 
 
