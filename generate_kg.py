@@ -85,11 +85,12 @@ for row1, row2 in zip(data, results):
                     G.add((uri_property, RDFS.seeAlso, URIRef(id_property)))
                     G.add((tail_uri, RDF.type, OWL.Thing))
                     G.add((tail_uri, RDFS.label, Literal(item_lst[2], lang="en")))
-                    head_id = [key for key, value in entities.items() if value == item_lst[0]]
+                    head_id = [key for key, value in entities.items() if item_lst[0] in value]
+                    print(head_id)
                     if 0 < len(head_id) < 2:
                         head_id = URIRef(head_id[0])
                         G.add((head_uri, RDFS.seeAlso, head_id))
-                    tail_id = [key for key, value in entities.items() if value == item_lst[2]]
+                    tail_id = [key for key, value in entities.items() if item_lst[2] in value]
                     if 0 < len(tail_id) < 2:
                         tail_id = URIRef(tail_id[0])
                         G.add((tail_uri, RDFS.seeAlso, tail_id))

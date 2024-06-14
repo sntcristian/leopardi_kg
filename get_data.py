@@ -37,8 +37,14 @@ def parse_tei(xml_file_path):
         key = person.find("tei:persName", namespaces=ns).get("key")
         forename = person.find("tei:persName/tei:forename", namespaces=ns).text
         surname = person.find("tei:persName/tei:surname", namespaces=ns).text
-        pers_list.append({"key":key, "ref":ref, "forename":forename, "surname":surname, "persName":forename+" "+surname})
-    
+        pers_list.append(
+            {"key": key, "ref": ref, "persName": forename + " " + surname})
+        text_ref = './tei:text//tei:persName[@ref="#' + ref + '"]'
+        for referenced_person in root.findall(text_ref, namespaces=ns):
+            surface_form = referenced_person.text
+            pers_list.append(
+                {"key": key, "ref": ref, "persName": surface_form})
+
     # Find list of places in letter and GeoNames key
     places = root.findall('.//tei:listPlace/tei:place', namespaces=ns)
     place_list = []
@@ -46,7 +52,12 @@ def parse_tei(xml_file_path):
         ref = place.get("{http://www.w3.org/XML/1998/namespace}id")
         key = place.find("tei:placeName", namespaces=ns).get("key")
         name = place.find("tei:placeName", namespaces=ns).text
-        place_list.append({"key":key, "ref":ref, "placeName":name})
+        place_list.append({"key": key, "ref": ref, "placeName": name})
+        text_ref = './tei:text//tei:placeName[@ref="#' + ref + '"]'
+        for referenced_place in root.findall(text_ref, namespaces=ns):
+            surface_form = referenced_place.text
+            place_list.append(
+                {"key": key, "ref": ref, "placeName": surface_form})
 
     
     # Extract correspondents
@@ -100,7 +111,10 @@ for tei_doc in glob.glob("xml_tei/*.txt"):
     xml_file_path = tei_doc
     data = parse_tei(xml_file_path)
     text = data["text"]
-    prompt = """Estrai triple RDF dal testo in input. Usa espressioni in Inglese per le proprietà, ad esempio ":dateOfBirth" o :placeOfDeath" e persone, luoghi, organizzazioni e opere citati come soggetti e oggetti delle triple. 
+    id_doc = re.match(r'.*?(MS.*?)\.txt', xml_file_path).group(1)
+    data["id_doc"] = id_doc
+    prompt = """Estrai triple RDF dal seguente testo dal titolo """+data["title"]+""". Usa espressioni in Inglese per le 
+    proprietà, ad esempio ":dateOfBirth" o :placeOfDeath" e persone, luoghi, organizzazioni e opere citati come soggetti e oggetti delle triple. 
     Scrivi le triple nel seguente formato JSON: ["entità1", "relazione", "entità2"]. 
     Rileggi il testo per controllare errori di sintassi nel JSON.
     Input: """+text
@@ -111,8 +125,6 @@ for tei_doc in glob.glob("xml_tei/*.txt"):
     ],
     model="gpt-4")
     triples = re.sub(".*?\s(?=\[)", "", response.choices[0].message.content)
-#     triples = re.match(".*?(\[.*?)", response.choices[0].message.content).group(1)
-#     print(triples)
     try:
         json_triples = json.loads(triples)
         data["chat-gpt"]=json_triples

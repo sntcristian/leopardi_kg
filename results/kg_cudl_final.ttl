@@ -103,19 +103,19 @@
     dcterms:title "Letter from Giacomo Leopardi to Paolina Leopardi"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00024/1> .
 
-<http://example.org/document/MS-ADD-06210-00027> a crm:E31_Document ;
-    dcterms:created "26 Luglio 1831"@it ;
-    dcterms:extent "4 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Giacomo Leopardi to Mario Valdrighi"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00027/1> .
-
-<http://example.org/document/MS-ADD-06210-00032> a crm:E31_Document ;
-    dcterms:created "24 Ott. 1832"@it ;
+<http://example.org/document/MS-ADD-06210-00025> a crm:E31_Document ;
+    dcterms:created "24 Maggio 1831"@it ;
     dcterms:extent "2 pages "@it ;
     dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Giacomo Leopardi to Monaldo Leopardi"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00032/1> .
+    dcterms:title "Letter from Giacomo Leopardi to Giovanni Rosini"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00025/1> .
+
+<http://example.org/document/MS-ADD-06210-00028> a crm:E31_Document ;
+    dcterms:created "26 Luglio 1831"@it ;
+    dcterms:extent "2 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Annex to the previous letter from Giacomo Leopardi to Mario Valdrighi"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00028/1> .
 
 <http://example.org/document/MS-ADD-06210-00033> a crm:E31_Document ;
     dcterms:created "1833"@it ;
@@ -131,12 +131,12 @@
     dcterms:title "Notes taken and translated from Fabricius"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00034/1> .
 
-<http://example.org/document/MS-ADD-06210-00036> a crm:E31_Document ;
-    dcterms:created "6 Decembre 1816."@it ;
+<http://example.org/document/MS-ADD-06210-00035> a crm:E31_Document ;
+    dcterms:created "1813"@it ;
     dcterms:extent "2 pages "@it ;
     dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Giacomo Leopardi to Antonio Fortunato Stella"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00036/1> .
+    dcterms:title "Fragment of a translation from the Greek literature"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00035/1> .
 
 <http://example.org/document/MS-ADD-06210-00037> a crm:E31_Document ;
     dcterms:created "20. X.bre 1816."@it ;
@@ -165,6 +165,13 @@
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Paolina Leopardi to Amalia"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00040/1> .
+
+<http://example.org/document/MS-ADD-06210-00041> a crm:E31_Document ;
+    dcterms:created "8 X.bre 1852"@it ;
+    dcterms:extent "4 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Letter from Paolina Leopardi and Filippo Castiglioni to Filippo Raffaelli"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00041/1> .
 
 <http://example.org/statement_1> a rdf:Statement ;
     rdfs:label "<Salterio Italianizzato> <author> <Giacomo Leopardi>"@en ;
@@ -252,70 +259,70 @@
 
 <http://example.org/statement_20> a rdf:Statement ;
     rdfs:label "<Giovanni Rosini> <spouse> <Luisa Strozzi>"@en ;
-    dcterms:source <http://example.org/document/MS-ADD-06210-00025> ;
+    dcterms:source <http://example.org/document/MS-ADD-06210-00026> ;
     rdf:object <http://example.org/entity/Luisa_Strozzi> ;
     rdf:predicate <http://example.org/property/spouse> ;
     rdf:subject <http://example.org/entity/Giovanni_Rosini> .
 
 <http://example.org/statement_21> a rdf:Statement ;
     rdfs:label "<Luisa Strozzi> <spouse> <Giovanni Rosini>"@en ;
-    dcterms:source <http://example.org/document/MS-ADD-06210-00025> ;
+    dcterms:source <http://example.org/document/MS-ADD-06210-00026> ;
     rdf:object <http://example.org/entity/Giovanni_Rosini> ;
     rdf:predicate <http://example.org/property/spouse> ;
     rdf:subject <http://example.org/entity/Luisa_Strozzi> .
 
 <http://example.org/statement_22> a rdf:Statement ;
     rdfs:label "<Giacomo Leopardi> <notable work> <Sinner>"@en ;
-    dcterms:source <http://example.org/document/MS-ADD-06210-00026> ;
+    dcterms:source <http://example.org/document/MS-ADD-06210-00027> ;
     rdf:object <http://example.org/entity/Sinner> ;
     rdf:predicate <http://example.org/property/notable_work> ;
     rdf:subject <http://example.org/entity/Giacomo_Leopardi> .
 
 <http://example.org/statement_23> a rdf:Statement ;
     rdfs:label "<Sinner> <author> <Giacomo Leopardi>"@en ;
-    dcterms:source <http://example.org/document/MS-ADD-06210-00026> ;
+    dcterms:source <http://example.org/document/MS-ADD-06210-00027> ;
     rdf:object <http://example.org/entity/Giacomo_Leopardi> ;
     rdf:predicate <http://example.org/property/author> ;
     rdf:subject <http://example.org/entity/Sinner> .
 
 <http://example.org/statement_24> a rdf:Statement ;
     rdfs:label "<Giacomo Leopardi> <notable work> <betrayal by French translator>"@en ;
-    dcterms:source <http://example.org/document/MS-ADD-06210-00026> ;
+    dcterms:source <http://example.org/document/MS-ADD-06210-00027> ;
     rdf:object <http://example.org/entity/betrayal_by_French_translator> ;
     rdf:predicate <http://example.org/property/notable_work> ;
     rdf:subject <http://example.org/entity/Giacomo_Leopardi> .
 
 <http://example.org/statement_25> a rdf:Statement ;
     rdfs:label "<betrayal by French translator> <author> <Giacomo Leopardi>"@en ;
-    dcterms:source <http://example.org/document/MS-ADD-06210-00026> ;
+    dcterms:source <http://example.org/document/MS-ADD-06210-00027> ;
     rdf:object <http://example.org/entity/Giacomo_Leopardi> ;
     rdf:predicate <http://example.org/property/author> ;
     rdf:subject <http://example.org/entity/betrayal_by_French_translator> .
 
 <http://example.org/statement_26> a rdf:Statement ;
     rdfs:label "<Anton Domenico Gabbiani> <instance of> <personMentioned>"@en ;
-    dcterms:source <http://example.org/document/MS-ADD-06210-00028> ;
+    dcterms:source <http://example.org/document/MS-ADD-06210-00029> ;
     rdf:object <http://example.org/entity/personMentioned> ;
     rdf:predicate <http://example.org/property/instance_of> ;
     rdf:subject <http://example.org/entity/Anton_Domenico_Gabbiani> .
 
 <http://example.org/statement_27> a rdf:Statement ;
     rdfs:label "<Pietro Pietrini> <instance of> <personMentioned>"@en ;
-    dcterms:source <http://example.org/document/MS-ADD-06210-00028> ;
+    dcterms:source <http://example.org/document/MS-ADD-06210-00029> ;
     rdf:object <http://example.org/entity/personMentioned> ;
     rdf:predicate <http://example.org/property/instance_of> ;
     rdf:subject <http://example.org/entity/Pietro_Pietrini> .
 
 <http://example.org/statement_28> a rdf:Statement ;
     rdfs:label "<Giuseppe Mojon> <instance of> <personMentioned>"@en ;
-    dcterms:source <http://example.org/document/MS-ADD-06210-00028> ;
+    dcterms:source <http://example.org/document/MS-ADD-06210-00029> ;
     rdf:object <http://example.org/entity/personMentioned> ;
     rdf:predicate <http://example.org/property/instance_of> ;
     rdf:subject <http://example.org/entity/Giuseppe_Mojon> .
 
 <http://example.org/statement_29> a rdf:Statement ;
     rdfs:label "<Dialoghetti> <author> <Giacomo Leopardi>"@en ;
-    dcterms:source <http://example.org/document/MS-ADD-06210-00029> ;
+    dcterms:source <http://example.org/document/MS-ADD-06210-00030> ;
     rdf:object <http://example.org/entity/Giacomo_Leopardi> ;
     rdf:predicate <http://example.org/property/author> ;
     rdf:subject <http://example.org/entity/Dialoghetti> .
@@ -329,52 +336,38 @@
 
 <http://example.org/statement_30> a rdf:Statement ;
     rdfs:label "<Luigi Giambene> <position held> <General Secretary of the Pontifical Posts>"@en ;
-    dcterms:source <http://example.org/document/MS-ADD-06210-00030> ;
+    dcterms:source <http://example.org/document/MS-ADD-06210-00031> ;
     rdf:object <http://example.org/entity/General_Secretary_of_the_Pontifical_Posts> ;
     rdf:predicate <http://example.org/property/position_held> ;
     rdf:subject <http://example.org/entity/Luigi_Giambene> .
 
 <http://example.org/statement_31> a rdf:Statement ;
     rdfs:label "<Giacomo Leopardi> <notable work> <gratitude for books>"@en ;
-    dcterms:source <http://example.org/document/MS-ADD-06210-00031> ;
+    dcterms:source <http://example.org/document/MS-ADD-06210-00032> ;
     rdf:object <http://example.org/entity/gratitude_for_books> ;
     rdf:predicate <http://example.org/property/notable_work> ;
     rdf:subject <http://example.org/entity/Giacomo_Leopardi> .
 
 <http://example.org/statement_32> a rdf:Statement ;
     rdfs:label "<Corinthians> <author> <Paul the Apostle>"@en ;
-    dcterms:source <http://example.org/document/MS-ADD-06210-00035> ;
+    dcterms:source <http://example.org/document/MS-ADD-06210-00036> ;
     rdf:object <http://example.org/entity/Paul_the_Apostle> ;
     rdf:predicate <http://example.org/property/author> ;
     rdf:subject <http://example.org/entity/Corinthians> .
 
 <http://example.org/statement_33> a rdf:Statement ;
     rdfs:label "<Critique on Philosophers> <author> <Giacomo Leopardi>"@en ;
-    dcterms:source <http://example.org/document/MS-ADD-06210-00035> ;
+    dcterms:source <http://example.org/document/MS-ADD-06210-00036> ;
     rdf:object <http://example.org/entity/Giacomo_Leopardi> ;
     rdf:predicate <http://example.org/property/author> ;
     rdf:subject <http://example.org/entity/Critique_on_Philosophers> .
 
 <http://example.org/statement_34> a rdf:Statement ;
     rdfs:label "<Mockery of the Gentile Philosophers> <author> <Hermias>"@en ;
-    dcterms:source <http://example.org/document/MS-ADD-06210-00035> ;
+    dcterms:source <http://example.org/document/MS-ADD-06210-00036> ;
     rdf:object <http://example.org/entity/Hermias> ;
     rdf:predicate <http://example.org/property/author> ;
     rdf:subject <http://example.org/entity/Mockery_of_the_Gentile_Philosophers> .
-
-<http://example.org/statement_35> a rdf:Statement ;
-    rdfs:label "<Vogel's Memorabilia> <collection> <Bishop's Chancellery of Macerata>"@en ;
-    dcterms:source <http://example.org/document/MS-ADD-06210-00041> ;
-    rdf:object <http://example.org/entity/Bishop_s_Chancellery_of_Macerata> ;
-    rdf:predicate <http://example.org/property/collection> ;
-    rdf:subject <http://example.org/entity/Vogel_s_Memorabilia> .
-
-<http://example.org/statement_36> a rdf:Statement ;
-    rdfs:label "<Commentario Storico de Ecclesiis Recanatensi et Lauretana> <author> <Canonico Vogel>"@en ;
-    dcterms:source <http://example.org/document/MS-ADD-06210-00041> ;
-    rdf:object <http://example.org/entity/Canonico_Vogel> ;
-    rdf:predicate <http://example.org/property/author> ;
-    rdf:subject <http://example.org/entity/Commentario_Storico_de_Ecclesiis_Recanatensi_et_Lauretana> .
 
 <http://example.org/statement_4> a rdf:Statement ;
     rdfs:label "<Epigramma sopra Amore> <part of> <Libretto del Mosco>"@en ;
@@ -453,13 +446,6 @@
     dcterms:title "Letter from Giacomo Leopardi to Carlo Emanuele Muzzarelli"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00021/1> .
 
-<http://example.org/document/MS-ADD-06210-00029> a crm:E31_Document ;
-    dcterms:created "8 Marzo 1832"@it ;
-    dcterms:extent "2 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Giacomo Leopardi to Monaldo Leopardi"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00029/1> .
-
 <http://example.org/document/MS-ADD-06210-00030> a crm:E31_Document ;
     dcterms:created "14 Agosto 1832"@it ;
     dcterms:extent "2 pages "@it ;
@@ -474,26 +460,24 @@
     dcterms:title "Letter from Giacomo Leopardi to Giovanni Rosini"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00031/1> .
 
+<http://example.org/document/MS-ADD-06210-00032> a crm:E31_Document ;
+    dcterms:created "24 Ott. 1832"@it ;
+    dcterms:extent "2 pages "@it ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Letter from Giacomo Leopardi to Monaldo Leopardi"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00032/1> .
+
 <http://example.org/entity/Accademia_Trudentina> a owl:Thing ;
     rdfs:label "Accademia Trudentina"@en .
 
 <http://example.org/entity/Anton_Domenico_Gabbiani> a owl:Thing ;
     rdfs:label "Anton Domenico Gabbiani"@en .
 
-<http://example.org/entity/Bishop_s_Chancellery_of_Macerata> a owl:Thing ;
-    rdfs:label "Bishop's Chancellery of Macerata"@en .
-
-<http://example.org/entity/Canonico_Vogel> a owl:Thing ;
-    rdfs:label "Canonico Vogel"@en .
-
 <http://example.org/entity/Chirurgo_Warden> a owl:Thing ;
     rdfs:label "Chirurgo Warden"@en .
 
 <http://example.org/entity/Collection_of_Moralist_Works> a owl:Thing ;
     rdfs:label "Collection of Moralist Works"@en .
-
-<http://example.org/entity/Commentario_Storico_de_Ecclesiis_Recanatensi_et_Lauretana> a owl:Thing ;
-    rdfs:label "Commentario Storico de Ecclesiis Recanatensi et Lauretana"@en .
 
 <http://example.org/entity/Corinthians> a owl:Thing ;
     rdfs:label "Corinthians"@en .
@@ -553,9 +537,6 @@
 <http://example.org/entity/Unknown> a owl:Thing ;
     rdfs:label "Unknown"@en .
 
-<http://example.org/entity/Vogel_s_Memorabilia> a owl:Thing ;
-    rdfs:label "Vogel's Memorabilia"@en .
-
 <http://example.org/entity/chapter_beautiful_and_good> a owl:Thing ;
     rdfs:label "chapter beautiful and good"@en .
 
@@ -564,10 +545,6 @@
 
 <http://example.org/entity/gratitude_for_books> a owl:Thing ;
     rdfs:label "gratitude for books"@en .
-
-<http://example.org/property/collection> a owl:ObjectProperty ;
-    rdfs:label "collection"@en ;
-    rdfs:seeAlso <http://www.wikidata.org/entity/P195> .
 
 <http://example.org/property/creator> a owl:ObjectProperty ;
     rdfs:label "creator"@en ;
@@ -599,19 +576,12 @@
     dcterms:title "Letter from Giacomo Leopardi to Giuseppe Melchiorri"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00012/1> .
 
-<http://example.org/document/MS-ADD-06210-00025> a crm:E31_Document ;
-    dcterms:created "24 Maggio 1831"@it ;
+<http://example.org/document/MS-ADD-06210-00026> a crm:E31_Document ;
+    dcterms:created "15 Giugno 1831"@it ;
     dcterms:extent "2 pages "@it ;
     dcterms:language "Italian"@en ;
     dcterms:title "Letter from Giacomo Leopardi to Giovanni Rosini"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00025/1> .
-
-<http://example.org/document/MS-ADD-06210-00041> a crm:E31_Document ;
-    dcterms:created "8 X.bre 1852"@it ;
-    dcterms:extent "4 pages "@it ;
-    dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Paolina Leopardi and Filippo Castiglioni to Filippo Raffaelli"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00041/1> .
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00026/1> .
 
 <http://example.org/entity/Auditor_of_the_Sacred_Rota> a owl:Thing ;
     rdfs:label "Auditor of the Sacred Rota"@en .
@@ -639,7 +609,8 @@
     rdfs:label "Salterio Italianizzato"@en .
 
 <http://example.org/entity/Sinner> a owl:Thing ;
-    rdfs:label "Sinner"@en .
+    rdfs:label "Sinner"@en ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q18574634> .
 
 <http://example.org/entity/Vatican_inscriptions_project> a owl:Thing ;
     rdfs:label "Vatican inscriptions project"@en .
@@ -669,19 +640,19 @@
     dcterms:title "Letter from Giacomo Leopardi to Niccolò Capurro"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00005/1> .
 
-<http://example.org/document/MS-ADD-06210-00028> a crm:E31_Document ;
-    dcterms:created "26 Luglio 1831"@it ;
+<http://example.org/document/MS-ADD-06210-00029> a crm:E31_Document ;
+    dcterms:created "8 Marzo 1832"@it ;
     dcterms:extent "2 pages "@it ;
     dcterms:language "Italian"@en ;
-    dcterms:title "Annex to the previous letter from Giacomo Leopardi to Mario Valdrighi"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00028/1> .
+    dcterms:title "Letter from Giacomo Leopardi to Monaldo Leopardi"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00029/1> .
 
-<http://example.org/document/MS-ADD-06210-00035> a crm:E31_Document ;
-    dcterms:created "1813"@it ;
+<http://example.org/document/MS-ADD-06210-00036> a crm:E31_Document ;
+    dcterms:created "6 Decembre 1816."@it ;
     dcterms:extent "2 pages "@it ;
     dcterms:language "Italian"@en ;
-    dcterms:title "Fragment of a translation from the Greek literature"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00035/1> .
+    dcterms:title "Letter from Giacomo Leopardi to Antonio Fortunato Stella"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00036/1> .
 
 <http://example.org/entity/personMentioned> a owl:Thing ;
     rdfs:label "personMentioned"@en .
@@ -701,12 +672,12 @@
     dcterms:title "Letter from Giacomo Leopardi to Antonio Fortunato Stella"@en ;
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00002/1> .
 
-<http://example.org/document/MS-ADD-06210-00026> a crm:E31_Document ;
-    dcterms:created "15 Giugno 1831"@it ;
-    dcterms:extent "2 pages "@it ;
+<http://example.org/document/MS-ADD-06210-00027> a crm:E31_Document ;
+    dcterms:created "26 Luglio 1831"@it ;
+    dcterms:extent "4 pages "@it ;
     dcterms:language "Italian"@en ;
-    dcterms:title "Letter from Giacomo Leopardi to Giovanni Rosini"@en ;
-    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00026/1> .
+    dcterms:title "Letter from Giacomo Leopardi to Mario Valdrighi"@en ;
+    crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00027/1> .
 
 <http://example.org/property/notable_work> a owl:ObjectProperty ;
     rdfs:label "notable work"@en ;
