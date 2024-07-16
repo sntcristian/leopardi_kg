@@ -1,0 +1,36 @@
+@prefix leopardi-kg: <https://sntcristian.github.io/leopardi_kg/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+leopardi-kg:document_MS-ADD-06210-00003 a crm:E31_Document ;
+    dcterms:created "25. Novembre 1816."@it ;
+    dcterms:extent "4 pages "@en ;
+    dcterms:language "Italian"@en ;
+    dcterms:title "Letter from Giacomo Leopardi to Francesco Cancellieri"@en ;
+    crm:P52_has_current_owner <https://www.lib.cam.ac.uk/> ;
+    crm:P138i_has_representation <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00003/1> .
+
+leopardi-kg:statement_7 a rdf:Statement ;
+    rdfs:label "<Giacomo Leopardi> <notable work> <Libretto delle Inscrizioni Triopee>"@en ;
+    dcterms:source leopardi-kg:document_MS-ADD-06210-00003 ;
+    rdf:object leopardi-kg:entity_34 ;
+    rdf:predicate leopardi-kg:property_notable_work ;
+    rdf:subject leopardi-kg:entity_2 .
+
+leopardi-kg:entity_34 a owl:Thing ;
+    rdfs:label "Libretto delle Inscrizioni Triopee"@it .
+
+leopardi-kg:property_notable_work a owl:ObjectProperty ;
+    rdfs:label "notable work"@en ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/P800> .
+
+leopardi-kg:entity_2 a owl:Thing ;
+    rdfs:label "Giacomo Leopardi"@it ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q172599> .
+
+
+
+

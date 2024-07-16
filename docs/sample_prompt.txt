@@ -1,0 +1,7 @@
+prompt = """Extract RDF triples from the following text in Italian:{title}.
+Use expressions in English for properties, such as ":dateOfBirth" or ":placeOfDeath".
+Write triples which have as subject or object people, places, organizations and works referenced.
+Write the output triples in the following JSON format: [subject, property, object].
+Check the JSON output to control syntax errors.
+Input: {text}"""
+

@@ -53,7 +53,7 @@ gen_kwargs = {
 
 model.to(device)
 
-sentence_transformer = SentenceTransformer('all-MiniLM-L6-v2')
+sentence_transformer = SentenceTransformer('all-mpnet-base-v2')
 
 properties = set()
 with open("data/data_gpt4.json", "r", encoding="utf-8") as f:
@@ -94,18 +94,19 @@ for row in data:
             for pred_triple in triples:
                 if "date of birth" in pred_triple["type"] or "date of death" in pred_triple["type"]:
                     continue
-                elif (pred_triple["head"]==triple[0] or pred_triple["head"]==triple[2]) \
-                        and pred_triple["head"]!=pred_triple["tail"]:
-                    triple_string2 = "<" + pred_triple["head"] + "> <" + pred_triple["type"] + "> <" + pred_triple[
+                elif (pred_triple["head"] == triple[0] or pred_triple["head"] == triple[2]) \
+                        and pred_triple["head"] != pred_triple["tail"]:
+                    triple_label = "<" + pred_triple["head"] + "> <" + pred_triple["type"] + "> <" + pred_triple[
                         "tail"] + ">"
+                    triple_string2 = pred_triple["head"] + " " + pred_triple["type"] + " " + pred_triple["tail"]
                     embedding1 = sentence_transformer.encode(triple_string1, convert_to_tensor=True)
                     embedding2 = sentence_transformer.encode(triple_string2, convert_to_tensor=True)
                     similarity = util.pytorch_cos_sim(embedding1, embedding2)
                     if similarity.item() >= 0.9:
                         properties.add(pred_triple["type"])
-                        output_triples_set.add((triple_string2, 1))
+                        output_triples_set.add((triple_label, 1))
                     else:
-                        output_triples_set.add((triple_string2, 0))
+                        output_triples_set.add((triple_label, 0))
     triples_lst = list(output_triples_set)
     result_entry["gpt_answer"] = triples_lst
     results.append(result_entry)
@@ -113,7 +114,7 @@ for row in data:
 
 
 
-with open("results/results_final.json", "w", encoding="utf-8") as f:
+with open("results/results_15_07.json", "w", encoding="utf-8") as f:
     json.dump(results, f, indent=4, ensure_ascii=False)
 
 url = 'https://query.wikidata.org/sparql'
@@ -137,7 +138,7 @@ for property in properties:
         print(q_id)
         property_to_id[property]=q_id
 
-with open("data/properties.json", "w", encoding="utf-8") as f:
+with open("data/properties_15_07.json", "w", encoding="utf-8") as f:
     json.dump(property_to_id, f, indent=4, ensure_ascii=False)
 
 
