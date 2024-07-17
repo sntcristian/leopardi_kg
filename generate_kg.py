@@ -1,4 +1,4 @@
-
+from thefuzz import fuzz
 import json
 from tqdm import tqdm
 import re
@@ -64,9 +64,11 @@ for row1, row2 in zip(data, results):
             if id_property:
                 uri_property = "https://sntcristian.github.io/leopardi_kg/property_"+re.sub("\s", "_", item_lst[1])
                 triple_count += 1
-                head_id = [key for key, value in entities.items() if item_lst[0] in value]
+                head_id = set([key for key, values in entities.items() for value in values
+                           if value != None and fuzz.ratio(item_lst[0], value)>80])
                 if 0 < len(head_id) < 2:
-                    wikidata_id = head_id[0]
+                    wikidata_id = head_id.pop()
+                    print(wikidata_id)
                 else:
                     wikidata_id = None
                 if wikidata_id:
@@ -82,9 +84,11 @@ for row1, row2 in zip(data, results):
                     head_uri = "https://sntcristian.github.io/leopardi_kg/entity_" + str(entities_count)
                 G.add((URIRef(head_uri), RDF.type, OWL.Thing))
                 G.add((URIRef(head_uri), RDFS.label, Literal(item_lst[0], lang="en")))
-                tail_id = [key for key, value in entities.items() if item_lst[2] in value]
+                tail_id = set([key for key, values in entities.items() for value in values
+                               if value != None and fuzz.ratio(item_lst[2], value) > 80])
                 if 0 < len(tail_id) < 2:
-                    wikidata_id = tail_id[0]
+                    wikidata_id = tail_id.pop()
+                    print(wikidata_id)
                 else:
                     wikidata_id = None
                 if wikidata_id:
