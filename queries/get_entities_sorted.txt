@@ -1,0 +1,19 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?entity ?label ?Q_ID (COUNT(?statement) AS ?statementCount)
+WHERE {
+  {
+    ?statement rdf:subject ?entity .
+    ?entity rdfs:label ?label .
+    OPTIONAL { ?entity rdfs:seeAlso ?Q_ID }
+  }
+  UNION
+  {
+    ?statement rdf:object ?entity .
+    ?entity rdfs:label ?label .
+    OPTIONAL { ?entity rdfs:seeAlso ?Q_ID }
+  }
+}
+GROUP BY ?entity ?label ?Q_ID
+ORDER BY DESC(?statementCount)
