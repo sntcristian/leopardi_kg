@@ -80,408 +80,517 @@
 <https://sntcristian.github.io/leopardi_kg/statement_1> a rdf:Statement ;
     rdfs:label "<Porphyrii, Eusebii, Philonis Iudaei Opera et Fragmenta novissime detecta> <publication date> <1816>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00002> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_3> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/1816> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_publication_date> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_2> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Porphyrii__Eusebii__Philonis_Iudaei_Opera_et_Fragmenta_novissime_detecta> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_10> a rdf:Statement ;
     rdfs:label "<Giacomo Leopardi> <instance of> <humility>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00007> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_17> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/humility> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_instance_of> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_16> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giacomo_Leopardi> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_11> a rdf:Statement ;
     rdfs:label "<Giuseppe Antonio Zacchia> <work location> <Ascoli>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00007> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_19> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Ascoli> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_work_location> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_18> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giuseppe_Antonio_Zacchia> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_12> a rdf:Statement ;
     rdfs:label "<Giacomo Leopardi> <notable work> <Greek inscription judged by Giacomo Leopardi>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00008> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_20> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Greek_inscription_judged_by_Giacomo_Leopardi> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_notable_work> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_16> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giacomo_Leopardi> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_13> a rdf:Statement ;
     rdfs:label "<Nibby's translation of Strabo> <author> <Giacomo Leopardi>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00008> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_16> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Giacomo_Leopardi> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_author> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_21> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Nibby_s_translation_of_Strabo> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_14> a rdf:Statement ;
     rdfs:label "<Giuseppe Melchiorri> <work location> <Rome>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00008> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_11> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Rome> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_work_location> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_22> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giuseppe_Melchiorri> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_15> a rdf:Statement ;
     rdfs:label "<Giuseppe Melchiorri> <work location> <Rome>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00009> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_11> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Rome> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_work_location> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_22> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giuseppe_Melchiorri> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_16> a rdf:Statement ;
     rdfs:label "<Giuseppe Melchiorri> <work location> <Rome>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00010> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_11> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Rome> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_work_location> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_22> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giuseppe_Melchiorri> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_17> a rdf:Statement ;
     rdfs:label "<Giuseppe Melchiorri> <work location> <Rome>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00011> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_11> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Rome> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_work_location> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_22> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giuseppe_Melchiorri> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_18> a rdf:Statement ;
     rdfs:label "<Osservazioni eusebiane> <author> <Giacomo Leopardi>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00011> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_16> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Giacomo_Leopardi> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_author> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_23> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Osservazioni_eusebiane> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_19> a rdf:Statement ;
     rdfs:label "<Giuseppe Melchiorri> <work location> <Rome>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00012> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_11> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Rome> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_work_location> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_22> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giuseppe_Melchiorri> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_2> a rdf:Statement ;
     rdfs:label "<Epigramma sopra Amore> <part of> <Libretto del Mosco>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00002> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_5> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Libretto_del_Mosco> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_part_of> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_4> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Epigramma_sopra_Amore> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_20> a rdf:Statement ;
     rdfs:label "<Giuseppe Melchiorri> <work location> <Rome>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00013> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_11> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Rome> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_work_location> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_22> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giuseppe_Melchiorri> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_21> a rdf:Statement ;
     rdfs:label "<Giuseppe Melchiorri> <work location> <Rome>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00014> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_11> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Rome> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_work_location> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_22> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giuseppe_Melchiorri> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_22> a rdf:Statement ;
     rdfs:label "<Giuseppe Melchiorri> <work location> <Rome>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00015> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_11> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Rome> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_work_location> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_22> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giuseppe_Melchiorri> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_23> a rdf:Statement ;
     rdfs:label "<Lettera> <author> <Giacomo Leopardi>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00018> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_16> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Giacomo_Leopardi> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_author> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_24> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Lettera> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_24> a rdf:Statement ;
     rdfs:label "<Giacomo Leopardi> <medical condition treated> <flussion d'occhi>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00018> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_25> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/flussion_d_occhi> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_medical_condition_treated> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_16> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giacomo_Leopardi> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_25> a rdf:Statement ;
     rdfs:label "<flussion d'occhi> <medical condition treated> <Giacomo Leopardi>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00018> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_16> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Giacomo_Leopardi> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_medical_condition_treated> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_26> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/flussion_d_occhi> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_26> a rdf:Statement ;
     rdfs:label "<Carlo Emmanuele Muzzarelli> <work location> <Rome>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00019> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_11> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Rome> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_work_location> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_27> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Carlo_Emmanuele_Muzzarelli> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_27> a rdf:Statement ;
     rdfs:label "<Carlo Emmanuele Muzzarelli> <position held> <Auditor of the Sacred Rota>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00019> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_28> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Auditor_of_the_Sacred_Rota> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_position_held> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_27> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Carlo_Emmanuele_Muzzarelli> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_28> a rdf:Statement ;
     rdfs:label "<Giacomo Leopardi> <notable work> <chapter beautiful and good>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00020> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_29> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/chapter_beautiful_and_good> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_notable_work> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_16> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giacomo_Leopardi> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_29> a rdf:Statement ;
     rdfs:label "<Carlo Emmanuele Muzzarelli> <work location> <Rome>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00021> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_11> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Rome> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_work_location> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_27> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Carlo_Emmanuele_Muzzarelli> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_3> a rdf:Statement ;
     rdfs:label "<Il Bifolchetto> <part of> <Libretto del Mosco>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00002> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_7> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Libretto_del_Mosco> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_part_of> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_6> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Il_Bifolchetto> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_30> a rdf:Statement ;
     rdfs:label "<Carlo Emmanuele Muzzarelli> <position held> <Auditor of the Sacred Rota>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00021> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_30> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Auditor_of_the_Sacred_Rota> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_position_held> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_27> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Carlo_Emmanuele_Muzzarelli> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_31> a rdf:Statement ;
     rdfs:label "<Giovanni Rosini> <place of death> <location unknown>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00022> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_32> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/location_unknown> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_place_of_death> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_31> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giovanni_Rosini> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_32> a rdf:Statement ;
     rdfs:label "<Giovanni Rosini> <place of death> <location unknown>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00023> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_33> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/location_unknown> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_place_of_death> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_31> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giovanni_Rosini> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_33> a rdf:Statement ;
     rdfs:label "<Giacomo Leopardi> <participant in> <recovery from cold>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00024> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_34> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/recovery_from_cold> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_participant_in> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_16> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giacomo_Leopardi> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_34> a rdf:Statement ;
     rdfs:label "<Luisa Strozzi> <spouse> <Giovanni Rosini>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00025> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_31> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Giovanni_Rosini> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_spouse> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_35> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Luisa_Strozzi> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_35> a rdf:Statement ;
     rdfs:label "<Giovanni Rosini> <spouse> <Luisa Strozzi>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00025> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_36> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Luisa_Strozzi> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_spouse> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_31> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giovanni_Rosini> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_36> a rdf:Statement ;
     rdfs:label "<betrayal by French translator> <author> <Giacomo Leopardi>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00026> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_16> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Giacomo_Leopardi> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_author> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_37> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/betrayal_by_French_translator> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_37> a rdf:Statement ;
     rdfs:label "<Giacomo Leopardi> <notable work> <Sinner>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00026> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_38> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Sinner> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_notable_work> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_16> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giacomo_Leopardi> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_38> a rdf:Statement ;
     rdfs:label "<Giacomo Leopardi> <notable work> <betrayal by French translator>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00026> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_39> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/betrayal_by_French_translator> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_notable_work> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_16> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giacomo_Leopardi> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_39> a rdf:Statement ;
     rdfs:label "<Francesco Galvani> <relative> <Mario Valdrighi>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00027> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_41> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Mario_Valdrighi> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_relative> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_40> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Francesco_Galvani> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_4> a rdf:Statement ;
     rdfs:label "<assembly cost> <part of> <Printing cost breakdown>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00003> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_9> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Printing_cost_breakdown> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_part_of> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_8> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/assembly_cost> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_40> a rdf:Statement ;
     rdfs:label "<Giovanni Galvani> <relative> <Mario Valdrighi>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00027> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_43> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Mario_Valdrighi> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_relative> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_42> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giovanni_Galvani> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_41> a rdf:Statement ;
     rdfs:label "<Filicaia> <genre> <sonnet>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00028> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_45> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/sonnet> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_genre> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_44> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Filicaia> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_42> a rdf:Statement ;
     rdfs:label "<Gasparo Mazzi> <field of work> <naturalist>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00028> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_47> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/naturalist> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_field_of_work> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_46> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Gasparo_Mazzi> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_43> a rdf:Statement ;
     rdfs:label "<Luigi Canali> <field of work> <naturalist>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00028> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_49> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/naturalist> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_field_of_work> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_48> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Luigi_Canali> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_44> a rdf:Statement ;
     rdfs:label "<Antonio Cocchi> <occupation> <writing>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00028> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_51> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/writing> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_occupation> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_50> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Antonio_Cocchi> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_45> a rdf:Statement ;
     rdfs:label "<Giacomo Leopardi> <place of birth> <Roma>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00029> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_11> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Rome> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_place_of_birth> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_16> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giacomo_Leopardi> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_46> a rdf:Statement ;
     rdfs:label "<Giacomo Leopardi> <has effect> <fever>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00029> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_52> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/fever> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_has_effect> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_16> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giacomo_Leopardi> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_47> a rdf:Statement ;
     rdfs:label "<Dialoghetti> <author> <Giacomo Leopardi>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00029> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_16> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Giacomo_Leopardi> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_author> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_53> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Dialoghetti> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_48> a rdf:Statement ;
     rdfs:label "<Luigi Giambene> <position held> <General Secretary of the Pontifical Posts>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00030> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_55> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/General_Secretary_of_the_Pontifical_Posts> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_position_held> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_54> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Luigi_Giambene> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_49> a rdf:Statement ;
     rdfs:label "<Giacomo Leopardi> <medical condition treated> <eye and nerve disease>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00031> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_56> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/eye_and_nerve_disease> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_medical_condition_treated> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_16> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giacomo_Leopardi> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_5> a rdf:Statement ;
     rdfs:label "<Francesco Cancellieri> <work location> <Rome>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00003> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_11> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Rome> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_work_location> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_10> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Francesco_Cancellieri> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_50> a rdf:Statement ;
     rdfs:label "<Giacomo Leopardi> <field of work> <writing limited by eye condition>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00032> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_57> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/writing_limited_by_eye_condition> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_field_of_work> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_16> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Giacomo_Leopardi> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_51> a rdf:Statement ;
     rdfs:label "<Corinthians> <author> <Paul the Apostle>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00035> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_59> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Paul_the_Apostle> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_author> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_58> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Corinthians> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_52> a rdf:Statement ;
     rdfs:label "<Mockery of the Gentile Philosophers> <author> <Hermias>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00035> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_61> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Hermias> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_author> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_60> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Mockery_of_the_Gentile_Philosophers> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_53> a rdf:Statement ;
     rdfs:label "<Critique on Philosophers> <author> <Giacomo Leopardi>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00035> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_16> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Giacomo_Leopardi> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_author> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_62> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Critique_on_Philosophers> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_54> a rdf:Statement ;
     rdfs:label "<Pindar's translation by Mazza> <author> <Giacomo Leopardi>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00036> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_16> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Giacomo_Leopardi> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_author> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_63> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Pindar_s_translation_by_Mazza> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_55> a rdf:Statement ;
     rdfs:label "<Commentario Storico de Ecclesiis Recanatensi et Lauretana> <instance of> <manuscript>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00041> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_65> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/manuscript> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_instance_of> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_64> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Commentario_Storico_de_Ecclesiis_Recanatensi_et_Lauretana> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_56> a rdf:Statement ;
     rdfs:label "<Filippo Solari> <field of work> <jealously guarding the manuscripts>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00041> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_67> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/jealously_guarding_the_manuscripts> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_field_of_work> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_66> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Filippo_Solari> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_57> a rdf:Statement ;
     rdfs:label "<Vogel's Memorabilia> <collection> <Bishop's Chancellery of Macerata>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00041> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_69> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Bishop_s_Chancellery_of_Macerata> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_collection> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_68> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Vogel_s_Memorabilia> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_58> a rdf:Statement ;
     rdfs:label "<Commentario Storico de Ecclesiis Recanatensi et Lauretana> <author> <Canonico Vogel>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00041> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_71> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Canonico_Vogel> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_author> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_70> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Commentario_Storico_de_Ecclesiis_Recanatensi_et_Lauretana> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_6> a rdf:Statement ;
     rdfs:label "<Francesco Cancellieri> <work location> <Rome>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00004> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_11> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Rome> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_work_location> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_10> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Francesco_Cancellieri> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_7> a rdf:Statement ;
     rdfs:label "<Lettere sopra la condotta di Bonaparte a Sant'Elena> <author> <Chirurgo Warden>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00005> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_13> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Chirurgo_Warden> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_author> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_12> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Lettere_sopra_la_condotta_di_Bonaparte_a_Sant_Elena> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_8> a rdf:Statement ;
     rdfs:label "<Lettere sopra la condotta di Bonaparte a Sant'Elena> <author> <Unknown>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00005> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_15> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Unknown> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_author> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_14> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Lettere_sopra_la_condotta_di_Bonaparte_a_Sant_Elena> .
 
 <https://sntcristian.github.io/leopardi_kg/statement_9> a rdf:Statement ;
     rdfs:label "<Francesco Cancellieri> <work location> <Rome>"@en ;
     dcterms:source <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00006> ;
-    rdf:object <https://sntcristian.github.io/leopardi_kg/entity_11> ;
+    rdf:object <https://sntcristian.github.io/leopardi_kg/Rome> ;
     rdf:predicate <https://sntcristian.github.io/leopardi_kg/property_work_location> ;
-    rdf:subject <https://sntcristian.github.io/leopardi_kg/entity_10> .
+    rdf:subject <https://sntcristian.github.io/leopardi_kg/Francesco_Cancellieri> .
+
+<https://sntcristian.github.io/leopardi_kg/1816> a owl:Thing ;
+    rdfs:label "1816"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Antonio_Cocchi> a owl:Thing ;
+    rdfs:label "Antonio Cocchi"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Ascoli> a owl:Thing ;
+    rdfs:label "Ascoli"@en ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q16117> .
+
+<https://sntcristian.github.io/leopardi_kg/Bishop_s_Chancellery_of_Macerata> a owl:Thing ;
+    rdfs:label "Bishop's Chancellery of Macerata"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Canonico_Vogel> a owl:Thing ;
+    rdfs:label "Canonico Vogel"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Chirurgo_Warden> a owl:Thing ;
+    rdfs:label "Chirurgo Warden"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Corinthians> a owl:Thing ;
+    rdfs:label "Corinthians"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Critique_on_Philosophers> a owl:Thing ;
+    rdfs:label "Critique on Philosophers"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Dialoghetti> a owl:Thing ;
+    rdfs:label "Dialoghetti"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Epigramma_sopra_Amore> a owl:Thing ;
+    rdfs:label "Epigramma sopra Amore"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Filicaia> a owl:Thing ;
+    rdfs:label "Filicaia"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Filippo_Solari> a owl:Thing ;
+    rdfs:label "Filippo Solari"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Francesco_Galvani> a owl:Thing ;
+    rdfs:label "Francesco Galvani"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Gasparo_Mazzi> a owl:Thing ;
+    rdfs:label "Gasparo Mazzi"@en .
+
+<https://sntcristian.github.io/leopardi_kg/General_Secretary_of_the_Pontifical_Posts> a owl:Thing ;
+    rdfs:label "General Secretary of the Pontifical Posts"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Giovanni_Galvani> a owl:Thing ;
+    rdfs:label "Giovanni Galvani"@en ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q20860615> .
+
+<https://sntcristian.github.io/leopardi_kg/Giuseppe_Antonio_Zacchia> a owl:Thing ;
+    rdfs:label "Giuseppe Antonio Zacchia"@en ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q742403> .
+
+<https://sntcristian.github.io/leopardi_kg/Greek_inscription_judged_by_Giacomo_Leopardi> a owl:Thing ;
+    rdfs:label "Greek inscription judged by Giacomo Leopardi"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Hermias> a owl:Thing ;
+    rdfs:label "Hermias"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Il_Bifolchetto> a owl:Thing ;
+    rdfs:label "Il Bifolchetto"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Lettera> a owl:Thing ;
+    rdfs:label "Lettera"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Luigi_Canali> a owl:Thing ;
+    rdfs:label "Luigi Canali"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Luigi_Giambene> a owl:Thing ;
+    rdfs:label "Luigi Giambene"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Mockery_of_the_Gentile_Philosophers> a owl:Thing ;
+    rdfs:label "Mockery of the Gentile Philosophers"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Nibby_s_translation_of_Strabo> a owl:Thing ;
+    rdfs:label "Nibby's translation of Strabo"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Osservazioni_eusebiane> a owl:Thing ;
+    rdfs:label "Osservazioni eusebiane"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Paul_the_Apostle> a owl:Thing ;
+    rdfs:label "Paul the Apostle"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Pindar_s_translation_by_Mazza> a owl:Thing ;
+    rdfs:label "Pindar's translation by Mazza"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Porphyrii__Eusebii__Philonis_Iudaei_Opera_et_Fragmenta_novissime_detecta> a owl:Thing ;
+    rdfs:label "Porphyrii, Eusebii, Philonis Iudaei Opera et Fragmenta novissime detecta"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Printing_cost_breakdown> a owl:Thing ;
+    rdfs:label "Printing cost breakdown"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Sinner> a owl:Thing ;
+    rdfs:label "Sinner"@en ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q18574634> .
+
+<https://sntcristian.github.io/leopardi_kg/Unknown> a owl:Thing ;
+    rdfs:label "Unknown"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Vogel_s_Memorabilia> a owl:Thing ;
+    rdfs:label "Vogel's Memorabilia"@en .
+
+<https://sntcristian.github.io/leopardi_kg/assembly_cost> a owl:Thing ;
+    rdfs:label "assembly cost"@en .
+
+<https://sntcristian.github.io/leopardi_kg/chapter_beautiful_and_good> a owl:Thing ;
+    rdfs:label "chapter beautiful and good"@en .
 
 <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00004> a crm:E31_Document ;
     dcterms:created "9. Decembre 1816."@it ;
@@ -611,201 +720,20 @@
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00036/1> ;
     crm:P52_has_current_owner <https://www.lib.cam.ac.uk/> .
 
-<https://sntcristian.github.io/leopardi_kg/entity_12> a owl:Thing ;
-    rdfs:label "Lettere sopra la condotta di Bonaparte a Sant'Elena"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_13> a owl:Thing ;
-    rdfs:label "Chirurgo Warden"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_14> a owl:Thing ;
-    rdfs:label "Lettere sopra la condotta di Bonaparte a Sant'Elena"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_15> a owl:Thing ;
-    rdfs:label "Unknown"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_17> a owl:Thing ;
-    rdfs:label "humility"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_18> a owl:Thing ;
-    rdfs:label "Giuseppe Antonio Zacchia"@en ;
-    rdfs:seeAlso <http://www.wikidata.org/entity/Q742403> .
-
-<https://sntcristian.github.io/leopardi_kg/entity_19> a owl:Thing ;
-    rdfs:label "Ascoli"@en ;
-    rdfs:seeAlso <http://www.wikidata.org/entity/Q16117> .
-
-<https://sntcristian.github.io/leopardi_kg/entity_2> a owl:Thing ;
-    rdfs:label "Porphyrii, Eusebii, Philonis Iudaei Opera et Fragmenta novissime detecta"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_20> a owl:Thing ;
-    rdfs:label "Greek inscription judged by Giacomo Leopardi"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_21> a owl:Thing ;
-    rdfs:label "Nibby's translation of Strabo"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_23> a owl:Thing ;
-    rdfs:label "Osservazioni eusebiane"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_24> a owl:Thing ;
-    rdfs:label "Lettera"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_25> a owl:Thing ;
-    rdfs:label "flussion d'occhi"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_26> a owl:Thing ;
-    rdfs:label "flussion d'occhi"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_28> a owl:Thing ;
-    rdfs:label "Auditor of the Sacred Rota"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_29> a owl:Thing ;
-    rdfs:label "chapter beautiful and good"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_3> a owl:Thing ;
-    rdfs:label "1816"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_30> a owl:Thing ;
-    rdfs:label "Auditor of the Sacred Rota"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_32> a owl:Thing ;
-    rdfs:label "location unknown"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_33> a owl:Thing ;
-    rdfs:label "location unknown"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_34> a owl:Thing ;
-    rdfs:label "recovery from cold"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_35> a owl:Thing ;
-    rdfs:label "Luisa Strozzi"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_36> a owl:Thing ;
-    rdfs:label "Luisa Strozzi"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_37> a owl:Thing ;
-    rdfs:label "betrayal by French translator"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_38> a owl:Thing ;
-    rdfs:label "Sinner"@en ;
-    rdfs:seeAlso <http://www.wikidata.org/entity/Q18574634> .
-
-<https://sntcristian.github.io/leopardi_kg/entity_39> a owl:Thing ;
-    rdfs:label "betrayal by French translator"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_4> a owl:Thing ;
-    rdfs:label "Epigramma sopra Amore"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_40> a owl:Thing ;
-    rdfs:label "Francesco Galvani"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_41> a owl:Thing ;
-    rdfs:label "Mario Valdrighi"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_42> a owl:Thing ;
-    rdfs:label "Giovanni Galvani"@en ;
-    rdfs:seeAlso <http://www.wikidata.org/entity/Q20860615> .
-
-<https://sntcristian.github.io/leopardi_kg/entity_43> a owl:Thing ;
-    rdfs:label "Mario Valdrighi"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_44> a owl:Thing ;
-    rdfs:label "Filicaia"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_45> a owl:Thing ;
-    rdfs:label "sonnet"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_46> a owl:Thing ;
-    rdfs:label "Gasparo Mazzi"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_47> a owl:Thing ;
-    rdfs:label "naturalist"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_48> a owl:Thing ;
-    rdfs:label "Luigi Canali"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_49> a owl:Thing ;
-    rdfs:label "naturalist"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_5> a owl:Thing ;
-    rdfs:label "Libretto del Mosco"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_50> a owl:Thing ;
-    rdfs:label "Antonio Cocchi"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_51> a owl:Thing ;
-    rdfs:label "writing"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_52> a owl:Thing ;
-    rdfs:label "fever"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_53> a owl:Thing ;
-    rdfs:label "Dialoghetti"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_54> a owl:Thing ;
-    rdfs:label "Luigi Giambene"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_55> a owl:Thing ;
-    rdfs:label "General Secretary of the Pontifical Posts"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_56> a owl:Thing ;
+<https://sntcristian.github.io/leopardi_kg/eye_and_nerve_disease> a owl:Thing ;
     rdfs:label "eye and nerve disease"@en .
 
-<https://sntcristian.github.io/leopardi_kg/entity_57> a owl:Thing ;
-    rdfs:label "writing limited by eye condition"@en .
+<https://sntcristian.github.io/leopardi_kg/fever> a owl:Thing ;
+    rdfs:label "fever"@en .
 
-<https://sntcristian.github.io/leopardi_kg/entity_58> a owl:Thing ;
-    rdfs:label "Corinthians"@en .
+<https://sntcristian.github.io/leopardi_kg/humility> a owl:Thing ;
+    rdfs:label "humility"@en .
 
-<https://sntcristian.github.io/leopardi_kg/entity_59> a owl:Thing ;
-    rdfs:label "Paul the Apostle"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_6> a owl:Thing ;
-    rdfs:label "Il Bifolchetto"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_60> a owl:Thing ;
-    rdfs:label "Mockery of the Gentile Philosophers"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_61> a owl:Thing ;
-    rdfs:label "Hermias"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_62> a owl:Thing ;
-    rdfs:label "Critique on Philosophers"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_63> a owl:Thing ;
-    rdfs:label "Pindar's translation by Mazza"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_64> a owl:Thing ;
-    rdfs:label "Commentario Storico de Ecclesiis Recanatensi et Lauretana"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_65> a owl:Thing ;
-    rdfs:label "manuscript"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_66> a owl:Thing ;
-    rdfs:label "Filippo Solari"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_67> a owl:Thing ;
+<https://sntcristian.github.io/leopardi_kg/jealously_guarding_the_manuscripts> a owl:Thing ;
     rdfs:label "jealously guarding the manuscripts"@en .
 
-<https://sntcristian.github.io/leopardi_kg/entity_68> a owl:Thing ;
-    rdfs:label "Vogel's Memorabilia"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_69> a owl:Thing ;
-    rdfs:label "Bishop's Chancellery of Macerata"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_7> a owl:Thing ;
-    rdfs:label "Libretto del Mosco"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_70> a owl:Thing ;
-    rdfs:label "Commentario Storico de Ecclesiis Recanatensi et Lauretana"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_71> a owl:Thing ;
-    rdfs:label "Canonico Vogel"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_8> a owl:Thing ;
-    rdfs:label "assembly cost"@en .
-
-<https://sntcristian.github.io/leopardi_kg/entity_9> a owl:Thing ;
-    rdfs:label "Printing cost breakdown"@en .
+<https://sntcristian.github.io/leopardi_kg/manuscript> a owl:Thing ;
+    rdfs:label "manuscript"@en .
 
 <https://sntcristian.github.io/leopardi_kg/property_collection> a owl:ObjectProperty ;
     rdfs:label "collection"@en ;
@@ -834,6 +762,39 @@
 <https://sntcristian.github.io/leopardi_kg/property_publication_date> a owl:ObjectProperty ;
     rdfs:label "publication date"@en ;
     rdfs:seeAlso <http://www.wikidata.org/entity/P577> .
+
+<https://sntcristian.github.io/leopardi_kg/recovery_from_cold> a owl:Thing ;
+    rdfs:label "recovery from cold"@en .
+
+<https://sntcristian.github.io/leopardi_kg/sonnet> a owl:Thing ;
+    rdfs:label "sonnet"@en .
+
+<https://sntcristian.github.io/leopardi_kg/writing> a owl:Thing ;
+    rdfs:label "writing"@en .
+
+<https://sntcristian.github.io/leopardi_kg/writing_limited_by_eye_condition> a owl:Thing ;
+    rdfs:label "writing limited by eye condition"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Auditor_of_the_Sacred_Rota> a owl:Thing ;
+    rdfs:label "Auditor of the Sacred Rota"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Commentario_Storico_de_Ecclesiis_Recanatensi_et_Lauretana> a owl:Thing ;
+    rdfs:label "Commentario Storico de Ecclesiis Recanatensi et Lauretana"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Lettere_sopra_la_condotta_di_Bonaparte_a_Sant_Elena> a owl:Thing ;
+    rdfs:label "Lettere sopra la condotta di Bonaparte a Sant'Elena"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Libretto_del_Mosco> a owl:Thing ;
+    rdfs:label "Libretto del Mosco"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Luisa_Strozzi> a owl:Thing ;
+    rdfs:label "Luisa Strozzi"@en .
+
+<https://sntcristian.github.io/leopardi_kg/Mario_Valdrighi> a owl:Thing ;
+    rdfs:label "Mario Valdrighi"@en .
+
+<https://sntcristian.github.io/leopardi_kg/betrayal_by_French_translator> a owl:Thing ;
+    rdfs:label "betrayal by French translator"@en .
 
 <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00003> a crm:E31_Document ;
     dcterms:created "25. Novembre 1816."@it ;
@@ -899,6 +860,15 @@
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00027/1> ;
     crm:P52_has_current_owner <https://www.lib.cam.ac.uk/> .
 
+<https://sntcristian.github.io/leopardi_kg/flussion_d_occhi> a owl:Thing ;
+    rdfs:label "flussion d'occhi"@en .
+
+<https://sntcristian.github.io/leopardi_kg/location_unknown> a owl:Thing ;
+    rdfs:label "location unknown"@en .
+
+<https://sntcristian.github.io/leopardi_kg/naturalist> a owl:Thing ;
+    rdfs:label "naturalist"@en .
+
 <https://sntcristian.github.io/leopardi_kg/property_instance_of> a owl:ObjectProperty ;
     rdfs:label "instance of"@en ;
     rdfs:seeAlso <http://www.wikidata.org/entity/P31> .
@@ -914,6 +884,10 @@
 <https://sntcristian.github.io/leopardi_kg/property_spouse> a owl:ObjectProperty ;
     rdfs:label "spouse"@en ;
     rdfs:seeAlso <http://www.wikidata.org/entity/P26> .
+
+<https://sntcristian.github.io/leopardi_kg/Francesco_Cancellieri> a owl:Thing ;
+    rdfs:label "Francesco Cancellieri"@en ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3612445> .
 
 <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00002> a crm:E31_Document ;
     dcterms:created "15. Novembre 1816."@it ;
@@ -963,10 +937,6 @@
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00035/1> ;
     crm:P52_has_current_owner <https://www.lib.cam.ac.uk/> .
 
-<https://sntcristian.github.io/leopardi_kg/entity_10> a owl:Thing ;
-    rdfs:label "Francesco Cancellieri"@en ;
-    rdfs:seeAlso <http://www.wikidata.org/entity/Q3612445> .
-
 <https://sntcristian.github.io/leopardi_kg/property_medical_condition_treated> a owl:ObjectProperty ;
     rdfs:label "medical condition treated"@en ;
     rdfs:seeAlso <http://www.wikidata.org/entity/P2175> .
@@ -978,6 +948,14 @@
 <https://sntcristian.github.io/leopardi_kg/property_position_held> a owl:ObjectProperty ;
     rdfs:label "position held"@en ;
     rdfs:seeAlso <http://www.wikidata.org/entity/P39> .
+
+<https://sntcristian.github.io/leopardi_kg/Carlo_Emmanuele_Muzzarelli> a owl:Thing ;
+    rdfs:label "Carlo Emmanuele Muzzarelli"@en ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5041499> .
+
+<https://sntcristian.github.io/leopardi_kg/Giovanni_Rosini> a owl:Thing ;
+    rdfs:label "Giovanni Rosini"@en ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q4396614> .
 
 <https://sntcristian.github.io/leopardi_kg/document_MS-ADD-06210-00028> a crm:E31_Document ;
     dcterms:created "26 Luglio 1831"@it ;
@@ -995,14 +973,6 @@
     crm:P212_has_display_uri <https://cudl.lib.cam.ac.uk/view/MS-ADD-06210-00041/1> ;
     crm:P52_has_current_owner <https://www.lib.cam.ac.uk/> .
 
-<https://sntcristian.github.io/leopardi_kg/entity_27> a owl:Thing ;
-    rdfs:label "Carlo Emmanuele Muzzarelli"@en ;
-    rdfs:seeAlso <http://www.wikidata.org/entity/Q5041499> .
-
-<https://sntcristian.github.io/leopardi_kg/entity_31> a owl:Thing ;
-    rdfs:label "Giovanni Rosini"@en ;
-    rdfs:seeAlso <http://www.wikidata.org/entity/Q4396614> .
-
 <https://sntcristian.github.io/leopardi_kg/property_field_of_work> a owl:ObjectProperty ;
     rdfs:label "field of work"@en ;
     rdfs:seeAlso <http://www.wikidata.org/entity/P101> .
@@ -1011,7 +981,7 @@
     rdfs:label "notable work"@en ;
     rdfs:seeAlso <http://www.wikidata.org/entity/P800> .
 
-<https://sntcristian.github.io/leopardi_kg/entity_22> a owl:Thing ;
+<https://sntcristian.github.io/leopardi_kg/Giuseppe_Melchiorri> a owl:Thing ;
     rdfs:label "Giuseppe Melchiorri"@en ;
     rdfs:seeAlso <http://www.wikidata.org/entity/Q88781669> .
 
@@ -1019,7 +989,7 @@
     rdfs:label "author"@en ;
     rdfs:seeAlso <http://www.wikidata.org/entity/P50> .
 
-<https://sntcristian.github.io/leopardi_kg/entity_11> a owl:Thing ;
+<https://sntcristian.github.io/leopardi_kg/Rome> a owl:Thing ;
     rdfs:label "Roma"@en,
         "Rome"@en ;
     rdfs:seeAlso <http://www.wikidata.org/entity/Q15119> .
@@ -1028,7 +998,7 @@
     rdfs:label "work location"@en ;
     rdfs:seeAlso <http://www.wikidata.org/entity/P937> .
 
-<https://sntcristian.github.io/leopardi_kg/entity_16> a owl:Thing ;
+<https://sntcristian.github.io/leopardi_kg/Giacomo_Leopardi> a owl:Thing ;
     rdfs:label "Giacomo Leopardi"@en ;
     rdfs:seeAlso <http://www.wikidata.org/entity/Q172599> .
 

@@ -76,12 +76,12 @@ for row1, row2 in zip(data, results):
                         head_uri = entities_map[wikidata_id]
                     else:
                         entities_count += 1
-                        head_uri = "https://sntcristian.github.io/leopardi_kg/entity_"+str(entities_count)
+                        head_uri = "https://sntcristian.github.io/leopardi_kg/"+re.sub("\W", "_", item_lst[0])
                         entities_map[wikidata_id]=head_uri
                     G.add((URIRef(head_uri), RDFS.seeAlso, URIRef(wikidata_id)))
                 else:
                     entities_count += 1
-                    head_uri = "https://sntcristian.github.io/leopardi_kg/entity_" + str(entities_count)
+                    head_uri = "https://sntcristian.github.io/leopardi_kg/"+re.sub("\W", "_", item_lst[0])
                 G.add((URIRef(head_uri), RDF.type, OWL.Thing))
                 G.add((URIRef(head_uri), RDFS.label, Literal(item_lst[0], lang="en")))
                 tail_id = set([key for key, values in entities.items() for value in values
@@ -96,12 +96,12 @@ for row1, row2 in zip(data, results):
                         tail_uri = entities_map[wikidata_id]
                     else:
                         entities_count += 1
-                        tail_uri = "https://sntcristian.github.io/leopardi_kg/entity_" + str(entities_count)
+                        tail_uri = "https://sntcristian.github.io/leopardi_kg/"+re.sub("\W", "_", item_lst[2])
                         entities_map[wikidata_id] = tail_uri
                     G.add((URIRef(tail_uri), RDFS.seeAlso, URIRef(wikidata_id)))
                 else:
                     entities_count += 1
-                    tail_uri = "https://sntcristian.github.io/leopardi_kg/entity_" + str(entities_count)
+                    tail_uri = "https://sntcristian.github.io/leopardi_kg/"+re.sub("\W", "_", item_lst[2])
                 G.add((URIRef(tail_uri), RDF.type, OWL.Thing))
                 G.add((URIRef(tail_uri), RDFS.label, Literal(item_lst[2], lang="en")))
                 triple_uri = "https://sntcristian.github.io/leopardi_kg/statement_"+str(triple_count)
