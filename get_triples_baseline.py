@@ -56,7 +56,7 @@ model = AutoModelForSeq2SeqLM.from_pretrained("Babelscape/mrebel-large")
 model.to(device)
 
 gen_kwargs = {
-    "max_length": 512,
+    "max_length": 256,
     "length_penalty": 0,
     "num_beams": 3,
     "num_return_sequences": 3,
@@ -105,7 +105,7 @@ for row in data:
     results.append(result_entry)
     pbar.update(1)
 
-with open("results/results_baseline.json", "w", encoding="utf-8") as f:
+with open("results/results_baseline_test.json", "w", encoding="utf-8") as f:
     json.dump(results, f, indent=4, ensure_ascii=False)
 
 
