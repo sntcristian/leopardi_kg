@@ -14,6 +14,20 @@ our pipeline is presented below.
 
 ![Illustration of the KE approach used in this repository.](docs/cudl_approach.png)
 
+## Citation
+
+```
+@article{santini2024combining,
+  title={Combining language models for knowledge extraction from Italian TEI editions},
+  author={Santini, Cristian},
+  journal={Frontiers in Computer Science},
+  volume={6},
+  pages={1472512},
+  year={2024},
+  publisher={Frontiers Media SA}
+}
+```
+
 ## About
 
 The source code and data here published are the result of research studies for the digitization project related to the 
